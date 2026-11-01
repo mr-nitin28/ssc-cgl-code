@@ -12,6 +12,7 @@ import {
   ArrowDownIcon,
   ChevronRightIcon,
 } from "./icons";
+import { WeekCurriculumModule } from "./WeekCurriculumModule";
 
 interface SyllabusViewerProps {
   subjectKey: "maths" | "reasoning" | "english" | "gk";
@@ -25,7 +26,7 @@ const subjectsList = [
   { key: "gk", name: "GK & Current Affairs", icon: "🌍", href: "/syllabus/gk", pdf: "SSC_CGL_2026_GK_Current_Affairs_Master_Syllabus.pdf" },
 ];
 
-const sectionIds = ["blueprint", "priorities", "roadmap", "tracker", "tips"] as const;
+const sectionIds = ["blueprint", "priorities", "curriculum", "roadmap", "tracker", "tips"] as const;
 type SectionId = typeof sectionIds[number];
 
 export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
@@ -105,6 +106,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
   const sections = [
     { id: "blueprint" as const, label: "📋 Exam Blueprint", short: "Blueprint" },
     { id: "priorities" as const, label: "📊 Shift Weightages", short: "Weightages" },
+    { id: "curriculum" as const, label: "📚 Week-wise Chapters (Week 1 Live)", short: "Week 1 Modules" },
     { id: "roadmap" as const, label: "🗓 24-Week Roadmap", short: "Roadmap" },
     { id: "tracker" as const, label: `✅ Chapter Tracker (${progressPercent}%)`, short: `Tracker (${progressPercent}%)` },
     { id: "tips" as const, label: "💡 Traps & Heuristics", short: "Traps & Tips" },
@@ -236,7 +238,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
             <div className="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800">
               <div className="flex items-center gap-2.5">
                 <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/80">
-                  SECTION 1 OF 5
+                  SECTION 1 OF 6
                 </span>
                 <h2 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
                   Exam Blueprint: Tier-I vs Tier-II Alignment
@@ -295,7 +297,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
             <div className="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800">
               <div className="flex items-center gap-2.5">
                 <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-teal-50 dark:bg-teal-950/70 text-teal-700 dark:text-teal-300 border border-teal-200/80 dark:border-teal-800/80">
-                  SECTION 2 OF 5
+                  SECTION 2 OF 6
                 </span>
                 <h2 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
                   Authentic Shift-by-Shift Topic Weightage
@@ -344,7 +346,33 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
             </div>
           </section>
 
-          {/* Section 3: 24-Week Strategic Study Roadmap */}
+          {/* Section 3: Subject Chapters & Week-wise Study Module */}
+          <section
+            id="curriculum"
+            className="scroll-mt-36 space-y-6"
+          >
+            <div className="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800">
+              <div className="flex items-center gap-2.5">
+                <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/80">
+                  SECTION 3 OF 6 · WEEK-WISE CHAPTER MODULE
+                </span>
+                <h2 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
+                  Subject Chapters & Integrated Study Programme
+                </h2>
+              </div>
+              <button
+                onClick={scrollToTop}
+                className="text-xs font-medium text-slate-500 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-white transition-colors cursor-pointer"
+                title="Scroll to top"
+              >
+                Top ↑
+              </button>
+            </div>
+
+            <WeekCurriculumModule currentSubjectKey={subjectKey} />
+          </section>
+
+          {/* Section 4: 24-Week Strategic Study Roadmap */}
           <section
             id="roadmap"
             className="scroll-mt-36 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6"
@@ -352,7 +380,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
             <div className="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800">
               <div className="flex items-center gap-2.5">
                 <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-amber-50 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 border border-amber-200/80 dark:border-amber-800/80">
-                  SECTION 3 OF 5
+                  SECTION 4 OF 6
                 </span>
                 <h2 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
                   24-Week Comprehensive Master Study Roadmap
@@ -392,12 +420,22 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
                     <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
                       {week[2]}
                     </p>
+
+                    {week[0] === 1 && (
+                      <button
+                        onClick={() => scrollToSection("curriculum")}
+                        className="mt-2.5 w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white shadow-xs hover:-translate-y-0.5 active:translate-y-0 transition-all cursor-pointer"
+                      >
+                        <span>📖 Open Week 1 Integrated Study Programme</span>
+                        <ChevronRightIcon size={14} />
+                      </button>
+                    )}
                   </div>
                 ))}
             </div>
           </section>
 
-          {/* Section 4: Interactive Chapter Tracker */}
+          {/* Section 5: Interactive Chapter Tracker */}
           <section
             id="tracker"
             className="scroll-mt-36 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6"
@@ -405,7 +443,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
             <div className="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800">
               <div className="flex items-center gap-2.5">
                 <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-emerald-50 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800/80">
-                  SECTION 4 OF 5
+                  SECTION 5 OF 6
                 </span>
                 <h2 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
                   Interactive Chapter Mastery Tracker
@@ -489,7 +527,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
               <div className="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800">
                 <div className="flex items-center gap-2.5">
                   <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-purple-50 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300 border border-purple-200/80 dark:border-purple-800/80">
-                    SECTION 5 OF 5
+                    SECTION 6 OF 6
                   </span>
                   <h2 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
                     Traps, Golden Rules & Exam Heuristics
