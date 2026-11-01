@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { WeekCurriculumModule } from "@/components/WeekCurriculumModule";
 
 export async function generateStaticParams() {
@@ -18,7 +19,7 @@ const subjectsMetadata: Record<string, { name: string; icon: string }> = {
   gk: { name: "GK & Current Affairs", icon: "🌍" },
 };
 
-export default async function Week1StudyPage({
+async function Week1StudyContent({
   params,
 }: {
   params: Promise<{ subject: string }>;
@@ -59,5 +60,24 @@ export default async function Week1StudyPage({
         <WeekCurriculumModule currentSubjectKey={subject} />
       </div>
     </div>
+  );
+}
+
+export default function Week1StudyPage(props: {
+  params: Promise<{ subject: string }>;
+}) {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col items-center justify-center p-8 space-y-4">
+          <div className="w-10 h-10 border-3 border-indigo-600/30 border-t-indigo-600 rounded-full animate-spin" />
+          <div className="text-sm font-semibold text-slate-700 dark:text-slate-300">
+            Loading Week 1 Study Programme...
+          </div>
+        </div>
+      }
+    >
+      <Week1StudyContent params={props.params} />
+    </Suspense>
   );
 }
