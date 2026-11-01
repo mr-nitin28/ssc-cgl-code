@@ -12,7 +12,7 @@
     --card-border: #e2e8f0;
     --text-primary: #0f172a;
     --text-body: #334155;
-    --text-muted: #475569;
+    --text-muted: #64748b;
     --primary: #4f46e5;
     --primary-hover: #4338ca;
   }
@@ -28,10 +28,6 @@
     --primary-hover: #4f46e5;
   }
 
-  * {
-    border-color: var(--card-border);
-  }
-
   body {
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
@@ -40,8 +36,16 @@
   }
 }
 
-html {
+/* Scoped smooth scrolling to prevent Next.js client route transition warnings */
+html[data-scroll-behavior="smooth"] {
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  html[data-scroll-behavior="smooth"] {
+    scroll-behavior: auto !important;
+  }
 }
 
 /* Polished micro-interaction classes */
@@ -66,14 +70,17 @@ html {
   width: 6px;
   height: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(148, 163, 184, 0.35);
   border-radius: 9999px;
   transition: background 0.2s ease;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(100, 116, 139, 0.65);
 }

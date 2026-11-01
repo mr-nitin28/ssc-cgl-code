@@ -10,3 +10,4 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: "https://ssc-cgl-code.vercel.app/sitemap.xml",
   };
 }
+

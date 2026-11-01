@@ -114,16 +114,17 @@ export function QuestionPalette({
   });
 
   const totalAttempted = answeredCount + answeredAndMarkedCount;
+  const totalMarked = markedCount + answeredAndMarkedCount;
   const completionPercentage = Math.round((totalAttempted / totalSecQuestions) * 100);
 
-  // Styling helper: uses ring-inset and border styling strictly inside the button box model
-  // to completely eliminate border overlap with headers or outer frame dividers
+  // Inset ring and border styling strictly inside the button box model
+  // to prevent border bleed or header overlap
   const getStatusColor = (status: QuestionStatus, isCurrent: boolean) => {
     let base =
       "relative h-10 sm:h-11 w-full rounded-xl font-bold font-mono text-xs sm:text-sm transition-all duration-150 flex items-center justify-center select-none cursor-pointer focus:outline-none ";
 
     if (isCurrent) {
-      base += "ring-2 ring-inset ring-indigo-600 dark:ring-indigo-400 font-extrabold shadow-sm ";
+      base += "font-black shadow-sm ";
     } else {
       base += "hover:brightness-95 dark:hover:brightness-110 active:scale-95 ";
     }
@@ -161,7 +162,7 @@ export function QuestionPalette({
         return (
           base +
           (isCurrent
-            ? "bg-indigo-50/90 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border-2 border-indigo-600 dark:border-indigo-400"
+            ? "bg-indigo-50/90 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border-2 border-indigo-600 dark:border-indigo-400 ring-2 ring-inset ring-indigo-600/30"
             : "bg-slate-100/90 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700/80 hover:bg-slate-200/80 dark:hover:bg-slate-700/80")
         );
     }
@@ -214,7 +215,7 @@ export function QuestionPalette({
             <span className="w-4 h-4 rounded-md bg-emerald-500 text-white flex items-center justify-center text-[9px] font-bold shrink-0">
               ✓
             </span>
-            <span className="truncate text-[11px]">Answered ({answeredCount})</span>
+            <span className="truncate text-[11px]">Answered ({totalAttempted})</span>
           </div>
           <div className="flex items-center gap-2 p-1.5 rounded-xl bg-slate-50/80 dark:bg-slate-800/40 border border-slate-200/70 dark:border-slate-800">
             <span className="w-4 h-4 rounded-md bg-rose-500 text-white flex items-center justify-center text-[9px] font-bold shrink-0">
@@ -226,10 +227,10 @@ export function QuestionPalette({
             <span className="w-4 h-4 rounded-md bg-purple-600 text-white flex items-center justify-center text-[9px] font-bold shrink-0">
               ★
             </span>
-            <span className="truncate text-[11px]">Marked ({markedCount + answeredAndMarkedCount})</span>
+            <span className="truncate text-[11px]">Marked ({totalMarked})</span>
           </div>
-          <div className="flex items-center gap-2 p-1.5 rounded-xl bg-slate-50/80 dark:bg-slate-800/40 border border-slate-200/70 dark:border-slate-800">
-            <span className="w-4 h-4 rounded-md bg-slate-200 dark:bg-slate-700 border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-300 flex items-center justify-center text-[9px] font-bold shrink-0">
+          <div className="flex items-center gap-2 p-1.5 rounded-xl bg-slate-200/70 dark:bg-slate-700/60 border border-slate-300/60 dark:border-slate-600/60">
+            <span className="w-4 h-4 rounded-md bg-slate-300 dark:bg-slate-600 text-slate-700 dark:text-slate-200 flex items-center justify-center text-[9px] font-bold shrink-0">
               0
             </span>
             <span className="truncate text-[11px]">Not Visited ({notVisitedCount})</span>

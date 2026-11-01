@@ -46,6 +46,34 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number>(0);
 
+  // Helper to determine exact section index from global question index
+  const getSectionIndexForQuestion = useCallback(
+    (globalIdx: number): number => {
+      let count = 0;
+      for (let s = 0; s < mock.sections.length; s++) {
+        count += mock.sections[s].questions.length;
+        if (globalIdx < count) return s;
+      }
+      return 0;
+    },
+    [mock.sections]
+  );
+
+  // Helpers to navigate questions
+  const getQuestionByGlobalIndex = useCallback(
+    (globalIdx: number): Question | null => {
+      let count = 0;
+      for (const sec of mock.sections) {
+        if (globalIdx < count + sec.questions.length) {
+          return sec.questions[globalIdx - count];
+        }
+        count += sec.questions.length;
+      }
+      return null;
+    },
+    [mock.sections]
+  );
+
   // Reference to hold fresh state snapshots for timer and background callbacks
   const stateRef = useRef({
     sectionTimes,
@@ -72,21 +100,6 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
       isSubmitted,
     };
   });
-
-  // Helpers to navigate questions
-  const getQuestionByGlobalIndex = useCallback(
-    (globalIdx: number): Question | null => {
-      let count = 0;
-      for (const sec of mock.sections) {
-        if (globalIdx < count + sec.questions.length) {
-          return sec.questions[globalIdx - count];
-        }
-        count += sec.questions.length;
-      }
-      return null;
-    },
-    [mock.sections]
-  );
 
   const handleFinalSubmit = useCallback(() => {
     if (timerRef.current) {
@@ -131,19 +144,22 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
   useEffect(() => {
     const saved = getActiveExam(mock.id);
     if (saved && !saved.isSubmitted) {
+      const qIdx = saved.activeQuestion || 0;
+      const sIdx = saved.activeSection !== undefined ? saved.activeSection : getSectionIndexForQuestion(qIdx);
+
       const id = requestAnimationFrame(() => {
         setAnswers(saved.answers || {});
         setMarkedForReview(saved.markedForReview || {});
         setVisited(saved.visited || {});
-        setActiveSection(saved.activeSection || 0);
-        setActiveQuestion(saved.activeQuestion || 0);
+        setActiveSection(sIdx);
+        setActiveQuestion(qIdx);
         setSectionTimes(saved.sectionTimes || [900, 900, 900, 900]);
         setQuickChecked(saved.quickChecked || {});
         setHasStarted(true);
       });
       return () => cancelAnimationFrame(id);
     }
-  }, [mock.id]);
+  }, [mock.id, getSectionIndexForQuestion]);
 
   // Autosave active exam progress to localStorage
   useEffect(() => {
@@ -164,25 +180,20 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
         quickChecked: current.quickChecked,
       });
     }
-  }, [mock.id, hasStarted, isSubmitted, answers, markedForReview, visited, quickChecked, activeSection, activeQuestion, sectionTimes]);
+  }, [
+    mock.id,
+    hasStarted,
+    isSubmitted,
+    answers,
+    markedForReview,
+    visited,
+    quickChecked,
+    activeSection,
+    activeQuestion,
+    sectionTimes,
+  ]);
 
-  // Mark current question as visited safely without extraneous re-renders
-  useEffect(() => {
-    if (hasStarted && !isSubmitted) {
-      const q = getQuestionByGlobalIndex(activeQuestion);
-      if (q) {
-        const id = requestAnimationFrame(() => {
-          setVisited((prev) => {
-            if (prev[q.id]) return prev;
-            return { ...prev, [q.id]: true };
-          });
-        });
-        return () => cancelAnimationFrame(id);
-      }
-    }
-  }, [activeQuestion, hasStarted, isSubmitted, getQuestionByGlobalIndex]);
-
-  // Pure countdown timer tick
+  // Countdown timer tick per active section
   useEffect(() => {
     if (!hasStarted || isPaused || isSubmitted) {
       if (timerRef.current) {
@@ -218,19 +229,31 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
         const nextSecStart = mock.sections
           .slice(0, nextSec)
           .reduce((acc, s) => acc + s.questions.length, 0);
+        const nextQ = getQuestionByGlobalIndex(nextSecStart);
+
         const id = requestAnimationFrame(() => {
           setActiveSection(nextSec);
           setActiveQuestion(nextSecStart);
+          if (nextQ) {
+            setVisited((prev) => ({ ...prev, [nextQ.id]: true }));
+          }
         });
         return () => cancelAnimationFrame(id);
       } else {
         handleFinalSubmit();
       }
     }
-  }, [sectionTimes, activeSection, hasStarted, isSubmitted, mock.sections, handleFinalSubmit]);
+  }, [sectionTimes, activeSection, hasStarted, isSubmitted, mock.sections, handleFinalSubmit, getQuestionByGlobalIndex]);
 
   const currentQuestion = getQuestionByGlobalIndex(activeQuestion);
-  const currentSection = mock.sections[activeSection];
+  const currentSection = mock.sections[activeSection] || mock.sections[0];
+  const currentSectionStartIdx = mock.sections
+    .slice(0, activeSection)
+    .reduce((acc, s) => acc + s.questions.length, 0);
+  const localQuestionNum = Math.min(
+    currentSection.questions.length,
+    Math.max(1, activeQuestion - currentSectionStartIdx + 1)
+  );
 
   const handleStartExam = () => {
     setHasStarted(true);
@@ -271,15 +294,11 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
   const handleNextQuestion = () => {
     if (activeQuestion < mock.totalQuestions - 1) {
       const nextIdx = activeQuestion + 1;
+      const nextQ = getQuestionByGlobalIndex(nextIdx);
       setActiveQuestion(nextIdx);
-      // update active section if needed
-      let count = 0;
-      for (let s = 0; s < mock.sections.length; s++) {
-        count += mock.sections[s].questions.length;
-        if (nextIdx < count) {
-          setActiveSection(s);
-          break;
-        }
+      setActiveSection(getSectionIndexForQuestion(nextIdx));
+      if (nextQ) {
+        setVisited((prev) => ({ ...prev, [nextQ.id]: true }));
       }
     }
   };
@@ -287,35 +306,37 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
   const handlePrevQuestion = () => {
     if (activeQuestion > 0) {
       const prevIdx = activeQuestion - 1;
+      const prevQ = getQuestionByGlobalIndex(prevIdx);
       setActiveQuestion(prevIdx);
-      let count = 0;
-      for (let s = 0; s < mock.sections.length; s++) {
-        count += mock.sections[s].questions.length;
-        if (prevIdx < count) {
-          setActiveSection(s);
-          break;
-        }
+      setActiveSection(getSectionIndexForQuestion(prevIdx));
+      if (prevQ) {
+        setVisited((prev) => ({ ...prev, [prevQ.id]: true }));
       }
     }
   };
 
   const handleJumpToQuestion = (globalIdx: number) => {
-    setActiveQuestion(globalIdx);
-    let count = 0;
-    for (let s = 0; s < mock.sections.length; s++) {
-      count += mock.sections[s].questions.length;
-      if (globalIdx < count) {
-        setActiveSection(s);
-        break;
-      }
+    const clampedIdx = Math.max(0, Math.min(mock.totalQuestions - 1, globalIdx));
+    const targetQ = getQuestionByGlobalIndex(clampedIdx);
+    setActiveQuestion(clampedIdx);
+    setActiveSection(getSectionIndexForQuestion(clampedIdx));
+    if (targetQ) {
+      setVisited((prev) => ({ ...prev, [targetQ.id]: true }));
     }
     setShowPaletteMobile(false);
   };
 
   const handleSelectSection = (sIdx: number) => {
-    setActiveSection(sIdx);
-    const startQ = mock.sections.slice(0, sIdx).reduce((acc, s) => acc + s.questions.length, 0);
+    const clampedSection = Math.max(0, Math.min(mock.sections.length - 1, sIdx));
+    setActiveSection(clampedSection);
+    const startQ = mock.sections
+      .slice(0, clampedSection)
+      .reduce((acc, s) => acc + s.questions.length, 0);
+    const targetQ = getQuestionByGlobalIndex(startQ);
     setActiveQuestion(startQ);
+    if (targetQ) {
+      setVisited((prev) => ({ ...prev, [targetQ.id]: true }));
+    }
   };
 
   const handleToggleQuickCheck = () => {
@@ -484,17 +505,10 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
 
   // Active Exam View
   const answeredCount = Object.keys(answers).length;
-  const markedCount = Object.keys(markedForReview).filter((k) => markedForReview[Number(k)]).length;
-  const unansweredCount = mock.totalQuestions - answeredCount;
-
-  const userSelected = currentQuestion ? answers[currentQuestion.id] : undefined;
   const isMarked = currentQuestion ? !!markedForReview[currentQuestion.id] : false;
+  const userSelected = currentQuestion ? answers[currentQuestion.id] : undefined;
   const isQuickChecked = currentQuestion ? !!quickChecked[currentQuestion.id] : false;
-
-  const currentSectionStartIdx = mock.sections
-    .slice(0, activeSection)
-    .reduce((acc, s) => acc + s.questions.length, 0);
-  const localQuestionNum = Math.max(1, activeQuestion - currentSectionStartIdx + 1);
+  const isLastQuestion = activeQuestion === mock.totalQuestions - 1;
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950">
@@ -520,7 +534,7 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
       {/* Main Exam Interface Body */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-4 sm:py-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-          {/* Question Viewer Column (Left 8-9 cols) */}
+          {/* Question Viewer Column (Left 8 cols) */}
           <div className="lg:col-span-8 space-y-4">
             {/* Section Switcher Tabs */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
@@ -609,7 +623,7 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
                     const isSelected = userSelected === optIdx;
                     const letter = "ABCD"[optIdx];
 
-                    // Quick check styling
+                    // Option styling
                     let optStyle =
                       "border-slate-200/90 dark:border-slate-800/90 bg-white dark:bg-slate-900/90 hover:border-indigo-300 dark:hover:border-indigo-600 hover:bg-indigo-50/40 dark:hover:bg-indigo-950/30 text-slate-800 dark:text-slate-200";
 
@@ -704,13 +718,22 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
                     >
                       Previous
                     </button>
-                    <button
-                      onClick={handleNextQuestion}
-                      disabled={activeQuestion === mock.totalQuestions - 1}
-                      className="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 text-white shadow-xs shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed disabled:transform-none transition-all duration-150"
-                    >
-                      Save & Next →
-                    </button>
+
+                    {isLastQuestion ? (
+                      <button
+                        onClick={() => setModalType("submit")}
+                        className="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-emerald-600 hover:bg-emerald-500 text-white shadow-xs shadow-emerald-600/20 hover:shadow-emerald-600/30 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 transition-all duration-150"
+                      >
+                        Submit Examination 🏁
+                      </button>
+                    ) : (
+                      <button
+                        onClick={handleNextQuestion}
+                        className="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 text-white shadow-xs shadow-indigo-600/20 hover:shadow-indigo-600/30 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 transition-all duration-150"
+                      >
+                        Save & Next →
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
@@ -784,12 +807,12 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
         description="Are you sure you want to finish and submit your mock examination? Once submitted, your answers will be evaluated and your detailed scorecard will be generated."
         stats={{
           answered: answeredCount,
-          marked: markedCount,
-          unanswered: unansweredCount,
+          unanswered: mock.totalQuestions - answeredCount,
+          marked: Object.keys(markedForReview).filter((k) => markedForReview[Number(k)]).length,
           total: mock.totalQuestions,
         }}
-        confirmLabel="Yes, Submit Paper"
-        cancelLabel="Continue Test"
+        confirmLabel="Confirm & Submit Exam"
+        cancelLabel="Return to Exam"
         onConfirm={handleFinalSubmit}
         onCancel={() => setModalType(null)}
       />
@@ -798,9 +821,9 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
         isOpen={modalType === "exit"}
         type="exit"
         title="Exit Examination?"
-        description="Your progress is saved locally. You can return later or continue testing right now."
-        confirmLabel="Save & Exit"
-        cancelLabel="Keep Practicing"
+        description="Your progress has been autosaved. You can resume this session anytime from the dashboard."
+        confirmLabel="Exit to Dashboard"
+        cancelLabel="Continue Test"
         onConfirm={() => {
           router.push("/");
         }}
