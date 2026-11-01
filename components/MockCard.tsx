@@ -72,7 +72,7 @@ export function MockCard({ mock }: MockCardProps) {
         </div>
 
         {/* Test Spec Highlights */}
-        <div className="flex items-center gap-4 text-xs font-medium text-slate-600 dark:text-slate-300 pt-3 border-t border-slate-150 dark:border-slate-800">
+        <div className="flex items-center gap-4 text-xs font-medium text-slate-600 dark:text-slate-300 pt-3 border-t border-slate-200/80 dark:border-slate-800">
           <span className="flex items-center gap-1.5">
             <ClockIcon size={14} className="text-indigo-600 dark:text-indigo-400" />
             60 Mins

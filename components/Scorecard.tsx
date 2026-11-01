@@ -71,7 +71,7 @@ export function Scorecard({ mock, result, answers, onRetake }: ScorecardProps) {
 
         {/* Hero Score Box */}
         <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-10 shadow-sm relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-80 h-80 bg-gradient-to-br from-indigo-500/10 via-purple-500/5 to-transparent rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute top-0 right-0 w-80 h-80 bg-linear-to-br from-indigo-500/10 via-purple-500/5 to-transparent rounded-full blur-3xl pointer-events-none" />
 
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-center md:text-left space-y-2">
@@ -87,21 +87,21 @@ export function Scorecard({ mock, result, answers, onRetake }: ScorecardProps) {
             </div>
 
             {/* Big Score Card */}
-            <div className="text-center p-6 rounded-3xl bg-gradient-to-tr from-indigo-600 to-indigo-700 text-white shadow-xl shadow-indigo-600/25 min-w-[200px]">
+            <div className="text-center p-6 rounded-3xl bg-linear-to-tr from-indigo-600 to-indigo-700 text-white shadow-xl shadow-indigo-600/25 min-w-[200px]">
               <div className="text-xs font-semibold uppercase tracking-wider text-indigo-200 mb-1">
                 Your Total Score
               </div>
               <div className="text-4xl sm:text-5xl font-extrabold tracking-tight font-mono tabular-nums">
                 {result.totalScore}
               </div>
-              <div className="text-xs font-medium text-indigo-150 mt-1">
+              <div className="text-xs font-medium text-indigo-200 mt-1">
                 out of 200.0 Marks
               </div>
             </div>
           </div>
 
           {/* Quick Metrics Bar */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-8 mt-8 border-t border-slate-150 dark:border-slate-800 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-8 mt-8 border-t border-slate-200/80 dark:border-slate-800 text-center">
             <div className="p-3.5 rounded-2xl bg-emerald-50/80 dark:bg-emerald-950/50 border border-emerald-200/80 dark:border-emerald-900/60">
               <div className="text-xl sm:text-2xl font-bold font-mono tabular-nums text-emerald-700 dark:text-emerald-300">
                 {result.totalCorrect}
@@ -137,7 +137,7 @@ export function Scorecard({ mock, result, answers, onRetake }: ScorecardProps) {
           </div>
 
           {/* Action CTAs */}
-          <div className="flex flex-wrap items-center gap-3 mt-6 pt-6 border-t border-slate-150 dark:border-slate-800">
+          <div className="flex flex-wrap items-center gap-3 mt-6 pt-6 border-t border-slate-200/80 dark:border-slate-800">
             <button
               onClick={onRetake}
               className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 text-white shadow-sm shadow-indigo-600/20 hover:shadow-indigo-600/30 transition-all duration-150"
@@ -181,7 +181,7 @@ export function Scorecard({ mock, result, answers, onRetake }: ScorecardProps) {
                 <div className="text-sm font-bold text-slate-800 dark:text-slate-100">
                   {sec.name}
                 </div>
-                <div className="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 pt-2 border-t border-slate-150 dark:border-slate-800">
+                <div className="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 pt-2 border-t border-slate-200/80 dark:border-slate-800">
                   <div className="flex justify-between font-mono">
                     <span>Correct (✓):</span>
                     <span className="font-semibold text-emerald-600 dark:text-emerald-400">{sec.correct}</span>

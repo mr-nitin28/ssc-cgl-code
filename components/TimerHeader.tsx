@@ -112,7 +112,7 @@ export function TimerHeader({
       {/* Thin animated progress indicator */}
       <div className="w-full h-1 bg-slate-100 dark:bg-slate-800">
         <div
-          className="h-full bg-gradient-to-r from-indigo-500 to-teal-400 transition-all duration-300 ease-out"
+          className="h-full bg-linear-to-r from-indigo-500 to-teal-400 transition-all duration-300 ease-out"
           style={{ width: `${progressPercent}%` }}
         />
       </div>

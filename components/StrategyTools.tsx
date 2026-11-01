@@ -119,7 +119,7 @@ export function StrategyTools({ coverageProfiles, defaultPriorityRatings }: Stra
           </p>
 
           {/* Subject Switcher */}
-          <div className="flex items-center gap-2 overflow-x-auto pt-4 border-t border-slate-150 dark:border-slate-800">
+          <div className="flex items-center gap-2 overflow-x-auto pt-4 border-t border-slate-200/80 dark:border-slate-800">
             {subjects.map((s) => {
               const isAct = s.key === activeSubject;
               return (
@@ -198,7 +198,7 @@ export function StrategyTools({ coverageProfiles, defaultPriorityRatings }: Stra
                     <div
                       className={`h-full rounded-full transition-all duration-500 ${
                         isTop
-                          ? "bg-gradient-to-r from-indigo-500 to-indigo-600"
+                          ? "bg-linear-to-r from-indigo-500 to-indigo-600"
                           : "bg-slate-300 dark:bg-slate-700"
                       }`}
                       style={{ width: `${widthPct}%` }}
@@ -212,7 +212,7 @@ export function StrategyTools({ coverageProfiles, defaultPriorityRatings }: Stra
             })}
           </div>
 
-          <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-150 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
+          <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
             Note: Figures are cumulative. No topic should be fully abandoned, but high-yield areas warrant 3x practice volume.
           </div>
         </div>
@@ -292,7 +292,7 @@ export function StrategyTools({ coverageProfiles, defaultPriorityRatings }: Stra
                 {prioritizedTopics.slice(0, 8).map((top, rank) => (
                   <div
                     key={top.name}
-                    className="p-3 rounded-xl border border-indigo-150 dark:border-indigo-900/60 bg-indigo-50/50 dark:bg-indigo-950/30 flex items-center justify-between text-xs hover-lift transition-all"
+                    className="p-3 rounded-xl border border-indigo-200/80 dark:border-indigo-900/60 bg-indigo-50/50 dark:bg-indigo-950/30 flex items-center justify-between text-xs hover-lift transition-all"
                   >
                     <div className="flex items-center gap-2">
                       <span className="w-5 h-5 rounded-md bg-indigo-600 text-white font-bold font-mono flex items-center justify-center text-[10px]">
@@ -377,7 +377,7 @@ export function StrategyTools({ coverageProfiles, defaultPriorityRatings }: Stra
           </div>
 
           {/* Result Output Split Cards */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 border-t border-slate-150 dark:border-slate-800 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 border-t border-slate-200/80 dark:border-slate-800 text-center">
             <div className="hover-lift p-4 rounded-2xl bg-indigo-50/80 dark:bg-indigo-950/40 border border-indigo-200/70 dark:border-indigo-900/60 transition-all duration-200">
               <div className="text-2xl font-bold font-mono tabular-nums text-indigo-700 dark:text-indigo-300">
                 {mathMin} Min

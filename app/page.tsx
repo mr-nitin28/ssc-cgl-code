@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <div className="space-y-16 sm:space-y-24 pb-20">
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-12 sm:pt-20 pb-16 sm:pb-24 border-b border-slate-200/80 dark:border-slate-800/80 bg-gradient-to-b from-white via-indigo-50/25 to-slate-50 dark:from-slate-950 dark:via-indigo-950/20 dark:to-slate-950">
+      <section className="relative overflow-hidden pt-12 sm:pt-20 pb-16 sm:pb-24 border-b border-slate-200/80 dark:border-slate-800/80 bg-linear-to-b from-white via-indigo-50/25 to-slate-50 dark:from-slate-950 dark:via-indigo-950/20 dark:to-slate-950">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[640px] h-[360px] bg-indigo-500/10 dark:bg-indigo-500/15 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
@@ -206,7 +206,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div className="space-y-2 pt-4 border-t border-slate-150 dark:border-slate-800">
+            <div className="space-y-2 pt-4 border-t border-slate-200/80 dark:border-slate-800">
               <Link
                 href="/syllabus/maths"
                 className="w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] text-white shadow-xs transition-all duration-150"
@@ -251,7 +251,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div className="space-y-2 pt-4 border-t border-slate-150 dark:border-slate-800">
+            <div className="space-y-2 pt-4 border-t border-slate-200/80 dark:border-slate-800">
               <Link
                 href="/syllabus/reasoning"
                 className="w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl text-xs font-semibold bg-teal-600 hover:bg-teal-500 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] text-white shadow-xs transition-all duration-150"
@@ -296,7 +296,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div className="space-y-2 pt-4 border-t border-slate-150 dark:border-slate-800">
+            <div className="space-y-2 pt-4 border-t border-slate-200/80 dark:border-slate-800">
               <Link
                 href="/syllabus/english"
                 className="w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl text-xs font-semibold bg-amber-600 hover:bg-amber-500 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] text-white shadow-xs transition-all duration-150"
@@ -341,7 +341,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div className="space-y-2 pt-4 border-t border-slate-150 dark:border-slate-800">
+            <div className="space-y-2 pt-4 border-t border-slate-200/80 dark:border-slate-800">
               <Link
                 href="/syllabus/gk"
                 className="w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl text-xs font-semibold bg-sky-600 hover:bg-sky-500 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] text-white shadow-xs transition-all duration-150"
@@ -370,7 +370,7 @@ export default function HomePage() {
 
       {/* Speed Math Pattern Lab Feature Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="hover-lift rounded-3xl border border-amber-200/90 dark:border-amber-900/60 bg-gradient-to-r from-amber-50/80 via-white to-amber-50/50 dark:from-slate-900 dark:via-amber-950/20 dark:to-slate-900 p-8 sm:p-12 shadow-xs flex flex-col md:flex-row items-center justify-between gap-8 transition-all duration-300">
+        <div className="hover-lift rounded-3xl border border-amber-200/90 dark:border-amber-900/60 bg-linear-to-r from-amber-50/80 via-white to-amber-50/50 dark:from-slate-900 dark:via-amber-950/20 dark:to-slate-900 p-8 sm:p-12 shadow-xs flex flex-col md:flex-row items-center justify-between gap-8 transition-all duration-300">
           <div className="space-y-3 max-w-xl">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-100/90 dark:bg-amber-950 text-amber-800 dark:text-amber-300 border border-amber-200/80 dark:border-amber-800/80 uppercase tracking-wider">
               <ZapIcon size={14} /> Flash Heuristics
@@ -394,7 +394,7 @@ export default function HomePage() {
 
       {/* Empirical Strategy Tools Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="hover-lift rounded-3xl border border-indigo-200/90 dark:border-indigo-900/60 bg-gradient-to-r from-indigo-50/80 via-white to-indigo-50/50 dark:from-slate-900 dark:via-indigo-950/20 dark:to-slate-900 p-8 sm:p-12 shadow-xs flex flex-col md:flex-row items-center justify-between gap-8 transition-all duration-300">
+        <div className="hover-lift rounded-3xl border border-indigo-200/90 dark:border-indigo-900/60 bg-linear-to-r from-indigo-50/80 via-white to-indigo-50/50 dark:from-slate-900 dark:via-indigo-950/20 dark:to-slate-900 p-8 sm:p-12 shadow-xs flex flex-col md:flex-row items-center justify-between gap-8 transition-all duration-300">
           <div className="space-y-3 max-w-xl">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-100/90 dark:bg-indigo-950 text-indigo-800 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/80 uppercase tracking-wider">
               <BarChartIcon size={14} /> Empirical Optimization

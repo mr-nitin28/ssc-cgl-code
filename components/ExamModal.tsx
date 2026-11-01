@@ -92,7 +92,7 @@ export function ExamModal({
 
         {/* Optional Stats Overview (for Submit dialog) */}
         {stats && (
-          <div className="grid grid-cols-3 gap-2 py-3 px-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-150 dark:border-slate-800 text-center font-mono">
+          <div className="grid grid-cols-3 gap-2 py-3 px-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-800 text-center font-mono">
             <div>
               <div className="text-lg font-bold tabular-nums text-emerald-700 dark:text-emerald-400">
                 {stats.answered}

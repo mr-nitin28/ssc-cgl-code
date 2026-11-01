@@ -19,7 +19,7 @@ export function Footer() {
           {/* Brand info */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 to-teal-400 flex items-center justify-center text-white shadow-sm shadow-indigo-500/20 group-hover:scale-105 transition-transform">
+              <div className="w-8 h-8 rounded-xl bg-linear-to-tr from-indigo-600 to-teal-400 flex items-center justify-center text-white shadow-sm shadow-indigo-500/20 group-hover:scale-105 transition-transform">
                 <CompassIcon size={18} />
               </div>
               <span className="text-lg font-bold tracking-tight text-slate-800 dark:text-slate-100">

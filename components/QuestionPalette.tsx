@@ -172,7 +172,7 @@ export function QuestionPalette({
   return (
     <div className="flex flex-col bg-white/95 dark:bg-slate-900/95 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-5 sm:p-6 shadow-sm space-y-4">
       {/* Subject Header & Scoped Completion Card */}
-      <div className="border-b border-slate-150 dark:border-slate-800 pb-4 space-y-3.5">
+      <div className="border-b border-slate-200/80 dark:border-slate-800 pb-4 space-y-3.5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2.5 min-w-0">
             <div className="p-2 rounded-xl bg-indigo-50 dark:bg-indigo-950/70 text-indigo-600 dark:text-indigo-400 shrink-0">
@@ -204,7 +204,7 @@ export function QuestionPalette({
           </div>
           <div className="h-2 w-full rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
             <div
-              className="h-full rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-500 dark:to-violet-500 transition-all duration-300"
+              className="h-full rounded-full bg-linear-to-r from-indigo-600 to-violet-600 dark:from-indigo-500 dark:to-violet-500 transition-all duration-300"
               style={{ width: `${completionPercentage}%` }}
             />
           </div>
@@ -273,7 +273,7 @@ export function QuestionPalette({
       </div>
 
       {/* Quick Summary Footer for Current Subject */}
-      <div className="pt-3.5 border-t border-slate-150 dark:border-slate-800 flex items-center justify-between text-xs text-slate-600 dark:text-slate-300 font-medium px-0.5">
+      <div className="pt-3.5 border-t border-slate-200/80 dark:border-slate-800 flex items-center justify-between text-xs text-slate-600 dark:text-slate-300 font-medium px-0.5">
         <span>Section Status</span>
         <span className="font-semibold text-slate-800 dark:text-slate-100 font-mono">
           <b className="text-indigo-600 dark:text-indigo-400">{totalAttempted}</b> / {totalSecQuestions} Attempted

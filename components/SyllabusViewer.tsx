@@ -85,7 +85,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div className="space-y-3">
               <div className="flex items-center gap-2">
-                <span className="text-2xl p-2 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-150 dark:border-indigo-900">
+                <span className="text-2xl p-2 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200/80 dark:border-indigo-900">
                   {currentSubjectObj.icon}
                 </span>
                 <span className="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/80 uppercase tracking-wider">
@@ -120,7 +120,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
           </div>
 
           {/* Quick Stats Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 mt-6 border-t border-slate-150 dark:border-slate-800 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 mt-6 border-t border-slate-200/80 dark:border-slate-800 text-center">
             <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700">
               <div className="text-xl font-bold font-mono tabular-nums text-indigo-600 dark:text-indigo-400">
                 {syllabus.tier1Questions} Q
@@ -227,7 +227,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
                     </th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-150 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
+                <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
                   {syllabus.blueprint.map((row, idx) => (
                     <tr key={idx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
                       <td className="py-3 px-4 font-medium text-slate-800 dark:text-slate-100">
@@ -279,7 +279,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
                       </div>
                       <div className="w-full h-2.5 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
                         <div
-                          className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-indigo-600 transition-all duration-500"
+                          className="h-full rounded-full bg-linear-to-r from-indigo-500 to-indigo-600 transition-all duration-500"
                           style={{ width: `${widthPercent}%` }}
                         />
                       </div>
@@ -355,7 +355,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
             {/* Progress Meter Bar */}
             <div className="w-full h-3 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
               <div
-                className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-emerald-500 transition-all duration-300"
+                className="h-full rounded-full bg-linear-to-r from-indigo-500 to-emerald-500 transition-all duration-300"
                 style={{ width: `${progressPercent}%` }}
               />
             </div>
@@ -410,7 +410,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
                   syllabus.goldenTips.map((tip, idx) => (
                     <div
                       key={idx}
-                      className="hover-lift p-4 rounded-2xl bg-indigo-50/60 dark:bg-indigo-950/30 border border-indigo-150 dark:border-indigo-900/60 space-y-1.5 transition-all duration-200"
+                      className="hover-lift p-4 rounded-2xl bg-indigo-50/60 dark:bg-indigo-950/30 border border-indigo-200/80 dark:border-indigo-900/60 space-y-1.5 transition-all duration-200"
                     >
                       <div className="text-xs font-semibold text-indigo-700 dark:text-indigo-400">
                         {tip[0]}
@@ -436,7 +436,7 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
                   syllabus.errorRates.map((err, idx) => (
                     <div
                       key={idx}
-                      className="hover-lift p-4 rounded-2xl bg-rose-50/60 dark:bg-rose-950/30 border border-rose-150 dark:border-rose-900/60 space-y-1.5 transition-all duration-200"
+                      className="hover-lift p-4 rounded-2xl bg-rose-50/60 dark:bg-rose-950/30 border border-rose-200/80 dark:border-rose-900/60 space-y-1.5 transition-all duration-200"
                     >
                       <div className="flex items-center justify-between text-xs font-semibold">
                         <span className="text-rose-700 dark:text-rose-300">{err[0]}</span>

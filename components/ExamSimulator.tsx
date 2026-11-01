@@ -450,7 +450,7 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
                     <th className="py-3 px-4">Target Pace</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-150 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
+                <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
                   {mock.sections.map((sec) => (
                     <tr key={sec.index} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
                       <td className="py-3 px-4 font-semibold text-slate-800 dark:text-slate-100">
@@ -482,7 +482,7 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
           </div>
 
           {/* Actions */}
-          <div className="flex flex-col sm:flex-row items-center gap-3 pt-4 border-t border-slate-150 dark:border-slate-800">
+          <div className="flex flex-col sm:flex-row items-center gap-3 pt-4 border-t border-slate-200/80 dark:border-slate-800">
             <button
               onClick={handleStartExam}
               className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3.5 px-6 rounded-2xl text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] text-white shadow-md shadow-indigo-600/25 hover:shadow-indigo-600/35 transition-all duration-200"
@@ -571,7 +571,7 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
             {currentQuestion ? (
               <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-5 sm:p-7 shadow-xs space-y-6">
                 {/* Question Header */}
-                <div className="flex items-center justify-between pb-3 border-b border-slate-150 dark:border-slate-800">
+                <div className="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800">
                   <div className="flex items-center gap-2.5">
                     <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/80">
                       QUESTION {localQuestionNum} of {currentSection.questions.length}
@@ -686,7 +686,7 @@ export function ExamSimulator({ mock }: ExamSimulatorProps) {
                 )}
 
                 {/* Action Buttons Toolbar */}
-                <div className="pt-6 border-t border-slate-150 dark:border-slate-800 flex flex-wrap items-center justify-between gap-3">
+                <div className="pt-6 border-t border-slate-200/80 dark:border-slate-800 flex flex-wrap items-center justify-between gap-3">
                   <div className="flex items-center gap-2">
                     <button
                       onClick={handleToggleMarkReview}

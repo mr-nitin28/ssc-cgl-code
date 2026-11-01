@@ -60,7 +60,7 @@ export function PatternLabViewer({ categories, patterns }: PatternLabViewerProps
           </div>
 
           {/* Search & Filter Bar */}
-          <div className="mt-8 space-y-4 pt-6 border-t border-slate-150 dark:border-slate-800">
+          <div className="mt-8 space-y-4 pt-6 border-t border-slate-200/80 dark:border-slate-800">
             {/* Search Input */}
             <div className="relative">
               <SearchIcon
@@ -149,7 +149,7 @@ export function PatternLabViewer({ categories, patterns }: PatternLabViewerProps
 
                 {/* Expanded Details: Example problem, Solution, Shortcut */}
                 {isExpanded && (
-                  <div className="pt-4 border-t border-slate-150 dark:border-slate-800 space-y-3 animate-in fade-in duration-150">
+                  <div className="pt-4 border-t border-slate-200/80 dark:border-slate-800 space-y-3 animate-in fade-in duration-150">
                     {/* Try it problem */}
                     <div className="p-3.5 rounded-xl bg-amber-50/80 dark:bg-amber-950/40 border border-amber-200/70 dark:border-amber-900/40 text-xs text-amber-950 dark:text-amber-200 leading-relaxed">
                       <b className="font-semibold">Try it: </b> {pat.example}
