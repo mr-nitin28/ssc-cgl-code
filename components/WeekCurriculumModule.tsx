@@ -1,11 +1,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { week1ProgrammeData, DayRoadmapItem } from "@/data/week1_programme";
+import Link from "next/link";
 import {
-  CheckIcon,
+  week1MathProgramme,
+  DayModule,
+} from "@/data/week1_programme";
+import {
   ClockIcon,
-  BookOpenIcon,
   AwardIcon,
   ZapIcon,
   RotateCcwIcon,
@@ -19,904 +21,921 @@ interface WeekCurriculumModuleProps {
   currentSubjectKey?: string;
 }
 
-const dayTabs = ["day-1", "day-2", "day-3", "day-4", "day-5"] as const;
-type DayTab = typeof dayTabs[number];
-type TabType = "overview" | DayTab | "homework" | "resources" | "checklist";
+const dayTabIds = ["day-1", "day-2", "day-3", "day-4", "day-5"] as const;
+type DayTabId = typeof dayTabIds[number];
+type TabKey =
+  | "sequence"
+  | DayTabId
+  | "assessment"
+  | "formulas"
+  | "tracker"
+  | "next-week";
 
 export function WeekCurriculumModule({
   currentSubjectKey = "maths",
 }: WeekCurriculumModuleProps) {
-  const [activeTab, setActiveTab] = useState<TabType>("day-1");
+  const [activeTab, setActiveTab] = useState<TabKey>("sequence");
+  const [masteredCompetencies, setMasteredCompetencies] = useState<string[]>([]);
 
-  const [checkedItems, setCheckedItems] = useState<string[]>([]);
-  const [checklistFilter, setChecklistFilter] = useState<"all" | "math" | "english" | "reasoning" | "ga">("all");
-  const [completedDrills, setCompletedDrills] = useState<string[]>([]);
-
-  // Local storage synchronization for checklist
+  // Local storage synchronization for 20-item Mastery Tracker
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("ssc_week1_mastery_checklist");
-      const savedDrills = localStorage.getItem("ssc_week1_homework_drills");
+      const saved = localStorage.getItem("ssc_math_week1_mastery");
       const id = requestAnimationFrame(() => {
         if (saved) {
-          setCheckedItems(JSON.parse(saved));
-        }
-        if (savedDrills) {
-          setCompletedDrills(JSON.parse(savedDrills));
+          setMasteredCompetencies(JSON.parse(saved));
         }
       });
       return () => cancelAnimationFrame(id);
     } catch {
-      // Ignore storage errors in private browsing
+      // Ignore in restricted environments
     }
   }, []);
 
-  const toggleChecklistItem = (id: string) => {
-    const updated = checkedItems.includes(id)
-      ? checkedItems.filter((item) => item !== id)
-      : [...checkedItems, id];
+  const toggleCompetency = (id: string) => {
+    const updated = masteredCompetencies.includes(id)
+      ? masteredCompetencies.filter((item) => item !== id)
+      : [...masteredCompetencies, id];
 
-    setCheckedItems(updated);
+    setMasteredCompetencies(updated);
     try {
-      localStorage.setItem("ssc_week1_mastery_checklist", JSON.stringify(updated));
+      localStorage.setItem("ssc_math_week1_mastery", JSON.stringify(updated));
     } catch {
       // Ignore
     }
   };
 
-  const resetChecklist = () => {
-    if (window.confirm("Reset all Week 1 checklist progress?")) {
-      setCheckedItems([]);
+  const resetCompetencies = () => {
+    if (window.confirm("Reset all Week 1 Mathematics mastery progress?")) {
+      setMasteredCompetencies([]);
       try {
-        localStorage.removeItem("ssc_week1_mastery_checklist");
+        localStorage.removeItem("ssc_math_week1_mastery");
       } catch {
         // Ignore
       }
     }
   };
 
-  const toggleDrill = (id: string) => {
-    const updated = completedDrills.includes(id)
-      ? completedDrills.filter((item) => item !== id)
-      : [...completedDrills, id];
+  const totalTrackerCount = week1MathProgramme.masteryTracker.length;
+  const masteredCount = masteredCompetencies.length;
+  const trackerPercentage =
+    totalTrackerCount > 0 ? Math.round((masteredCount / totalTrackerCount) * 100) : 0;
 
-    setCompletedDrills(updated);
-    try {
-      localStorage.setItem("ssc_week1_homework_drills", JSON.stringify(updated));
-    } catch {
-      // Ignore
-    }
+  // Active day lookup helper
+  const getDayModuleByIndex = (dayIndex: number): DayModule => {
+    return week1MathProgramme.days[dayIndex];
   };
 
-  const totalChecklist = week1ProgrammeData.masteryChecklist.length;
-  const completedChecklistCount = checkedItems.length;
-  const checklistPercent = Math.round((completedChecklistCount / totalChecklist) * 100);
-
-  const filteredChecklist = week1ProgrammeData.masteryChecklist.filter((item) => {
-    if (checklistFilter === "all") return true;
-    return item.subject === checklistFilter;
-  });
-
-  const getSubjectColorStyles = (subject: string) => {
-    switch (subject) {
-      case "Mathematics":
-        return {
-          badge: "bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border-indigo-200/80 dark:border-indigo-800/80",
-          cardBorder: "border-indigo-200/90 dark:border-indigo-900/60",
-          accentText: "text-indigo-600 dark:text-indigo-400",
-          icon: "📐",
-        };
-      case "English":
-        return {
-          badge: "bg-teal-50 dark:bg-teal-950/70 text-teal-700 dark:text-teal-300 border-teal-200/80 dark:border-teal-800/80",
-          cardBorder: "border-teal-200/90 dark:border-teal-900/60",
-          accentText: "text-teal-600 dark:text-teal-400",
-          icon: "📖",
-        };
-      case "Reasoning":
-        return {
-          badge: "bg-purple-50 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300 border-purple-200/80 dark:border-purple-800/80",
-          cardBorder: "border-purple-200/90 dark:border-purple-900/60",
-          accentText: "text-purple-600 dark:text-purple-400",
-          icon: "🧩",
-        };
-      case "General Awareness":
-      default:
-        return {
-          badge: "bg-amber-50 dark:bg-amber-950/70 text-amber-800 dark:text-amber-300 border-amber-200/80 dark:border-amber-800/80",
-          cardBorder: "border-amber-200/90 dark:border-amber-900/60",
-          accentText: "text-amber-700 dark:text-amber-400",
-          icon: "🌍",
-        };
-    }
-  };
-
-  const navTabs = [
-    { id: "overview" as const, label: "🗓 Schedule & Splits", short: "Overview" },
-    { id: "day-1" as const, label: "Mon: Number Sense", short: "Day 1 (Mon)" },
-    { id: "day-2" as const, label: "Tue: Divisibility", short: "Day 2 (Tue)" },
-    { id: "day-3" as const, label: "Wed: HCF & LCM", short: "Day 3 (Wed)" },
-    { id: "day-4" as const, label: "Thu: Fractions", short: "Day 4 (Thu)" },
-    { id: "day-5" as const, label: "Fri: Percentage", short: "Day 5 (Fri)" },
-    { id: "homework" as const, label: "📋 Daily Homework", short: "Homework" },
-    { id: "resources" as const, label: "🌐 Free Resources", short: "Resources" },
+  const tabs: { key: TabKey; label: string; badge?: string; icon: string }[] = [
+    { key: "sequence", label: "Dependency Sequence", icon: "🎯" },
+    { key: "day-1", label: "Day 1 (M0: Foundation)", icon: "1️⃣" },
+    { key: "day-2", label: "Day 2 (M1: Number System)", icon: "2️⃣" },
+    { key: "day-3", label: "Day 3 (M2: Fractions)", icon: "3️⃣" },
+    { key: "day-4", label: "Day 4 (M3: Ratio & Prop)", icon: "4️⃣" },
+    { key: "day-5", label: "Day 5 (M4: Percentage)", icon: "5️⃣" },
+    { key: "assessment", label: "100-Question Assessment", icon: "📝" },
+    { key: "formulas", label: "Formula Book & Recall", icon: "📖" },
     {
-      id: "checklist" as const,
-      label: `✅ Mastery (${completedChecklistCount}/${totalChecklist})`,
-      short: `Checklist (${checklistPercent}%)`,
+      key: "tracker",
+      label: "Mastery Tracker",
+      badge: `${masteredCount}/${totalTrackerCount}`,
+      icon: "🏆",
     },
+    { key: "next-week", label: "Week 2 Roadmap", icon: "🚀" },
   ];
 
   return (
     <div className="space-y-6">
-      {/* Module Hero Banner */}
-      <div className="rounded-3xl border border-indigo-200/90 dark:border-indigo-900/70 bg-gradient-to-br from-indigo-50/70 via-white to-purple-50/40 dark:from-slate-900 dark:via-indigo-950/20 dark:to-slate-900 p-6 sm:p-8 shadow-xs relative overflow-hidden">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div className="space-y-3">
+      {/* 1. Header Card with 5 Highlight Metrics */}
+      <div className="relative overflow-hidden rounded-3xl border border-indigo-200/90 dark:border-indigo-900/60 bg-linear-to-br from-indigo-50/90 via-white to-violet-50/70 dark:from-slate-900/95 dark:via-indigo-950/20 dark:to-slate-900/95 p-6 sm:p-8 shadow-xs">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div className="space-y-3 max-w-3xl">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-600 text-white shadow-xs uppercase tracking-wider">
-                <SparklesIcon size={13} /> {week1ProgrammeData.level}
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold font-mono bg-indigo-600 text-white shadow-xs">
+                <SparklesIcon size={13} />
+                {week1MathProgramme.category.toUpperCase()}
               </span>
-              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 dark:bg-slate-800 text-indigo-700 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/80 font-mono uppercase">
-                WEEK 1 OF 24 · {currentSubjectKey} FOUNDATION
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-violet-100 dark:bg-violet-950/80 text-violet-700 dark:text-violet-300 border border-violet-200/80 dark:border-violet-800">
+                {week1MathProgramme.level}
+              </span>
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800">
+                Tier-I & Tier-II Ready
               </span>
             </div>
 
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-              {week1ProgrammeData.title}
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 max-w-3xl leading-relaxed font-normal">
-              {week1ProgrammeData.overview}
-            </p>
+            <div>
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+                {week1MathProgramme.title}
+              </h2>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+                {week1MathProgramme.mainObjective}
+              </p>
+              <div className="mt-2.5 inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-200 text-xs font-medium border border-amber-200/70 dark:border-amber-800/60">
+                <span className="font-bold">⚠️ Note:</span> {week1MathProgramme.note}
+              </div>
+            </div>
           </div>
 
-          {/* Quick Metrics Bar */}
-          <div className="flex flex-col sm:flex-row md:flex-col gap-2 shrink-0">
-            <div className="p-3.5 rounded-2xl bg-white/90 dark:bg-slate-800/90 border border-indigo-200/80 dark:border-indigo-900/60 shadow-xs space-y-1">
-              <div className="text-xs font-semibold text-slate-500 dark:text-slate-400">Total Weekly Study Time</div>
-              <div className="text-xl font-bold font-mono text-indigo-600 dark:text-indigo-400">
-                {week1ProgrammeData.weeklyStructure.totalMinutes} Min · {week1ProgrammeData.weeklyStructure.totalHours} Hours
-              </div>
-              <div className="text-[11px] text-slate-600 dark:text-slate-400 font-medium">
-                {week1ProgrammeData.weeklyStructure.dailyMinutes} mins/day · 5 Days/week
-              </div>
-            </div>
-
-            <button
-              onClick={() => setActiveTab("checklist")}
-              className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-emerald-600 hover:bg-emerald-500 active:scale-95 text-white shadow-xs transition-all duration-150 cursor-pointer"
+          {/* Quick link button to dedicated page */}
+          <div className="flex flex-col sm:flex-row lg:flex-col items-start lg:items-end gap-3 shrink-0">
+            <Link
+              href={`/syllabus/${currentSubjectKey}/week-1`}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs hover:-translate-y-0.5 active:translate-y-0 transition-all duration-150"
             >
-              <CheckIcon size={16} /> Open Mastery Tracker ({checklistPercent}%)
-            </button>
+              <span>Dedicated Study View</span>
+              <ExternalLinkIcon size={14} />
+            </Link>
+            <div className="text-[11px] font-medium text-slate-500 dark:text-slate-400">
+              Interactive 5-Day Curriculum
+            </div>
           </div>
         </div>
 
-        {/* 4-Subject Proportionate Time Distribution */}
-        <div className="mt-6 pt-5 border-t border-indigo-100 dark:border-slate-800 space-y-2">
-          <div className="flex items-center justify-between text-xs font-medium text-slate-700 dark:text-slate-300">
-            <span className="font-semibold text-slate-800 dark:text-slate-200">
-              Weekly Subject Time Distribution (450 Minutes Total)
-            </span>
-            <span className="text-indigo-600 dark:text-indigo-400 font-mono font-bold">
-              Math: 225m (50%) · GA: 100m · English: 75m · Reasoning: 50m
-            </span>
+        {/* 5 Distinct Mathematical Study Metrics */}
+        <div className="mt-6 pt-6 border-t border-indigo-100/90 dark:border-indigo-900/40 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+          <div className="p-3.5 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-indigo-100 dark:border-slate-800 shadow-2xs">
+            <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+              Weekly Study
+            </div>
+            <div className="mt-1 text-2xl font-black font-mono text-indigo-600 dark:text-indigo-400">
+              {week1MathProgramme.metrics.totalWeeklyHours} hrs
+            </div>
+            <div className="text-[10px] text-slate-500 dark:text-slate-400">450 min total</div>
           </div>
 
-          <div className="w-full h-3 rounded-full bg-slate-200/70 dark:bg-slate-800 overflow-hidden flex">
-            <div
-              className="h-full bg-indigo-600 transition-all duration-500"
-              style={{ width: "50%" }}
-              title="Mathematics: 225 min (50%)"
-            />
-            <div
-              className="h-full bg-teal-500 transition-all duration-500"
-              style={{ width: "16.7%" }}
-              title="English: 75 min (16.7%)"
-            />
-            <div
-              className="h-full bg-purple-500 transition-all duration-500"
-              style={{ width: "11.1%" }}
-              title="Reasoning: 50 min (11.1%)"
-            />
-            <div
-              className="h-full bg-amber-500 transition-all duration-500"
-              style={{ width: "22.2%" }}
-              title="General Awareness: 100 min (22.2%)"
-            />
+          <div className="p-3.5 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-indigo-100 dark:border-slate-800 shadow-2xs">
+            <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+              Study Days
+            </div>
+            <div className="mt-1 text-2xl font-black font-mono text-violet-600 dark:text-violet-400">
+              {week1MathProgramme.metrics.studyDays} Days
+            </div>
+            <div className="text-[10px] text-slate-500 dark:text-slate-400">Mon to Fri cadence</div>
           </div>
 
-          <div className="flex flex-wrap items-center justify-between text-[11px] text-slate-600 dark:text-slate-400 pt-1">
-            <span className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-indigo-600 inline-block" />
-              📐 Math: 225m (45m/day)
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-teal-500 inline-block" />
-              📖 English: 75m (Mon/Wed/Fri)
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-purple-500 inline-block" />
-              🧩 Reasoning: 50m (Tue/Thu)
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-amber-500 inline-block" />
-              🌍 General Awareness: 100m (20m/day)
-            </span>
+          <div className="p-3.5 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-indigo-100 dark:border-slate-800 shadow-2xs">
+            <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+              Daily Time
+            </div>
+            <div className="mt-1 text-2xl font-black font-mono text-emerald-600 dark:text-emerald-400">
+              {week1MathProgramme.metrics.dailyMinutes} min
+            </div>
+            <div className="text-[10px] text-slate-500 dark:text-slate-400">1.5 hr pure focus</div>
+          </div>
+
+          <div className="p-3.5 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-indigo-100 dark:border-slate-800 shadow-2xs">
+            <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+              Questions / Day
+            </div>
+            <div className="mt-1 text-2xl font-black font-mono text-amber-600 dark:text-amber-400">
+              {week1MathProgramme.metrics.questionsPerDay} Qs
+            </div>
+            <div className="text-[10px] text-slate-500 dark:text-slate-400">8 Easy / 8 Med / 4 Hard</div>
+          </div>
+
+          <div className="col-span-2 sm:col-span-1 p-3.5 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-indigo-100 dark:border-slate-800 shadow-2xs">
+            <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+              Total Questions
+            </div>
+            <div className="mt-1 text-2xl font-black font-mono text-rose-600 dark:text-rose-400">
+              {week1MathProgramme.metrics.totalUniqueQuestions} Qs
+            </div>
+            <div className="text-[10px] text-slate-500 dark:text-slate-400">100% unique practice</div>
           </div>
         </div>
       </div>
 
-      {/* Week Curriculum Sub-Navigation Tabs */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar border-b border-slate-200/80 dark:border-slate-800">
-        {navTabs.map((tab) => {
-          const isSelected = activeTab === tab.id;
-          return (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all duration-150 cursor-pointer ${
-                isSelected
-                  ? "bg-indigo-600 text-white shadow-xs font-bold"
-                  : "bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-indigo-600 dark:hover:text-white"
-              }`}
-            >
-              {tab.label}
-            </button>
-          );
-        })}
+      {/* 2. Navigation Tabs (Horizontally scrollable with smooth pill styling) */}
+      <div className="overflow-x-auto pb-1 no-scrollbar">
+        <div className="flex items-center gap-1.5 min-w-max p-1.5 rounded-2xl bg-slate-100/90 dark:bg-slate-800/80 border border-slate-200/80 dark:border-slate-700/80">
+          {tabs.map((tab) => {
+            const isActive = activeTab === tab.key;
+            return (
+              <button
+                key={tab.key}
+                onClick={() => setActiveTab(tab.key)}
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-150 cursor-pointer ${
+                  isActive
+                    ? "bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-xs border border-slate-200/90 dark:border-slate-700"
+                    : "text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-white/50 dark:hover:bg-slate-700/50"
+                }`}
+              >
+                <span>{tab.icon}</span>
+                <span>{tab.label}</span>
+                {tab.badge && (
+                  <span
+                    className={`ml-1 text-[10px] px-2 py-0.5 rounded-full font-mono font-bold ${
+                      isActive
+                        ? "bg-indigo-100 text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300"
+                        : "bg-slate-200 text-slate-700 dark:bg-slate-700 dark:text-slate-300"
+                    }`}
+                  >
+                    {tab.badge}
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      {/* View 1: 5-Day Schedule & Matrix Overview */}
-      {activeTab === "overview" && (
-        <div className="space-y-6 animate-in fade-in duration-200">
-          {/* Daily 90-Min Timetable */}
-          <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-4">
-            <div className="flex items-center justify-between pb-2 border-b border-slate-200/80 dark:border-slate-800">
-              <div className="flex items-center gap-2">
-                <ClockIcon size={18} className="text-indigo-600 dark:text-indigo-400" />
-                <h3 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
-                  Daily 90-Minute Precision Timetable
+      {/* 3. Tab Content Panels */}
+
+      {/* TAB 1: CONCEPT DEPENDENCY SEQUENCE */}
+      {activeTab === "sequence" && (
+        <div className="space-y-6">
+          <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6">
+            <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800">
+              <div className="space-y-1">
+                <span className="text-[11px] font-bold font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+                  Concept Dependency Architecture
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
+                  1. What you will complete this week
                 </h3>
               </div>
-              <span className="text-xs font-mono font-bold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/70 px-2.5 py-1 rounded-xl">
-                90 Min / Session
+              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200/60 dark:border-indigo-800/60">
+                5-Day Linear Ladder
               </span>
             </div>
 
-            <div className="overflow-hidden rounded-2xl border border-slate-200/90 dark:border-slate-800/90">
-              <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-600 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-800">
-                  <tr>
-                    <th className="py-3 px-4">Study Block</th>
-                    <th className="py-3 px-4 font-mono">Time Allocated</th>
-                    <th className="py-3 px-4">Daily Activity Focus</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
-                  {week1ProgrammeData.weeklyStructure.timetable.map((block, idx) => (
-                    <tr key={idx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
-                      <td className="py-3.5 px-4 font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-                        <span className={`w-2.5 h-2.5 rounded-full bg-${block.color}-600 inline-block`} />
-                        {block.subject}
-                      </td>
-                      <td className="py-3.5 px-4 font-mono font-bold text-indigo-600 dark:text-indigo-400">
-                        {block.time}
-                      </td>
-                      <td className="py-3.5 px-4 text-slate-600 dark:text-slate-300">{block.activity}</td>
-                    </tr>
-                  ))}
-                  <tr className="bg-slate-50/80 dark:bg-slate-800/50 font-bold">
-                    <td className="py-3 px-4 text-slate-900 dark:text-white">Daily Total</td>
-                    <td className="py-3 px-4 font-mono text-emerald-600 dark:text-emerald-400">90 min / day</td>
-                    <td className="py-3 px-4 text-slate-700 dark:text-slate-300">Complete four-subject coverage</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+            <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+              We follow a strict concept dependency sequence. Each day&apos;s learning directly prepares you for the next day&apos;s topics, ensuring zero cognitive friction when transitioning to arithmetic and advanced math.
+            </p>
 
-          {/* 5-Day Weekly Subject Matrix */}
-          <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-4">
-            <div>
-              <h3 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
-                Five-Day Subject Curriculum Matrix
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-1">
-                {week1ProgrammeData.fiveDayRoadmap.rationale}
-              </p>
+            {/* 5 Days Roadmap Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
+              {week1MathProgramme.dependencySequence.daySummary.map((item, idx) => (
+                <div
+                  key={idx}
+                  className="p-4 rounded-2xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-850/60 space-y-2 hover:border-indigo-300 dark:hover:border-indigo-700 transition-colors"
+                >
+                  <div className="flex items-center justify-between">
+                    <span className="text-[11px] font-black font-mono px-2 py-0.5 rounded-md bg-indigo-600 text-white">
+                      {item.day}
+                    </span>
+                    <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">90 min</span>
+                  </div>
+                  <h4 className="text-sm font-bold text-slate-900 dark:text-white">
+                    {item.title}
+                  </h4>
+                  <p className="text-xs text-slate-600 dark:text-slate-400 leading-snug">
+                    {item.description}
+                  </p>
+                  <button
+                    onClick={() => setActiveTab(`day-${idx + 1}` as TabKey)}
+                    className="mt-2 text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>View Day {idx + 1}</span>
+                    <ChevronRightIcon size={12} />
+                  </button>
+                </div>
+              ))}
             </div>
 
-            <div className="overflow-hidden rounded-2xl border border-slate-200/90 dark:border-slate-800/90">
-              <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-600 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-800">
-                  <tr>
-                    <th className="py-3 px-4">Day</th>
-                    <th className="py-3 px-4 font-bold text-indigo-600 dark:text-indigo-400">📐 Mathematics (45m)</th>
-                    <th className="py-3 px-4 font-bold text-teal-600 dark:text-teal-400">📖 English / 🧩 Reasoning (25m)</th>
-                    <th className="py-3 px-4 font-bold text-amber-600 dark:text-amber-400">🌍 General Awareness (20m)</th>
-                    <th className="py-3 px-4 text-right">Action</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
-                  {week1ProgrammeData.fiveDayRoadmap.schedule.map((item: DayRoadmapItem, idx: number) => {
-                    const dayId = dayTabs[idx] || "day-1";
-                    return (
-                      <tr key={idx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
-                        <td className="py-3.5 px-4 font-bold text-slate-800 dark:text-slate-100 whitespace-nowrap">
-                          {item.day}
-                        </td>
-                        <td className="py-3.5 px-4 font-medium text-slate-800 dark:text-slate-200">{item.math}</td>
-                        <td className="py-3.5 px-4 text-slate-700 dark:text-slate-300">{item.langReasoning}</td>
-                        <td className="py-3.5 px-4 text-slate-700 dark:text-slate-300">{item.ga}</td>
-                        <td className="py-3.5 px-4 text-right">
-                          <button
-                            onClick={() => setActiveTab(dayId)}
-                            className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 transition-colors cursor-pointer"
-                          >
-                            Open <ChevronRightIcon size={12} />
-                          </button>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
+            {/* Why This Order Section */}
+            <div className="rounded-2xl border border-indigo-100 dark:border-indigo-900/50 bg-indigo-50/50 dark:bg-indigo-950/30 p-5 space-y-3">
+              <h4 className="text-sm font-bold text-indigo-900 dark:text-indigo-200 flex items-center gap-2">
+                <TargetIcon size={16} />
+                Why this order? (Pedagogical Rationale)
+              </h4>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300">
+                {week1MathProgramme.dependencySequence.rationale.map((rat, rIdx) => (
+                  <li key={rIdx} className="flex items-start gap-2">
+                    <span className="text-indigo-600 dark:text-indigo-400 font-bold shrink-0">✓</span>
+                    <span>{rat}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
       )}
 
-      {/* View 2–6: Specific Days (Day 1 through Day 5) */}
-      {activeTab.startsWith("day-") && (
-        <div className="space-y-6 animate-in fade-in duration-200">
-          {(() => {
-            const currentDay = week1ProgrammeData.days.find((d) => d.id === activeTab);
-            if (!currentDay) return null;
+      {/* TABS 2 to 6: DAY 1 to DAY 5 MODULES */}
+      {dayTabIds.includes(activeTab as DayTabId) && (
+        (() => {
+          const dayIndex = dayTabIds.indexOf(activeTab as DayTabId);
+          const dayData = getDayModuleByIndex(dayIndex);
+          if (!dayData) return null;
 
-            return (
-              <div className="space-y-6">
-                {/* Day Header Card */}
-                <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-7 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          return (
+            <div className="space-y-6">
+              {/* Day Header Banner */}
+              <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-5">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-800">
                   <div className="space-y-1">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold font-mono px-2.5 py-0.5 rounded-md bg-indigo-100/90 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 uppercase tracking-wide">
-                        {currentDay.dayName}
+                      <span className="text-xs font-bold font-mono px-2.5 py-1 rounded-lg bg-indigo-600 text-white">
+                        {dayData.moduleCode}
                       </span>
-                      <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">90 Minutes Total</span>
+                      <span className="text-xs font-semibold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+                        {dayData.dayName}
+                      </span>
+                      <span className="inline-flex items-center gap-1 text-xs font-mono font-semibold text-indigo-600 dark:text-indigo-400">
+                        <ClockIcon size={13} /> {dayData.timeMinutes} minutes
+                      </span>
                     </div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-slate-800 dark:text-slate-100">
-                      {currentDay.title}
+                    <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
+                      {dayData.title}
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300">{currentDay.subtitle}</p>
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => {
-                        const currentIdx = dayTabs.indexOf(activeTab as DayTab);
-                        if (currentIdx > 0) {
-                          setActiveTab(dayTabs[currentIdx - 1]);
-                        }
-                      }}
-                      disabled={activeTab === "day-1"}
-                      className="px-3 py-1.5 rounded-xl text-xs font-semibold border border-slate-200 dark:border-slate-700 disabled:opacity-40 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
-                    >
-                      ← Previous Day
-                    </button>
-                    <button
-                      onClick={() => {
-                        const currentIdx = dayTabs.indexOf(activeTab as DayTab);
-                        if (currentIdx < dayTabs.length - 1) {
-                          setActiveTab(dayTabs[currentIdx + 1]);
-                        } else {
-                          setActiveTab("checklist");
-                        }
-                      }}
-                      className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white transition-colors cursor-pointer"
-                    >
-                      {activeTab === "day-5" ? "Mastery Checklist →" : "Next Day →"}
-                    </button>
+                    {dayIndex > 0 && (
+                      <button
+                        onClick={() => setActiveTab(`day-${dayIndex}` as TabKey)}
+                        className="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
+                      >
+                        ← Day {dayIndex}
+                      </button>
+                    )}
+                    {dayIndex < 4 && (
+                      <button
+                        onClick={() => setActiveTab(`day-${dayIndex + 2}` as TabKey)}
+                        className="px-3 py-1.5 rounded-xl border border-indigo-200 dark:border-indigo-800 bg-indigo-50 dark:bg-indigo-950/60 text-xs font-semibold text-indigo-600 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-indigo-900/70 cursor-pointer"
+                      >
+                        Day {dayIndex + 2} →
+                      </button>
+                    )}
                   </div>
                 </div>
 
-                {/* Subject Cards for this day */}
-                <div className="space-y-6">
-                  {currentDay.subjects.map((sub, sIdx) => {
-                    const colorStyles = getSubjectColorStyles(sub.subject);
+                {/* Learning Objective & Target */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <div className="p-4 rounded-2xl bg-indigo-50/60 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/50">
+                    <div className="text-[11px] font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">
+                      🎯 Learning Objective
+                    </div>
+                    <p className="mt-1 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-medium">
+                      {dayData.learningObjective}
+                    </p>
+                  </div>
 
-                    return (
-                      <div
-                        key={sIdx}
-                        className={`rounded-3xl border ${colorStyles.cardBorder} bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6`}
-                      >
-                        {/* Subject Top Header */}
-                        <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-200/80 dark:border-slate-800 gap-3">
-                          <div className="flex items-center gap-3">
-                            <span className="text-2xl p-2 rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700">
-                              {colorStyles.icon}
-                            </span>
-                            <div>
-                              <div className="flex items-center gap-2">
-                                <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border ${colorStyles.badge}`}>
-                                  {sub.subject}
-                                </span>
-                                <span className="text-xs font-mono font-bold text-slate-500 dark:text-slate-400">
-                                  ⏱️ {sub.time}
-                                </span>
-                              </div>
-                              <h4 className="text-lg font-bold text-slate-900 dark:text-white mt-1">
-                                {sub.topic}
-                              </h4>
-                            </div>
-                          </div>
+                  <div className="p-4 rounded-2xl bg-emerald-50/60 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/50">
+                    <div className="text-[11px] font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-300">
+                      ✅ Completion Target
+                    </div>
+                    <p className="mt-1 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-medium">
+                      {dayData.completionTarget}
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                          <div className="text-xs p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/60 dark:border-slate-700/60 text-slate-600 dark:text-slate-300 max-w-sm">
-                            <b className="font-semibold text-slate-800 dark:text-slate-200">Objective: </b>
-                            {sub.objective}
-                          </div>
+              {/* Day Topics */}
+              <div className="space-y-6">
+                {dayData.topics.map((topic, tIdx) => (
+                  <div
+                    key={tIdx}
+                    className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-7 shadow-xs space-y-4"
+                  >
+                    <div className="flex items-center gap-2 pb-2 border-b border-slate-100 dark:border-slate-800">
+                      <span className="w-6 h-6 rounded-lg bg-indigo-100 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300 flex items-center justify-center text-xs font-bold font-mono">
+                        {tIdx + 1}
+                      </span>
+                      <h4 className="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
+                        {topic.title}
+                      </h4>
+                    </div>
+
+                    {topic.description && (
+                      <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                        {topic.description}
+                      </p>
+                    )}
+
+                    {/* Table if present */}
+                    {topic.table && (
+                      <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800">
+                        <table className="w-full text-left text-xs">
+                          <thead className="bg-slate-50 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 border-b border-slate-200 dark:border-slate-800 font-bold uppercase tracking-wider text-[11px]">
+                            <tr>
+                              {topic.table.headers.map((hdr, hIdx) => (
+                                <th key={hIdx} className="px-4 py-2.5">
+                                  {hdr}
+                                </th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300 font-medium">
+                            {topic.table.rows.map((row, rIdx) => (
+                              <tr
+                                key={rIdx}
+                                className={
+                                  rIdx % 2 === 0
+                                    ? "bg-white dark:bg-slate-900"
+                                    : "bg-slate-50/50 dark:bg-slate-850/40"
+                                }
+                              >
+                                {row.map((cell, cIdx) => (
+                                  <td key={cIdx} className="px-4 py-2.5 font-mono">
+                                    {cell}
+                                  </td>
+                                ))}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
+
+                    {/* Formulas if present */}
+                    {topic.formulas && topic.formulas.length > 0 && (
+                      <div className="space-y-1.5 p-3.5 rounded-2xl bg-indigo-50/50 dark:bg-indigo-950/30 border border-indigo-100 dark:border-indigo-900/40">
+                        <div className="text-[11px] font-bold text-indigo-700 dark:text-indigo-300 uppercase tracking-wider">
+                          Key Mathematical Formulations
                         </div>
-
-                        {/* Subject Content Sections */}
-                        <div className="space-y-6">
-                          {sub.sections.map((sec, secIdx) => (
-                            <div key={secIdx} className="space-y-3.5">
-                              <h5 className="text-sm font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
-                                <span className="w-1.5 h-4 rounded-full bg-indigo-600 inline-block" />
-                                {sec.heading}
-                              </h5>
-
-                              {sec.content && (
-                                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                                  {sec.content}
-                                </p>
-                              )}
-
-                              {/* Data Table if present */}
-                              {sec.table && (
-                                <div className="overflow-hidden rounded-2xl border border-slate-200/80 dark:border-slate-800">
-                                  <table className="w-full text-left text-xs sm:text-sm">
-                                    <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-600 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-800">
-                                      <tr>
-                                        {sec.table.headers.map((h, hIdx) => (
-                                          <th key={hIdx} className="py-2.5 px-3.5">
-                                            {h}
-                                          </th>
-                                        ))}
-                                      </tr>
-                                    </thead>
-                                    <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
-                                      {sec.table.rows.map((row, rIdx) => (
-                                        <tr key={rIdx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
-                                          {row.map((cell, cIdx) => (
-                                            <td key={cIdx} className="py-2.5 px-3.5">
-                                              {cell}
-                                            </td>
-                                          ))}
-                                        </tr>
-                                      ))}
-                                    </tbody>
-                                  </table>
-                                </div>
-                              )}
-
-                              {/* Formula Box / Worked Example */}
-                              {sec.formulaBox && sec.formulaBox.length > 0 && (
-                                <div className="p-4 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-200/70 dark:border-indigo-900/60 font-mono text-xs sm:text-sm text-indigo-950 dark:text-indigo-200 space-y-1.5 shadow-2xs">
-                                  {sec.formulaBox.map((line, fIdx) => (
-                                    <div key={fIdx} className={line === "" ? "h-1" : ""}>
-                                      {line}
-                                    </div>
-                                  ))}
-                                </div>
-                              )}
-
-                              {/* Rules list if present */}
-                              {sec.rules && (
-                                <ul className="space-y-1.5 text-xs sm:text-sm text-slate-700 dark:text-slate-300 list-disc list-inside">
-                                  {sec.rules.map((rule, ruIdx) => (
-                                    <li key={ruIdx}>{rule}</li>
-                                  ))}
-                                </ul>
-                              )}
-
-                              {/* Pattern Spotter Callout */}
-                              {sec.patternSpotter && (
-                                <div className="p-4 rounded-2xl bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/50 space-y-2.5">
-                                  <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-amber-900 dark:text-amber-300">
-                                    <ZapIcon size={14} className="text-amber-600" />
-                                    Pattern Spotter & Pro Shortcuts
-                                  </div>
-                                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                                    {sec.patternSpotter.map((pat, pIdx) => (
-                                      <div
-                                        key={pIdx}
-                                        className="p-2.5 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-amber-200/60 dark:border-amber-800/40 space-y-0.5"
-                                      >
-                                        <div className="font-semibold text-slate-800 dark:text-slate-200">
-                                          Trigger: {pat.clue}
-                                        </div>
-                                        <div className="text-amber-800 dark:text-amber-300 font-mono text-[11px]">
-                                          → {pat.method}
-                                        </div>
-                                      </div>
-                                    ))}
-                                  </div>
-                                </div>
-                              )}
-
-                              {/* Drill or practice activity */}
-                              {sec.drillOrPractice && (
-                                <div className="p-3.5 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/30 border border-emerald-200/80 dark:border-emerald-900/50 text-xs sm:text-sm text-emerald-950 dark:text-emerald-200 flex items-start gap-2.5">
-                                  <CheckIcon size={16} className="text-emerald-600 shrink-0 mt-0.5" />
-                                  <span>{sec.drillOrPractice}</span>
-                                </div>
-                              )}
+                        <div className="space-y-1 text-xs font-mono font-semibold text-slate-800 dark:text-slate-200">
+                          {topic.formulas.map((form, fIdx) => (
+                            <div key={fIdx} className="p-1.5 rounded-lg bg-white/80 dark:bg-slate-900/80 border border-indigo-100/60 dark:border-indigo-900/30">
+                              {form}
                             </div>
                           ))}
                         </div>
                       </div>
-                    );
-                  })}
+                    )}
+
+                    {/* Properties if present */}
+                    {topic.properties && topic.properties.length > 0 && (
+                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                        {topic.properties.map((prop, pIdx) => (
+                          <div
+                            key={pIdx}
+                            className="p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-850/60 space-y-1"
+                          >
+                            <div className="text-[11px] font-bold text-slate-700 dark:text-slate-300">
+                              {prop.name}
+                            </div>
+                            <div className="text-xs font-mono font-bold text-indigo-600 dark:text-indigo-400">
+                              {prop.formula}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Rules if present */}
+                    {topic.rules && topic.rules.length > 0 && (
+                      <div className="space-y-2 p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-850/60 border border-slate-200 dark:border-slate-800">
+                        <div className="text-[11px] font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+                          Essential Rules & Steps
+                        </div>
+                        <ul className="space-y-1 text-xs text-slate-700 dark:text-slate-300">
+                          {topic.rules.map((rule, ruIdx) => (
+                            <li key={ruIdx} className="flex items-start gap-2">
+                              <span className="text-indigo-600 dark:text-indigo-400 font-bold shrink-0">▪</span>
+                              <span className="font-mono">{rule}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {/* Worked Examples */}
+                    {topic.workedExamples && topic.workedExamples.length > 0 && (
+                      <div className="space-y-2.5 pt-2">
+                        <div className="text-[11px] font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+                          Worked SSC CGL Examples
+                        </div>
+                        <div className="grid grid-cols-1 gap-2.5">
+                          {topic.workedExamples.map((ex, exIdx) => (
+                            <div
+                              key={exIdx}
+                              className="p-3.5 rounded-2xl border border-indigo-100 dark:border-indigo-900/40 bg-indigo-50/30 dark:bg-indigo-950/20 space-y-1.5"
+                            >
+                              {ex.label && (
+                                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-indigo-600 text-white font-mono">
+                                  {ex.label}
+                                </span>
+                              )}
+                              <div className="text-xs font-mono font-semibold text-slate-800 dark:text-slate-200">
+                                {ex.problem}
+                              </div>
+                              <div className="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-bold pl-2 border-l-2 border-emerald-500">
+                                {ex.solution}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Pattern Spotter */}
+                    {topic.patternSpotter && topic.patternSpotter.length > 0 && (
+                      <div className="space-y-2 pt-2">
+                        <div className="text-[11px] font-bold text-amber-700 dark:text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+                          <ZapIcon size={13} /> Pattern Spotter (SSC Question Clues)
+                        </div>
+                        <div className="overflow-x-auto rounded-xl border border-amber-200/80 dark:border-amber-900/50">
+                          <table className="w-full text-left text-xs">
+                            <thead className="bg-amber-50 dark:bg-amber-950/60 text-amber-800 dark:text-amber-200 font-bold">
+                              <tr>
+                                <th className="px-3 py-2">Question Clue</th>
+                                <th className="px-3 py-2">Exam Method</th>
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-amber-100 dark:divide-amber-900/30 text-slate-700 dark:text-slate-300">
+                              {topic.patternSpotter.map((pat, pIdx) => (
+                                <tr key={pIdx}>
+                                  <td className="px-3 py-2 font-semibold text-slate-900 dark:text-white">
+                                    {pat.clue}
+                                  </td>
+                                  <td className="px-3 py-2 font-mono text-indigo-600 dark:text-indigo-400">
+                                    {pat.method}
+                                  </td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Pro Tips */}
+                    {topic.proTips && topic.proTips.length > 0 && (
+                      <div className="p-3.5 rounded-2xl border border-emerald-200/80 dark:border-emerald-900/50 bg-emerald-50/40 dark:bg-emerald-950/30 space-y-1.5">
+                        <div className="text-[11px] font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wider flex items-center gap-1.5">
+                          <AwardIcon size={14} /> Exam Pro Tips & Traps
+                        </div>
+                        <ul className="space-y-1 text-xs text-slate-700 dark:text-slate-300">
+                          {topic.proTips.map((tip, tipIdx) => (
+                            <li key={tipIdx} className="flex items-start gap-2">
+                              <span className="text-emerald-600 dark:text-emerald-400 font-bold shrink-0">✓</span>
+                              <span>{tip}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {/* Practice items if present */}
+                    {topic.practiceItems && topic.practiceItems.length > 0 && (
+                      <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-850/60 border border-slate-200 dark:border-slate-800 space-y-1">
+                        <div className="text-[11px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">
+                          Practice Drill Questions
+                        </div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 text-xs font-mono text-slate-800 dark:text-slate-200">
+                          {topic.practiceItems.map((pr, prIdx) => (
+                            <div key={prIdx}>• {pr}</div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              {/* 90-Minute Daily Timetable */}
+              <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-7 shadow-xs space-y-4">
+                <div className="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <ClockIcon size={18} className="text-indigo-600 dark:text-indigo-400" />
+                    <h4 className="text-base font-bold text-slate-900 dark:text-white">
+                      {dayData.dayName} — 90-Minute Daily Execution Plan
+                    </h4>
+                  </div>
+                  <span className="text-xs font-mono font-bold text-indigo-600 dark:text-indigo-400">
+                    4 Blocks · 90 min
+                  </span>
                 </div>
 
-                {/* Day Revision Box */}
-                {currentDay.revisionItems && (
-                  <div className="rounded-3xl border border-indigo-200/80 dark:border-indigo-900/60 bg-indigo-50/60 dark:bg-indigo-950/40 p-5 sm:p-6 shadow-xs space-y-3">
-                    <div className="flex items-center gap-2 text-sm font-bold text-indigo-900 dark:text-indigo-200">
-                      <TargetIcon size={18} className="text-indigo-600 dark:text-indigo-400" />
-                      Day 1 Rapid Revision: 5 Non-Negotiable Essentials
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                  {dayData.timetable.map((tt, ttIdx) => (
+                    <div
+                      key={ttIdx}
+                      className="p-3.5 rounded-2xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-850/60 space-y-1"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-mono">
+                          Block {ttIdx + 1}
+                        </span>
+                        <span className="text-xs font-mono font-bold text-slate-700 dark:text-slate-300">
+                          {tt.time}
+                        </span>
+                      </div>
+                      <div className="text-xs font-medium text-slate-800 dark:text-slate-200">
+                        {tt.activity}
+                      </div>
                     </div>
-                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
-                      {currentDay.revisionItems.map((rev, revIdx) => (
-                        <li key={revIdx} className="flex items-center gap-2 p-2 rounded-xl bg-white/70 dark:bg-slate-900/60 border border-indigo-100 dark:border-indigo-900/40">
-                          <span className="w-5 h-5 rounded-md bg-indigo-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0">
-                            {revIdx + 1}
-                          </span>
-                          <span>{rev}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
+                  ))}
+                </div>
               </div>
-            );
-          })()}
-        </div>
+            </div>
+          );
+        })()
       )}
 
-      {/* View 7: Daily Homework & Practice Targets */}
-      {activeTab === "homework" && (
-        <div className="space-y-6 animate-in fade-in duration-200">
+      {/* TAB 7: 100-QUESTION DAILY ASSESSMENT & SCORING */}
+      {activeTab === "assessment" && (
+        <div className="space-y-6">
           <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-slate-200/80 dark:border-slate-800 gap-3">
-              <div>
-                <h3 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
-                  Daily Homework & Practice Targets (Monday to Friday)
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-800">
+              <div className="space-y-1">
+                <span className="text-[11px] font-bold font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+                  Tier-I Calibrated Daily Practice
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
+                  {week1MathProgramme.assessmentStructure.title}
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-1">
-                  Complete these minimum non-negotiable target exercises after every daily study block.
-                </p>
               </div>
-              <span className="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/70 border border-emerald-200/80 dark:border-emerald-800/80 px-3 py-1 rounded-xl shrink-0">
-                {completedDrills.length} / {week1ProgrammeData.homework.length * 3} Drills Logged
+              <span className="text-xs font-mono font-bold px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/60">
+                20 Q/day · 100 Q total
               </span>
             </div>
 
-            <div className="overflow-hidden rounded-2xl border border-slate-200/90 dark:border-slate-800/90">
-              <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-600 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-800">
-                  <tr>
-                    <th className="py-3 px-4">Day</th>
-                    <th className="py-3 px-4 text-indigo-600 dark:text-indigo-400 font-bold">📐 Mathematics</th>
-                    <th className="py-3 px-4 text-teal-600 dark:text-teal-400 font-bold">📖 English / 🧩 Reasoning</th>
-                    <th className="py-3 px-4 text-amber-600 dark:text-amber-400 font-bold">🌍 General Awareness</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
-                  {week1ProgrammeData.homework.map((hw, idx) => {
-                    const mId = `hw-${hw.day}-m`;
-                    const lId = `hw-${hw.day}-l`;
-                    const gId = `hw-${hw.day}-g`;
+            <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+              {week1MathProgramme.assessmentStructure.description}
+            </p>
 
-                    return (
-                      <tr key={idx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
-                        <td className="py-3.5 px-4 font-bold text-slate-900 dark:text-white whitespace-nowrap">
-                          {hw.day}
-                        </td>
-                        <td className="py-3.5 px-4">
-                          <button
-                            onClick={() => toggleDrill(mId)}
-                            className="flex items-start gap-2 text-left cursor-pointer hover:opacity-80 transition-opacity"
-                          >
-                            <span
-                              className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 mt-0.5 ${
-                                completedDrills.includes(mId)
-                                  ? "bg-emerald-600 border-emerald-600 text-white"
-                                  : "border-slate-300 dark:border-slate-700"
-                              }`}
-                            >
-                              {completedDrills.includes(mId) && <CheckIcon size={12} />}
-                            </span>
-                            <span className={completedDrills.includes(mId) ? "line-through text-slate-400" : ""}>
-                              {hw.math}
-                            </span>
-                          </button>
-                        </td>
-                        <td className="py-3.5 px-4">
-                          <button
-                            onClick={() => toggleDrill(lId)}
-                            className="flex items-start gap-2 text-left cursor-pointer hover:opacity-80 transition-opacity"
-                          >
-                            <span
-                              className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 mt-0.5 ${
-                                completedDrills.includes(lId)
-                                  ? "bg-emerald-600 border-emerald-600 text-white"
-                                  : "border-slate-300 dark:border-slate-700"
-                              }`}
-                            >
-                              {completedDrills.includes(lId) && <CheckIcon size={12} />}
-                            </span>
-                            <span className={completedDrills.includes(lId) ? "line-through text-slate-400" : ""}>
-                              {hw.langReasoning}
-                            </span>
-                          </button>
-                        </td>
-                        <td className="py-3.5 px-4">
-                          <button
-                            onClick={() => toggleDrill(gId)}
-                            className="flex items-start gap-2 text-left cursor-pointer hover:opacity-80 transition-opacity"
-                          >
-                            <span
-                              className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 mt-0.5 ${
-                                completedDrills.includes(gId)
-                                  ? "bg-emerald-600 border-emerald-600 text-white"
-                                  : "border-slate-300 dark:border-slate-700"
-                              }`}
-                            >
-                              {completedDrills.includes(gId) && <CheckIcon size={12} />}
-                            </span>
-                            <span className={completedDrills.includes(gId) ? "line-through text-slate-400" : ""}>
-                              {hw.ga}
-                            </span>
-                          </button>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* View 8: Curated Free Learning Resources */}
-      {activeTab === "resources" && (
-        <div className="space-y-6 animate-in fade-in duration-200">
-          {/* Primary Platform Spotlight */}
-          <div className="rounded-3xl border border-indigo-200/90 dark:border-indigo-900/60 bg-indigo-50/70 dark:bg-indigo-950/40 p-6 sm:p-8 shadow-xs space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div className="space-y-1">
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-400">
-                  ★ PRIMARY NATIONAL RESOURCE RECOMMENDATION
-                </span>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-white">
-                  {week1ProgrammeData.resources.primaryPlatform.name}
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">
-                  {week1ProgrammeData.resources.primaryPlatform.desc}
-                </p>
-                <div className="text-[11px] text-indigo-800 dark:text-indigo-300 font-medium">
-                  💡 {week1ProgrammeData.resources.primaryPlatform.note}
+            {/* 3 Difficulty Pillars */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div className="p-4 rounded-2xl bg-emerald-50/60 dark:bg-emerald-950/40 border border-emerald-200/80 dark:border-emerald-900/50 space-y-1">
+                <div className="text-xs font-bold text-emerald-700 dark:text-emerald-300 uppercase tracking-wider">
+                  Easy (40%)
+                </div>
+                <div className="text-2xl font-black font-mono text-emerald-600 dark:text-emerald-400">
+                  {week1MathProgramme.assessmentStructure.difficultyBreakdown.easy} Questions
+                </div>
+                <div className="text-[11px] text-slate-600 dark:text-slate-400">
+                  Direct formula application, single-step arithmetic
                 </div>
               </div>
 
-              <a
-                href={week1ProgrammeData.resources.primaryPlatform.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl text-xs sm:text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 text-white shadow-sm shadow-indigo-600/25 transition-all duration-150 shrink-0"
-              >
-                Launch SATHEE SSC Portal
-                <ExternalLinkIcon size={15} />
-              </a>
+              <div className="p-4 rounded-2xl bg-amber-50/60 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/50 space-y-1">
+                <div className="text-xs font-bold text-amber-700 dark:text-amber-300 uppercase tracking-wider">
+                  Medium (40%)
+                </div>
+                <div className="text-2xl font-black font-mono text-amber-600 dark:text-amber-400">
+                  {week1MathProgramme.assessmentStructure.difficultyBreakdown.medium} Questions
+                </div>
+                <div className="text-[11px] text-slate-600 dark:text-slate-400">
+                  Two-step problems, combining two foundation concepts
+                </div>
+              </div>
+
+              <div className="p-4 rounded-2xl bg-rose-50/60 dark:bg-rose-950/40 border border-rose-200/80 dark:border-rose-900/50 space-y-1">
+                <div className="text-xs font-bold text-rose-700 dark:text-rose-300 uppercase tracking-wider">
+                  Hard (20%)
+                </div>
+                <div className="text-2xl font-black font-mono text-rose-600 dark:text-rose-400">
+                  {week1MathProgramme.assessmentStructure.difficultyBreakdown.hard} Questions
+                </div>
+                <div className="text-[11px] text-slate-600 dark:text-slate-400">
+                  Multi-step, non-standard phrasing, exam-speed pressure
+                </div>
+              </div>
             </div>
-          </div>
 
-          {/* Subject-Wise Free Resources Table */}
-          <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-4">
-            <h3 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
-              Verified Primary & Secondary Study Channels
-            </h3>
-            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
-              Stick to one primary explanation source and one question practice source. Avoid watching multiple teachers explain the same concept.
-            </p>
-
-            <div className="overflow-hidden rounded-2xl border border-slate-200/90 dark:border-slate-800/90">
-              <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-600 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-800">
+            {/* Daily Schedule Table */}
+            <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800">
+              <table className="w-full text-left text-xs">
+                <thead className="bg-slate-50 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 font-bold uppercase tracking-wider text-[11px]">
                   <tr>
-                    <th className="py-3 px-4">Subject</th>
-                    <th className="py-3 px-4">Primary Free Source</th>
-                    <th className="py-3 px-4">Recommended YouTube / Extension</th>
+                    <th className="px-4 py-3">Study Day</th>
+                    <th className="px-4 py-3">Topic Assessed</th>
+                    <th className="px-4 py-3 text-right">Questions</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800 text-slate-700 dark:text-slate-200">
-                  {week1ProgrammeData.resources.subjectResources.map((res, idx) => (
-                    <tr key={idx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
-                      <td className="py-3.5 px-4 font-bold text-slate-800 dark:text-slate-100">{res.subject}</td>
-                      <td className="py-3.5 px-4">
-                        <a
-                          href={res.primary.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 font-semibold text-indigo-600 dark:text-indigo-400 hover:underline"
-                        >
-                          <span>{res.primary.name}</span>
-                          <ExternalLinkIcon size={13} />
-                        </a>
+                <tbody className="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300 font-medium">
+                  {week1MathProgramme.assessmentStructure.schedule.map((item, sIdx) => (
+                    <tr key={sIdx} className="hover:bg-slate-50/50 dark:hover:bg-slate-850/40">
+                      <td className="px-4 py-3 font-bold font-mono text-slate-900 dark:text-white">
+                        {item.day}
                       </td>
-                      <td className="py-3.5 px-4">
-                        <a
-                          href={res.additional.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 font-medium text-slate-700 dark:text-slate-300 hover:text-indigo-600 hover:underline"
-                        >
-                          <span>{res.additional.name}</span>
-                          <ExternalLinkIcon size={13} />
-                        </a>
+                      <td className="px-4 py-3">{item.topic}</td>
+                      <td className="px-4 py-3 text-right font-mono font-bold text-indigo-600 dark:text-indigo-400">
+                        {item.questions} Qs
                       </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
-          </div>
 
-          {/* Official Bookmarks */}
-          <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-4">
-            <h3 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-              <BookOpenIcon size={18} className="text-indigo-600 dark:text-indigo-400" />
-              Official Government & SSC Portals to Bookmark
-            </h3>
+            {/* Tier-I Official Scoring System Callout */}
+            <div className="rounded-2xl border border-indigo-200/80 dark:border-indigo-900/60 bg-linear-to-br from-indigo-50/70 to-violet-50/50 dark:from-indigo-950/30 dark:to-slate-900/80 p-5 space-y-3">
+              <div className="flex items-center justify-between">
+                <h4 className="text-sm font-bold text-indigo-950 dark:text-indigo-200 flex items-center gap-2">
+                  <AwardIcon size={16} />
+                  Tier-I Negative Marking Scoring Protocol
+                </h4>
+                <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-md bg-indigo-600 text-white">
+                  Max: {week1MathProgramme.assessmentStructure.scoringFormula.maxDailyScore} Marks / Day
+                </span>
+              </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              {week1ProgrammeData.resources.officialBookmarks.map((bm, idx) => (
-                <a
-                  key={idx}
-                  href={bm.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-4 rounded-2xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-800/40 hover:border-indigo-400/80 transition-all duration-200 space-y-1.5 block group"
-                >
-                  <div className="font-bold text-slate-900 dark:text-white flex items-center justify-between text-xs sm:text-sm">
-                    <span className="group-hover:text-indigo-600 transition-colors">{bm.name}</span>
-                    <ExternalLinkIcon size={14} className="text-slate-400 group-hover:text-indigo-600 shrink-0" />
+              <div className="text-sm font-mono font-bold text-indigo-700 dark:text-indigo-300 p-2.5 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-indigo-100 dark:border-indigo-900/40">
+                {week1MathProgramme.assessmentStructure.scoringFormula.formula}
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+                {week1MathProgramme.assessmentStructure.scoringFormula.details.map((det, dIdx) => (
+                  <div key={dIdx} className="p-2 rounded-lg bg-white/60 dark:bg-slate-900/60 text-slate-700 dark:text-slate-300 font-medium">
+                    • {det}
                   </div>
-                  <p className="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed font-normal">
-                    {bm.desc}
-                  </p>
-                </a>
-              ))}
+                ))}
+              </div>
+
+              <div className="pt-2 border-t border-indigo-100 dark:border-indigo-900/30 text-xs font-bold text-emerald-700 dark:text-emerald-400">
+                🎯 Target Mastery Benchmark: {week1MathProgramme.assessmentStructure.scoringFormula.masteryTarget}
+              </div>
             </div>
           </div>
         </div>
       )}
 
-      {/* View 9: End-of-Week Mastery Checklist */}
-      {activeTab === "checklist" && (
-        <div className="space-y-6 animate-in fade-in duration-200">
+      {/* TAB 8: FORMULA BOOK & MEMORY WORK */}
+      {activeTab === "formulas" && (
+        <div className="space-y-6">
           <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-200/80 dark:border-slate-800 gap-4">
-              <div>
-                <h3 className="text-lg sm:text-xl font-bold text-slate-800 dark:text-slate-100">
-                  Week 1 End-of-Week Mastery Checklist
+            <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800">
+              <div className="space-y-1">
+                <span className="text-[11px] font-bold font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+                  Daily Rapid Recall Routine
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
+                  Formula & Memory Work Schedule
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-1">
-                  15 concrete competencies verifying your beginner foundation across all 4 subjects. Saved automatically.
-                </p>
+              </div>
+              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300">
+                Daily 25 Min Memory Work
+              </span>
+            </div>
+
+            {/* Daily Memorisation Table */}
+            <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800">
+              <table className="w-full text-left text-xs">
+                <thead className="bg-slate-50 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 font-bold uppercase tracking-wider text-[11px]">
+                  <tr>
+                    <th className="px-4 py-3">Day</th>
+                    <th className="px-4 py-3">What to Memorise Strictly</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300 font-medium">
+                  {week1MathProgramme.formulaMemoryWork.schedule.map((item, fIdx) => (
+                    <tr key={fIdx} className="hover:bg-slate-50/50 dark:hover:bg-slate-850/40">
+                      <td className="px-4 py-3 font-bold font-mono text-slate-900 dark:text-white">
+                        {item.day}
+                      </td>
+                      <td className="px-4 py-3 font-mono font-medium">{item.memorise}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* 3-Part Daily Revision Protocol */}
+            <div className="rounded-2xl border border-violet-200/80 dark:border-violet-900/60 bg-violet-50/50 dark:bg-violet-950/20 p-5 space-y-3">
+              <h4 className="text-sm font-bold text-violet-950 dark:text-violet-200 flex items-center gap-2">
+                <RotateCcwIcon size={16} />
+                Daily Revision Routine & Spaced Repetition Protocol
+              </h4>
+              <ul className="space-y-2 text-xs text-slate-700 dark:text-slate-300">
+                {week1MathProgramme.formulaMemoryWork.routine.map((rout, rIdx) => (
+                  <li key={rIdx} className="flex items-start gap-2.5 p-2 rounded-xl bg-white/70 dark:bg-slate-900/70 border border-violet-100 dark:border-violet-900/30">
+                    <span className="w-5 h-5 rounded-full bg-violet-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0">
+                      {rIdx + 1}
+                    </span>
+                    <span className="leading-relaxed">{rout}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* TAB 9: 20-ITEM MASTERY TRACKER */}
+      {activeTab === "tracker" && (
+        <div className="space-y-6">
+          <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-800">
+              <div className="space-y-1">
+                <span className="text-[11px] font-bold font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+                  Interactive Competency Checklist
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
+                  End-of-Week Mastery Tracker
+                </h3>
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="text-right">
-                  <div className="text-2xl font-bold font-mono tabular-nums text-emerald-600 dark:text-emerald-400">
-                    {completedChecklistCount} / {totalChecklist}
-                  </div>
-                  <div className="text-[11px] text-slate-500 font-medium">Competencies Mastered ({checklistPercent}%)</div>
-                </div>
-
                 <button
-                  onClick={resetChecklist}
-                  className="p-2 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-500 hover:text-rose-600 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
-                  title="Reset checklist"
+                  onClick={resetCompetencies}
+                  className="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-rose-600 dark:hover:text-rose-400 cursor-pointer"
                 >
-                  <RotateCcwIcon size={16} />
+                  Reset Progress
                 </button>
               </div>
             </div>
 
-            {/* Progress Meter Bar */}
-            <div className="w-full h-3 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
-              <div
-                className="h-full rounded-full bg-linear-to-r from-indigo-500 via-teal-500 to-emerald-500 transition-all duration-300"
-                style={{ width: `${checklistPercent}%` }}
-              />
+            {/* Progress Bar & Status */}
+            <div className="space-y-2 p-4 rounded-2xl bg-indigo-50/60 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/40">
+              <div className="flex items-center justify-between text-xs font-bold text-slate-800 dark:text-slate-200">
+                <span>Week 1 Mathematical Competencies</span>
+                <span className="font-mono text-indigo-600 dark:text-indigo-400">
+                  {masteredCount} / {totalTrackerCount} Completed ({trackerPercentage}%)
+                </span>
+              </div>
+              <div className="h-2.5 w-full rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <div
+                  className="h-full rounded-full bg-linear-to-r from-indigo-600 to-violet-600 dark:from-indigo-500 dark:to-violet-500 transition-all duration-300"
+                  style={{ width: `${trackerPercentage}%` }}
+                />
+              </div>
             </div>
 
-            {/* Category Filter Pills */}
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar text-xs">
-              {(["all", "math", "english", "reasoning", "ga"] as const).map((filter) => (
-                <button
-                  key={filter}
-                  onClick={() => setChecklistFilter(filter)}
-                  className={`px-3 py-1.5 rounded-xl font-semibold capitalize transition-all cursor-pointer ${
-                    checklistFilter === filter
-                      ? "bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-xs"
-                      : "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200"
-                  }`}
-                >
-                  {filter === "all" ? `All (${totalChecklist})` : filter}
-                </button>
-              ))}
-            </div>
-
-            {/* Checklist Items */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              {filteredChecklist.map((item) => {
-                const isChecked = checkedItems.includes(item.id);
-
+            {/* Checklist items */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              {week1MathProgramme.masteryTracker.map((item, idx) => {
+                const isChecked = masteredCompetencies.includes(item.id);
                 return (
                   <button
                     key={item.id}
-                    onClick={() => toggleChecklistItem(item.id)}
-                    className={`flex items-start gap-3 p-3.5 rounded-2xl border text-left text-xs sm:text-sm transition-all duration-150 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.99] cursor-pointer ${
+                    onClick={() => toggleCompetency(item.id)}
+                    className={`flex items-start gap-3 p-3.5 rounded-2xl border text-left transition-all duration-150 cursor-pointer ${
                       isChecked
-                        ? "border-emerald-300 dark:border-emerald-800/80 bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-950 dark:text-emerald-200"
-                        : "border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 hover:border-indigo-300 dark:hover:border-indigo-700"
+                        ? "bg-emerald-50/70 dark:bg-emerald-950/30 border-emerald-300/80 dark:border-emerald-800 text-slate-900 dark:text-slate-100"
+                        : "bg-slate-50/50 dark:bg-slate-850/40 border-slate-200/80 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:border-slate-300 dark:hover:border-slate-700"
                     }`}
                   >
                     <span
-                      className={`w-5 h-5 rounded-lg flex items-center justify-center shrink-0 border mt-0.5 transition-colors ${
+                      className={`w-5 h-5 rounded-md flex items-center justify-center shrink-0 text-xs font-bold mt-0.5 transition-colors ${
                         isChecked
-                          ? "bg-emerald-600 text-white border-emerald-600 shadow-xs"
-                          : "border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800"
+                          ? "bg-emerald-600 text-white"
+                          : "border-2 border-slate-300 dark:border-slate-600 text-transparent"
                       }`}
                     >
-                      {isChecked && <CheckIcon size={13} />}
+                      ✓
                     </span>
-                    <span className={`flex-1 font-medium leading-relaxed ${isChecked ? "line-through opacity-80" : ""}`}>
-                      {item.label}
-                    </span>
+                    <div className="space-y-0.5">
+                      <div className="text-[10px] font-mono font-bold text-slate-400 dark:text-slate-500">
+                        ITEM #{idx + 1}
+                      </div>
+                      <div
+                        className={`text-xs font-medium leading-snug ${
+                          isChecked ? "line-through text-slate-500 dark:text-slate-400" : ""
+                        }`}
+                      >
+                        {item.text}
+                      </div>
+                    </div>
                   </button>
                 );
               })}
             </div>
+          </div>
+        </div>
+      )}
 
-            {/* Weekly Target Benchmarks */}
-            <div className="mt-6 pt-6 border-t border-slate-200/80 dark:border-slate-800 space-y-3">
-              <h4 className="text-sm font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-                <AwardIcon size={16} className="text-amber-500" />
-                Target Accuracy & Retention Benchmarks
+      {/* TAB 10: WHAT COMES AFTER WEEK 1 (WEEK 2 ROADMAP) */}
+      {activeTab === "next-week" && (
+        <div className="space-y-6">
+          <div className="rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 p-6 sm:p-8 shadow-xs space-y-6">
+            <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800">
+              <div className="space-y-1">
+                <span className="text-[11px] font-bold font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+                  Post-Foundation Trajectory
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
+                  What comes after Week 1?
+                </h3>
+              </div>
+              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300">
+                Week 2 Blueprint
+              </span>
+            </div>
+
+            <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+              {week1MathProgramme.nextWeekPreview.guidance}
+            </p>
+
+            {/* Next Week Modules */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              {week1MathProgramme.nextWeekPreview.modules.map((mod, mIdx) => (
+                <div
+                  key={mIdx}
+                  className="p-4 rounded-2xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-850/60 space-y-2"
+                >
+                  <span className="text-xs font-bold font-mono px-2 py-0.5 rounded-md bg-indigo-600 text-white">
+                    {mod.code}
+                  </span>
+                  <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-medium pt-1">
+                    {mod.topic}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* The First-Week Golden Rule */}
+            <div className="rounded-2xl border-2 border-amber-300/80 dark:border-amber-800/80 bg-amber-50/60 dark:bg-amber-950/30 p-5 space-y-2">
+              <h4 className="text-sm font-extrabold text-amber-900 dark:text-amber-200 flex items-center gap-2">
+                <span>⭐</span> The First-Week Golden Rule for SSC CGL Aspirants
               </h4>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-                {week1ProgrammeData.performanceTargets.map((target, idx) => (
-                  <div
-                    key={idx}
-                    className="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/70 dark:border-slate-700 space-y-1"
-                  >
-                    <div className="font-bold text-indigo-600 dark:text-indigo-400">{target.subject}</div>
-                    <div className="text-slate-700 dark:text-slate-300 leading-relaxed font-normal">
-                      {target.target}
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <div className="p-3.5 rounded-xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-200/70 dark:border-indigo-900/50 text-xs text-indigo-950 dark:text-indigo-200 leading-relaxed">
-                💡 <b>Strategic Mindset:</b> Do not judge your first week by exam speed. Judge it strictly by how well you comprehend the core mechanics and whether you can solve similar problems independently without looking at solution keys.
-              </div>
+              <p className="text-xs sm:text-sm text-amber-950 dark:text-amber-100 font-semibold leading-relaxed">
+                &ldquo;{week1MathProgramme.nextWeekPreview.firstWeekRule}&rdquo;
+              </p>
             </div>
           </div>
         </div>
