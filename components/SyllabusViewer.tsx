@@ -182,34 +182,6 @@ export function SyllabusViewer({ subjectKey, syllabus }: SyllabusViewerProps) {
               </Link>
             </div>
           </div>
-
-          {/* Quick Stats Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 mt-6 border-t border-slate-200/80 dark:border-slate-800 text-center">
-            <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700">
-              <div className="text-xl font-bold font-mono tabular-nums text-indigo-600 dark:text-indigo-400">
-                {syllabus.tier1Questions} Q
-              </div>
-              <div className="text-xs text-slate-600 dark:text-slate-300 font-medium">Tier-I Share</div>
-            </div>
-            <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700">
-              <div className="text-xl font-bold font-mono tabular-nums text-indigo-600 dark:text-indigo-400">
-                {syllabus.tier2Questions} Q
-              </div>
-              <div className="text-xs text-slate-600 dark:text-slate-300 font-medium">Tier-II Share</div>
-            </div>
-            <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700">
-              <div className="text-xl font-bold font-mono tabular-nums text-teal-600 dark:text-teal-400">
-                {syllabus.suggestedMinutesPerDay} Min
-              </div>
-              <div className="text-xs text-slate-600 dark:text-slate-300 font-medium">Daily Target</div>
-            </div>
-            <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-700">
-              <div className="text-xl font-bold font-mono tabular-nums text-amber-500">
-                24
-              </div>
-              <div className="text-xs text-slate-600 dark:text-slate-300 font-medium">Weeks Plan</div>
-            </div>
-          </div>
         </div>
 
         {/* Sticky Scroll-Spy Navigation Bar */}
