@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "slug": "mock-01",
+    "title": "SSC CGL Tier-I Mock Test 01",
+    "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+    "level": "Beginner",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Mathematics",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "mock-02",
+    "title": "SSC CGL Tier-I Mock Test 02",
+    "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+    "level": "Beginner",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Mathematics",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "mock-03",
+    "title": "SSC CGL Tier-I Mock Test 03",
+    "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+    "level": "Beginner",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Mathematics",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "mock-04",
+    "title": "SSC CGL Tier-I Mock Test 04",
+    "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+    "level": "Intermediate",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Mathematics",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "mock-05",
+    "title": "SSC CGL Tier-I Mock Test 05",
+    "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+    "level": "Intermediate",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Mathematics",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "mock-06",
+    "title": "SSC CGL Tier-I Mock Test 06",
+    "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+    "level": "Intermediate",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Mathematics",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "mock-07",
+    "title": "SSC CGL Tier-I Mock Test 07",
+    "pattern": "CGL 2026 PATTERN · ADVANCED PAPER",
+    "level": "Advanced",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "General Intelligence & Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Quantitative Aptitude",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English Comprehension",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "mock-08",
+    "title": "SSC CGL Tier-I Mock Test 08",
+    "pattern": "CGL 2026 PATTERN · ADVANCED PAPER",
+    "level": "Advanced",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "General Intelligence & Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Quantitative Aptitude",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English Comprehension",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "mock-09",
+    "title": "SSC CGL Tier-I Mock Test 09",
+    "pattern": "CGL 2026 PATTERN · ADVANCED PAPER",
+    "level": "Advanced",
+    "totalQuestions": 100,
+    "maxScore": 200,
+    "durationMinutes": 60,
+    "sections": [
+      {
+        "name": "General Intelligence & Reasoning",
+        "shortName": "Reasoning",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "General Awareness",
+        "shortName": "General Awareness",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "Quantitative Aptitude",
+        "shortName": "Mathematics",
+        "questionsCount": 25,
+        "maxMarks": 50
+      },
+      {
+        "name": "English Comprehension",
+        "shortName": "English",
+        "questionsCount": 25,
+        "maxMarks": 50
+      }
+    ]
+  }
+]

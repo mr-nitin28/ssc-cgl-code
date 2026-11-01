@@ -1,0 +1,1930 @@
+{
+  "id": 9,
+  "slug": "mock-09",
+  "title": "SSC CGL Tier-I Mock Test 09",
+  "pattern": "CGL 2026 PATTERN · ADVANCED PAPER",
+  "level": "Advanced",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "General Intelligence & Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Find the missing number:\r\n\r\n5, 12, 26, 54, 110, ?",
+          "options": [
+            "218",
+            "220",
+            "222",
+            "224"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Each term is multiplied by 2 and then 2 is added: $110×2+2=222$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the letter series:\r\n\r\nD, J, S, E, ?",
+          "options": [
+            "Q",
+            "R",
+            "S",
+            "T"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Letter gaps are +6, +9, +12 and +15. E + 15 = T.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the analogy:\r\n\r\nSeismometer : Earthquake vibrations :: Lactometer : ?",
+          "options": [
+            "Atmospheric pressure",
+            "Specific gravity of milk",
+            "Wind velocity",
+            "Temperature of milk"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A seismometer records earthquake vibrations; a lactometer measures the specific gravity of milk.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "Rectangle",
+            "Parallelogram",
+            "Rhombus",
+            "Pentagon"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Rectangle, parallelogram and rhombus are quadrilaterals. A pentagon has five sides.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a certain code, the first letter is shifted one position forward, the second two positions forward, the third three positions forward and so on. How will WORD be coded?",
+          "options": [
+            "XQUH",
+            "XQUG",
+            "WQUG",
+            "YQUH"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "W→X, O→Q, R→U, D→H. The code is XQUH.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "N is the daughter of M. M is the brother of P. P is the father of Q. How is N related to Q?",
+          "options": [
+            "Sister",
+            "Niece",
+            "Cousin",
+            "Aunt"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "M and P are siblings; their children N and Q are cousins.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Five reports P, Q, R, S and T must be completed in a particular order.\r\n\r\n- Q must be completed after M.\r\n- R must be completed after Q.\r\n- P must be completed after R.\r\n- M must be completed after S.\r\n\r\nWhich report must be completed last?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The required order is S–M–Q–R–P. P must be last.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Statements:\r\n\r\n- All P are R.\r\n- Some S are P.\r\n- No R is T.\r\n\r\nConclusions:\r\n\r\nI. Some S are not T.\r\nII. No P is T.",
+          "options": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions follow",
+            "Neither conclusion follows"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Some S are P and all P are R; no R is T. Therefore both conclusions follow.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Is a positive integer $n$ divisible by 10?\r\n\r\nI. $n$ is divisible by 2.\r\nII. $n$ is divisible by 5.",
+          "options": [
+            "Statement I alone is sufficient",
+            "Statement II alone is sufficient",
+            "Both statements together are sufficient, but neither alone is sufficient",
+            "Either statement alone is sufficient"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Divisibility by both 2 and 5 is necessary and sufficient for divisibility by 10.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A railway introduces a token-based queue management system at its service counters to reduce overcrowding.\r\n\r\nWhich assumptions are implicit?\r\n\r\nI. Customers may have to wait in queues for service.\r\nII. Token-based ordering can help organise the sequence of customers.",
+          "options": [
+            "Only assumption I is implicit",
+            "Only assumption II is implicit",
+            "Both assumptions are implicit",
+            "Neither assumption is implicit"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The token system assumes customers wait in queues and tokens help establish service order.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Find the next number:\r\n\r\n1, 4, 13, 40, 121, ?",
+          "options": [
+            "360",
+            "362",
+            "364",
+            "366"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The pattern is ×3 + 1: $121×3+1=364$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Whenever a safety sensor detects a malfunction, it sends a warning signal. Whenever the warning signal is sent, the machine automatically stops.\r\n\r\nOn one occasion, the machine did not stop. Assuming both rules operate without exception, which conclusion follows?",
+          "options": [
+            "The sensor detected a malfunction.",
+            "The warning signal was sent.",
+            "The sensor did not detect a malfunction.",
+            "The machine was permanently damaged."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "If sensor failure leads to a warning and the warning leads to stopping, then no stop means no warning and no detected malfunction.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the alphanumeric series:\r\n\r\nB2, E6, I12, N20, T30, ?",
+          "options": [
+            "A42",
+            "Z42",
+            "A40",
+            "B42"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Letters advance by +3, +4, +5, +6, +7; numbers follow consecutive products $1×2,2×3,\\ldots,6×7$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "From eight candidates, one chairperson and one secretary must be selected. The same person cannot hold both positions. How many different selections are possible?",
+          "options": [
+            "48",
+            "52",
+            "56",
+            "64"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Chairperson and secretary are different posts: $8×7=56$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "How many distinct arrangements can be made using all the letters of the word COMMITTEE?",
+          "options": [
+            "22,680",
+            "30,240",
+            "45,360",
+            "90,720"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "COMMITTEE has 9 letters, with M, T and E repeated twice each. Arrangements $=9!/(2!×2!×2!)=45,360$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Select the pair that does not follow the same relationship.",
+          "options": [
+            "2 : 8",
+            "3 : 27",
+            "4 : 64",
+            "5 : 100"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "The first three pairs use cubes: $2^3=8$, $3^3=27$, $4^3=64$. The fourth should be 125, not 100.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A two-digit number has digits whose sum is 11. If the digits are reversed, the resulting number is 27 greater than the original number. Find the original number.",
+          "options": [
+            "38",
+            "47",
+            "56",
+            "74"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Let digits be x and y. $x+y=11$, $9(y-x)=27$, so $y-x=3$. Hence x=4, y=7 and the number is 47.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "How many different committees of three members can be formed from eight candidates?",
+          "options": [
+            "48",
+            "54",
+            "56",
+            "64"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Number of committees $={8\\choose3}=56$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a group of 100 engineers:\r\n\r\n- 52 know Python.\r\n- 48 know Java.\r\n- 40 know SQL.\r\n- 25 know both Python and Java.\r\n- 20 know both Java and SQL.\r\n- 18 know both Python and SQL.\r\n- 10 know all three.\r\n\r\nHow many engineers know none of these three languages?",
+          "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "At least one language $=52+48+40-25-20-18+10=87$. None $=100-87=13$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the letter matrix:\r\n\r\n| A | D | G |\r\n| - | - | - |\r\n| C | F | I |\r\n| E | H | ? |",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The letters in each column advance by two alphabet positions. E, H, K complete the third row.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A number is increased by 25% and becomes 625. What was its original value?",
+          "options": [
+            "450",
+            "475",
+            "500",
+            "525"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Original number $=625/1.25=500$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the analogy:\r\n\r\nMosaic : Tiles :: Quilt : ?",
+          "options": [
+            "Needles",
+            "Patches",
+            "Threads",
+            "Cotton"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A mosaic is made from tiles; a quilt is made from patches.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Find the largest possible value of $a$ if the three-digit number $4a6$ is divisible by 3.",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Digit sum $=4+a+6=10+a$. Divisibility by 3 permits a=2, 5 or 8; the largest is 8.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Statements:\r\n\r\n- All registered members have a unique membership number.\r\n- Some registered members are researchers.\r\n\r\nConclusions:\r\n\r\nI. Some researchers have unique membership numbers.\r\nII. All researchers are registered members.",
+          "options": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions follow",
+            "Neither conclusion follows"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Some registered members are researchers and every registered member has a unique membership number. Therefore some researchers have such numbers.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a certain classification, an orchid is a flowering plant, and a rose is also a flowering plant. Which conclusion is most appropriate?",
+          "options": [
+            "Every flowering plant is a rose.",
+            "Orchids and roses belong to the category of flowering plants.",
+            "Every rose is an orchid.",
+            "Orchids are not plants.\r\n\r\n# Section B — General Awareness\r\n\r\nQuestions 26–50 · 50 marks · History, Polity, Geography, Science, Economy and Current Affairs\r\n\r\n### History and Culture"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Both orchids and roses are specified as members of the flowering-plant category. The reverse inclusion is not established.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Junagadh inscription, an important early example of a lengthy Sanskrit inscription, is associated with:",
+          "options": [
+            "Rudradaman I",
+            "Ashoka",
+            "Samudragupta",
+            "Kharavela"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Rudradaman I",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Brihadeshwara Temple at Thanjavur was commissioned by:",
+          "options": [
+            "Rajendra Chola I",
+            "Raja Raja Chola I",
+            "Kulottunga Chola I",
+            "Vijayalaya Chola"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Raja Raja Chola I",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "In ancient Indian land-grant terminology, the term Brahmadeya generally referred to:",
+          "options": [
+            "Land gifted to Brahmanas",
+            "Tax collected from traders",
+            "Land reserved exclusively for soldiers",
+            "Royal hunting grounds"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Land grants to Brahmanas",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who led the 1857 revolt in Lucknow?",
+          "options": [
+            "Rani Lakshmibai",
+            "Kunwar Singh",
+            "Begum Hazrat Mahal",
+            "Nana Sahib"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Begum Hazrat Mahal",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Aligarh Movement is principally associated with:",
+          "options": [
+            "Swami Vivekananda",
+            "Sir Syed Ahmad Khan",
+            "Jyotirao Phule",
+            "Ishwar Chandra Vidyasagar\r\n\r\n### Indian Constitution and Polity"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Sir Syed Ahmad Khan",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article of the Indian Constitution deals with the powers, authority and responsibilities of Panchayats?",
+          "options": [
+            "Article 243A",
+            "Article 243D",
+            "Article 243G",
+            "Article 243K"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Article 243G",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Under which Article is the Governor of a State appointed by the President of India?",
+          "options": [
+            "Article 153",
+            "Article 155",
+            "Article 161",
+            "Article 163"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Article 155",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article provides for a joint sitting of both Houses of Parliament in certain circumstances?",
+          "options": [
+            "Article 108",
+            "Article 110",
+            "Article 123",
+            "Article 368"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Article 108",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article empowers the Governor of a State to grant pardons, reprieves, respites, remissions or commutations in matters within the State's executive power?",
+          "options": [
+            "Article 72",
+            "Article 123",
+            "Article 155",
+            "Article 161\r\n\r\n### Geography and Environment"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Article 161",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Indian river crosses the Tropic of Cancer twice during its course?",
+          "options": [
+            "Mahi",
+            "Godavari",
+            "Kaveri",
+            "Brahmaputra"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Mahi River",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Eastern Ghats are discontinuous mainly because they are:",
+          "options": [
+            "Covered by permanent snow",
+            "Dissected by several major rivers",
+            "Located below sea level",
+            "Formed entirely of coral deposits"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Dissected by several major rivers",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Laterite soil is primarily formed due to:",
+          "options": [
+            "Deposition of river sediments",
+            "Intense leaching under high rainfall and temperature",
+            "Accumulation of glacial deposits",
+            "Volcanic ash deposition alone"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Intense leaching under high rainfall and temperature",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Majuli, an important river island of India, is located in the:",
+          "options": [
+            "Ganga",
+            "Yamuna",
+            "Brahmaputra",
+            "Godavari\r\n\r\n### General Science"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Brahmaputra",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which principle explains why an immersed object experiences an upward buoyant force equal to the weight of the fluid displaced?",
+          "options": [
+            "Pascal's law",
+            "Archimedes' principle",
+            "Bernoulli's principle",
+            "Newton's law of cooling"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Archimedes' principle",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "What is the SI unit of magnetic flux?",
+          "options": [
+            "Tesla",
+            "Henry",
+            "Weber",
+            "Gauss"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Weber",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "What is the chemical formula of Plaster of Paris?",
+          "options": [
+            "CaSO₄·2H₂O",
+            "CaSO₄·½H₂O",
+            "CaCO₃",
+            "CaOCl₂"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "CaSO₄·½H₂O",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which plant tissue transports prepared food from leaves to other parts of the plant?",
+          "options": [
+            "Xylem",
+            "Phloem",
+            "Collenchyma",
+            "Sclerenchyma"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Phloem",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A sphygmomanometer is used to measure:",
+          "options": [
+            "Blood glucose",
+            "Body temperature",
+            "Blood pressure",
+            "Heart electrical activity"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Blood pressure",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Earthworms primarily respire through:",
+          "options": [
+            "Gills",
+            "Lungs",
+            "Tracheae",
+            "Moist skin"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Moist skin",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Aluminium is commercially extracted from alumina mainly through:",
+          "options": [
+            "Simple filtration",
+            "Electrolytic reduction",
+            "Fractional distillation",
+            "Sedimentation\r\n\r\n### Economy"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Electrolytic reduction",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Cash Reserve Ratio (CRR) requires commercial banks to maintain a specified proportion of their net demand and time liabilities as:",
+          "options": [
+            "Cash balances with the Reserve Bank of India",
+            "Loans to small businesses",
+            "Foreign currency reserves with commercial banks",
+            "Government bonds held by customers"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Cash balances maintained with RBI",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Stagflation refers to a situation characterised by:",
+          "options": [
+            "High economic growth and falling prices",
+            "Rising prices combined with stagnant economic activity",
+            "Falling prices and full employment",
+            "Stable prices and rapid industrial expansion\r\n\r\n### Current Affairs — October 2026"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Rising prices with stagnant economic activity",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Fifth Kautilya Economic Conclave (2026) was held under which theme?",
+          "options": [
+            "Digital India: Growth through Innovation",
+            "Resilience in an Age of Flux",
+            "Globalisation and Sustainable Development",
+            "New Economic Order for Asia"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Resilience in an Age of Flux",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Union Cabinet approved the Container Manufacturing Promotion Scheme in October 2026 with a total budgetary outlay of:",
+          "options": [
+            "₹5,000 crore",
+            "₹7,500 crore",
+            "₹10,000 crore",
+            "₹12,500 crore"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "₹10,000 crore",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "What is the full form of ESTIC 2026, the science and technology conclave held at Bharat Mandapam, New Delhi?",
+          "options": [
+            "Emerging Science, Technology and Innovation Conclave",
+            "Economic Science and Technology Integration Council",
+            "Emerging Systems and Technical Innovation Conference",
+            "Energy Science and Technology International Convention\r\n\r\nCurrent-affairs references: PIB releases for the Fifth Kautilya Economic Conclave, Container Manufacturing Promotion Scheme and ESTIC 2026.&#x20;\r\n\r\n[image](https://www.google.com/s2/favicons?domain=https://www.pib.gov.in\\&sz=32)\r\n\r\nPress Information Bureau+3\r\n\r\n\r\n\r\n# Section C — Quantitative Aptitude\r\n\r\nQuestions 51–75 · 50 marks · Advanced"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Emerging Science, Technology and Innovation Conclave",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Quantitative Aptitude",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the remainder when $5^{37}$ is divided by 13.",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "$5^2=25\\equiv-1\\pmod{13}$. Therefore $5^4\\equiv1$. Since $37=4×9+1$, $5^{37}\\equiv5\\pmod{13}$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If 18% of a number is equal to 24% of 225, find the number.",
+          "options": [
+            "275",
+            "300",
+            "325",
+            "350"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "$0.18x=0.24×225=54$. Thus $x=54/0.18=300$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "An article costs ₹2,400. Its marked price is 35% above its cost price. A discount of 20% is offered on the marked price. Find the profit percentage.",
+          "options": [
+            "6%",
+            "7%",
+            "8%",
+            "10%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "CP = ₹2,400. MP $=2400×1.35=₹3,240$. SP $=3240×0.80=₹2,592$. Profit $=192$; profit percentage $=192/2400×100=8\\\\%$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the compound interest on ₹12,000 at 5% per annum for one year, compounded half-yearly.",
+          "options": [
+            "₹600",
+            "₹605",
+            "₹607.50",
+            "₹612"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Half-yearly rate = 2.5%; number of periods = 2. Amount $=12000×1.025^2=₹12,607.50$. CI = ₹607.50.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A can complete a job in 20 days and B can complete it in 30 days. They work on alternate days, starting with A. In how many days will the work be completed?",
+          "options": [
+            "22 days",
+            "23 days",
+            "24 days",
+            "25 days"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "In two days A and B complete $1/20+1/30=1/12$ of the work. In 22 days they finish $11/12$. A completes $1/20$ on day 23; the remaining $1/30$ is completed by B on day 24.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A 40-litre mixture contains milk and water in the ratio 7:3. Ten litres of the mixture are removed and replaced with ten litres of water. What is the new ratio of milk to water?",
+          "options": [
+            "19 : 21",
+            "20 : 19",
+            "21 : 19",
+            "7 : 5"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Initially milk = 28 L and water = 12 L. Removing 10 L removes 7 L milk and 3 L water. Remaining amounts = 21 L milk and 9 L water. Adding 10 L water gives a ratio of $21:19$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A invests ₹18,000 for 10 months, B invests ₹24,000 for 6 months and C invests ₹15,000 for 8 months. If their total profit is ₹74,000, what is B's share?",
+          "options": [
+            "₹20,000",
+            "₹22,000",
+            "₹24,000",
+            "₹26,000"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Investment-time ratio = $180:144:120=15:12:10$. B receives $12/37×74000=₹24,000$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Two positive integers are in the ratio 5:7 and their HCF is 9. Find the larger integer.",
+          "options": [
+            "45",
+            "54",
+            "63",
+            "72"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Numbers are $5×9=45$ and $7×9=63$. Larger number = 63.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A right-angled triangle has sides 5 cm, 12 cm and 13 cm. Find the radius of its circumcircle.",
+          "options": [
+            "5 cm",
+            "6 cm",
+            "6.5 cm",
+            "7 cm"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "In a right triangle, the circumradius equals half the hypotenuse. $R=13/2=6.5$ cm.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the slope of a line perpendicular to:\r\n\r\n$ 3x+4y-12=0 $",
+          "options": [
+            "$-\\frac43$",
+            "$-\\frac34$",
+            "$\\frac34$",
+            "$\\frac43$"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "The given line has slope $-3/4$. The perpendicular slope is its negative reciprocal, $4/3$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If $\\theta$ is acute and\r\n\r\n$ \\sin\\theta+\\cos\\theta=\\sqrt{\\frac32}, $\r\n\r\nfind:\r\n\r\n$ \\tan\\theta+\\cot\\theta $",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Squaring gives $1+2\\sin\\theta\\cos\\theta=3/2$. Thus $\\sin\\theta\\cos\\theta=1/4$. Therefore $\\tan\\theta+\\cot\\theta=1/(\\sin\\theta\\cos\\theta)=4$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the total surface area of a right circular cone with radius 5 cm and slant height 13 cm.",
+          "options": [
+            "$75\\pi$ cm²",
+            "$80\\pi$ cm²",
+            "$90\\pi$ cm²",
+            "$100\\pi$ cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Total surface area $=\\pi r(l+r)=\\pi×5×(13+5)=90\\pi\\text{ cm}^2$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A bag contains 5 red balls and 4 blue balls. Two balls are drawn randomly without replacement. What is the probability of drawing one red and one blue ball?",
+          "options": [
+            "$\\frac49$",
+            "$\\frac59$",
+            "$\\frac23$",
+            "$\\frac79$"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Favourable ways $=5×4=20$. Total ways $={9\\choose2}=36$. Probability $=20/36=5/9$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the sum of the first 25 terms of the arithmetic progression:\r\n\r\n11, 14, 17, 20, ...",
+          "options": [
+            "1,125",
+            "1,150",
+            "1,175",
+            "1,200"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "$S_{25}=\\frac{25}{2}[2×11+24×3]=\\frac{25}{2}×94=1175$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "The roots of the equation\r\n\r\n$ x^2-9x+14=0 $\r\n\r\nare $\\alpha$ and $\\beta$. Find $\\alpha^2+\\beta^2$.",
+          "options": [
+            "49",
+            "51",
+            "53",
+            "55"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Roots are 7 and 2. Sum of their squares $=49+4=53$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A product's price increases by 20% and then decreases by 15%. What is the net percentage change in its price?",
+          "options": [
+            "2% increase",
+            "2% decrease",
+            "5% increase",
+            "No change"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Net multiplier $=1.20×0.85=1.02$. Therefore the price increases by 2%.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the difference between compound interest and simple interest on ₹25,000 at 8% per annum for two years, with annual compounding.",
+          "options": [
+            "₹140",
+            "₹150",
+            "₹160",
+            "₹180"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "For 2 years, CI − SI $=P(r/100)^2=25000×0.08^2=₹160$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Pipe A fills a tank in 12 hours, pipe B fills it in 18 hours, and pipe C empties it in 36 hours. If all three pipes are opened simultaneously, how long will the tank take to fill?",
+          "options": [
+            "8 hours",
+            "9 hours",
+            "10 hours",
+            "12 hours"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Net rate $=1/12+1/18-1/36=(3+2-1)/36=1/9$. Tank fills in 9 hours.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the inradius of an equilateral triangle whose side is 12 cm.",
+          "options": [
+            "$2\\sqrt3$ cm",
+            "$3\\sqrt3$ cm",
+            "$4\\sqrt3$ cm",
+            "$6\\sqrt3$ cm"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Inradius of an equilateral triangle $=a\\sqrt3/6=12\\sqrt3/6=2\\sqrt3$ cm.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "The length and breadth of a rectangle are increased by 10% and 20%, respectively. Find the percentage increase in its area.",
+          "options": [
+            "28%",
+            "30%",
+            "32%",
+            "35%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Area multiplier $=1.10×1.20=1.32$. Percentage increase = 32%.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the median of the following observations:\r\n\r\n14, 22, 9, 18, 11, 25, 16, 20",
+          "options": [
+            "15",
+            "16",
+            "17",
+            "18\r\n\r\nUse the following data for Questions 72–75.\r\n\r\nAnnual financial performance of four companies\r\n\r\nValues in ₹ lakh\r\n\r\n| Company | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| A       | 240     | 180         |\r\n| B       | 300     | 225         |\r\n| C       | 360     | 270         |\r\n| D       | 400     | 320         |"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Ordered values are 9, 11, 14, 16, 18, 20, 22, 25. Median $=(16+18)/2=17$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What is the total revenue of all four companies?",
+          "options": [
+            "₹1,200 lakh",
+            "₹1,250 lakh",
+            "₹1,300 lakh",
+            "₹1,350 lakh"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Use the following data for Questions 72–75.\r\n\r\nAnnual financial performance of four companies\r\n\r\nValues in ₹ lakh\r\n\r\n| Company | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| A       | 240     | 180         |\r\n| B       | 300     | 225         |\r\n| C       | 360     | 270         |\r\n| D       | 400     | 320         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Total revenue $=240+300+360+400=₹1,300$ lakh.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What is the total profit earned by all four companies?",
+          "options": [
+            "₹285 lakh",
+            "₹295 lakh",
+            "₹305 lakh",
+            "₹315 lakh"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Use the following data for Questions 72–75.\r\n\r\nAnnual financial performance of four companies\r\n\r\nValues in ₹ lakh\r\n\r\n| Company | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| A       | 240     | 180         |\r\n| B       | 300     | 225         |\r\n| C       | 360     | 270         |\r\n| D       | 400     | 320         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Total profit $=(240-180)+(300-225)+(360-270)+(400-320)=₹305$ lakh.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What is the profit percentage on revenue for Company C?",
+          "options": [
+            "20%",
+            "22.5%",
+            "25%",
+            "30%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Use the following data for Questions 72–75.\r\n\r\nAnnual financial performance of four companies\r\n\r\nValues in ₹ lakh\r\n\r\n| Company | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| A       | 240     | 180         |\r\n| B       | 300     | 225         |\r\n| C       | 360     | 270         |\r\n| D       | 400     | 320         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Company C profit $=360-270=90$. Profit percentage on revenue $=90/360×100=25\\\\%$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the ratio of the combined expenditure of A and B to the combined revenue of C and D.",
+          "options": [
+            "81 : 152",
+            "81 : 150",
+            "80 : 152",
+            "85 : 152\r\n\r\n# Section D — English Comprehension\r\n\r\nQuestions 76–100 · 50 marks · Advanced\r\n\r\n### Cloze Test — Questions 76–80\r\n\r\nRead the passage and select the most appropriate word for each blank.\r\n\r\nScientific disagreement is not necessarily a sign of failure. When researchers challenge a claim, they may expose assumptions that were previously overlooked. A robust debate depends on evidence, transparent methods and a willingness to revise conclusions. The objective is not to defend an initial position at all costs, but to arrive at the most (76) explanation. In this process, criticism becomes (77) rather than personal. Claims that survive repeated scrutiny acquire greater (78), while unsupported arguments gradually lose their (79). Such a culture helps knowledge advance in a (80) manner."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Use the following data for Questions 72–75.\r\n\r\nAnnual financial performance of four companies\r\n\r\nValues in ₹ lakh\r\n\r\n| Company | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| A       | 240     | 180         |\r\n| B       | 300     | 225         |\r\n| C       | 360     | 270         |\r\n| D       | 400     | 320         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "A+B expenditure $=180+225=405$. C+D revenue $=360+400=760$. Ratio $405:760=81:152$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English Comprehension",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Credible",
+            "Accidental",
+            "Arbitrary",
+            "Temporary"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nScientific disagreement is not necessarily a sign of failure. When researchers challenge a claim, they may expose assumptions that were previously overlooked. A robust debate depends on evidence, transparent methods and a willingness to revise conclusions. The objective is not to defend an initial position at all costs, but to arrive at the most (76) explanation. In this process, criticism becomes (77) rather than personal. Claims that survive repeated scrutiny acquire greater (78), while unsupported arguments gradually lose their (79). Such a culture helps knowledge advance in a (80) manner.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "A credible explanation is supported by evidence and transparent reasoning.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Hostile",
+            "Constructive",
+            "Incidental",
+            "Personal"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nScientific disagreement is not necessarily a sign of failure. When researchers challenge a claim, they may expose assumptions that were previously overlooked. A robust debate depends on evidence, transparent methods and a willingness to revise conclusions. The objective is not to defend an initial position at all costs, but to arrive at the most (76) explanation. In this process, criticism becomes (77) rather than personal. Claims that survive repeated scrutiny acquire greater (78), while unsupported arguments gradually lose their (79). Such a culture helps knowledge advance in a (80) manner.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Constructive criticism helps improve reasoning rather than becoming personal.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Complexity",
+            "Credibility",
+            "Resistance",
+            "Popularity"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nScientific disagreement is not necessarily a sign of failure. When researchers challenge a claim, they may expose assumptions that were previously overlooked. A robust debate depends on evidence, transparent methods and a willingness to revise conclusions. The objective is not to defend an initial position at all costs, but to arrive at the most (76) explanation. In this process, criticism becomes (77) rather than personal. Claims that survive repeated scrutiny acquire greater (78), while unsupported arguments gradually lose their (79). Such a culture helps knowledge advance in a (80) manner.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Repeated scrutiny increases the credibility of supported claims.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Force",
+            "Origin",
+            "Appearance",
+            "Decoration"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nScientific disagreement is not necessarily a sign of failure. When researchers challenge a claim, they may expose assumptions that were previously overlooked. A robust debate depends on evidence, transparent methods and a willingness to revise conclusions. The objective is not to defend an initial position at all costs, but to arrive at the most (76) explanation. In this process, criticism becomes (77) rather than personal. Claims that survive repeated scrutiny acquire greater (78), while unsupported arguments gradually lose their (79). Such a culture helps knowledge advance in a (80) manner.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Unsupported arguments gradually lose their force.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Random",
+            "Hesitant",
+            "Systematic",
+            "Temporary\r\n\r\n### Vocabulary, Idioms and Spelling — Questions 81–85"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nScientific disagreement is not necessarily a sign of failure. When researchers challenge a claim, they may expose assumptions that were previously overlooked. A robust debate depends on evidence, transparent methods and a willingness to revise conclusions. The objective is not to defend an initial position at all costs, but to arrive at the most (76) explanation. In this process, criticism becomes (77) rather than personal. Claims that survive repeated scrutiny acquire greater (78), while unsupported arguments gradually lose their (79). Such a culture helps knowledge advance in a (80) manner.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Knowledge progresses systematically through evidence and review.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the closest synonym of equivocal.",
+          "options": [
+            "Ambiguous",
+            "Definite",
+            "Frank",
+            "Certain"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Equivocal means ambiguous or open to more than one interpretation.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the antonym of ephemeral.",
+          "options": [
+            "Fleeting",
+            "Temporary",
+            "Enduring",
+            "Short-lived"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Ephemeral means short-lived; enduring means lasting.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "A person who studies the origin and historical development of words is called an:",
+          "options": [
+            "Etymologist",
+            "Epigraphist",
+            "Entomologist",
+            "Ethnologist"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "An etymologist studies the origin and historical development of words.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What does the idiom “keep someone at bay” mean?",
+          "options": [
+            "Invite someone closer",
+            "Prevent someone or something from approaching",
+            "Offer someone financial support",
+            "Completely agree with someone"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Keeping something at bay means preventing it from approaching or causing harm.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correctly spelt word.",
+          "options": [
+            "Questionaire",
+            "Questionnair",
+            "Questionnaire",
+            "Questionnare\r\n\r\n### Grammar and Error Detection — Questions 86–90"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The correct spelling is questionnaire.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nNeither the documents nor the appendix ___ available in the original file.",
+          "options": [
+            "Are",
+            "Were",
+            "Is",
+            "Have"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "With “neither…nor”, the verb agrees with the nearer subject, appendix, which is singular.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Identify the part containing an error.",
+          "options": [
+            "The principal, along with the senior teachers,",
+            "are attending",
+            "the educational conference today.",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“Along with the senior teachers” does not change the singular subject principal. The verb should be “is attending”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nThe final approval is contingent ___ the submission of all required documents.",
+          "options": [
+            "On",
+            "At",
+            "By",
+            "With"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The correct phrase is “contingent on”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nIt is imperative that every participant ___ present before the opening session.",
+          "options": [
+            "Is",
+            "Was",
+            "Be",
+            "Has been"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The subjunctive form “be” is used after “It is imperative that”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the grammatically correct sentence.",
+          "options": [
+            "She is not only an accomplished scientist but also a gifted writer.",
+            "She is not only an accomplished scientist but also writes giftedly.",
+            "She not only is an accomplished scientist but also a gifted writer.",
+            "She is not only accomplished scientist but also a gifted writer.\r\n\r\n### Sentence Transformation and Rearrangement — Questions 91–95"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The sentence maintains parallel noun phrases: “an accomplished scientist” and “a gifted writer”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct passive form:\r\n\r\nThe research team is evaluating the new vaccine.",
+          "options": [
+            "The new vaccine has evaluated by the research team.",
+            "The new vaccine is being evaluated by the research team.",
+            "The new vaccine was evaluating by the research team.",
+            "The research team is being evaluated by the new vaccine."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Present continuous passive: “The new vaccine is being evaluated by the research team.”",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct indirect speech:\r\n\r\nShe asked me, “Have you submitted the application?”",
+          "options": [
+            "She asked me have I submitted the application.",
+            "She asked me whether I had submitted the application.",
+            "She asked me whether had I submitted the application.",
+            "She asked me that I have submitted the application."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The indirect question uses “whether”, statement word order and the backshifted tense “had submitted”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct improvement:\r\n\r\nShe is capable to solve complex mathematical problems.",
+          "options": [
+            "capable of solving",
+            "capable for solving",
+            "capable to solving",
+            "No improvement required"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The correct construction is “capable of solving”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Arrange the following sentences in a logical order.",
+          "options": [
+            "The results were then compared with the original hypothesis.",
+            "A researcher begins by identifying a question that requires investigation.",
+            "Evidence is collected through appropriate methods.",
+            "Conclusions are drawn only after the findings have been analysed.\r\n\r\nA. B–C–A–D\r\nB. C–B–D–A\r\nC. B–A–C–D\r\nD. D–B–C–A"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "B introduces the research question; C explains evidence collection; A compares findings with the hypothesis; D gives the final conclusion.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence with the most appropriate connector:\r\n\r\nThe committee accepted the proposal, ___ several members had raised objections.",
+          "options": [
+            "Because",
+            "Although",
+            "Unless",
+            "Therefore\r\n\r\n### Reading Comprehension — Questions 96–100\r\n\r\nRead the passage carefully.\r\n\r\nRestoring a mangrove forest is not simply a matter of planting seedlings along a coastline. Successful restoration depends on understanding tidal movement, soil salinity, sediment supply and the species naturally suited to each site. Projects that disregard these conditions may show rapid initial growth but fail as seedlings are washed away or cannot tolerate the prevailing salinity. In some locations, removing barriers to natural water flow can allow mangroves to regenerate without extensive planting. This is why restoration programmes increasingly combine ecological surveys with community participation and long-term monitoring."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“Although” correctly introduces a contrasting subordinate clause.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What is the central idea of the passage?",
+          "options": [
+            "Mangrove restoration requires more than simply planting seedlings.",
+            "Mangroves can grow only in freshwater environments.",
+            "Coastal restoration should be carried out without local participation.",
+            "Planting as many seedlings as possible guarantees ecological recovery."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nRestoring a mangrove forest is not simply a matter of planting seedlings along a coastline. Successful restoration depends on understanding tidal movement, soil salinity, sediment supply and the species naturally suited to each site. Projects that disregard these conditions may show rapid initial growth but fail as seedlings are washed away or cannot tolerate the prevailing salinity. In some locations, removing barriers to natural water flow can allow mangroves to regenerate without extensive planting. This is why restoration programmes increasingly combine ecological surveys with community participation and long-term monitoring.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The passage explains why mangrove restoration requires understanding local ecological conditions.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Which of the following factors is explicitly mentioned as important for mangrove restoration?",
+          "options": [
+            "Tidal movement",
+            "Mountain altitude",
+            "Snowfall patterns",
+            "Underground mineral deposits"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nRestoring a mangrove forest is not simply a matter of planting seedlings along a coastline. Successful restoration depends on understanding tidal movement, soil salinity, sediment supply and the species naturally suited to each site. Projects that disregard these conditions may show rapid initial growth but fail as seedlings are washed away or cannot tolerate the prevailing salinity. In some locations, removing barriers to natural water flow can allow mangroves to regenerate without extensive planting. This is why restoration programmes increasingly combine ecological surveys with community participation and long-term monitoring.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Tidal movement is explicitly listed as an important restoration factor.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Why may restoration projects fail despite initially showing good growth?",
+          "options": [
+            "Seedlings are always planted too far from human settlements.",
+            "Local conditions such as salinity and water movement may not be suitable.",
+            "Mangroves do not grow in coastal ecosystems.",
+            "Long-term ecological monitoring prevents plant growth."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nRestoring a mangrove forest is not simply a matter of planting seedlings along a coastline. Successful restoration depends on understanding tidal movement, soil salinity, sediment supply and the species naturally suited to each site. Projects that disregard these conditions may show rapid initial growth but fail as seedlings are washed away or cannot tolerate the prevailing salinity. In some locations, removing barriers to natural water flow can allow mangroves to regenerate without extensive planting. This is why restoration programmes increasingly combine ecological surveys with community participation and long-term monitoring.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Ignoring salinity, tides and water movement can cause seedlings to fail after initial growth.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What may help mangroves regenerate naturally in some locations?",
+          "options": [
+            "Increasing artificial fertiliser use",
+            "Removing barriers to natural water flow",
+            "Replacing native species with ornamental trees",
+            "Preventing all tidal movement"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nRestoring a mangrove forest is not simply a matter of planting seedlings along a coastline. Successful restoration depends on understanding tidal movement, soil salinity, sediment supply and the species naturally suited to each site. Projects that disregard these conditions may show rapid initial growth but fail as seedlings are washed away or cannot tolerate the prevailing salinity. In some locations, removing barriers to natural water flow can allow mangroves to regenerate without extensive planting. This is why restoration programmes increasingly combine ecological surveys with community participation and long-term monitoring.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Removing barriers to natural water flow may enable natural mangrove regeneration.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Which approach does the author support?",
+          "options": [
+            "Planting seedlings without studying local conditions",
+            "Using only short-term monitoring",
+            "Combining ecological surveys, community participation and long-term monitoring",
+            "Replacing natural regeneration with large-scale construction"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nRestoring a mangrove forest is not simply a matter of planting seedlings along a coastline. Successful restoration depends on understanding tidal movement, soil salinity, sediment supply and the species naturally suited to each site. Projects that disregard these conditions may show rapid initial growth but fail as seedlings are washed away or cannot tolerate the prevailing salinity. In some locations, removing barriers to natural water flow can allow mangroves to regenerate without extensive planting. This is why restoration programmes increasingly combine ecological surveys with community participation and long-term monitoring.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The passage supports combining ecological surveys, community participation and long-term monitoring.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    }
+  ]
+}

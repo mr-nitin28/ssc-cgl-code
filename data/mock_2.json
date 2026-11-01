@@ -1,0 +1,1915 @@
+{
+  "id": 2,
+  "slug": "mock-02",
+  "title": "SSC CGL Tier-I Mock Test 02",
+  "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+  "level": "Beginner",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 7, 14, 28, 56, ?",
+          "options": [
+            "98",
+            "104",
+            "112",
+            "120"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Each term is ×2, so 56×2 = 112.",
+          "tip": "Check the ratio first."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 4, 9, 19, 39, 79, ?",
+          "options": [
+            "149",
+            "157",
+            "158",
+            "159"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Each term = previous ×2 + 1; 79×2+1 = 159.",
+          "tip": "Try ×2, then adjust."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 2, 6, 12, 20, 30, ?",
+          "options": [
+            "40",
+            "41",
+            "42",
+            "44"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences 4, 6, 8, 10, next 12; 30+12 = 42.",
+          "tip": "Write the differences."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the letter series: B, E, I, N, T, ?",
+          "options": [
+            "A",
+            "Z",
+            "B",
+            "C"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Gaps +3, +4, +5, +6, next +7. T is 20; 20+7 = 27, which wraps to A.",
+          "tip": "After Z, go back to A."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "8 : 64 :: 13 : ?",
+          "options": [
+            "156",
+            "169",
+            "182",
+            "196"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "8² = 64, so 13² = 169.",
+          "tip": "Spot the square pattern."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Book : Author :: Painting : ?",
+          "options": [
+            "Reader",
+            "Painter",
+            "Gallery",
+            "Brush"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "An author creates a book; a painter creates a painting.",
+          "tip": "Find the creator–creation link."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If each letter moves one step forward, CAT becomes DBU. How is DOG coded?",
+          "options": [
+            "EPH",
+            "EOG",
+            "FPH",
+            "EPG"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Each letter moves +1: D→E, O→P, G→H = EPH.",
+          "tip": "Shift every letter by one."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If DELHI is coded as EFMIJ (each letter one step forward), how is MUMBAI coded?",
+          "options": [
+            "NVNCBJ",
+            "NVMCBJ",
+            "NVMCAJ",
+            "MVNCBJ"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "M→N, U→V, M→N, B→C, A→B, I→J gives NVNCBJ.",
+          "tip": "Write the letters one under the other."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "27",
+            "64",
+            "125",
+            "225"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "27, 64, 125 are cubes (3³, 4³, 5³); 225 is not.",
+          "tip": "Memorise cubes up to 10."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "P is the sister of Q. Q is the son of R, and R is the wife of S. How is P related to S?",
+          "options": [
+            "Sister",
+            "Mother",
+            "Daughter",
+            "Aunt"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "R is S’s wife and Q is R’s son, so P (Q’s sister) is S’s daughter.",
+          "tip": "Draw a small family tree."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A person walks 8 km north, then 6 km east, then 8 km south. Where is the person from the start?",
+          "options": [
+            "6 km east",
+            "6 km west",
+            "8 km north",
+            "8 km south"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "8 km north and 8 km south cancel; 6 km east remains.",
+          "tip": "Cancel opposite moves first."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A candidate ranks 14th from the top and 19th from the bottom. How many candidates are there?",
+          "options": [
+            "31",
+            "32",
+            "33",
+            "34"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Total = top + bottom − 1 = 14+19−1 = 32.",
+          "tip": "Rank formula: top + bottom − 1."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: All pens are books. Some books are red. Conclusions: I. Some pens are red. II. All pens are books.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Only II is stated; “some books are red” says nothing sure about pens.",
+          "tip": "“Some” never proves a link to another group."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 3, 8, 15, 24, 35, ?",
+          "options": [
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences 5, 7, 9, 11, next 13; 35+13 = 48.",
+          "tip": "Or use n² − 1 from n = 2."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the series: AZ, BY, CX, DW, ?",
+          "options": [
+            "EU",
+            "EV",
+            "FW",
+            "EX"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "First letters run A, B, C, D, E; second letters Z, Y, X, W, V. So EV.",
+          "tip": "Treat each letter position as its own series."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If + means multiplication and × means subtraction, what is 8 + 3 × 4?",
+          "options": [
+            "16",
+            "20",
+            "28",
+            "32"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Swap the symbols: 8×3−4 = 24−4 = 20.",
+          "tip": "Replace symbols first, then BODMAS."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Same rule in each row: (2, 3) → 13; (4, 5) → 41; (6, 7) → ?",
+          "options": [
+            "72",
+            "80",
+            "85",
+            "91"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Each pair gives a² + b²: 2²+3² = 13, 4²+5² = 41, 6²+7² = 85.",
+          "tip": "Test the sum of squares for pairs."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If 1 March is a Monday in a non-leap year, what day is 1 April?",
+          "options": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "March has 31 days = 4 weeks + 3 days; Monday + 3 = Thursday.",
+          "tip": "Month days ÷ 7: the remainder is the shift."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A cube with all outer faces painted is cut into 27 equal small cubes. How many have exactly two painted faces?",
+          "options": [
+            "6",
+            "8",
+            "12",
+            "24"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Two-faced cubes sit on the 12 edges, one per edge, so 12.",
+          "tip": "3×3×3: 8 corners (3 faces), 12 edges (2), 6 faces (1)."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "6 : 42 :: 8 : ?",
+          "options": [
+            "56",
+            "64",
+            "70",
+            "72"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "6×7 = 42, so 8×9 = 72.",
+          "tip": "Look for n × (n+1)."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "C is taller than A, A is taller than B, and D is shorter than B. Who is the tallest?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "C > A > B > D, so C is tallest.",
+          "tip": "Write a chain with > signs."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "P, Q, R, S, T stand in a row. P is left of Q, Q is left of R, T stands between Q and R, S is right of R. Who is in the middle?",
+          "options": [
+            "Q",
+            "T",
+            "R",
+            "S"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Order is P, Q, T, R, S, so the middle is T.",
+          "tip": "Draw five boxes and fill them."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If letters are represented by alphabet positions, how is GAME written?",
+          "options": [
+            "7–1–13–5",
+            "6–1–13–5",
+            "7–2–12–5",
+            "7–1–14–5"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "G = 7, A = 1, M = 13, E = 5.",
+          "tip": "Learn A = 1 to Z = 26."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Arrange Mango, Man, Manage, Manner alphabetically. Which word is second?",
+          "options": [
+            "Mango",
+            "Man",
+            "Manage",
+            "Manner"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Dictionary order: Man, Manage, Mango, Manner. Second is Manage.",
+          "tip": "A shorter prefix comes first."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: Some doctors are teachers. All teachers are educated. Conclusions: I. Some doctors are educated. II. All doctors are educated.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Doctors who are teachers are educated, so I follows; II says all doctors, which is not given.",
+          "tip": "“Some” + “All” gives only “some”."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article provides the right to constitutional remedies?",
+          "options": [
+            "Article 14",
+            "Article 21",
+            "Article 32",
+            "Article 44"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Article 32 gives the right to constitutional remedies.",
+          "tip": "Ambedkar called it the heart of the Constitution."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The First Schedule of the Constitution primarily lists:",
+          "options": [
+            "Fundamental Rights",
+            "States and Union Territories",
+            "Fundamental Duties",
+            "Official languages"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The First Schedule lists the States and Union Territories.",
+          "tip": "Schedule 1 = states/UTs; Schedule 8 = languages."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who chaired the Drafting Committee of the Constitution?",
+          "options": [
+            "Dr. Rajendra Prasad",
+            "Jawaharlal Nehru",
+            "Dr. B. R. Ambedkar",
+            "Sardar Vallabhbhai Patel"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Dr B. R. Ambedkar chaired the Drafting Committee.",
+          "tip": "Rajendra Prasad chaired the Assembly itself."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The 73rd Constitutional Amendment is associated with:",
+          "options": [
+            "Municipal corporations",
+            "Panchayati Raj institutions",
+            "Anti-defection provisions",
+            "Goods and Services Tax"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The 73rd Amendment (1992) gave constitutional status to Panchayati Raj.",
+          "tip": "73 = village, 74 = town."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who appoints the Comptroller and Auditor General of India?",
+          "options": [
+            "Prime Minister",
+            "President of India",
+            "Speaker of the Lok Sabha",
+            "Chief Justice of India"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The President appoints the CAG.",
+          "tip": "CAG audits Union and State accounts."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Permanent Settlement of Bengal (1793) was introduced under:",
+          "options": [
+            "Lord Wellesley",
+            "Lord Dalhousie",
+            "Lord Cornwallis",
+            "Lord Curzon"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Cornwallis introduced the Permanent Settlement in 1793.",
+          "tip": "Cornwallis = Permanent Settlement."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The founding of the Indian National Congress in 1885 is commonly associated with:",
+          "options": [
+            "Dadabhai Naoroji",
+            "A. O. Hume",
+            "Bal Gangadhar Tilak",
+            "Gopal Krishna Gokhale"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A. O. Hume helped found the INC in 1885.",
+          "tip": "First INC president: W. C. Bonnerjee."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Dandi March of Mahatma Gandhi took place in:",
+          "options": [
+            "1920",
+            "1930",
+            "1935",
+            "1942"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The Dandi March (Salt Satyagraha) was in 1930.",
+          "tip": "1920 Non-Cooperation, 1930 Salt, 1942 Quit India."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Battle of Buxar was fought in:",
+          "options": [
+            "1757",
+            "1761",
+            "1773",
+            "1764"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Buxar was fought in 1764.",
+          "tip": "1757 Plassey, 1764 Buxar."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Harappan site is associated with a dockyard?",
+          "options": [
+            "Harappa",
+            "Kalibangan",
+            "Dholavira",
+            "Lothal"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Lothal is known for its dockyard.",
+          "tip": "Lothal = Gujarat port town."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Kathakali is a classical dance form associated with:",
+          "options": [
+            "Karnataka",
+            "Kerala",
+            "Tamil Nadu",
+            "Odisha"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Kathakali comes from Kerala.",
+          "tip": "Kerala: Kathakali, Mohiniyattam."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Longest river flowing entirely within peninsular India?",
+          "options": [
+            "Narmada",
+            "Mahanadi",
+            "Godavari",
+            "Kaveri"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Godavari (about 1,465 km) is the longest river wholly within peninsular India.",
+          "tip": "Nicknamed Dakshin Ganga."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which soil type is particularly suitable for cotton?",
+          "options": [
+            "Laterite soil",
+            "Alluvial soil",
+            "Black soil",
+            "Desert soil"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Black (regur) soil suits cotton.",
+          "tip": "Black soil = cotton soil."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Tropic of Cancer passes through how many Indian states?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Tropic of Cancer crosses 8 states.",
+          "tip": "Gujarat to Mizoram: Gu-Ra-MP-Chh-Jha-WB-Tri-Miz."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Largest brackish-water lagoon in India?",
+          "options": [
+            "Wular Lake",
+            "Dal Lake",
+            "Sambhar Lake",
+            "Chilika Lake"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Chilika, in Odisha, is the largest brackish-water lagoon.",
+          "tip": "Chilika = Odisha."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "What is the electrical charge of an electron?",
+          "options": [
+            "Positive",
+            "Neutral",
+            "Negative",
+            "Variable under all conditions"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "An electron carries a negative charge.",
+          "tip": "Proton +, electron −, neutron 0."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Deficiency of which vitamin causes rickets?",
+          "options": [
+            "Vitamin A",
+            "Vitamin B1",
+            "Vitamin D",
+            "Vitamin K"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Lack of Vitamin D causes rickets.",
+          "tip": "D for Deficiency of bone strength."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "At about 25°C, a solution with pH 7 is considered:",
+          "options": [
+            "Acidic",
+            "Basic",
+            "Neutral",
+            "Saline by definition"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "At 25°C, pH 7 is neutral.",
+          "tip": "Below 7 acid, above 7 base."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "SI unit of power?",
+          "options": [
+            "Joule",
+            "Watt",
+            "Newton",
+            "Pascal"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Power is measured in watt.",
+          "tip": "Joule = energy, watt = power."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which gas is released as a by-product of oxygenic photosynthesis?",
+          "options": [
+            "Carbon dioxide",
+            "Nitrogen",
+            "Hydrogen",
+            "Oxygen"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Photosynthesis releases oxygen.",
+          "tip": "Plants take in CO₂ and give out O₂."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which protein in red blood cells carries oxygen?",
+          "options": [
+            "Melanin",
+            "Haemoglobin",
+            "Insulin",
+            "Keratin"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Haemoglobin carries oxygen in red blood cells.",
+          "tip": "Haemo = blood."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which gas makes up the largest proportion of Earth’s atmosphere?",
+          "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Argon"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Nitrogen is about 78% of air.",
+          "tip": "78% N₂, 21% O₂."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who received the 2025 Nobel Peace Prize?",
+          "options": [
+            "María Corina Machado",
+            "Narges Mohammadi",
+            "Nihon Hidankyo",
+            "World Food Programme"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The 2025 Nobel Peace Prize went to María Corina Machado.",
+          "tip": "Recheck recent award winners each year."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which country did India defeat in the final to win the 2025 ICC Champions Trophy?",
+          "options": [
+            "Australia",
+            "South Africa",
+            "New Zealand",
+            "Pakistan"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "India beat New Zealand in the 2025 Champions Trophy final.",
+          "tip": "The final was in Dubai, March 2025."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which country held the G20 Presidency in 2025?",
+          "options": [
+            "Brazil",
+            "South Africa",
+            "India",
+            "Indonesia"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "South Africa held the G20 Presidency in 2025.",
+          "tip": "India 2023, Brazil 2024, South Africa 2025."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mathematics",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "What is 18% of 750?",
+          "options": [
+            "125",
+            "135",
+            "145",
+            "150"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "18% of 750 = 750×18/100 = 135.",
+          "tip": "10% = 75, 8% = 60; add."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Two numbers are in ratio 7 : 9 and sum to 128. The larger number?",
+          "options": [
+            "56",
+            "64",
+            "72",
+            "80"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Total 16 units, one unit = 8; larger = 9×8 = 72.",
+          "tip": "Find one unit first."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "The average of eight numbers is 15. If 23 is replaced by 31, the new average is?",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "17"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Replacing 23 by 31 adds 8; 8 ÷ 8 numbers = +1, so 16.",
+          "tip": "Change in total ÷ number of items."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "An article costs ₹800. Marked price is 25% above cost, with a 10% discount on marked price. Profit percentage?",
+          "options": [
+            "10%",
+            "12%",
+            "12.5%",
+            "15%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "MP = 1000, SP = 900; profit 100 on cost 800 = 12.5%.",
+          "tip": "Profit % always uses cost price."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "An item marked ₹2,000 gets successive discounts of 20% and 10%. Final price?",
+          "options": [
+            "₹1,400",
+            "₹1,420",
+            "₹1,440",
+            "₹1,600"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "2000×0.8×0.9 = 1440.",
+          "tip": "Multiply the factors, don’t add discounts."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simple interest on ₹7,500 at 8% p.a. for 3 years?",
+          "options": [
+            "₹1,500",
+            "₹1,800",
+            "₹1,750",
+            "₹2,000"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "SI = 7500×8×3/100 = 1800.",
+          "tip": "SI = P×R×T/100."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Compound interest on ₹10,000 for 2 years at 10% p.a. (annual)?",
+          "options": [
+            "₹2,000",
+            "₹2,100",
+            "₹2,200",
+            "₹2,500"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Amount = 10000×1.1² = 12100; CI = 2100.",
+          "tip": "CI = amount − principal."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A completes a job in 15 days and B in 20 days. Together?",
+          "options": [
+            "7½ days",
+            "8 days",
+            "8 4/7 days",
+            "9 days"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "1/15 + 1/20 = 7/60, so time = 60/7 = 8 4/7 days.",
+          "tip": "Together time = (a×b)/(a+b)."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A 180 m train runs at 54 km/h. Time to pass a pole?",
+          "options": [
+            "10 s",
+            "12 s",
+            "15 s",
+            "18 s"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "54 km/h = 15 m/s; 180/15 = 12 s.",
+          "tip": "km/h × 5/18 = m/s."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A 120 m train crosses a 180 m platform in 20 s. Its speed?",
+          "options": [
+            "45 km/h",
+            "48 km/h",
+            "54 km/h",
+            "60 km/h"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Distance = 120+180 = 300 m; 300/20 = 15 m/s = 54 km/h.",
+          "tip": "Add train and platform lengths."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "HCF of 84 and 126?",
+          "options": [
+            "14",
+            "21",
+            "42",
+            "84"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "84 = 2²×3×7, 126 = 2×3²×7; HCF = 2×3×7 = 42.",
+          "tip": "Lowest powers of common primes."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "LCM of 18, 24 and 30?",
+          "options": [
+            "120",
+            "180",
+            "240",
+            "360"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "18 = 2×3², 24 = 2³×3, 30 = 2×3×5; LCM = 2³×3²×5 = 360.",
+          "tip": "Highest power of each prime."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Solve: 3x − 7 = 2x + 9",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "17"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "3x − 7 = 2x + 9 gives x = 16.",
+          "tip": "x on one side, numbers on the other."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If x + 1/x = 5, find x² + 1/x².",
+          "options": [
+            "21",
+            "23",
+            "25",
+            "27"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Square x + 1/x = 5: x² + 2 + 1/x² = 25, so 23.",
+          "tip": "(a+b)² = a² + 2ab + b²."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Area of a circle of radius 7 cm (π = 22/7)?",
+          "options": [
+            "44 cm²",
+            "88 cm²",
+            "154 cm²",
+            "308 cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Area = πr² = 22/7×49 = 154 cm².",
+          "tip": "Radius 7 cancels the 7."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A right triangle has perpendicular sides 9 cm and 12 cm. Hypotenuse?",
+          "options": [
+            "13 cm",
+            "14 cm",
+            "15 cm",
+            "16 cm"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "√(9²+12²) = √225 = 15 cm.",
+          "tip": "It is a 3-4-5 triangle ×3."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Volume of a cylinder, radius 7 cm and height 10 cm (π = 22/7)?",
+          "options": [
+            "440 cm³",
+            "770 cm³",
+            "1,540 cm³",
+            "3,080 cm³"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Volume = πr²h = 22/7×49×10 = 1540 cm³.",
+          "tip": "Cylinder = πr²h."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "tan 45° + sin 30° = ?",
+          "options": [
+            "1",
+            "3/2",
+            "2",
+            "1/2"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "tan 45° = 1 and sin 30° = ½, so 3/2.",
+          "tip": "Memorise the standard-angle table."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Evaluate: (3/5 + 7/10) ÷ 1/2",
+          "options": [
+            "13/10",
+            "5/13",
+            "13/5",
+            "2/5"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "(6/10+7/10) = 13/10; ÷½ = ×2 = 13/5.",
+          "tip": "Dividing by a fraction = multiply by its flip."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Express 0.625 as a fraction in simplest form.",
+          "options": [
+            "3/8",
+            "5/8",
+            "6/8",
+            "7/8"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "0.625 = 625/1000 = 5/8.",
+          "tip": "625 = 5⁴ and 1000 = 8×125."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A price rises 25% then falls 20%. Compared with the original, the final price is:",
+          "options": [
+            "5% higher",
+            "5% lower",
+            "Unchanged",
+            "10% higher"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "1.25×0.8 = 1, so no net change.",
+          "tip": "Convert % to multipliers."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A 40 L mixture has milk and water in ratio 7 : 3. Water to add for ratio 7 : 5?",
+          "options": [
+            "4 L",
+            "6 L",
+            "8 L",
+            "10 L"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Milk 28 L, water 12 L. For 7:5, water must be 20 L, so add 8 L.",
+          "tip": "Milk stays the same."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Percentage increase in sales from 2022 to 2024?",
+          "options": [
+            "25%",
+            "40%",
+            "50%",
+            "60%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Annual sales (₹ lakh): 2022 = 120 · 2023 = 150 · 2024 = 180",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "(180−120)/120 = 50%.",
+          "tip": "% change = change ÷ original × 100."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Sales in 2023 were what percentage of sales in 2024?",
+          "options": [
+            "80%",
+            "82.5%",
+            "83⅓%",
+            "90%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Annual sales (₹ lakh): 2022 = 120 · 2023 = 150 · 2024 = 180",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "150/180 = 83⅓%.",
+          "tip": "Divide by the number after “of”."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Average annual sales over the three years?",
+          "options": [
+            "₹130 lakh",
+            "₹140 lakh",
+            "₹150 lakh",
+            "₹160 lakh"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Annual sales (₹ lakh): 2022 = 120 · 2023 = 150 · 2024 = 180",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "(120+150+180)/3 = 150 lakh.",
+          "tip": "Average = sum ÷ count."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (76).",
+          "options": [
+            "Manageable",
+            "Accidental",
+            "Careless",
+            "Distant"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "A good study plan is not merely a list of chapters. It should break the syllabus into (76) tasks, allow time for revision, and include regular practice tests. Students should review mistakes (77), because errors often reveal gaps in (78). With consistent effort, progress becomes easier to (79) and goals remain (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Breaking a syllabus into manageable tasks makes sense.",
+          "tip": "Pick the word that fits meaning and tone."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (77).",
+          "options": [
+            "Rarely",
+            "Carefully",
+            "Suddenly",
+            "Loudly"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "A good study plan is not merely a list of chapters. It should break the syllabus into (76) tasks, allow time for revision, and include regular practice tests. Students should review mistakes (77), because errors often reveal gaps in (78). With consistent effort, progress becomes easier to (79) and goals remain (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Mistakes should be reviewed carefully.",
+          "tip": "Verb → adverb of manner."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (78).",
+          "options": [
+            "Furniture",
+            "Understanding",
+            "Weather",
+            "Equipment"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "A good study plan is not merely a list of chapters. It should break the syllabus into (76) tasks, allow time for revision, and include regular practice tests. Students should review mistakes (77), because errors often reveal gaps in (78). With consistent effort, progress becomes easier to (79) and goals remain (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Errors reveal gaps in understanding.",
+          "tip": "Gaps in what a student knows."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (79).",
+          "options": [
+            "Measure",
+            "Interrupt",
+            "Confuse",
+            "Postpone"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "A good study plan is not merely a list of chapters. It should break the syllabus into (76) tasks, allow time for revision, and include regular practice tests. Students should review mistakes (77), because errors often reveal gaps in (78). With consistent effort, progress becomes easier to (79) and goals remain (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Progress becomes easier to measure.",
+          "tip": "Measure fits progress."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (80).",
+          "options": [
+            "Realistic",
+            "Irrelevant",
+            "Invisible",
+            "Fragile"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "A good study plan is not merely a list of chapters. It should break the syllabus into (76) tasks, allow time for revision, and include regular practice tests. Students should review mistakes (77), because errors often reveal gaps in (78). With consistent effort, progress becomes easier to (79) and goals remain (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Goals remain realistic with consistent effort.",
+          "tip": "A positive sentence needs a positive word."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Closest synonym of meticulous.",
+          "options": [
+            "Negligent",
+            "Careful and precise",
+            "Quick",
+            "Indifferent"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Meticulous means careful and precise.",
+          "tip": "Meticulous ≈ very careful."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Antonym of scarce.",
+          "options": [
+            "Rare",
+            "Limited",
+            "Abundant",
+            "Insufficient"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Scarce means rare, so the antonym is abundant.",
+          "tip": "Scarce ↔ abundant."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "What does ubiquitous mean?",
+          "options": [
+            "Temporary",
+            "Found everywhere",
+            "Expensive",
+            "Unknown"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Ubiquitous means found everywhere.",
+          "tip": "Ubi = everywhere."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "A person who studies birds is called:",
+          "options": [
+            "Botanist",
+            "Ornithologist",
+            "Entomologist",
+            "Geologist"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "An ornithologist studies birds.",
+          "tip": "Ornitho = birds."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of the idiom “spill the beans”:",
+          "options": [
+            "Cook food",
+            "Reveal a secret",
+            "Make a mistake",
+            "Waste money"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Spill the beans means reveal a secret.",
+          "tip": "Learn idioms with a mini story."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of “at the eleventh hour”:",
+          "options": [
+            "Very early",
+            "Every hour",
+            "At the last possible moment",
+            "After lunch"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "At the eleventh hour means at the last possible moment.",
+          "tip": "Eleventh of twelve = almost out of time."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "A person who speaks several languages is called a:",
+          "options": [
+            "Polyglot",
+            "Monologue",
+            "Philatelist",
+            "Pessimist"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A polyglot speaks many languages.",
+          "tip": "Poly = many, glot = tongue."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Accommodation",
+            "Acommodation",
+            "Accomodation",
+            "Accommadation"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Correct spelling: accommodation (double c, double m).",
+          "tip": "Two Cs and two Ms."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: Each of the applicants / have submitted / the required documents / on time",
+          "options": [
+            "Each of the applicants",
+            "have submitted",
+            "the required documents",
+            "on time"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“Each of” takes a singular verb: has submitted.",
+          "tip": "Each → has."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: Neither the teacher / nor the students was ready / for the test / No error",
+          "options": [
+            "Neither the teacher",
+            "nor the students was ready",
+            "for the test",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "With neither…nor, the verb agrees with the nearer subject (students): were.",
+          "tip": "The nearest noun decides."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: She is / senior / than / her sister",
+          "options": [
+            "She is",
+            "senior",
+            "than",
+            "her sister"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Senior takes “to”, not “than”.",
+          "tip": "Senior/junior/superior + to."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Best correction: He is accustomed to wake up early.",
+          "options": [
+            "wake up",
+            "waking up",
+            "woke up",
+            "have wake up"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“Accustomed to” is followed by verb + ing: waking up.",
+          "tip": "Accustomed to / used to + ing."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the grammatically correct sentence.",
+          "options": [
+            "No sooner had the meeting begun than the fire alarm rang.",
+            "No sooner did the meeting began when the fire alarm rang.",
+            "No sooner the meeting began that the fire alarm rang.",
+            "No sooner had the meeting began when the fire alarm rang."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "“No sooner had … than” is the correct structure.",
+          "tip": "No sooner + had + V3 + than."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Passive form of: The manager approved the proposal.",
+          "options": [
+            "The proposal approved the manager.",
+            "The proposal was approved by the manager.",
+            "The proposal has approve by the manager.",
+            "The manager was approved by the proposal."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Passive: the object becomes the subject with was + V3.",
+          "tip": "Object → subject, be + V3."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Reported speech: She said, “I have finished my work.”",
+          "options": [
+            "She said that I have finished my work.",
+            "She said that she has finish her work.",
+            "She said that she had finished her work.",
+            "She said that she finished my work yesterday."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Have/has + V3 becomes had + V3, and “I” becomes “she”.",
+          "tip": "Tense and pronoun both shift."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Arrange: A. Therefore, it is important to plan tasks in advance. B. Many people feel overwhelmed when several deadlines approach. C. A simple schedule can help them divide work into smaller steps. D. This makes the workload easier to manage.",
+          "options": [
+            "A–B–C–D",
+            "B–A–C–D",
+            "B–C–A–D",
+            "C–B–A–D"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Logical flow: problem (B), advice (A), method (C), result (D).",
+          "tip": "Look for links like Therefore and This."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Despite the heavy rain, the match continued ____ interruption.",
+          "options": [
+            "By",
+            "For",
+            "Without",
+            "With"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "“Without interruption” fits the “despite” contrast.",
+          "tip": "Despite rain, nothing stopped it."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Main idea of the passage?",
+          "options": [
+            "Urban trees provide benefits, but planting requires planning and maintenance.",
+            "Cities should remove all trees near roads.",
+            "Birds are the main cause of urban pollution.",
+            "Trees have no practical value beyond appearance."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Urban trees do more than improve the appearance of a city. They provide shade, reduce surface temperatures and can absorb some air pollutants. Trees also support birds and insects. However, poorly planned planting can damage pavements or interfere with overhead wires. Cities therefore need to choose suitable species and maintain them regularly.",
+            "badge": "📖",
+            "startQ": 98,
+            "endQ": 100
+          },
+          "explanation": "The passage lists benefits, then stresses planning and care.",
+          "tip": "The main idea covers the whole passage."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which benefit of urban trees is explicitly mentioned?",
+          "options": [
+            "They eliminate all air pollution.",
+            "They reduce surface temperatures.",
+            "They prevent every road accident.",
+            "They increase overhead electricity capacity."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Urban trees do more than improve the appearance of a city. They provide shade, reduce surface temperatures and can absorb some air pollutants. Trees also support birds and insects. However, poorly planned planting can damage pavements or interfere with overhead wires. Cities therefore need to choose suitable species and maintain them regularly.",
+            "badge": "📖",
+            "startQ": 98,
+            "endQ": 100
+          },
+          "explanation": "The passage states trees reduce surface temperatures.",
+          "tip": "Match the option to the exact words."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Why should cities choose suitable tree species?",
+          "options": [
+            "To ensure trees produce fruit all year",
+            "To avoid all maintenance costs",
+            "To replace roads with green spaces",
+            "To reduce the risk of damage to pavements and interference with wires"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": {
+            "text": "Urban trees do more than improve the appearance of a city. They provide shade, reduce surface temperatures and can absorb some air pollutants. Trees also support birds and insects. However, poorly planned planting can damage pavements or interfere with overhead wires. Cities therefore need to choose suitable species and maintain them regularly.",
+            "badge": "📖",
+            "startQ": 98,
+            "endQ": 100
+          },
+          "explanation": "The passage says poor planting can damage pavements or wires.",
+          "tip": "Check the “However…” sentence."
+        }
+      ]
+    }
+  ]
+}

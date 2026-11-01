@@ -1,0 +1,1930 @@
+{
+  "id": 8,
+  "slug": "mock-08",
+  "title": "SSC CGL Tier-I Mock Test 08",
+  "pattern": "CGL 2026 PATTERN · ADVANCED PAPER",
+  "level": "Advanced",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "General Intelligence & Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Find the missing number:\r\n\r\n2, 6, 15, 31, 56, ?",
+          "options": [
+            "86",
+            "89",
+            "92",
+            "96"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences are 4, 9, 16, 25 and 36. Therefore, $56+36=92$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the letter series:\r\n\r\nD, H, M, S, Z, ?",
+          "options": [
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Alphabet gaps increase by 4, 5, 6, 7 and 8. Z + 8 wraps around to H.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the analogy:\r\n\r\nCompass : Direction :: Altimeter : ?",
+          "options": [
+            "Atmospheric pressure",
+            "Altitude",
+            "Temperature",
+            "Humidity"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A compass indicates direction; an altimeter measures altitude.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "216",
+            "343",
+            "512",
+            "625"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "216, 343 and 512 are perfect cubes. 625 is not.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a certain code, letters in odd positions are shifted two places forward and letters in even positions one place backward in the alphabet. How will BIRD be coded?",
+          "options": [
+            "DHTC",
+            "DHTB",
+            "CHTC",
+            "DGSB"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "B→D, I→H, R→T and D→C, giving DHTC.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A is the daughter of B. B is the sister of C. C is the father of D. How is A related to D?",
+          "options": [
+            "Sister",
+            "Niece",
+            "Cousin",
+            "Aunt"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "A is B's daughter and B and C are siblings. A and D are cousins.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Six researchers—P, Q, R, S, T and U—present their papers in a sequence.\r\n\r\n- P presents before Q.\r\n- R presents after Q.\r\n- S presents before P.\r\n- T presents after R.\r\n- U presents after T.\r\n\r\nWho must present first?",
+          "options": [
+            "P",
+            "Q",
+            "S",
+            "U"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The conditions create the sequence S–P–Q–R–T–U. S presents first.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Statements:\r\n\r\n- All poets are writers.\r\n- No writer is illiterate.\r\n- Some teachers are poets.\r\n\r\nConclusions:\r\n\r\nI. Some teachers are not illiterate.\r\nII. No poet is illiterate.",
+          "options": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions follow",
+            "Neither conclusion follows"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Some teachers are poets, who must be writers and therefore not illiterate. Both conclusions follow.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Is a positive integer $n$ divisible by 18?\r\n\r\nI. $n$ is divisible by 2.\r\nII. $n$ is divisible by 9.",
+          "options": [
+            "Statement I alone is sufficient",
+            "Statement II alone is sufficient",
+            "Both together are sufficient, but neither alone is sufficient",
+            "Either statement alone is sufficient"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Divisibility by 2 and 9 together guarantees divisibility by 18. Neither alone is enough.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A municipal authority introduces an online system for reporting damaged streetlights.\r\n\r\nWhich assumptions are implicit?\r\n\r\nI. Citizens can use the system to report maintenance problems.\r\nII. Online reporting can help the authority receive information about damaged streetlights.",
+          "options": [
+            "Only I",
+            "Only II",
+            "Both I and II",
+            "Neither I nor II"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The system assumes citizens can submit reports and that such reports help the authority identify problems.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In the following pattern, each row follows the same rule:\r\n\r\n| First number | Second number | Result |\r\n| ------------ | ------------- | ------ |\r\n| 3            | 4             | 25     |\r\n| 5            | 6             | 61     |\r\n| 7            | 8             | ?      |",
+          "options": [
+            "105",
+            "110",
+            "113",
+            "117"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Rule: square the first and second numbers and add them. $7^2+8^2=113$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A delivery vehicle must travel from point A to point D through either B or C. It cannot travel directly from A to D. The route distances are:\r\n\r\n- A to B = 8 km\r\n- B to D = 13 km\r\n- A to C = 11 km\r\n- C to D = 7 km\r\n\r\nWhich route is shorter, and by how much?",
+          "options": [
+            "A–B–D, by 1 km",
+            "A–C–D, by 3 km",
+            "A–B–D, by 3 km",
+            "Both routes are equal"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A–B–D = 21 km; A–C–D = 18 km. The latter is shorter by 3 km.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the alphanumeric series:\r\n\r\nA2, D6, H12, M20, S30, ?",
+          "options": [
+            "Z42",
+            "Y42",
+            "Z40",
+            "A42"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Letters advance by 3, 4, 5, 6, 7 positions; numbers are products $1×2,2×3,\\ldots,6×7$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a queue, Amit is 17th from the left and 23rd from the right. How many people are in the queue?",
+          "options": [
+            "38",
+            "39",
+            "40",
+            "41"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Total people $=17+23-1=39$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "If the operation is defined as\r\n\r\n$ a\\diamond b=a^2+2ab+b^2 $\r\n\r\nfind $8\\diamond3$.",
+          "options": [
+            "100",
+            "110",
+            "121",
+            "132"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "$8\\diamond3=(8+3)^2=121$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Which word comes third in dictionary order?\r\n\r\n- PRECAUTION\r\n- PRECEDENT\r\n- PRECISE\r\n- PRECLUDE",
+          "options": [
+            "PRECAUTION",
+            "PRECEDENT",
+            "PRECISE",
+            "PRECLUDE"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Alphabetical order: PRECAUTION, PRECEDENT, PRECISE, PRECLUDE.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "How many different arrangements can be formed from the letters A, B, C, D and E if A and B must always remain together?",
+          "options": [
+            "24",
+            "36",
+            "48",
+            "60"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Treat AB as one block. There are four objects to arrange and AB can be internally arranged in two ways: $4!×2=48$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a group of 80 students, 42 study Mathematics, 38 study English and 30 study Science. If 15 study Mathematics and English, 12 study English and Science, 10 study Mathematics and Science, and 5 study all three, how many study none of these subjects?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "At least one subject $=42+38+30-15-12-10+5=78$. None $=80-78=2$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "How many diagonals can be drawn in a polygon having 14 sides?",
+          "options": [
+            "70",
+            "74",
+            "77",
+            "80"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Diagonals $=14(14-3)/2=77$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Five departments A, B, C, D and E are arranged in a sequence.\r\n\r\n- A is immediately before C.\r\n- B is after C.\r\n- D is before A.\r\n- E is after B.\r\n\r\nWhich department is in the middle?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The order must be D–A–C–B–E. C occupies the middle position.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A balance scale is used to identify one heavier coin among 27 otherwise identical coins. What is the minimum number of weighings required to guarantee identification?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Divide 27 coins into three groups of nine. Each weighing reduces the possible group to one-third. Two weighings are not enough; three are sufficient.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the analogy:\r\n\r\nCartography : Maps :: Lexicography : ?",
+          "options": [
+            "Dictionaries",
+            "Inscriptions",
+            "Fossils",
+            "Manuscripts"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Cartography deals with maps; lexicography deals with dictionaries.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Statements:\r\n\r\n- Some M are N.\r\n- All N are P.\r\n- No P is Q.\r\n\r\nConclusions:\r\n\r\nI. Some M are not Q.\r\nII. No N is Q.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Some M are N, and all N are P. Since no P is Q, both conclusions follow.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A square sheet of paper is folded in half horizontally, then in half vertically. A single hole is punched through the folded sheet away from all folded edges. How many holes appear after completely unfolding it?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "8"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Two folds create four layers, so one hole produces four holes when unfolded.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Which letter is four positions to the left of the letter that is seven positions to the right of J?",
+          "options": [
+            "K",
+            "L",
+            "M",
+            "N\r\n\r\n## Section B — General Awareness\r\n\r\nQuestions 26–50 · 50 marks · Advanced\r\n\r\n### History and Culture"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "J + 7 = Q; four places left of Q is M.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Hathigumpha inscription is associated with which ancient ruler?",
+          "options": [
+            "Kharavela",
+            "Ashoka",
+            "Gautamiputra Satakarni",
+            "Rudradaman I"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Hathigumpha inscription — Kharavela",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Uttaramerur inscriptions provide important information about:",
+          "options": [
+            "Gupta military organisation",
+            "Chola village self-government",
+            "Mughal revenue administration",
+            "Mauryan trade networks"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Uttaramerur inscriptions — Chola village self-government",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who wrote Kitab-ul-Hind, an important account of Indian society and knowledge?",
+          "options": [
+            "Ibn Battuta",
+            "Al-Biruni",
+            "Amir Khusrau",
+            "Abul Fazl"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Kitab-ul-Hind — Al-Biruni",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Ryotwari system of land revenue was particularly associated with:",
+          "options": [
+            "Thomas Munro",
+            "Lord Cornwallis",
+            "Warren Hastings",
+            "Lord Curzon"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Ryotwari system — Thomas Munro",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Indian Councils Act of 1909 is particularly known for introducing:",
+          "options": [
+            "Provincial autonomy",
+            "Separate electorates for Muslims",
+            "Dyarchy in provinces",
+            "Complete responsible government\r\n\r\n### Indian Polity"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Morley-Minto Reforms, 1909 — separate electorates for Muslims",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article of the Indian Constitution lays down the procedure for its amendment?",
+          "options": [
+            "Article 324",
+            "Article 352",
+            "Article 368",
+            "Article 370"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Article 368 — Constitutional amendment procedure",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A National Emergency can be proclaimed under which Article?",
+          "options": [
+            "Article 352",
+            "Article 356",
+            "Article 360",
+            "Article 365"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Article 352 — National Emergency",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Fifth Schedule of the Constitution primarily deals with:",
+          "options": [
+            "Administration and control of Scheduled Areas and Scheduled Tribes in specified states",
+            "Languages recognised by the Constitution",
+            "Allocation of seats in the Rajya Sabha",
+            "Powers of the Election Commission"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Fifth Schedule — Scheduled Areas and Scheduled Tribes",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which writ is issued to secure the release of a person who is unlawfully detained?",
+          "options": [
+            "Mandamus",
+            "Certiorari",
+            "Prohibition",
+            "Habeas Corpus\r\n\r\n### Geography and Environment"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Habeas Corpus — protection from unlawful detention",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which is the largest freshwater lake in India by surface area, commonly identified as such in standard Indian geography references?",
+          "options": [
+            "Dal Lake",
+            "Kolleru Lake",
+            "Wular Lake",
+            "Loktak Lake"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Wular Lake",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Kolleru Lake lies between the deltas of which two rivers?",
+          "options": [
+            "Narmada and Tapi",
+            "Krishna and Godavari",
+            "Mahanadi and Brahmani",
+            "Ganga and Hooghly"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Krishna and Godavari",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Nathu La Pass connects Sikkim with:",
+          "options": [
+            "Nepal",
+            "Bhutan",
+            "Tibet",
+            "Myanmar"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Tibet",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Keibul Lamjao National Park is situated on:",
+          "options": [
+            "Dal Lake",
+            "Loktak Lake",
+            "Wular Lake",
+            "Chilika Lake"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Loktak Lake",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Mawsynram, known for exceptionally high average annual rainfall, is located in:",
+          "options": [
+            "Meghalaya",
+            "Assam",
+            "Arunachal Pradesh",
+            "Sikkim\r\n\r\n### General Science"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Meghalaya",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Isotopes of an element have:",
+          "options": [
+            "The same mass number but different atomic numbers",
+            "The same atomic number but different mass numbers",
+            "Different atomic numbers and identical neutron numbers",
+            "Identical atomic and mass numbers"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Same atomic number, different mass numbers",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which catalyst is commonly used in the Haber process for manufacturing ammonia?",
+          "options": [
+            "Nickel",
+            "Iron",
+            "Platinum",
+            "Manganese dioxide"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Iron catalyst",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which mineral is essential for the synthesis of thyroid hormones?",
+          "options": [
+            "Sodium",
+            "Calcium",
+            "Iodine",
+            "Potassium"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Iodine",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "In the human ABO blood-group system, which blood group is commonly described as the universal red-cell donor when Rh compatibility is also considered?",
+          "options": [
+            "AB positive",
+            "O positive",
+            "AB negative",
+            "O negative"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "O negative",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "During electrolytic refining of copper, the impure copper is used as the:",
+          "options": [
+            "Cathode",
+            "Anode",
+            "Electrolyte",
+            "Salt bridge"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Impure copper is the anode",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The power of a lens is measured in:",
+          "options": [
+            "Candela",
+            "Dioptre",
+            "Pascal",
+            "Tesla"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Dioptre",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which type of bond involves the sharing of electron pairs between atoms?",
+          "options": [
+            "Ionic bond",
+            "Metallic bond",
+            "Covalent bond",
+            "Hydrogen bond"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Covalent bond",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which ecological term describes the maximum population size that an environment can sustainably support?",
+          "options": [
+            "Ecological succession",
+            "Carrying capacity",
+            "Biomagnification",
+            "Primary productivity"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Carrying capacity",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "When the general price level rises and the purchasing power of money declines, the economy is experiencing:",
+          "options": [
+            "Deflation",
+            "Inflation",
+            "Disinvestment",
+            "Appreciation\r\n\r\n### Current Affairs — October 2026"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Inflation",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "According to the Ministry of New and Renewable Energy's announcement of 29 October 2026, India's green-hydrogen offtake commitments had exceeded:",
+          "options": [
+            "2.5 lakh metric tonnes per annum",
+            "3.5 lakh metric tonnes per annum",
+            "4.5 lakh metric tonnes per annum",
+            "5.5 lakh metric tonnes per annum"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Over 5.5 lakh MTPA",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "On 30 October 2026, UPI acceptance was enabled for online bookings at which two international attractions?",
+          "options": [
+            "Eiffel Tower and Louvre Museum",
+            "At the Top, Burj Khalifa and Resorts World Sentosa",
+            "Sydney Opera House and Melbourne Skydeck",
+            "Tokyo Skytree and Universal Studios Japan\r\n\r\nOfficial current-affairs references: Ministry of New and Renewable Energy and Ministry of Finance releases published through PIB.&#x20;\r\n\r\n[image](https://www.google.com/s2/favicons?domain=https://www.pib.gov.in\\&sz=32)\r\n\r\nPress Information Bureau+1\r\n\r\n\r\n\r\n## Section C — Quantitative Aptitude\r\n\r\nQuestions 51–75 · 50 marks · Advanced"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Burj Khalifa and Resorts World Sentosa",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Quantitative Aptitude",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If $x-\\frac1x=2$, where $x\\ne0$, find:\r\n\r\n$ x^2+\\frac1{x^2} $",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Squaring $x-1/x=2$: $x^2-2+1/x^2=4$. Therefore, $x^2+1/x^2=6$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the remainder when\r\n\r\n$ 2x^3-5x^2+3x+7 $\r\n\r\nis divided by $x-2$.",
+          "options": [
+            "5",
+            "7",
+            "9",
+            "11"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "By the remainder theorem, substitute x=2: $16-20+6+7=9$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Solve for the positive value of $x$:\r\n\r\n$ \\frac2{x-1}+\\frac3{x+1}=1 $",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Cross-multiplication gives $5x-1=x^2-1$, so $x(x-5)=0$. The positive valid solution is 5.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A sum of money becomes ₹13,310 in three years at 10% compound interest per annum, compounded annually. Find the principal.",
+          "options": [
+            "₹9,000",
+            "₹9,500",
+            "₹10,000",
+            "₹10,500"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "$P=13310/(1.1)^3=13310/1.331=₹10,000$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A mixture contains alcohol and water in the ratio 5:3. If 16 litres of water are added, the ratio becomes 5:7. What was the original quantity of the mixture?",
+          "options": [
+            "24 litres",
+            "28 litres",
+            "32 litres",
+            "40 litres"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Let alcohol = 5k and water = 3k. Then $5k/(3k+16)=5/7$, giving k=4. Original mixture = 8k = 32 litres.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A can complete a work in 16 days and B in 24 days. They work together for 4 days. A then leaves, and B completes the remaining work alone. How many additional days does B require?",
+          "options": [
+            "10 days",
+            "12 days",
+            "14 days",
+            "16 days"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Combined daily work $=1/16+1/24=5/48$. In four days they finish $20/48=5/12$. Remaining work $=7/12$. B alone takes $24×7/12=14$ days.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Two chords AB and CD intersect inside a circle at P. If AP = 6 cm, PB = 8 cm and CP = 4 cm, find PD.",
+          "options": [
+            "10 cm",
+            "11 cm",
+            "12 cm",
+            "14 cm"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Intersecting chords theorem: $AP×PB=CP×PD$. Thus $6×8=4×PD$, so PD=12 cm.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A rhombus has a side of 13 cm and one diagonal of 10 cm. Find its area.",
+          "options": [
+            "100 cm²",
+            "110 cm²",
+            "120 cm²",
+            "130 cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Half of one diagonal = 5. Half the other $=\\sqrt{13^2-5^2}=12$. Full diagonals are 10 and 24. Area $=10×24/2=120\\text{ cm}^2$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A frustum of a right circular cone has upper and lower radii of 3 cm and 6 cm, respectively, and a height of 8 cm. Find its volume.",
+          "options": [
+            "$144\\pi$ cm³",
+            "$156\\pi$ cm³",
+            "$168\\pi$ cm³",
+            "$180\\pi$ cm³"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Frustum volume $=\\frac13πh(R^2+r^2+Rr)=\\frac13π×8×(36+9+18)=168π\\text{ cm}^3$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A square-based pyramid has a base side of 12 cm and a perpendicular height of 8 cm. Find its volume.",
+          "options": [
+            "288 cm³",
+            "336 cm³",
+            "384 cm³",
+            "432 cm³"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Pyramid volume $=\\frac13×12^2×8=384\\text{ cm}^3$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If\r\n\r\n$ \\tan\\theta+\\cot\\theta=\\frac{10}{3}, $\r\n\r\nfind $\\sin\\theta\\cos\\theta$.",
+          "options": [
+            "$\\frac3{10}$",
+            "$\\frac{10}{3}$",
+            "$\\frac13$",
+            "$\\frac12$"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "$\\tan\\theta+\\cot\\theta=1/(\\sin\\theta\\cos\\theta)$. Hence $\\sin\\theta\\cos\\theta=3/10$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Evaluate:\r\n\r\n$ \\frac{1-\\cos 2\\theta}{\\sin 2\\theta} $\r\n\r\nfor values of $\\theta$ for which the expression is defined.",
+          "options": [
+            "$\\tan\\theta$",
+            "$\\cot\\theta$",
+            "$\\sin\\theta$",
+            "$\\cos\\theta$"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Using identities: $1-\\cos2θ=2\\sin^2θ$ and $\\sin2θ=2\\sinθ\\cosθ$. The ratio is $\\tanθ$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the length of the median drawn from the right angle to the hypotenuse of a right-angled triangle with perpendicular sides 9 cm and 12 cm.",
+          "options": [
+            "6 cm",
+            "7 cm",
+            "7.5 cm",
+            "8 cm"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Hypotenuse $=\\sqrt{9^2+12^2}=15$ cm. The median from the right angle to the hypotenuse is half its length: 7.5 cm.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If the two roots of a quadratic equation are reciprocal to one another and their sum is 5, what is the quadratic equation with integer coefficients and positive leading coefficient?",
+          "options": [
+            "$x^2-5x+1=0$",
+            "$x^2+5x+1=0$",
+            "$x^2-5x-1=0$",
+            "$x^2+5x-1=0$"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Reciprocal roots have product 1. Sum is 5. The quadratic is $x^2-5x+1=0$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the value of:\r\n\r\n$ \\sqrt{5+2\\sqrt6} $",
+          "options": [
+            "$\\sqrt3+\\sqrt2$",
+            "$\\sqrt3-\\sqrt2$",
+            "$\\sqrt6+\\sqrt2$",
+            "$2+\\sqrt3$"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "$(\\sqrt3+\\sqrt2)^2=3+2+2\\sqrt6=5+2\\sqrt6$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If the population of a town decreases by 10% in one year and increases by 10% in the next year, what is the net percentage change over the two years?",
+          "options": [
+            "No change",
+            "1% increase",
+            "1% decrease",
+            "2% decrease"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Net multiplier $=0.90×1.10=0.99$. Therefore, the net decrease is 1%.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "The average of 20 observations is 36. If one observation was incorrectly recorded as 48 instead of 28, what is the correct average?",
+          "options": [
+            "34",
+            "35",
+            "36",
+            "37"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Original total $=20×36=720$. Corrected total $=720-48+28=700$. Average $=700/20=35$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A and B invest in a business in the ratio 4:5. After 4 months, A doubles his investment while B withdraws 20% of his initial investment. What is their profit-sharing ratio at the end of the year?",
+          "options": [
+            "20 : 13",
+            "13 : 20",
+            "10 : 9",
+            "9 : 10"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A's capital-time = $4×4+8×8=80$. B's = $5×4+4×8=52$. Ratio $80:52=20:13$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A train moving at 72 km/h crosses a platform in 24 seconds. If the train is 180 metres long, find the length of the platform.",
+          "options": [
+            "280 metres",
+            "300 metres",
+            "320 metres",
+            "360 metres"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Speed $=72×5/18=20\\text{ m/s}$. Total distance in 24 seconds $=480$ m. Platform $=480-180=300$ m.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If the roots of\r\n\r\n$ x^2-8x+k=0 $\r\n\r\ndiffer by 2, find $k$.",
+          "options": [
+            "12",
+            "14",
+            "15",
+            "16"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Let roots be a and b. $a+b=8$, $a-b=2$. Thus roots are 5 and 3. Product $k=15$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A number is chosen at random from the integers 1 to 50 inclusive. What is the probability that it is divisible by either 4 or 6?",
+          "options": [
+            "$\\frac{8}{25}$",
+            "$\\frac9{25}$",
+            "$\\frac{21}{50}$",
+            "$\\frac12$\r\n\r\nUse the following table for Questions 72–75.\r\n\r\nQuarterly revenue and expenditure\r\n\r\nValues in ₹ lakh\r\n\r\n| Quarter | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| Q1      | 180     | 150         |\r\n| Q2      | 220     | 170         |\r\n| Q3      | 250     | 200         |\r\n| Q4      | 300     | 240         |"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Multiples of 4 = 12; multiples of 6 = 8; common multiples of 12 = 4. Total favourable $=12+8-4=16$. Probability $=16/50=8/25$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What was the total annual profit?",
+          "options": [
+            "₹170 lakh",
+            "₹180 lakh",
+            "₹190 lakh",
+            "₹200 lakh"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly revenue and expenditure\r\n\r\nValues in ₹ lakh\r\n\r\n| Quarter | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| Q1      | 180     | 150         |\r\n| Q2      | 220     | 170         |\r\n| Q3      | 250     | 200         |\r\n| Q4      | 300     | 240         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Profit by quarter: 30+50+50+60=₹190 lakh.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What percentage of annual revenue was generated in Q4?",
+          "options": [
+            "30%",
+            "31.58%",
+            "32.5%",
+            "35%"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly revenue and expenditure\r\n\r\nValues in ₹ lakh\r\n\r\n| Quarter | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| Q1      | 180     | 150         |\r\n| Q2      | 220     | 170         |\r\n| Q3      | 250     | 200         |\r\n| Q4      | 300     | 240         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Total revenue = ₹950 lakh. Q4 share $=300/950×100=31.58\\\\%$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What was the ratio of Q2 profit to Q3 profit?",
+          "options": [
+            "4 : 5",
+            "1 : 1",
+            "6 : 7",
+            "7 : 8"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly revenue and expenditure\r\n\r\nValues in ₹ lakh\r\n\r\n| Quarter | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| Q1      | 180     | 150         |\r\n| Q2      | 220     | 170         |\r\n| Q3      | 250     | 200         |\r\n| Q4      | 300     | 240         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Q2 profit = 220−170=50; Q3 profit = 250−200=50. Ratio 1:1.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If the company's annual revenue target was ₹900 lakh, by what percentage did actual revenue exceed the target?",
+          "options": [
+            "5%",
+            "5.56%",
+            "6%",
+            "10%"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly revenue and expenditure\r\n\r\nValues in ₹ lakh\r\n\r\n| Quarter | Revenue | Expenditure |\r\n| ------- | ------- | ----------- |\r\n| Q1      | 180     | 150         |\r\n| Q2      | 220     | 170         |\r\n| Q3      | 250     | 200         |\r\n| Q4      | 300     | 240         |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Corrected target ₹900 lakh. Actual ₹950 lakh. Excess $=50/900×100=5.56\\\\%$ approximately.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English Comprehension",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Intensify",
+            "Reduce",
+            "Duplicate",
+            "Measure"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and choose the most appropriate word for each blank.\r\n\r\nUrban heat mitigation requires more than planting trees along every street. A city's design must account for local climate, building density and airflow. Reflective roofs can (76) heat absorption, while appropriately placed trees provide shade. Yet vegetation should be selected (77): species with invasive roots may damage pavements, and dense canopies can have (78) effects if they obstruct necessary ventilation. Effective planning therefore combines measures that (79) one another, creating neighbourhoods that are more thermally (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Reflective roofs can reduce the absorption of heat.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Arbitrarily",
+            "Strategically",
+            "Reluctantly",
+            "Rarely"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and choose the most appropriate word for each blank.\r\n\r\nUrban heat mitigation requires more than planting trees along every street. A city's design must account for local climate, building density and airflow. Reflective roofs can (76) heat absorption, while appropriately placed trees provide shade. Yet vegetation should be selected (77): species with invasive roots may damage pavements, and dense canopies can have (78) effects if they obstruct necessary ventilation. Effective planning therefore combines measures that (79) one another, creating neighbourhoods that are more thermally (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Planting should be strategic because root systems and canopy density have environmental consequences.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Unintended",
+            "Predictable",
+            "Negligible",
+            "Beneficial"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage and choose the most appropriate word for each blank.\r\n\r\nUrban heat mitigation requires more than planting trees along every street. A city's design must account for local climate, building density and airflow. Reflective roofs can (76) heat absorption, while appropriately placed trees provide shade. Yet vegetation should be selected (77): species with invasive roots may damage pavements, and dense canopies can have (78) effects if they obstruct necessary ventilation. Effective planning therefore combines measures that (79) one another, creating neighbourhoods that are more thermally (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Dense vegetation can produce unintended consequences if it blocks necessary ventilation.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Contradict",
+            "Complement",
+            "Replace",
+            "Ignore"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and choose the most appropriate word for each blank.\r\n\r\nUrban heat mitigation requires more than planting trees along every street. A city's design must account for local climate, building density and airflow. Reflective roofs can (76) heat absorption, while appropriately placed trees provide shade. Yet vegetation should be selected (77): species with invasive roots may damage pavements, and dense canopies can have (78) effects if they obstruct necessary ventilation. Effective planning therefore combines measures that (79) one another, creating neighbourhoods that are more thermally (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Complement means to work together or enhance one another.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Vulnerable",
+            "Resilient",
+            "Fragile",
+            "Unstable\r\n\r\n### Vocabulary, Idioms and Spelling — Questions 81–85"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and choose the most appropriate word for each blank.\r\n\r\nUrban heat mitigation requires more than planting trees along every street. A city's design must account for local climate, building density and airflow. Reflective roofs can (76) heat absorption, while appropriately placed trees provide shade. Yet vegetation should be selected (77): species with invasive roots may damage pavements, and dense canopies can have (78) effects if they obstruct necessary ventilation. Effective planning therefore combines measures that (79) one another, creating neighbourhoods that are more thermally (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Resilient means able to withstand or recover from difficult conditions.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the closest synonym of abstruse.",
+          "options": [
+            "Obvious",
+            "Complicated and difficult to understand",
+            "Brief",
+            "Unimportant"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Abstruse means difficult to understand.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the antonym of transient.",
+          "options": [
+            "Temporary",
+            "Fleeting",
+            "Permanent",
+            "Passing"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Transient means temporary; permanent is its antonym.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "A person who deliberately abstains from certain pleasures and practices self-discipline is commonly described as an:",
+          "options": [
+            "Ascetic",
+            "Atheist",
+            "Anarchist",
+            "Altruist"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "An ascetic practises self-discipline and abstains from certain worldly pleasures.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What does the idiom “throw down the gauntlet” mean?",
+          "options": [
+            "Withdraw from a competition",
+            "Issue a challenge",
+            "Accept an apology",
+            "Avoid a confrontation"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "To throw down the gauntlet means to issue a challenge.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correctly spelt word.",
+          "options": [
+            "Supercede",
+            "Supersede",
+            "Superseede",
+            "Supersceed\r\n\r\n### Grammar and Error Detection — Questions 86–90"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The correct spelling is supersede.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nNeither of the two proposed solutions ___ acceptable under the current regulations.",
+          "options": [
+            "Are",
+            "Were",
+            "Is",
+            "Have been"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Neither is singular in this construction: “Neither solution is acceptable.”",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Identify the part containing an error.",
+          "options": [
+            "The evidence collected by the investigators",
+            "were insufficient",
+            "to establish the exact sequence of events",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Evidence is treated as an uncountable singular noun here. It should be “was insufficient”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the grammatically correct sentence.",
+          "options": [
+            "The board recommended that the proposal is reconsidered.",
+            "The board recommended that the proposal be reconsidered.",
+            "The board recommended that the proposal was reconsidered.",
+            "The board recommended that the proposal has reconsidered."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The subjunctive form “be reconsidered” is correct after “recommended that”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nThe research team refrained ___ publishing the preliminary results.",
+          "options": [
+            "By",
+            "Of",
+            "From",
+            "With"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The correct collocation is “refrained from publishing”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the grammatically correct sentence.",
+          "options": [
+            "The data, although extensive, do not support the proposed conclusion.",
+            "The data, although extensive, does not support the proposed conclusion.",
+            "The data, although extensive, has not support the proposed conclusion.",
+            "The data, although extensive, is not supporting the proposed conclusion.\r\n\r\n### Sentence Transformation and Rearrangement — Questions 91–95"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "In formal academic English, data is plural and takes “do not support”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct passive transformation:\r\n\r\nThe authorities awarded the researcher a national prize.",
+          "options": [
+            "The researcher was awarded a national prize by the authorities.",
+            "The researcher awarded the authorities a national prize.",
+            "A national prize has awarded the researcher by the authorities.",
+            "The authorities were awarded a researcher by a national prize."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The indirect object can become the subject of the passive sentence: “The researcher was awarded a prize.”",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct indirect speech:\r\n\r\nHe said, “I may complete the assignment tomorrow.”",
+          "options": [
+            "He said that he may complete the assignment tomorrow.",
+            "He said that he might complete the assignment the following day.",
+            "He said that I might complete the assignment the next day.",
+            "He said that he had completed the assignment the previous day."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“May” changes to “might” and “tomorrow” becomes “the following day”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Identify the part containing an error.",
+          "options": [
+            "One of the most significant developments",
+            "have occurred",
+            "in the field of renewable energy",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“One of the developments has occurred” is the correct singular construction.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Arrange the sentences in a logical order.",
+          "options": [
+            "The results were then compared with the original hypothesis.",
+            "A researcher begins by identifying a question that requires investigation.",
+            "Evidence is collected through appropriate methods.",
+            "Conclusions are drawn only after the findings have been analysed.\r\n\r\nA. B–C–A–D\r\nB. C–B–D–A\r\nC. B–A–C–D\r\nD. D–B–C–A"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "B introduces the research question, C describes evidence collection, A describes comparison, and D presents the conclusion.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the best correction:\r\n\r\nDespite of facing several obstacles, the team completed the project.",
+          "options": [
+            "Despite facing several obstacles",
+            "Despite for facing several obstacles",
+            "Despite with facing several obstacles",
+            "No correction is required\r\n\r\n### Reading Comprehension — Questions 96–100\r\n\r\nRead the passage carefully.\r\n\r\nDigital public infrastructure can make essential services easier to access by providing common digital systems that different institutions can use. For example, interoperable identity, payment and data-exchange systems can reduce the need for separate processes in every organisation. However, interoperability alone does not ensure that a service is fair or effective. Systems must also protect personal information, provide accessible alternatives for people with limited digital access and establish clear procedures for correcting errors. A technically efficient system that excludes vulnerable users may reproduce existing inequalities rather than reduce them. The success of digital public infrastructure should therefore be measured not only by the number of transactions it processes but also by the reliability, accessibility and trust it creates."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Despite is followed directly by a noun or gerund phrase; “of” is unnecessary.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What is the central argument of the passage?",
+          "options": [
+            "Digital public infrastructure should focus exclusively on transaction volume.",
+            "Interoperability is sufficient to guarantee equality in public services.",
+            "Digital public infrastructure must combine technical efficiency with privacy, accessibility and trust.",
+            "Separate digital systems are always more reliable than shared systems."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nDigital public infrastructure can make essential services easier to access by providing common digital systems that different institutions can use. For example, interoperable identity, payment and data-exchange systems can reduce the need for separate processes in every organisation. However, interoperability alone does not ensure that a service is fair or effective. Systems must also protect personal information, provide accessible alternatives for people with limited digital access and establish clear procedures for correcting errors. A technically efficient system that excludes vulnerable users may reproduce existing inequalities rather than reduce them. The success of digital public infrastructure should therefore be measured not only by the number of transactions it processes but also by the reliability, accessibility and trust it creates.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The passage argues that digital systems need privacy, accessibility and trust as well as technical efficiency.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "According to the passage, what is one benefit of interoperable systems?",
+          "options": [
+            "They eliminate the need for personal data protection.",
+            "They can reduce duplicate processes across institutions.",
+            "They guarantee that every user has internet access.",
+            "They remove the need for error-correction procedures."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nDigital public infrastructure can make essential services easier to access by providing common digital systems that different institutions can use. For example, interoperable identity, payment and data-exchange systems can reduce the need for separate processes in every organisation. However, interoperability alone does not ensure that a service is fair or effective. Systems must also protect personal information, provide accessible alternatives for people with limited digital access and establish clear procedures for correcting errors. A technically efficient system that excludes vulnerable users may reproduce existing inequalities rather than reduce them. The success of digital public infrastructure should therefore be measured not only by the number of transactions it processes but also by the reliability, accessibility and trust it creates.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Interoperability can reduce separate or duplicate processes across institutions.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What risk is identified in the passage?",
+          "options": [
+            "A technically efficient system may still exclude vulnerable users.",
+            "Shared digital systems always slow down transactions.",
+            "Interoperability necessarily prevents institutions from cooperating.",
+            "Digital systems cannot process financial transactions."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nDigital public infrastructure can make essential services easier to access by providing common digital systems that different institutions can use. For example, interoperable identity, payment and data-exchange systems can reduce the need for separate processes in every organisation. However, interoperability alone does not ensure that a service is fair or effective. Systems must also protect personal information, provide accessible alternatives for people with limited digital access and establish clear procedures for correcting errors. A technically efficient system that excludes vulnerable users may reproduce existing inequalities rather than reduce them. The success of digital public infrastructure should therefore be measured not only by the number of transactions it processes but also by the reliability, accessibility and trust it creates.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Technically efficient systems may still exclude people who lack access or need additional support.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "The word “interoperable” most nearly means:",
+          "options": [
+            "Capable of working together across different systems",
+            "Designed to operate without electricity",
+            "Restricted to one organisation",
+            "Protected from every possible cyberattack"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nDigital public infrastructure can make essential services easier to access by providing common digital systems that different institutions can use. For example, interoperable identity, payment and data-exchange systems can reduce the need for separate processes in every organisation. However, interoperability alone does not ensure that a service is fair or effective. Systems must also protect personal information, provide accessible alternatives for people with limited digital access and establish clear procedures for correcting errors. A technically efficient system that excludes vulnerable users may reproduce existing inequalities rather than reduce them. The success of digital public infrastructure should therefore be measured not only by the number of transactions it processes but also by the reliability, accessibility and trust it creates.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Interoperable systems can work together across different platforms or institutions.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "How does the author suggest measuring the success of digital public infrastructure?",
+          "options": [
+            "Only by the number of transactions processed",
+            "By the cost of the hardware installed",
+            "By transaction volume, excluding accessibility",
+            "By reliability, accessibility and the trust it creates"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nDigital public infrastructure can make essential services easier to access by providing common digital systems that different institutions can use. For example, interoperable identity, payment and data-exchange systems can reduce the need for separate processes in every organisation. However, interoperability alone does not ensure that a service is fair or effective. Systems must also protect personal information, provide accessible alternatives for people with limited digital access and establish clear procedures for correcting errors. A technically efficient system that excludes vulnerable users may reproduce existing inequalities rather than reduce them. The success of digital public infrastructure should therefore be measured not only by the number of transactions it processes but also by the reliability, accessibility and trust it creates.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The author says success should be assessed through reliability, accessibility and trust, not simply transaction volume.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    }
+  ]
+}

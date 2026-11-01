@@ -1,0 +1,1930 @@
+{
+  "id": 7,
+  "slug": "mock-07",
+  "title": "SSC CGL Tier-I Mock Test 07",
+  "pattern": "CGL 2026 PATTERN · ADVANCED PAPER",
+  "level": "Advanced",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "General Intelligence & Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Find the missing number:\r\n\r\n3, 10, 29, 66, 127, ?",
+          "options": [
+            "206",
+            "214",
+            "218",
+            "222"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Terms follow $n^3+2$: $1^3+2,\\ldots,6^3+2=218$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the letter series:\r\n\r\nB, E, K, T, F, ?",
+          "options": [
+            "T",
+            "U",
+            "V",
+            "W"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Alphabet gaps are +3, +6, +9, +12 and +15. F + 15 = U.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the analogy:\r\n\r\nStethoscope : Auscultation :: Seismograph : ?",
+          "options": [
+            "Atmospheric pressure",
+            "Seismic waves",
+            "Blood circulation",
+            "Ocean temperature"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A seismograph records seismic waves, just as a stethoscope is used for auscultation.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "64",
+            "125",
+            "216",
+            "500"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "64, 125 and 216 are cubes; 500 is not a perfect cube.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a certain code, letters in odd positions are shifted two places forward and letters in even positions one place backward in the English alphabet. How will MATH be coded?",
+          "options": [
+            "OZVG",
+            "OYVG",
+            "OZWH",
+            "NZVG"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "M→O, A→Z, T→V, H→G. The result is OZVG.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "S is the mother of R and U. R is the father of P. P is the mother of Q. U is female. How is U related to Q?",
+          "options": [
+            "Maternal aunt",
+            "Grandmother",
+            "Great-aunt",
+            "Cousin"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "U is the sister of R; R is P's father and P is Q's mother. U is Q's great-aunt.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Six books are arranged from left to right according to these conditions:\r\n\r\n- C is at the extreme left.\r\n- F is immediately to the right of C.\r\n- A is immediately to the right of F.\r\n- D is immediately to the right of A.\r\n- E is between D and B.\r\n- B is at the extreme right.\r\n\r\nWhich book occupies the fifth position?",
+          "options": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "The order is C–F–A–D–E–B. E is fifth.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Statements:\r\n\r\n- All manuscripts are documents.\r\n- Some documents are confidential.\r\n- No confidential item is publicly displayed.\r\n\r\nConclusions:\r\n\r\nI. Some documents are not publicly displayed.\r\nII. Some manuscripts are confidential.\r\nIII. No publicly displayed item is confidential.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and III follow",
+            "All three follow"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Some confidential documents are not publicly displayed, so I follows. The third conclusion is an equivalent restatement of the exclusion rule. II is not established.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Is $x$ a positive integer?\r\n\r\nI. $x^2=25$\r\n\r\nII. $x^3=125$",
+          "options": [
+            "Statement I alone is sufficient",
+            "Statement II alone is sufficient",
+            "Both statements together are required",
+            "Neither statement is sufficient"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "$x^2=25$ permits −5 or +5. But $x^3=125$ uniquely gives x=5.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A company stores sensitive customer information and decides to encrypt its backup files.\r\n\r\nWhich assumptions are implicit?\r\n\r\nI. Backup files may be exposed to unauthorised access.\r\nII. Encryption can help protect stored information.",
+          "options": [
+            "Only I",
+            "Only II",
+            "Both I and II",
+            "Neither I nor II"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Encryption is intended to protect stored information, including backup files that may be accessed without authorisation. Both assumptions support the decision.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A river gauge downstream records a sharp rise in water level two hours after an upstream dam opens its gates, although there has been no local rainfall. What is the most plausible explanation?",
+          "options": [
+            "The downstream river has stopped flowing.",
+            "Water released from the dam has travelled downstream.",
+            "The water level has changed only because of evaporation.",
+            "The river gauge must have stopped measuring."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The timing and absence of local rainfall support the explanation that released dam water travelled downstream.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Whenever sensor A detects excessive heat, alarm B activates. Whenever alarm B activates, ventilation system C starts.\r\n\r\nOn a particular occasion, system C did not start. Assuming both rules work without exception, what must be true?",
+          "options": [
+            "Sensor A detected excessive heat.",
+            "Alarm B activated.",
+            "Sensor A did not detect excessive heat.",
+            "The ventilation system was operating normally."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "A→B→C. If C did not start, B did not activate and therefore A did not detect excessive heat.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the alphanumeric series:\r\n\r\nA1, C4, F9, J16, O25, ?",
+          "options": [
+            "T30",
+            "U36",
+            "V36",
+            "U49"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Letters advance by +2, +3, +4, +5 and +6; numbers are consecutive squares. Result: U36.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a queue of 53 applicants, Riya is 18th from the front and Sameer is 21st from the back. Assuming Riya stands ahead of Sameer, how many applicants stand between them?",
+          "options": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Sameer's position from the front is $53-21+1=33$. There are $33-18-1=14$ applicants between them.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "If the operation is defined as\r\n\r\n$ a\\star b=a^2-ab+b^2 $\r\n\r\nfind the value of $7\\star3$.",
+          "options": [
+            "33",
+            "35",
+            "37",
+            "39"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "$7^2-(7×3)+3^2=49-21+9=37$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Arrange the words in dictionary order. Which word appears third?\r\n\r\n- PRECAUTION\r\n- PRECEDENT\r\n- PRECISE\r\n- PRECLUDE",
+          "options": [
+            "PRECAUTION",
+            "PRECEDENT",
+            "PRECISE",
+            "PRECLUDE"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Alphabetically the words are PRECAUTION, PRECEDENT, PRECISE, PRECLUDE.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "How many distinct arrangements can be made using all four letters A, B, C and D exactly once?",
+          "options": [
+            "12",
+            "16",
+            "20",
+            "24"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Four distinct letters can be arranged in $4!=24$ ways.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In a group of 90 students:\r\n\r\n- 54 study Mathematics.\r\n- 48 study English.\r\n- 42 study Reasoning.\r\n- 30 study both Mathematics and English.\r\n- 24 study both English and Reasoning.\r\n- 26 study both Mathematics and Reasoning.\r\n- 12 study all three subjects.\r\n\r\nHow many students study exactly one of the three subjects?",
+          "options": [
+            "18",
+            "20",
+            "22",
+            "24"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Mathematics only = 10; English only = 6; Reasoning only = 4. Total exactly one = 20.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A rectangular grid contains 2 rows and 3 columns of equal small squares. How many rectangles of all sizes, including squares, can be formed?",
+          "options": [
+            "12",
+            "15",
+            "18",
+            "21"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Choose 2 of 3 horizontal lines and 2 of 4 vertical lines: ${3\\choose2}×{4\\choose2}=18$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Six training sessions are scheduled from Monday to Saturday, one per day.\r\n\r\n- E is before A.\r\n- A is before D.\r\n- D is before B.\r\n- B is before F.\r\n- F is before C.\r\n\r\nWhich session must occur on Thursday?",
+          "options": [
+            "A",
+            "D",
+            "B",
+            "F"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The required order is E–A–D–B–F–C. Thursday is the fourth position, B.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Among nine identical-looking coins, one is lighter than the other eight. What is the minimum number of weighings required on a balance scale to guarantee identification of the lighter coin?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Divide nine coins into three groups of three. One weighing identifies the lighter group; a second identifies the lighter coin within it.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Complete the analogy:\r\n\r\nMeteorology : Weather :: Seismology : ?",
+          "options": [
+            "Earthquakes",
+            "Minerals",
+            "Ocean currents",
+            "Atmospheric gases"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Meteorology studies weather; seismology studies earthquakes.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "Statements:\r\n\r\n- Some M are N.\r\n- All N are P.\r\n- No P is Q.\r\n\r\nConclusions:\r\n\r\nI. Some M are not Q.\r\nII. No N is Q.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Some M are N, all N are P and no P is Q. Therefore both conclusions follow.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "A square card has a small dot at its upper-left corner. The card is rotated 90° clockwise twice, without flipping it. Where will the dot be?",
+          "options": [
+            "Upper-right",
+            "Lower-right",
+            "Lower-left",
+            "Upper-left"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Upper-left → upper-right → lower-right after two clockwise rotations.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "General Intelligence & Reasoning",
+          "text": "In the alphabet, which letter is three positions to the right of the letter that is four positions to the left of M?",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "N\r\n\r\n## Section B — General Awareness\r\n\r\nQuestions 26–50 · 50 marks · Advanced\r\n\r\n### Indian History and Culture"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "M is 13th. Four places left is I; three places right of I is L.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Aihole inscription, composed by Ravikirti, records the achievements of which ruler?",
+          "options": [
+            "Pulakeshin I",
+            "Pulakeshin II",
+            "Vikramaditya I",
+            "Harshavardhana"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Pulakeshin II",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who authored the Telugu literary work Amuktamalyada?",
+          "options": [
+            "Allasani Peddana",
+            "Tenali Ramakrishna",
+            "Krishnadevaraya",
+            "Nannaya"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Krishnadevaraya",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who founded the Prarthana Samaj in Bombay in 1867?",
+          "options": [
+            "Atmaram Pandurang",
+            "Swami Dayanand Saraswati",
+            "Keshab Chandra Sen",
+            "Ishwar Chandra Vidyasagar"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Atmaram Pandurang",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Lucknow Pact of 1916 was concluded between:",
+          "options": [
+            "Congress and the Muslim League",
+            "Congress and the Justice Party",
+            "Muslim League and the Hindu Mahasabha",
+            "Congress and the Communist Party"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Indian National Congress and Muslim League",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who presided over the Lahore Session of the Indian National Congress in 1929, at which the demand for Purna Swaraj was adopted?",
+          "options": [
+            "Motilal Nehru",
+            "Jawaharlal Nehru",
+            "Subhas Chandra Bose",
+            "Vallabhbhai Patel\r\n\r\n### Indian Constitution and Polity"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Jawaharlal Nehru",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article of the Constitution empowers Parliament to provide for adjudication of disputes relating to inter-State river waters?",
+          "options": [
+            "Article 246",
+            "Article 262",
+            "Article 280",
+            "Article 312"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Article 262",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Sixth Schedule of the Indian Constitution provides for autonomous administration of tribal areas in:",
+          "options": [
+            "All north-eastern states",
+            "Assam, Meghalaya, Tripura and Mizoram",
+            "Assam, Manipur, Nagaland and Sikkim",
+            "Arunachal Pradesh, Nagaland, Sikkim and Tripura"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Assam, Meghalaya, Tripura and Mizoram",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Vice-President of India is elected through:",
+          "options": [
+            "Direct election by the people",
+            "Proportional representation by means of the single transferable vote and secret ballot",
+            "A simple majority vote of the Lok Sabha alone",
+            "Nomination by the President"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Proportional representation using single transferable vote and secret ballot",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Under which Article is the Council of Ministers collectively responsible to the Lok Sabha?",
+          "options": [
+            "Article 72",
+            "Article 74",
+            "Article 75(3)",
+            "Article 78\r\n\r\n### Geography and Environment"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Article 75(3)",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Bhabar belt of northern India is characterised by:",
+          "options": [
+            "Fine clay deposits and permanent marshes",
+            "Porous pebbles and gravel where streams often disappear underground",
+            "Black cotton soil and volcanic rocks",
+            "Coastal sand dunes and saline lagoons"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Porous pebble and gravel belt",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Luni River ultimately drains into:",
+          "options": [
+            "Gulf of Khambhat",
+            "Bay of Bengal",
+            "Rann of Kutch",
+            "Arabian Sea near Mumbai"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Rann of Kutch",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Lakshadweep Islands are primarily of which geological origin?",
+          "options": [
+            "Volcanic",
+            "Coral",
+            "Fold mountain",
+            "Alluvial"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Coral origin",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which of the following islands is home to India's only confirmed active volcano?",
+          "options": [
+            "Barren Island",
+            "Neil Island",
+            "Minicoy Island",
+            "Agatti Island"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Barren Island",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The phenomenon of rain-shadow formation on the leeward side of a mountain range is principally caused by:",
+          "options": [
+            "Air descending and warming after losing moisture on the windward slope",
+            "Cold ocean currents increasing rainfall",
+            "Air gaining moisture while descending",
+            "The absence of solar radiation throughout the year\r\n\r\n### General Science"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Descending air warms and becomes relatively dry",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The photoelectric effect provides evidence for the:",
+          "options": [
+            "Wave nature of sound",
+            "Particle nature of light",
+            "Magnetic nature of matter",
+            "Gravitational nature of photons"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Particle nature of light",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which of the following is an amphoteric oxide?",
+          "options": [
+            "Sodium oxide",
+            "Aluminium oxide",
+            "Carbon dioxide",
+            "Sulphur dioxide"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Aluminium oxide (Al₂O₃)",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which plant hormone is principally associated with cell elongation and apical dominance?",
+          "options": [
+            "Cytokinin",
+            "Abscisic acid",
+            "Auxin",
+            "Ethylene"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Auxin",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which type of lymphocyte is principally responsible for cell-mediated immunity?",
+          "options": [
+            "B lymphocyte",
+            "T lymphocyte",
+            "Red blood cell",
+            "Platelet"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "T lymphocytes",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The valve between the left atrium and left ventricle of the human heart is known as:",
+          "options": [
+            "Tricuspid valve",
+            "Pulmonary valve",
+            "Aortic valve",
+            "Mitral valve"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Mitral valve",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which gas is commonly used in electric incandescent bulbs to reduce filament evaporation?",
+          "options": [
+            "Argon",
+            "Chlorine",
+            "Hydrogen",
+            "Carbon dioxide"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Argon",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Biological Oxygen Demand (BOD) is primarily used to assess:",
+          "options": [
+            "Salinity of drinking water",
+            "Organic pollution in water",
+            "Radioactivity in groundwater",
+            "Water hardness due to calcium\r\n\r\n### Economy and Current Affairs"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Organic pollution in water",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which of the following is recorded in the current account of a country's Balance of Payments?",
+          "options": [
+            "Foreign direct investment",
+            "External commercial borrowing",
+            "Export of software services",
+            "Purchase of foreign equity shares"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Export of software services",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "India hosted the Agrivoltaics World Conference 2026 for the first time in the Global South. What is the central concept of agrivoltaics?",
+          "options": [
+            "Combining solar energy generation with agricultural activities on the same land",
+            "Replacing agriculture with conventional thermal power plants",
+            "Producing electricity exclusively from agricultural waste",
+            "Using underground water to cool solar panels"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Combining solar power generation and agriculture",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "ISRO's SpaDeX mission demonstrated which major space capability?",
+          "options": [
+            "Landing a rover on Venus",
+            "Autonomous docking of two spacecraft in orbit",
+            "Returning human astronauts from the Moon",
+            "Sending a probe into interstellar space"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Autonomous docking of two spacecraft",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "In October 2026, the National Social Assistance Programme was renamed:",
+          "options": [
+            "Pradhan Mantri Samajik Sahayata Yojana",
+            "Pradhan Mantri Jeevan Suraksha Yojana",
+            "National Rural Pension Development Mission",
+            "Antyodaya Social Insurance Programme\r\n\r\nCurrent-affairs references: PIB's October 2026 reports on Agrivoltaics, SpaDeX technology and the renamed social-assistance programme.&#x20;\r\n\r\n[image](https://www.google.com/s2/favicons?domain=https://www.pib.gov.in\\&sz=32)\r\n\r\nPress Information Bureau+2\r\n\r\n\r\n\r\n## Section C — Quantitative Aptitude\r\n\r\nQuestions 51–75 · 50 marks · Advanced"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Pradhan Mantri Samajik Sahayata Yojana",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Quantitative Aptitude",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Simplify:\r\n\r\n$ \\left(\\frac7{12}-\\frac5{18}\\right) \\div \\left(\\frac18+\\frac16\\right) $",
+          "options": [
+            "$\\frac{11}{21}$",
+            "$\\frac{22}{21}$",
+            "$\\frac{11}{18}$",
+            "$\\frac7{11}$"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Numerator $=21/36-10/36=11/36$. Denominator $=3/24+4/24=7/24$. Result $=(11/36)×(24/7)=22/21$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Solve the following simultaneous equations:\r\n\r\n$ 3x+2y=20 $\r\n\r\n$ 2x-y=4 $\r\n\r\nFind $x+y$.",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "10"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "From $2x-y=4$, $y=2x-4$. Substituting: $3x+4x-8=20$, so x=4, y=4, x+y=8.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the larger root of:\r\n\r\n$ 2x^2-7x+3=0 $",
+          "options": [
+            "$\\frac12$",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "$2x^2-7x+3=(2x-1)(x-3)=0$. Roots are $1/2$ and 3; the larger is 3.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If $a+b=13$ and $ab=40$, find $a^3+b^3$.",
+          "options": [
+            "597",
+            "617",
+            "637",
+            "657"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "$a^3+b^3=(a+b)^3-3ab(a+b)=2197-1560=637$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A shopkeeper marks an article 40% above its cost price and offers a discount. If the final selling price gives a profit of 12%, what is the discount percentage on the marked price?",
+          "options": [
+            "15%",
+            "18%",
+            "20%",
+            "22%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Let CP=100. MP=140; SP=112. Discount $=(140-112)/140×100=20\\\\%$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A can complete a work in 18 days and B can complete it in 24 days. They work together for 6 days. C completes the remaining work in 4 days. How many days would C alone take to complete the entire work?",
+          "options": [
+            "9 days",
+            "9.6 days",
+            "10 days",
+            "12 days"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A+B daily work $=1/18+1/24=7/72$. In 6 days they complete $7/12$; remaining $5/12$ is completed by C in 4 days. C's full time $=4×12/5=9.6$ days.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "In triangle ABC, AD bisects angle A. If AB = 8 cm, AC = 12 cm and BC = 15 cm, find BD.",
+          "options": [
+            "5 cm",
+            "6 cm",
+            "7 cm",
+            "9 cm"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "By the angle-bisector theorem, $BD:DC=8:12=2:3$. Since BC=15, BD=$15×2/5=6$ cm.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Two tangents are drawn from an external point P to a circle, touching it at A and B. If the angle APB is 68°, find the measure of the minor central angle AOB.",
+          "options": [
+            "102°",
+            "108°",
+            "112°",
+            "122°"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The angle between the two tangents and the minor central angle are supplementary. $180°-68°=112°$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Each interior angle of a regular polygon is 165°. How many sides does the polygon have?",
+          "options": [
+            "18",
+            "20",
+            "22",
+            "24"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Exterior angle $=180°-165°=15°$. Number of sides $=360°/15°=24$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A solid cylinder of radius 4 cm and height 10 cm is melted and recast into identical solid spheres of radius 2 cm. Assuming no material is lost, how many spheres are produced?",
+          "options": [
+            "12",
+            "14",
+            "15",
+            "16"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Cylinder volume $=π×4^2×10=160π$. Sphere volume $=\\frac43π×2^3=\\frac{32π}{3}$. Number $=160π÷(32π/3)=15$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If $\\theta$ is acute and\r\n\r\n$ \\sin\\theta+\\cos\\theta=\\frac{\\sqrt7}{2}, $\r\n\r\nfind:\r\n\r\n$ \\tan\\theta+\\cot\\theta $",
+          "options": [
+            "$\\frac83$",
+            "$\\frac73$",
+            "$\\frac53$",
+            "$\\frac43$"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Squaring the given expression gives $1+2\\sin\\theta\\cos\\theta=7/4$. Thus $\\sin\\theta\\cos\\theta=3/8$. Therefore $\\tan\\theta+\\cot\\theta=1/(\\sin\\theta\\cos\\theta)=8/3$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the area of the triangle whose vertices are:\r\n\r\n$ (1,1),\\quad (7,1),\\quad (4,5) $",
+          "options": [
+            "10 square units",
+            "12 square units",
+            "14 square units",
+            "16 square units"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Base length = 6 and height = 4. Area $=\\frac12×6×4=12$ square units.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A bag contains 5 blue, 4 red and 3 green balls. Two balls are drawn randomly without replacement. What is the probability that the two balls have different colours?",
+          "options": [
+            "$\\frac{19}{66}$",
+            "$\\frac{47}{66}$",
+            "$\\frac{7}{12}$",
+            "$\\frac{5}{11}$"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Total ways $={12\\choose2}=66$. Same-colour ways $={5\\choose2}+{4\\choose2}+{3\\choose2}=19$. Different-colour probability $=(66-19)/66=47/66$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "The average age of 12 students is 18 years. One student aged 24 years leaves the group and a new student joins. The new average becomes 19 years. What is the age of the new student?",
+          "options": [
+            "32 years",
+            "34 years",
+            "36 years",
+            "38 years"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Original total age $=12×18=216$. New total $=216-24+36=228$. New average $=228/12=19$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "A shopkeeper sells an article at its cost price but uses a weight of only 800 grams instead of 1 kilogram. What is his gain percentage?",
+          "options": [
+            "20%",
+            "22.5%",
+            "25%",
+            "30%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Cost of 800 g is ₹800 if cost per kg is ₹1,000; selling price is ₹1,000. Gain $=200/800×100=25\\\\%$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the least integer greater than 12 which leaves a remainder of 5 when divided by each of 8, 9 and 12.",
+          "options": [
+            "65",
+            "72",
+            "77",
+            "85"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "LCM of 8, 9 and 12 is 72. Required integer $=72+5=77$, which is greater than 12.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the compound interest on ₹8,000 at 10% per annum for one year, compounded half-yearly.",
+          "options": [
+            "₹800",
+            "₹810",
+            "₹820",
+            "₹840"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Half-yearly rate=5%; two periods. Amount $=8000×1.05^2=₹8,820$. CI=₹820.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the sum of the first five terms of the geometric progression:\r\n\r\n2, 6, 18, 54, ...",
+          "options": [
+            "180",
+            "212",
+            "242",
+            "264"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Sum $=2+6+18+54+162=242$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "If 40% of A is equal to $\\frac23$ of B, find the ratio A : B.",
+          "options": [
+            "3 : 5",
+            "5 : 3",
+            "4 : 5",
+            "5 : 4"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "$0.4A=\\frac23B$. Hence $A/B=(2/3)/(2/5)=5/3$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the remainder when\r\n\r\n$ 2x^3-3x^2+4x-7 $\r\n\r\nis divided by $x-2$.",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "By the remainder theorem, substitute x=2: $16-12+8-7=5$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Solve for the positive value of $x$:\r\n\r\n$ \\frac1{x-1}+\\frac1{x+1}=\\frac34 $",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5\r\n\r\nUse the following table for Questions 72–75.\r\n\r\nQuarterly exports and imports of a company\r\n\r\nValues in ₹ crore\r\n\r\n| Quarter | Exports | Imports |\r\n| ------- | ------- | ------- |\r\n| Q1      | 180     | 240     |\r\n| Q2      | 210     | 280     |\r\n| Q3      | 240     | 300     |\r\n| Q4      | 270     | 330     |"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Combining fractions gives $2x/(x^2-1)=3/4$. Thus $3x^2-8x-3=0=(3x+1)(x-3)$. The positive root is 3.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What were the total exports during the year?",
+          "options": [
+            "₹850 crore",
+            "₹880 crore",
+            "₹900 crore",
+            "₹920 crore"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly exports and imports of a company\r\n\r\nValues in ₹ crore\r\n\r\n| Quarter | Exports | Imports |\r\n| ------- | ------- | ------- |\r\n| Q1      | 180     | 240     |\r\n| Q2      | 210     | 280     |\r\n| Q3      | 240     | 300     |\r\n| Q4      | 270     | 330     |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Total exports $=180+210+240+270=900$ crore.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "What was the percentage increase in exports from Q1 to Q4?",
+          "options": [
+            "40%",
+            "45%",
+            "50%",
+            "55%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly exports and imports of a company\r\n\r\nValues in ₹ crore\r\n\r\n| Quarter | Exports | Imports |\r\n| ------- | ------- | ------- |\r\n| Q1      | 180     | 240     |\r\n| Q2      | 210     | 280     |\r\n| Q3      | 240     | 300     |\r\n| Q4      | 270     | 330     |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Percentage increase $=(270-180)/180×100=50\\\\%$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "Find the ratio of total annual imports to total annual exports.",
+          "options": [
+            "18 : 23",
+            "23 : 18",
+            "9 : 11",
+            "11 : 9"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly exports and imports of a company\r\n\r\nValues in ₹ crore\r\n\r\n| Quarter | Exports | Imports |\r\n| ------- | ------- | ------- |\r\n| Q1      | 180     | 240     |\r\n| Q2      | 210     | 280     |\r\n| Q3      | 240     | 300     |\r\n| Q4      | 270     | 330     |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Imports $=1150$; exports $=900$. Ratio $=1150:900=23:18$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Quantitative Aptitude",
+          "text": "By what percentage did imports exceed exports in Q2?",
+          "options": [
+            "$25\\\\%$",
+            "$30\\\\%$",
+            "$33\\frac13\\\\%$",
+            "$35\\\\%$\r\n\r\n## Section D — English Comprehension\r\n\r\nQuestions 76–100 · 50 marks · Advanced\r\n\r\n### Cloze Test — Questions 76–80\r\n\r\nRead the passage and select the most appropriate word for each blank.\r\n\r\nA well-maintained archive does more than store documents; it preserves the context in which they were created. During digitisation, each record should be accompanied by metadata identifying its source, date and (76). Without such information, a digital copy may be difficult to (77) or authenticate. Long-term preservation also requires file formats that remain (78) as technology changes. Institutions must therefore combine careful storage with regular (79) so that future researchers can reliably (80) the material."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Use the following table for Questions 72–75.\r\n\r\nQuarterly exports and imports of a company\r\n\r\nValues in ₹ crore\r\n\r\n| Quarter | Exports | Imports |\r\n| ------- | ------- | ------- |\r\n| Q1      | 180     | 240     |\r\n| Q2      | 210     | 280     |\r\n| Q3      | 240     | 300     |\r\n| Q4      | 270     | 330     |",
+            "badge": "📊",
+            "startQ": 72,
+            "endQ": 75
+          },
+          "explanation": "Q2 excess imports $=280-210=70$. Percentage excess $=70/210×100=33\\frac13\\\\%$.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English Comprehension",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Provenance",
+            "Decoration",
+            "Popularity",
+            "Appearance"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nA well-maintained archive does more than store documents; it preserves the context in which they were created. During digitisation, each record should be accompanied by metadata identifying its source, date and (76). Without such information, a digital copy may be difficult to (77) or authenticate. Long-term preservation also requires file formats that remain (78) as technology changes. Institutions must therefore combine careful storage with regular (79) so that future researchers can reliably (80) the material.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Provenance identifies the origin and history of an archival record.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Verify",
+            "Discard",
+            "Conceal",
+            "Duplicate"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nA well-maintained archive does more than store documents; it preserves the context in which they were created. During digitisation, each record should be accompanied by metadata identifying its source, date and (76). Without such information, a digital copy may be difficult to (77) or authenticate. Long-term preservation also requires file formats that remain (78) as technology changes. Institutions must therefore combine careful storage with regular (79) so that future researchers can reliably (80) the material.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Verification checks the authenticity and reliability of a digital copy.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Readable",
+            "Accidental",
+            "Temporary",
+            "Irrelevant"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nA well-maintained archive does more than store documents; it preserves the context in which they were created. During digitisation, each record should be accompanied by metadata identifying its source, date and (76). Without such information, a digital copy may be difficult to (77) or authenticate. Long-term preservation also requires file formats that remain (78) as technology changes. Institutions must therefore combine careful storage with regular (79) so that future researchers can reliably (80) the material.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "A format must remain readable as technology changes.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Neglect",
+            "Migration",
+            "Interruption",
+            "Restriction"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nA well-maintained archive does more than store documents; it preserves the context in which they were created. During digitisation, each record should be accompanied by metadata identifying its source, date and (76). Without such information, a digital copy may be difficult to (77) or authenticate. Long-term preservation also requires file formats that remain (78) as technology changes. Institutions must therefore combine careful storage with regular (79) so that future researchers can reliably (80) the material.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Format migration helps preserve digital material when older formats become obsolete.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "",
+          "options": [
+            "Misrepresent",
+            "Consult",
+            "Abandon",
+            "Obstruct\r\n\r\n### Vocabulary, Idioms and Spelling — Questions 81–85"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage and select the most appropriate word for each blank.\r\n\r\nA well-maintained archive does more than store documents; it preserves the context in which they were created. During digitisation, each record should be accompanied by metadata identifying its source, date and (76). Without such information, a digital copy may be difficult to (77) or authenticate. Long-term preservation also requires file formats that remain (78) as technology changes. Institutions must therefore combine careful storage with regular (79) so that future researchers can reliably (80) the material.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Researchers consult archived material.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the closest synonym of laconic.",
+          "options": [
+            "Verbose",
+            "Concise",
+            "Ambiguous",
+            "Elaborate"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Laconic means using very few words; concise is the closest synonym.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the antonym of sporadic.",
+          "options": [
+            "Occasional",
+            "Irregular",
+            "Continuous",
+            "Infrequent"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Sporadic means occasional or irregular; continuous is its opposite.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "A specialist who studies ancient inscriptions is called an:",
+          "options": [
+            "Epigraphist",
+            "Ethnographer",
+            "Paleontologist",
+            "Archaeobotanist"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "An epigraphist specialises in inscriptions.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What does the idiom “carry coals to Newcastle” mean?",
+          "options": [
+            "Undertake a dangerous mission",
+            "Provide something where it is already plentiful",
+            "Waste time on unnecessary arguments",
+            "Perform a difficult task without assistance"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The idiom means supplying something to a place where it is already abundant.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Idiosyncracy",
+            "Idiosyncrasy",
+            "Idiosyncrasyy",
+            "Idiosyncrasyse\r\n\r\n### Grammar and Error Detection — Questions 86–90"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The correct spelling is idiosyncrasy.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nA number of applications ___ still pending.",
+          "options": [
+            "Is",
+            "Are",
+            "Was",
+            "Has"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“A number of” takes a plural verb: “A number of applications are pending.”",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Identify the part containing an error.",
+          "options": [
+            "Not until the data was independently verified",
+            "the researchers published",
+            "their findings in the journal",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The correct construction is “Not until the data was independently verified did the researchers publish their findings.”",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nIt is essential that every candidate ___ the declaration before the interview.",
+          "options": [
+            "Submits",
+            "Submitted",
+            "Submit",
+            "Has submitted"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The subjunctive form “submit” is used after the expression “It is essential that”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nThe proposed policy is aimed ___ reducing unnecessary expenditure.",
+          "options": [
+            "In",
+            "At",
+            "For",
+            "With"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The correct collocation is “aimed at reducing”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the grammatically correct sentence.",
+          "options": [
+            "More than one applicant have withdrawn the application.",
+            "More than one applicant has withdrawn the application.",
+            "More than one applicants has withdrawn the application.",
+            "More than one applicant are withdrawing the application.\r\n\r\n### Sentence Transformation and Rearrangement — Questions 91–95"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“More than one applicant” normally takes a singular verb: “has withdrawn”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct passive form:\r\n\r\nThe auditors are examining the accounts.",
+          "options": [
+            "The accounts are examined by the auditors.",
+            "The accounts were being examined by the auditors.",
+            "The accounts are being examined by the auditors.",
+            "The accounts have examined the auditors."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Present continuous passive: “The accounts are being examined by the auditors.”",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct indirect speech:\r\n\r\nThe judge said to the witness, “You must answer truthfully.”",
+          "options": [
+            "The judge told the witness that he had to answer truthfully.",
+            "The judge told the witness that you must answer truthfully.",
+            "The judge said the witness must answered truthfully.",
+            "The judge asked whether the witness had answered truthfully."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The command with obligation is reported as “told the witness that he had to answer truthfully”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Choose the correct improvement:\r\n\r\nDespite of his illness, he attended the examination.",
+          "options": [
+            "Despite his illness",
+            "Despite for his illness",
+            "Despite with his illness",
+            "No improvement required"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Despite is followed directly by a noun phrase, without the preposition “of”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Arrange the following sentences in a logical order.",
+          "options": [
+            "As a result, the revised instrument became more dependable.",
+            "Researchers first tested the instrument under controlled conditions.",
+            "The initial results were promising but revealed a need for calibration.",
+            "Later trials confirmed that the adjustments improved its accuracy.\r\n\r\nA. B–C–D–A\r\nB. C–B–A–D\r\nC. B–D–C–A\r\nD. D–B–C–A"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "B introduces testing, C explains the initial results, D describes the improved trials, and A gives the resulting improvement.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Complete the sentence:\r\n\r\nThe manager is averse ___ accepting unnecessary risks.",
+          "options": [
+            "With",
+            "At",
+            "To",
+            "For\r\n\r\n### Reading Comprehension — Questions 96–100\r\n\r\nRead the passage carefully.\r\n\r\nScientific findings gain credibility when other researchers can inspect the methods and attempt to reproduce the results. Open-source software can support this process, but merely publishing the code does not guarantee reproducibility. Researchers must also document software versions, dependencies, data-cleaning decisions and analytical parameters. Without these details, identical code may produce different outputs when executed in different environments. Reproducibility is therefore not simply an act of sharing files; it is a discipline of recording decisions and making analytical workflows transparent."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The correct expression is “averse to”.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "What is the central argument of the passage?",
+          "options": [
+            "Publishing software code automatically makes research reliable.",
+            "Reproducible research requires transparent methods and adequate documentation.",
+            "Research findings should never depend on computer software.",
+            "Open-source software removes the need for scientific verification."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nScientific findings gain credibility when other researchers can inspect the methods and attempt to reproduce the results. Open-source software can support this process, but merely publishing the code does not guarantee reproducibility. Researchers must also document software versions, dependencies, data-cleaning decisions and analytical parameters. Without these details, identical code may produce different outputs when executed in different environments. Reproducibility is therefore not simply an act of sharing files; it is a discipline of recording decisions and making analytical workflows transparent.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The passage argues that reproducibility requires transparent methods and documentation.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Why might identical code produce different outputs in different environments?",
+          "options": [
+            "Software versions, dependencies and execution settings may differ.",
+            "Scientific findings cannot be checked independently.",
+            "Open-source software cannot store numerical data.",
+            "Researchers always modify results intentionally."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nScientific findings gain credibility when other researchers can inspect the methods and attempt to reproduce the results. Open-source software can support this process, but merely publishing the code does not guarantee reproducibility. Researchers must also document software versions, dependencies, data-cleaning decisions and analytical parameters. Without these details, identical code may produce different outputs when executed in different environments. Reproducibility is therefore not simply an act of sharing files; it is a discipline of recording decisions and making analytical workflows transparent.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Versions, dependencies and execution settings may differ between environments.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "In the passage, the word “dependencies” most nearly refers to:",
+          "options": [
+            "Personal obligations of researchers",
+            "Other software components or packages required for the code to operate",
+            "Financial support received by research institutions",
+            "The conclusions drawn from the research"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nScientific findings gain credibility when other researchers can inspect the methods and attempt to reproduce the results. Open-source software can support this process, but merely publishing the code does not guarantee reproducibility. Researchers must also document software versions, dependencies, data-cleaning decisions and analytical parameters. Without these details, identical code may produce different outputs when executed in different environments. Reproducibility is therefore not simply an act of sharing files; it is a discipline of recording decisions and making analytical workflows transparent.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Dependencies are the software components or packages needed for a programme to run.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Which of the following is supported by the passage?",
+          "options": [
+            "Code publication alone is sufficient for reproducibility.",
+            "Data-cleaning decisions need not be recorded.",
+            "Documentation of analytical parameters helps other researchers reproduce results.",
+            "Reproducibility is concerned only with publishing final findings."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nScientific findings gain credibility when other researchers can inspect the methods and attempt to reproduce the results. Open-source software can support this process, but merely publishing the code does not guarantee reproducibility. Researchers must also document software versions, dependencies, data-cleaning decisions and analytical parameters. Without these details, identical code may produce different outputs when executed in different environments. Reproducibility is therefore not simply an act of sharing files; it is a discipline of recording decisions and making analytical workflows transparent.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Documenting analytical parameters allows others to understand and reproduce the analysis.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English Comprehension",
+          "text": "Which statement best reflects the author's attitude towards open-source research?",
+          "options": [
+            "It is useful, provided that methods and computational details are documented.",
+            "It should replace every form of traditional research.",
+            "It is inherently less reliable than closed software.",
+            "It is unnecessary when researchers share their conclusions."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Read the passage carefully.\r\n\r\nScientific findings gain credibility when other researchers can inspect the methods and attempt to reproduce the results. Open-source software can support this process, but merely publishing the code does not guarantee reproducibility. Researchers must also document software versions, dependencies, data-cleaning decisions and analytical parameters. Without these details, identical code may produce different outputs when executed in different environments. Reproducibility is therefore not simply an act of sharing files; it is a discipline of recording decisions and making analytical workflows transparent.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The author supports open-source research, provided that computational methods are documented.",
+          "tip": "Identify key constraints first, then eliminate distractor options."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1890 @@
+{
+  "id": 3,
+  "slug": "mock-03",
+  "title": "SSC CGL Tier-I Mock Test 03",
+  "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+  "level": "Beginner",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 3, 8, 5, 12, 7, 16, 9, ?",
+          "options": [
+            "19",
+            "20",
+            "21",
+            "18"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Odd positions 3, 5, 7, 9; even positions 8, 12, 16, 20.",
+          "tip": "Split alternate terms into two series."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the next number: 2, 5, 4, 10, 6, 17, 8, ?",
+          "options": [
+            "24",
+            "25",
+            "27",
+            "26"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Odd: 2, 4, 6, 8. Even: 5, 10, 17, 26 (gaps 5, 7, 9).",
+          "tip": "Check alternate terms separately."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the letter series: C, F, J, O, U, ?",
+          "options": [
+            "D",
+            "B",
+            "A",
+            "Z"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Gaps +3, +4, +5, +6, +7. U is 21; 21+7 = 28, which wraps to B.",
+          "tip": "Subtract 26 after passing Z."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Pulp : Paper :: Clay : ?",
+          "options": [
+            "Sculptor",
+            "Kiln",
+            "Pottery",
+            "Brick"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Pulp becomes paper; clay becomes pottery.",
+          "tip": "Find the raw material to product link."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "DGI",
+            "ACF",
+            "BDG",
+            "CEH"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "ACF, BDG, CEH all go +2 then +3; DGI goes +3 then +2.",
+          "tip": "Compare the gaps inside each group."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "In a code language, 324 = red big car, 456 = big fast train, 578 = fast green bus. Which digit represents big?",
+          "options": [
+            "3",
+            "4",
+            "2",
+            "5"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "324 and 456 share only the word “big”, and the shared digit is 4.",
+          "tip": "Find the digit common to the two codes."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A is the daughter of B. B is the brother of C. C is the mother of D. How is A related to D?",
+          "options": [
+            "Aunt",
+            "Niece",
+            "Sister",
+            "Cousin"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "B and C are siblings, so their children A and D are cousins.",
+          "tip": "Children of siblings = cousins."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A person faces west, turns 90° clockwise and then 180° anticlockwise. Which direction now?",
+          "options": [
+            "South",
+            "North",
+            "West",
+            "East"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "West + 90° clockwise = North; then 180° anticlockwise = South.",
+          "tip": "Clockwise order: W, N, E, S."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Same rule in each row: (2, 4) → 14; (3, 5) → 23; (4, 6) → 34; (5, 7) → ?",
+          "options": [
+            "46",
+            "47",
+            "45",
+            "48"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Rule: product + sum. 5×7 + 5 + 7 = 47.",
+          "tip": "Test product + sum on each pair."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Arrange in a logical order: 1. Interview 2. Submit application 3. Appointment 4. Written test 5. Call letter",
+          "options": [
+            "2–4–5–1–3",
+            "5–2–4–1–3",
+            "2–5–4–1–3",
+            "2–5–1–4–3"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Apply, call letter, written test, interview, appointment.",
+          "tip": "Think of the real hiring process."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Which of the following is an amphibian?",
+          "options": [
+            "Frog",
+            "Eagle",
+            "Whale",
+            "Salmon"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A frog lives on land and in water, so it is an amphibian.",
+          "tip": "Amphibian = double life."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Which word cannot be formed from the letters of MANAGEMENT (each letter used no more times than it appears)?",
+          "options": [
+            "MAGNET",
+            "MEANT",
+            "TANGENT",
+            "MANAGE"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "MANAGEMENT has only one T, but TANGENT needs two.",
+          "tip": "Count each letter available."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Six people each shake hands with every other person exactly once. How many handshakes occur?",
+          "options": [
+            "12",
+            "18",
+            "30",
+            "15"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "6×5/2 = 15 handshakes.",
+          "tip": "n(n−1)/2."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statement: A school advises students to carry water bottles during a heatwave. Assumptions: I. Students may need water to stay hydrated in hot weather. II. The school cannot provide any drinking water.",
+          "options": [
+            "Both are implicit",
+            "Only I is implicit",
+            "Only II is implicit",
+            "Neither is implicit"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The advice assumes students need hydration; nothing says water isn’t provided.",
+          "tip": "An assumption is something the statement takes for granted."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Which relationship is correct?",
+          "options": [
+            "Planets are a subset of Earth, and Earth is a subset of the Solar System.",
+            "Earth and the Solar System are unrelated sets.",
+            "The Solar System is a subset of planets, which are a subset of Earth.",
+            "Earth is a planet within the Solar System."
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Earth is a planet inside the Solar System.",
+          "tip": "Think small to big."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 1, 2, 6, 15, 31, ?",
+          "options": [
+            "54",
+            "56",
+            "52",
+            "58"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Differences are squares 1, 4, 9, 16, 25; 31+25 = 56.",
+          "tip": "Differences 1², 2², 3²…"
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A scores more than B but less than C. D scores less than B. E scores more than C. Who scores the highest?",
+          "options": [
+            "E",
+            "A",
+            "D",
+            "C"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "E > C > A > B > D, so E is highest.",
+          "tip": "Write a chain with > signs."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: No laptop is a tablet. Some tablets are expensive. Conclusions: I. Some expensive items are tablets. II. No laptop is expensive.",
+          "options": [
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Only I follows"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "“Some tablets are expensive” gives “some expensive items are tablets”; laptops’ price is unknown.",
+          "tip": "The reverse of a “some” statement is valid."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "In a class, 45 play chess, 32 play badminton and 15 play both. How many play at least one game?",
+          "options": [
+            "62",
+            "52",
+            "77",
+            "57"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "45 + 32 − 15 = 62.",
+          "tip": "Union = A + B − both."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A watch gains 5 minutes every actual hour. It is set correctly at 8:00 AM. What time will it show at actual noon?",
+          "options": [
+            "12:15 PM",
+            "12:25 PM",
+            "12:20 PM",
+            "12:05 PM"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "It gains 5 min per hour; in 4 hours that is 20 min, so 12:20 PM.",
+          "tip": "Gain × actual hours."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A square sheet is folded once along its vertical centre line and once along its horizontal centre line. One hole is punched through all layers, away from folds and edges. How many holes appear when unfolded?",
+          "options": [
+            "2",
+            "4",
+            "3",
+            "8"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Two folds make 4 layers, so one punch gives 4 holes.",
+          "tip": "Each fold doubles the layers."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "What is the minimum number of straight cuts across a circle needed to create eight pieces?",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "3 cuts give at most 7 pieces, so 4 cuts are needed for 8.",
+          "tip": "Max pieces = (n² + n + 2)/2."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "How many three-digit even numbers can be formed from 1, 2, 3 and 4 without repeating any digit?",
+          "options": [
+            "8",
+            "10",
+            "12",
+            "16"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Last digit 2 or 4 (2 ways), first 3 ways, middle 2 ways: 2×3×2 = 12.",
+          "tip": "Fill the restricted place first."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A thermometer measures temperature. A barometer measures:",
+          "options": [
+            "Rainfall",
+            "Atmospheric pressure",
+            "Humidity",
+            "Wind speed"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A barometer measures atmospheric pressure.",
+          "tip": "Thermo = heat, baro = pressure."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Five books are stacked. Green is above Blue, Red is below Blue, Yellow is above Green, and Black is below Red. Which book is at the bottom?",
+          "options": [
+            "Black",
+            "Red",
+            "Blue",
+            "Yellow"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Top to bottom: Yellow, Green, Blue, Red, Black.",
+          "tip": "Draw a vertical stack."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Vernacular Press Act of 1878 was enacted during the tenure of:",
+          "options": [
+            "Lord Ripon",
+            "Lord Curzon",
+            "Lord Dalhousie",
+            "Lord Lytton"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Vernacular Press Act, 1878: Lord Lytton.",
+          "tip": "Lytton = 1878 press act."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Chauri Chaura incident took place in:",
+          "options": [
+            "1922",
+            "1919",
+            "1930",
+            "1942"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Chauri Chaura was in 1922; Gandhi then withdrew Non-Cooperation.",
+          "tip": "1922 = Chauri Chaura."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who founded the Satyashodhak Samaj in 1873?",
+          "options": [
+            "M. G. Ranade",
+            "G. K. Gokhale",
+            "Jyotirao Phule",
+            "B. R. Ambedkar"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Jyotirao Phule founded Satyashodhak Samaj in 1873.",
+          "tip": "Phule: Gulamgiri, Satyashodhak."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Fatehpur Sikri was developed as an imperial capital under:",
+          "options": [
+            "Akbar",
+            "Babur",
+            "Jahangir",
+            "Shah Jahan"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Akbar built Fatehpur Sikri.",
+          "tip": "Linked to Sufi saint Salim Chishti."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who was the first woman president of the Indian National Congress?",
+          "options": [
+            "Sarojini Naidu",
+            "Annie Besant",
+            "Vijaya Lakshmi Pandit",
+            "Sucheta Kripalani"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Annie Besant became INC’s first woman president in 1917.",
+          "tip": "Sarojini Naidu was the first Indian woman (1925)."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article provides for the Finance Commission?",
+          "options": [
+            "Article 324",
+            "Article 356",
+            "Article 370",
+            "Article 280"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Article 280 provides for the Finance Commission.",
+          "tip": "280 = finance."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which House of Parliament is permanent and cannot be dissolved?",
+          "options": [
+            "Lok Sabha",
+            "Rajya Sabha",
+            "Both Houses",
+            "Neither House"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Rajya Sabha is permanent; one-third retire every 2 years.",
+          "tip": "Lok Sabha can be dissolved, Rajya Sabha can’t."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The anti-defection provisions are contained in which Schedule?",
+          "options": [
+            "Eighth",
+            "Ninth",
+            "Tenth",
+            "Eleventh"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Tenth Schedule has the anti-defection law (1985).",
+          "tip": "10th Schedule = Defection."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The States Reorganisation Act was enacted in:",
+          "options": [
+            "1956",
+            "1947",
+            "1962",
+            "1971"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The States Reorganisation Act was passed in 1956.",
+          "tip": "Based on language; Fazl Ali Commission."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which is the highest peak in the Western Ghats?",
+          "options": [
+            "Doddabetta",
+            "Mahendragiri",
+            "Mullayanagiri",
+            "Anamudi"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Anamudi (Kerala) is the highest peak of the Western Ghats.",
+          "tip": "About 2,695 m, highest in South India."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Standard Meridian of India is:",
+          "options": [
+            "75° E",
+            "82°30′ E",
+            "90° E",
+            "68°7′ E"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "India’s Standard Meridian is 82°30′ E (near Mirzapur).",
+          "tip": "IST = UTC + 5:30."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Hirakud Dam is built across which river?",
+          "options": [
+            "Mahanadi",
+            "Godavari",
+            "Narmada",
+            "Krishna"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Hirakud Dam is on the Mahanadi in Odisha.",
+          "tip": "One of the longest earthen dams."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Kaziranga National Park is located in:",
+          "options": [
+            "Meghalaya",
+            "Manipur",
+            "Assam",
+            "Tripura"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Kaziranga is in Assam, home of the one-horned rhino.",
+          "tip": "Kaziranga = rhino."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Lavani is a folk performance associated primarily with:",
+          "options": [
+            "Punjab",
+            "Gujarat",
+            "Odisha",
+            "Maharashtra"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Lavani is a folk form from Maharashtra.",
+          "tip": "Lavani = Maharashtra, Bhangra = Punjab."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Jim Corbett National Park is located in:",
+          "options": [
+            "Uttarakhand",
+            "Rajasthan",
+            "Madhya Pradesh",
+            "Himachal Pradesh"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Jim Corbett is in Uttarakhand.",
+          "tip": "India’s oldest national park (1936)."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "What is the full form of DNA?",
+          "options": [
+            "Deoxyribose Nucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Deoxynitric Acid",
+            "Dioxyribonucleic Acid"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "DNA = Deoxyribonucleic Acid.",
+          "tip": "Deoxy + ribo + nucleic."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which organ produces bile?",
+          "options": [
+            "Kidney",
+            "Pancreas",
+            "Liver",
+            "Gallbladder"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The liver makes bile; the gallbladder only stores it.",
+          "tip": "Make = liver, store = gallbladder."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "SI unit of frequency?",
+          "options": [
+            "Joule",
+            "Ohm",
+            "Tesla",
+            "Hertz"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Frequency is measured in hertz.",
+          "tip": "Hz = cycles per second."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "SI unit of electrical resistance?",
+          "options": [
+            "Volt",
+            "Ohm",
+            "Watt",
+            "Ampere"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Resistance is measured in ohm.",
+          "tip": "V = IR, R in ohm."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Chemical formula of baking soda?",
+          "options": [
+            "NaHCO₃",
+            "NaCl",
+            "CaCO₃",
+            "NaOH"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Baking soda is sodium bicarbonate, NaHCO₃.",
+          "tip": "NaCl is table salt."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Chemical symbol for sodium?",
+          "options": [
+            "S",
+            "So",
+            "Na",
+            "N"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The symbol for sodium is Na (from natrium).",
+          "tip": "Na = Natrium, K = Kalium."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Average lifespan of a human red blood cell is about:",
+          "options": [
+            "90 days",
+            "120 days",
+            "60 days",
+            "30 days"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Red blood cells live about 120 days.",
+          "tip": "RBC 120 days, platelets about 10."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who was India’s Finance Minister when the 1991 economic reforms were introduced?",
+          "options": [
+            "P. Chidambaram",
+            "Pranab Mukherjee",
+            "Yashwant Sinha",
+            "Dr. Manmohan Singh"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Dr Manmohan Singh was Finance Minister in 1991.",
+          "tip": "1991 = LPG reforms under PM Narasimha Rao."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The repo rate is broadly the rate at which:",
+          "options": [
+            "The RBI lends funds to banks against eligible securities",
+            "Banks lend funds to the RBI",
+            "Banks lend directly to retail customers",
+            "The government borrows from the public"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Repo is the rate at which the RBI lends to banks against securities.",
+          "tip": "Repo = RBI lends; reverse repo = RBI borrows."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "How many Padma Awards were approved for 2026 (duo cases counted as one award each)?",
+          "options": [
+            "101",
+            "121",
+            "131",
+            "151"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "131 Padma Awards were approved for 2026 (PIB announcement).",
+          "tip": "Check PIB each January for the list."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mathematics",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Remainder when 7^103 is divided by 6?",
+          "options": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "7 ≡ 1 (mod 6), so 7¹⁰³ leaves remainder 1.",
+          "tip": "Reduce the base first."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Smallest non-negative integer to add to 4532 to make it divisible by 9?",
+          "options": [
+            "2",
+            "4",
+            "3",
+            "5"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Digit sum 14; the next multiple of 9 is 18; add 4.",
+          "tip": "Divisible by 9 if the digit sum is."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simplify: √75 − √27",
+          "options": [
+            "3√3",
+            "4√3",
+            "8√3",
+            "2√3"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "√75 = 5√3 and √27 = 3√3, so 2√3.",
+          "tip": "Take out perfect squares."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Find the larger root of x² − 7x + 12 = 0.",
+          "options": [
+            "4",
+            "3",
+            "6",
+            "2"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "x² − 7x + 12 = (x−3)(x−4); larger root 4.",
+          "tip": "Find two numbers with sum 7, product 12."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If a + b = 11 and ab = 24, find a² + b².",
+          "options": [
+            "49",
+            "57",
+            "73",
+            "97"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "a²+b² = (a+b)² − 2ab = 121 − 48 = 73.",
+          "tip": "Use the (a+b)² identity."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A boat goes downstream at 18 km/h and upstream at 10 km/h. Speed in still water?",
+          "options": [
+            "12 km/h",
+            "14 km/h",
+            "13 km/h",
+            "16 km/h"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Still-water speed = (18+10)/2 = 14 km/h.",
+          "tip": "Average of downstream and upstream."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Two parallel lines are cut by a transversal. One interior angle is 65°. The other interior angle on the same side?",
+          "options": [
+            "65°",
+            "105°",
+            "125°",
+            "115°"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Same-side interior angles add to 180°: 180 − 65 = 115°.",
+          "tip": "Co-interior angles are supplementary."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Sum of the interior angles of a decagon?",
+          "options": [
+            "1440°",
+            "1260°",
+            "1350°",
+            "1620°"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "(10 − 2)×180° = 1440°.",
+          "tip": "(n − 2) × 180°."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Corresponding sides of two similar triangles are in ratio 3 : 5. Ratio of their areas?",
+          "options": [
+            "3 : 5",
+            "9 : 25",
+            "5 : 3",
+            "25 : 9"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Area ratio = square of side ratio = 9 : 25.",
+          "tip": "Area uses squares, volume uses cubes."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Total surface area of a sphere of radius 7 cm (π = 22/7)?",
+          "options": [
+            "308 cm²",
+            "440 cm²",
+            "616 cm²",
+            "1232 cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "4πr² = 4×22/7×49 = 616 cm².",
+          "tip": "Sphere surface = 4πr²."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Evaluate sec²θ − tan²θ.",
+          "options": [
+            "1",
+            "0",
+            "−1",
+            "2"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "sec²θ = 1 + tan²θ, so the difference is 1.",
+          "tip": "Learn the three identities."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If tan θ = 3/4 and θ is acute, find sec θ.",
+          "options": [
+            "4/5",
+            "3/5",
+            "5/3",
+            "5/4"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "sec²θ = 1 + 9/16 = 25/16; sec θ = 5/4.",
+          "tip": "Think of a 3-4-5 triangle."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A pole casts a shadow of 10√3 m when the Sun’s elevation is 30°. Height of the pole?",
+          "options": [
+            "5 m",
+            "10 m",
+            "10√3 m",
+            "20 m"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "tan 30° = h/(10√3) = 1/√3, so h = 10 m.",
+          "tip": "tan = opposite / adjacent."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If (x − 1) is a factor of x³ + ax² − 5x + 3, find a.",
+          "options": [
+            "0",
+            "2",
+            "1",
+            "3"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Put x = 1: 1 + a − 5 + 3 = 0, so a = 1.",
+          "tip": "Factor theorem: f(1) = 0."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Distance between (−2, 3) and (4, 11)?",
+          "options": [
+            "8 units",
+            "12 units",
+            "9 units",
+            "10 units"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "√(6² + 8²) = √100 = 10 units.",
+          "tip": "6-8-10 is a 3-4-5 triangle ×2."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Median of 12, 4, 9, 17, 5, 11, 14?",
+          "options": [
+            "11",
+            "9",
+            "10",
+            "12"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Sorted: 4, 5, 9, 11, 12, 14, 17; the middle is 11.",
+          "tip": "Sort first, then pick the middle."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "One card is drawn from a standard 52-card deck. Probability of an ace?",
+          "options": [
+            "1/4",
+            "4/13",
+            "1/13",
+            "1/52"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "4 aces in 52 cards = 1/13.",
+          "tip": "Favourable ÷ total."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A invests ₹5,000 for 12 months and B ₹8,000 for 6 months. Total profit ₹18,000. B’s share?",
+          "options": [
+            "₹7,000",
+            "₹9,000",
+            "₹10,000",
+            "₹8,000"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Ratio 60000 : 48000 = 5 : 4; B gets 4/9 × 18000 = ₹8,000.",
+          "tip": "Capital × time."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "12 workers finish a job in 15 days. How many days would 20 workers take?",
+          "options": [
+            "9 days",
+            "8 days",
+            "10 days",
+            "12 days"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Total work = 12×15 = 180 worker-days; 180/20 = 9 days.",
+          "tip": "Workers × days stays constant."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A salesperson earns 12% commission on sales of ₹75,000. Commission?",
+          "options": [
+            "₹8,500",
+            "₹9,500",
+            "₹9,000",
+            "₹10,000"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "75,000×12/100 = ₹9,000.",
+          "tip": "10% = 7,500; 2% = 1,500."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "The side of a square is increased by 20%. Percentage increase in area?",
+          "options": [
+            "20%",
+            "44%",
+            "40%",
+            "50%"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "1.2² = 1.44, so area rises 44%.",
+          "tip": "Area changes as (1 + x)²."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Area of a trapezium with parallel sides 10 cm and 16 cm and height 7 cm?",
+          "options": [
+            "78 cm²",
+            "84 cm²",
+            "98 cm²",
+            "91 cm²"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "½ × (10+16) × 7 = 91 cm².",
+          "tip": "Trapezium = ½(a+b)h."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "What percentage of all applications was processed by Centre B?",
+          "options": [
+            "24%",
+            "26%",
+            "28%",
+            "30%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Applications processed: Centre A = 220 · B = 280 · C = 240 · D = 260",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "Total 1000; B = 280/1000 = 28%.",
+          "tip": "Part ÷ total × 100."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Applications processed by Centres A and C combined?",
+          "options": [
+            "460",
+            "420",
+            "440",
+            "480"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Applications processed: Centre A = 220 · B = 280 · C = 240 · D = 260",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "220 + 240 = 460.",
+          "tip": "Add only the two centres."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "How many more applications did Centre D process than Centre A?",
+          "options": [
+            "20",
+            "40",
+            "30",
+            "50"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Applications processed: Centre A = 220 · B = 280 · C = 240 · D = 260",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "260 − 220 = 40.",
+          "tip": "Subtract the smaller from the larger."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Synonym of obstinate.",
+          "options": [
+            "Docile",
+            "Stubborn",
+            "Lenient",
+            "Flexible"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Obstinate means stubborn.",
+          "tip": "Obstinate and stubborn both sound strong."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Antonym of transparent.",
+          "options": [
+            "Clear",
+            "Obvious",
+            "Opaque",
+            "Visible"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Opaque means not see-through.",
+          "tip": "Transparent ↔ opaque."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of the idiom “hit the nail on the head”:",
+          "options": [
+            "Work with tools",
+            "Avoid an issue",
+            "Describe something exactly right",
+            "Cause accidental damage"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Hit the nail on the head means to say or do exactly the right thing.",
+          "tip": "Picture a perfect hammer strike."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Government by a small group of people is called:",
+          "options": [
+            "Monarchy",
+            "Democracy",
+            "Oligarchy",
+            "Anarchy"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Oligarchy is rule by a few.",
+          "tip": "Oligo = few, mono = one, demo = people."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Conscentious",
+            "Conscientious",
+            "Conscientous",
+            "Consciencious"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Correct spelling: conscientious.",
+          "tip": "Con-sci-en-tious."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The committee, acting as a single unit, ___ the final decision yesterday.",
+          "options": [
+            "made",
+            "make",
+            "have made",
+            "making"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The committee as one unit takes a singular verb; “made” fits “yesterday”.",
+          "tip": "A past time word needs past tense."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: Each of the machines / require / regular maintenance / No error",
+          "options": [
+            "Each of the machines",
+            "require",
+            "regular maintenance",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“Each of” takes a singular verb: requires.",
+          "tip": "Each → singular verb."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "He insisted ___ paying the bill.",
+          "options": [
+            "at",
+            "on",
+            "for",
+            "with"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "We say “insist on”.",
+          "tip": "Learn verb + preposition pairs."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "She bought ___ European car.",
+          "options": [
+            "an",
+            "a",
+            "the",
+            "no article"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“European” starts with a “yoo” sound, so use a.",
+          "tip": "Sound matters, not spelling."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "By the end of this year, Arjun ___ at the firm for five years.",
+          "options": [
+            "will work",
+            "will have worked",
+            "has worked",
+            "is working"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Future perfect: will have worked.",
+          "tip": "By the end of… → will have + V3."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Passive form of: People speak Spanish in many countries.",
+          "options": [
+            "Spanish was spoken in many countries.",
+            "Spanish is spoken in many countries.",
+            "Spanish speaks in many countries.",
+            "Many countries are spoken Spanish."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Present simple passive: is spoken.",
+          "tip": "Active present → is/are + V3."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Indirect speech: The coach said to the players, “Do not lose confidence.”",
+          "options": [
+            "The coach told the players that they do not lose confidence.",
+            "The coach advised the players not to lose confidence.",
+            "The coach said the players do not lose confidence.",
+            "The coach asked whether the players lost confidence."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A negative command is reported with “advised… not to”.",
+          "tip": "Command → told/advised + to."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Hardly had the train left the platform ___ the passengers arrived.",
+          "options": [
+            "when",
+            "than",
+            "then",
+            "that"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Hardly… when; No sooner… than.",
+          "tip": "Hardly/scarcely + when."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The roads were flooded; ___, the match was postponed.",
+          "options": [
+            "however",
+            "therefore",
+            "nevertheless",
+            "meanwhile"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Flooding caused the postponement, so “therefore”.",
+          "tip": "A result needs therefore/so."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Arrange: A. After the storm, volunteers cleared the blocked roads. B. Heavy rain had isolated several villages. C. Supplies were then carried to the affected families. D. Local authorities first assessed the damage.",
+          "options": [
+            "B–A–D–C",
+            "D–B–A–C",
+            "B–D–A–C",
+            "B–D–C–A"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Rain isolated villages (B), authorities assessed (D), volunteers cleared (A), supplies came (C).",
+          "tip": "Cause → assess → act → help."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The speaker’s explanation was so ___ that even beginners understood it.",
+          "options": [
+            "Obscure",
+            "Lengthy",
+            "Lucid",
+            "Confusing"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Lucid means clear.",
+          "tip": "“So… that” shows a result."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "A person who compiles or edits dictionaries is called a:",
+          "options": [
+            "Lexicographer",
+            "Biographer",
+            "Calligrapher",
+            "Stenographer"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A lexicographer compiles dictionaries.",
+          "tip": "Lexico = words."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Closest synonym of mitigate.",
+          "options": [
+            "Increase",
+            "Postpone",
+            "Alleviate",
+            "Prevent"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Mitigate means to lessen, i.e. alleviate.",
+          "tip": "Mitigate ≈ reduce harm."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Antonym of conspicuous.",
+          "options": [
+            "Noticeable",
+            "Striking",
+            "Obvious",
+            "Inconspicuous"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Inconspicuous is the opposite of conspicuous.",
+          "tip": "In- = not."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of “burn the midnight oil”:",
+          "options": [
+            "Waste cooking oil",
+            "Work or study late into the night",
+            "Travel at night",
+            "Avoid an important task"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Burn the midnight oil means work late into the night.",
+          "tip": "Think of an oil lamp."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: One of my friends / have joined / the navy / No error",
+          "options": [
+            "One of my friends",
+            "have joined",
+            "the navy",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "“One of my friends” takes a singular verb: has joined.",
+          "tip": "One of + plural noun → singular verb."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Best correction: Unless you do not hurry, you will miss the bus.",
+          "options": [
+            "Unless you hurry, you will miss the bus.",
+            "Unless you are hurried, you will miss the bus.",
+            "Until you hurry, you will miss the bus.",
+            "If you are not hurry, you will miss the bus."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "“Unless” already means “if not”, so remove the extra “not”.",
+          "tip": "Never use unless + not."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Main idea of the passage?",
+          "options": [
+            "Wetlands provide useful ecological functions and need protection.",
+            "Wetlands are unsuitable for wildlife.",
+            "Scientific monitoring should replace local knowledge.",
+            "Flooding occurs only in wetlands."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Wetlands often appear to be unused land, yet they perform several important functions. They temporarily store excess rainwater, trap some sediments, and provide habitats for plants, birds, and other wildlife. When wetlands are drained for construction, nearby areas may become more vulnerable to flooding and species may lose their habitat. Conservation works best when scientific monitoring is combined with local knowledge.",
+            "badge": "📖",
+            "startQ": 98,
+            "endQ": 100
+          },
+          "explanation": "The passage covers wetland functions and why they need protection.",
+          "tip": "The main idea covers the whole passage."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "According to the passage, what may happen when wetlands are drained?",
+          "options": [
+            "Water always disappears immediately.",
+            "Biodiversity necessarily increases.",
+            "Nearby areas may face greater flood risk.",
+            "Wildlife habitats automatically improve."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Wetlands often appear to be unused land, yet they perform several important functions. They temporarily store excess rainwater, trap some sediments, and provide habitats for plants, birds, and other wildlife. When wetlands are drained for construction, nearby areas may become more vulnerable to flooding and species may lose their habitat. Conservation works best when scientific monitoring is combined with local knowledge.",
+            "badge": "📖",
+            "startQ": 98,
+            "endQ": 100
+          },
+          "explanation": "The passage says drained wetlands raise flood risk nearby.",
+          "tip": "Look for “When wetlands are drained”."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "According to the passage, effective wetland conservation combines:",
+          "options": [
+            "Local knowledge alone",
+            "Scientific monitoring and local knowledge",
+            "Construction projects and drainage",
+            "Wildlife removal and land development"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Wetlands often appear to be unused land, yet they perform several important functions. They temporarily store excess rainwater, trap some sediments, and provide habitats for plants, birds, and other wildlife. When wetlands are drained for construction, nearby areas may become more vulnerable to flooding and species may lose their habitat. Conservation works best when scientific monitoring is combined with local knowledge.",
+            "badge": "📖",
+            "startQ": 98,
+            "endQ": 100
+          },
+          "explanation": "The last sentence says to combine scientific monitoring with local knowledge.",
+          "tip": "Check the concluding line."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1875 @@
+{
+  "id": 1,
+  "slug": "mock-01",
+  "title": "SSC CGL Tier-I Mock Test 01",
+  "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+  "level": "Beginner",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 2, 6, 12, 20, 30, ?",
+          "options": [
+            "40",
+            "41",
+            "42",
+            "44"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences are 4, 6, 8, 10, so next is 12 and 30+12 = 42.",
+          "tip": "Write the differences between terms first."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 3, 9, 27, 81, ?",
+          "options": [
+            "162",
+            "189",
+            "216",
+            "243"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Each term is multiplied by 3, so 81×3 = 243.",
+          "tip": "Check the ratio of two terms."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the series: A, C, F, J, O, ?",
+          "options": [
+            "S",
+            "T",
+            "U",
+            "V"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Gaps grow: +2, +3, +4, +5, next +6. O is 15, 15+6 = 21 = U.",
+          "tip": "Convert letters to positions (A=1)."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Book : Read :: Food : ?",
+          "options": [
+            "Cook",
+            "Eat",
+            "Buy",
+            "Serve"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "You read a book; you eat food.",
+          "tip": "Find the action that fits the object."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Identify the odd one out.",
+          "options": [
+            "16",
+            "25",
+            "36",
+            "63"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "16, 25, 36 are perfect squares; 63 is not.",
+          "tip": "Memorise squares up to 30."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If CAT is coded as DBU (each letter one step forward), how is DOG coded?",
+          "options": [
+            "EOG",
+            "EPH",
+            "FPH",
+            "DPH"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Every letter moves +1: D→E, O→P, G→H = EPH.",
+          "tip": "Shift each letter; don’t skip any."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If SOUTH is coded as TPVUI (each letter one step forward), how is NORTH coded?",
+          "options": [
+            "OPSUI",
+            "OPSTI",
+            "OPSVI",
+            "NPSUI"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "N→O, O→P, R→S, T→U, H→I gives OPSUI.",
+          "tip": "Write the letters one under the other."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "P is the sister of Q. Q is the son of R. How is P related to R?",
+          "options": [
+            "Sister",
+            "Mother",
+            "Daughter",
+            "Aunt"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Q is R’s son and P is Q’s sister, so P is R’s daughter.",
+          "tip": "Draw a tiny family tree."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A person walks 5 km north, 3 km east, then 5 km south. Where is the person relative to the start?",
+          "options": [
+            "3 km east",
+            "3 km west",
+            "5 km north",
+            "5 km south"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "5 km north and 5 km south cancel, so only 3 km east remains.",
+          "tip": "Cancel opposite moves first."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Riya ranks 18th from the top and 25th from the bottom. How many students are in the class?",
+          "options": [
+            "41",
+            "40",
+            "42",
+            "43"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Total = rank from top + rank from bottom − 1 = 18+25−1 = 42.",
+          "tip": "Rank formula: top + bottom − 1."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses fade quickly. II. All roses are flowers.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Conclusion II just repeats a statement. “Some flowers” tells nothing sure about roses, so I fails.",
+          "tip": "“Some” never proves anything about another group."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Identify the odd one out.",
+          "options": [
+            "Apple",
+            "Mango",
+            "Orange",
+            "Carrot"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Apple, mango, orange are fruits; carrot is a vegetable.",
+          "tip": "Sort items by category first."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "BDF : CEG :: HJL : ?",
+          "options": [
+            "IKM",
+            "IKL",
+            "JKM",
+            "IKMN"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Each letter moves +1: H→I, J→K, L→M = IKM.",
+          "tip": "Find the shift in the first pair and repeat it."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If + means multiplication and × means subtraction, evaluate 8 + 3 × 4",
+          "options": [
+            "12",
+            "20",
+            "28",
+            "32"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Swap the symbols: 8×3−4 = 24−4 = 20.",
+          "tip": "Replace symbols first, then apply BODMAS."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If today is Wednesday, what day will it be 45 days from today?",
+          "options": [
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "45 ÷ 7 leaves remainder 3; Wednesday + 3 = Saturday.",
+          "tip": "Only the remainder after dividing by 7 matters."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Smaller angle between the clock hands at 3:30?",
+          "options": [
+            "75°",
+            "90°",
+            "105°",
+            "120°"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Hour hand is at 105°, minute hand at 180°; the gap is 75°.",
+          "tip": "Angle = |30H − 5.5M|."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A, B, C, D sit in a row facing north. C is immediately left of A, B immediately right of A, D immediately right of B. Who is second from the left?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Order from left: C, A, B, D. Second from left is A.",
+          "tip": "Draw boxes and place people one by one."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 4, 9, 19, 39, 79, ?",
+          "options": [
+            "119",
+            "139",
+            "149",
+            "159"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Each term = previous ×2 + 1; 79×2+1 = 159.",
+          "tip": "Try ×2 and adjust by a small number."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 5, 11, 23, 47, ?",
+          "options": [
+            "89",
+            "93",
+            "95",
+            "97"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Each term = previous ×2 + 1; 47×2+1 = 95.",
+          "tip": "Same ×2 + 1 idea as the last question."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "6 : 36 :: 8 : ?",
+          "options": [
+            "64",
+            "56",
+            "48",
+            "72"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "6² = 36, so 8² = 64.",
+          "tip": "Spot the square pattern."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Word value = sum of alphabet positions. PEN = 35, so CAT = ?",
+          "options": [
+            "21",
+            "24",
+            "26",
+            "30"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "PEN = 16+5+14 = 35. CAT = 3+1+20 = 24.",
+          "tip": "Learn A=1 to Z=26; J=10, T=20."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Evaluate using the usual order of operations: 12 ÷ 3 × 2",
+          "options": [
+            "2",
+            "6",
+            "8",
+            "12"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Divide and multiply left to right: 12÷3 = 4, then 4×2 = 8.",
+          "tip": "Same-rank operations go left to right."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A father is 3 times as old as his son. After 10 years he will be twice as old. Son’s present age?",
+          "options": [
+            "10 years",
+            "12 years",
+            "15 years",
+            "20 years"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Son x, father 3x. 3x+10 = 2(x+10) gives x = 10.",
+          "tip": "Build one equation from the future ages."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "49 : 7 :: 81 : ?",
+          "options": [
+            "7",
+            "8",
+            "10",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "√81 = 9, just as √49 = 7.",
+          "tip": "The answer is the square root."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "In a non-leap year, 1 January is a Monday. What day is 1 February?",
+          "options": [
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "January has 31 days = 4 weeks + 3 days; Monday + 3 = Thursday.",
+          "tip": "Month days ÷ 7: the remainder is the day shift."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "On which date did the Constituent Assembly adopt the Constitution of India?",
+          "options": [
+            "15 August 1947",
+            "26 November 1949",
+            "26 January 1950",
+            "2 October 1950"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Adopted on 26 November 1949, now celebrated as Constitution Day.",
+          "tip": "Adopted is not the same as enforced."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "When did the Constitution of India come into force?",
+          "options": [
+            "15 August 1947",
+            "26 November 1949",
+            "26 January 1950",
+            "26 January 1951"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Came into force on 26 January 1950 (Republic Day).",
+          "tip": "26 Jan = Republic Day."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article protects life and personal liberty?",
+          "options": [
+            "Article 14",
+            "Article 19",
+            "Article 21",
+            "Article 32"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Article 21 protects life and personal liberty.",
+          "tip": "Art. 19 = freedoms, Art. 21 = life."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Fundamental Duties are in which part of the Constitution?",
+          "options": [
+            "Part II",
+            "Part III",
+            "Part V",
+            "Part IVA"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Fundamental Duties are in Part IV-A (Article 51A), added in 1976.",
+          "tip": "Part III rights, Part IV-A duties."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Normal term of the Lok Sabha, unless dissolved earlier?",
+          "options": [
+            "Four years",
+            "Five years",
+            "Six years",
+            "Seven years"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Lok Sabha’s normal term is five years.",
+          "tip": "Lok Sabha 5 years; Rajya Sabha is permanent."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who was the first President of India?",
+          "options": [
+            "Dr. Rajendra Prasad",
+            "Dr. S. Radhakrishnan",
+            "Jawaharlal Nehru",
+            "Dr. Zakir Husain"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Dr Rajendra Prasad was the first President (1950–62).",
+          "tip": "Prasad first, Radhakrishnan second."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "NITI Aayog replaced the Planning Commission in which year?",
+          "options": [
+            "2012",
+            "2013",
+            "2015",
+            "2017"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "NITI Aayog was created on 1 January 2015.",
+          "tip": "NITI = National Institution for Transforming India."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "In which year was Gandhi’s Dandi March?",
+          "options": [
+            "1920",
+            "1930",
+            "1932",
+            "1942"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Dandi March (Salt Satyagraha) took place in 1930.",
+          "tip": "1920 Non-Cooperation, 1930 Salt, 1942 Quit India."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Revolt of 1857 first broke out on a large scale at:",
+          "options": [
+            "Delhi",
+            "Kanpur",
+            "Lucknow",
+            "Meerut"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "The revolt began at Meerut on 10 May 1857.",
+          "tip": "Meerut started it; Delhi became the centre."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Emperor Ashoka belonged to which dynasty?",
+          "options": [
+            "Maurya",
+            "Gupta",
+            "Chola",
+            "Kushan"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Ashoka was a Maurya emperor.",
+          "tip": "Maurya: Chandragupta, Bindusara, Ashoka."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Bharatanatyam is associated primarily with which state?",
+          "options": [
+            "Kerala",
+            "Odisha",
+            "Tamil Nadu",
+            "Punjab"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Bharatanatyam comes from Tamil Nadu.",
+          "tip": "Kathakali = Kerala, Odissi = Odisha."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Largest Indian state by area?",
+          "options": [
+            "Madhya Pradesh",
+            "Rajasthan",
+            "Maharashtra",
+            "Uttar Pradesh"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Rajasthan is the largest state by area.",
+          "tip": "Rajasthan > Madhya Pradesh > Maharashtra."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Through how many Indian states does the Tropic of Cancer pass?",
+          "options": [
+            "Six",
+            "Seven",
+            "Eight",
+            "Nine"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Tropic of Cancer crosses 8 states.",
+          "tip": "Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Sundarbans lie in which delta region?",
+          "options": [
+            "Ganga–Brahmaputra–Meghna",
+            "Narmada–Tapti",
+            "Krishna–Godavari",
+            "Mahanadi–Brahmani"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The Sundarbans lie in the Ganga–Brahmaputra–Meghna delta.",
+          "tip": "World’s largest mangrove forest; Royal Bengal tigers."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Commonly recognised longest river of Peninsular India?",
+          "options": [
+            "Krishna",
+            "Kaveri",
+            "Narmada",
+            "Godavari"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Godavari (about 1,465 km) is the longest river of Peninsular India.",
+          "tip": "Also called “Dakshin Ganga”."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which currency note is issued by the Government of India, not the RBI?",
+          "options": [
+            "₹10 note",
+            "₹20 note",
+            "₹100 note",
+            "₹1 note"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "₹1 notes are issued by the Government of India; other notes by the RBI.",
+          "tip": "₹1: Govt of India; ₹2 and above: RBI."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which pigment mainly absorbs light in photosynthesis?",
+          "options": [
+            "Haemoglobin",
+            "Chlorophyll",
+            "Melanin",
+            "Keratin"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Chlorophyll absorbs light for photosynthesis.",
+          "tip": "Green pigment = chlorophyll."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Deficiency of Vitamin C causes:",
+          "options": [
+            "Scurvy",
+            "Rickets",
+            "Beriberi",
+            "Night blindness"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Lack of Vitamin C causes scurvy.",
+          "tip": "C for Citrus; scurvy needs citrus."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "SI unit of force?",
+          "options": [
+            "Joule",
+            "Watt",
+            "Newton",
+            "Pascal"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Force is measured in newton (N).",
+          "tip": "Joule = energy, watt = power, pascal = pressure."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A solution with pH below 7 (room temperature) is generally:",
+          "options": [
+            "Neutral",
+            "Alkaline",
+            "Saline",
+            "Acidic"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "pH below 7 means acidic.",
+          "tip": "0–6 acid, 7 neutral, 8–14 alkaline."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which organs filter blood and produce urine?",
+          "options": [
+            "Lungs",
+            "Kidneys",
+            "Pancreas",
+            "Stomach"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Kidneys filter blood and make urine.",
+          "tip": "Kidney = filter."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which gas is the largest part of Earth’s atmosphere?",
+          "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Hydrogen"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Nitrogen is about 78% of air.",
+          "tip": "78% nitrogen, 21% oxygen."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "In which year did the RBI begin operations?",
+          "options": [
+            "1932",
+            "1935",
+            "1947",
+            "1949"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The RBI began on 1 April 1935.",
+          "tip": "Set up under the RBI Act, 1934."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "What does GDP stand for?",
+          "options": [
+            "Gross Domestic Product",
+            "General Development Plan",
+            "Gross Distribution Price",
+            "Government Debt Provision"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "GDP = Gross Domestic Product.",
+          "tip": "Value of goods and services made inside a country."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "In which year was the Battle of Plassey fought?",
+          "options": [
+            "1750",
+            "1756",
+            "1761",
+            "1757"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Plassey was fought in 1757 (Clive vs Siraj-ud-Daulah).",
+          "tip": "1757 Plassey, 1764 Buxar."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mathematics",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "What is 35% of 480?",
+          "options": [
+            "144",
+            "156",
+            "168",
+            "180"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "35% of 480 = 480×35/100 = 168.",
+          "tip": "10% = 48, 30% = 144, 5% = 24; add."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Two numbers are in ratio 4 : 7 and sum to 99. The larger number?",
+          "options": [
+            "36",
+            "54",
+            "63",
+            "72"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Total parts 11; larger = 99×7/11 = 63.",
+          "tip": "One part = 9, so 7 parts = 63."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Average of 14, 18, 22 and 26?",
+          "options": [
+            "18",
+            "20",
+            "21",
+            "22"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Sum 80 ÷ 4 = 20.",
+          "tip": "Evenly spaced numbers: average sits in the middle."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "An article costs ₹1,200. Selling price at 15% profit?",
+          "options": [
+            "₹1,320",
+            "₹1,360",
+            "₹1,380",
+            "₹1,420"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "1200×1.15 = 1380.",
+          "tip": "15% of 1200 = 180; add it."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "An item marked ₹2,000 is sold at 15% discount. Selling price?",
+          "options": [
+            "₹1,600",
+            "₹1,650",
+            "₹1,700",
+            "₹1,750"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "15% of 2000 = 300; 2000−300 = 1700.",
+          "tip": "Discount comes off the marked price."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simple interest on ₹6,000 at 7% p.a. for two years?",
+          "options": [
+            "₹720",
+            "₹800",
+            "₹840",
+            "₹900"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "SI = 6000×7×2/100 = 840.",
+          "tip": "SI = P×R×T/100."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Compound interest on ₹5,000 at 10% p.a. for two years (annual)?",
+          "options": [
+            "₹1,000",
+            "₹1,050",
+            "₹1,100",
+            "₹1,200"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "5000×1.1×1.1 = 6050; CI = 6050−5000 = 1050.",
+          "tip": "CI = amount − principal."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A completes a job in 12 days, B in 18 days. Together?",
+          "options": [
+            "6 days",
+            "7 1/5 days",
+            "8 days",
+            "9 days"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Rates 1/12 + 1/18 = 5/36, so time = 36/5 = 7 1/5 days.",
+          "tip": "Together time = (a×b)/(a+b)."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A car travels at 54 km/h for 2 h 20 min. Distance?",
+          "options": [
+            "108 km",
+            "120 km",
+            "126 km",
+            "144 km"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "2 h 20 min = 7/3 h; 54×7/3 = 126 km.",
+          "tip": "Convert minutes to hours first."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A 150 m train passes a pole in 10 s. Speed in km/h?",
+          "options": [
+            "45",
+            "54",
+            "60",
+            "72"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "150/10 = 15 m/s; 15×18/5 = 54 km/h.",
+          "tip": "m/s to km/h: multiply by 18/5."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "HCF of 48 and 72?",
+          "options": [
+            "12",
+            "18",
+            "24",
+            "36"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "48 = 2⁴×3, 72 = 2³×3²; HCF = 2³×3 = 24.",
+          "tip": "HCF: lowest powers of common primes."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "LCM of 15, 20 and 24?",
+          "options": [
+            "60",
+            "90",
+            "120",
+            "240"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "15 = 3×5, 20 = 2²×5, 24 = 2³×3; LCM = 2³×3×5 = 120.",
+          "tip": "LCM: highest power of every prime."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Solve: 5x − 9 = 31",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "5x = 40, so x = 8.",
+          "tip": "Move numbers across and flip the sign."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Solve: 2x + 5 = 3x − 7",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "2x+5 = 3x−7 gives x = 12.",
+          "tip": "x on one side, numbers on the other."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Triangle with base 18 cm and height 8 cm. Area?",
+          "options": [
+            "63 cm²",
+            "72 cm²",
+            "81 cm²",
+            "90 cm²"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Area = ½×18×8 = 72 cm².",
+          "tip": "Triangle = ½ × base × height."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Circumference of a circle of radius 14 cm (π = 22/7)?",
+          "options": [
+            "44 cm",
+            "66 cm",
+            "88 cm",
+            "176 cm"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "2πr = 2×22/7×14 = 88 cm.",
+          "tip": "Radius 14 cancels the 7."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Volume of a 12 × 5 × 4 cm cuboid?",
+          "options": [
+            "220 cm³",
+            "240 cm³",
+            "260 cm³",
+            "280 cm³"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "12×5×4 = 240 cm³.",
+          "tip": "Volume = l × b × h."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "sin 30° + cos 60° = ?",
+          "options": [
+            "1/2",
+            "1",
+            "√3",
+            "2"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "sin 30° = ½ and cos 60° = ½, so the sum is 1.",
+          "tip": "Memorise the 0°, 30°, 45°, 60°, 90° table."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simplify: 7/8 − 1/4",
+          "options": [
+            "3/8",
+            "1/2",
+            "5/8",
+            "3/4"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "7/8 − 2/8 = 5/8.",
+          "tip": "Make denominators equal first."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Calculate 0.75 × 0.4",
+          "options": [
+            "0.25",
+            "0.30",
+            "0.35",
+            "0.40"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "75×4 = 300 with two decimal places gives 0.30.",
+          "tip": "Multiply as whole numbers, then count decimals."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If 40% of a number is 120, the number is?",
+          "options": [
+            "240",
+            "280",
+            "300",
+            "320"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "120 ÷ 0.4 = 300.",
+          "tip": "Number = part ÷ percentage."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A 30 L solution has 40% acid. Water to add for 30% acid?",
+          "options": [
+            "5 L",
+            "8 L",
+            "10 L",
+            "12 L"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Acid = 12 L. For 30% the total must be 40 L, so add 10 L water.",
+          "tip": "Acid stays the same when water is added."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A : B = 5 : 8. If B = 56, find A.",
+          "options": [
+            "30",
+            "35",
+            "40",
+            "45"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "8 parts = 56, so 1 part = 7 and A = 5×7 = 35.",
+          "tip": "Find the value of one part first."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Average of the first 15 natural numbers?",
+          "options": [
+            "7",
+            "8",
+            "8.5",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Average of 1 to n = (n+1)/2 = 8.",
+          "tip": "Shortcut: (n+1)/2."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Pen sales rose from 80 (Monday) to 120 (Wednesday). Percentage increase?",
+          "options": [
+            "25%",
+            "33⅓%",
+            "50%",
+            "60%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Increase 40 on base 80 = 50%.",
+          "tip": "% change = change ÷ original × 100."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Synonym of abundant.",
+          "options": [
+            "Plentiful",
+            "Scarce",
+            "Empty",
+            "Limited"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Abundant means plentiful; scarce and limited are opposites.",
+          "tip": "Pair abundant with plentiful."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Antonym of reluctant.",
+          "options": [
+            "Hesitant",
+            "Unwilling",
+            "Willing",
+            "Doubtful"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Reluctant means unwilling, so the antonym is willing.",
+          "tip": "Check for the opposite, not the similar word."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "A person who cannot read or write is called:",
+          "options": [
+            "Immigrant",
+            "Illiterate",
+            "Orator",
+            "Editor"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Illiterate means unable to read or write.",
+          "tip": "il- = not; literate = can read."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of the idiom “once in a blue moon”:",
+          "options": [
+            "Every day",
+            "At the right time",
+            "Very quickly",
+            "Very rarely"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "The idiom means very rarely.",
+          "tip": "Blue moons are rare events."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Acommodation",
+            "Accommodation",
+            "Accomodation",
+            "Accommmodation"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Correct spelling is accommodation (double c, double m).",
+          "tip": "Two Cs and two Ms."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Neither of the two candidates ___ present.",
+          "options": [
+            "was",
+            "were",
+            "are",
+            "have been"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Neither of two takes a singular verb: was.",
+          "tip": "Neither/each/either + of → singular."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The list of items ___ on the table.",
+          "options": [
+            "are",
+            "were",
+            "is",
+            "have"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The subject is “list” (singular), so is.",
+          "tip": "Ignore the phrase after “of”."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "He is ___ honest man.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Honest begins with a vowel sound (silent h), so an.",
+          "tip": "Sound matters, not spelling."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "She is good ___ Mathematics.",
+          "options": [
+            "in",
+            "on",
+            "for",
+            "at"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "We say “good at” a subject.",
+          "tip": "Good at, weak in, interested in."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "By the time we arrived, the film ___.",
+          "options": [
+            "starts",
+            "has started",
+            "had started",
+            "starting"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The film started before we arrived, so past perfect: had started.",
+          "tip": "Earlier past action = had + V3."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Passive voice of “The committee approved the proposal.”",
+          "options": [
+            "The proposal was approved by the committee.",
+            "The proposal is approving the committee.",
+            "The committee was approved by the proposal.",
+            "The proposal has approve by the committee."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Passive: object becomes subject with was + V3.",
+          "tip": "Object → subject, be + V3."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Indirect speech: He said, “I am tired.”",
+          "options": [
+            "He said that I am tired.",
+            "He said that he was tired.",
+            "He says that he was tired.",
+            "He said that he is tiring."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Present tense moves back in reported speech: I am → he was.",
+          "tip": "Tense and pronoun both shift."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Incorrect part: “Each of the players have received a certificate.”",
+          "options": [
+            "Each of",
+            "the players",
+            "have received",
+            "a certificate"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "“Each of” takes a singular verb, so “has received”.",
+          "tip": "Each → has."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Best correction: “She is senior than me.”",
+          "options": [
+            "She is senior from me.",
+            "She is more senior than me.",
+            "She is senior over me.",
+            "She is senior to me."
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Senior, junior, superior take “to”, not “than”.",
+          "tip": "Senior/junior/superior + to."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The manager asked us to ___ the report before Friday.",
+          "options": [
+            "submit",
+            "submitted",
+            "submitting",
+            "submission"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "After “to” use the base verb: submit.",
+          "tip": "to + V1."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The team won the match ___ its opponents were stronger.",
+          "options": [
+            "because",
+            "although",
+            "unless",
+            "therefore"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Winning despite stronger opponents shows contrast, so although.",
+          "tip": "Although = contrast; because = reason."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Arrange: P. Finally, the treated water is supplied to homes. Q. First, raw water is collected from a source. R. It is then treated to remove impurities. S. The treated water is stored in reservoirs.",
+          "options": [
+            "Q–P–R–S",
+            "R–Q–S–P",
+            "Q–R–S–P",
+            "Q–S–R–P"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Logical order: collect (Q), treat (R), store (S), supply (P).",
+          "tip": "Look for First and Finally."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Main idea of the passage?",
+          "options": [
+            "Libraries provide several educational and community services.",
+            "Libraries should lend only printed books.",
+            "Digital resources make books unnecessary.",
+            "Libraries are mainly places for storing records."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Public libraries do more than lend books. They provide quiet places to study, access to digital resources, and programmes that bring communities together. For students who lack internet access at home, a library can be an important gateway to information. Keeping libraries accessible therefore benefits both individuals and society.",
+            "badge": "📖",
+            "startQ": 93,
+            "endQ": 95
+          },
+          "explanation": "The passage lists several services, so the main idea is what libraries provide.",
+          "tip": "Main idea covers the whole passage."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which service is specifically mentioned in the passage?",
+          "options": [
+            "Providing free transport",
+            "Arranging medical treatment",
+            "Selling educational materials",
+            "Providing access to digital resources"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": {
+            "text": "Public libraries do more than lend books. They provide quiet places to study, access to digital resources, and programmes that bring communities together. For students who lack internet access at home, a library can be an important gateway to information. Keeping libraries accessible therefore benefits both individuals and society.",
+            "badge": "📖",
+            "startQ": 93,
+            "endQ": 95
+          },
+          "explanation": "The passage mentions access to digital resources.",
+          "tip": "Match options to the passage’s words."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Why can accessible libraries benefit society?",
+          "options": [
+            "They eliminate the need for schools.",
+            "They provide more people with access to information and learning.",
+            "They ensure everyone has the same internet connection at home.",
+            "They replace every other educational institution."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Public libraries do more than lend books. They provide quiet places to study, access to digital resources, and programmes that bring communities together. For students who lack internet access at home, a library can be an important gateway to information. Keeping libraries accessible therefore benefits both individuals and society.",
+            "badge": "📖",
+            "startQ": 93,
+            "endQ": 95
+          },
+          "explanation": "The last sentence says accessible libraries benefit society by widening access to information.",
+          "tip": "Check the concluding sentence."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The new policy will ___ all employees.",
+          "options": [
+            "effecting",
+            "effected",
+            "affect",
+            "affection"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Affect is a verb meaning to influence; effect is a noun.",
+          "tip": "A = Action = affect."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The news ___ encouraging.",
+          "options": [
+            "is",
+            "are",
+            "were",
+            "have"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "News is uncountable, so it takes a singular verb: is.",
+          "tip": "News, furniture, information are singular."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the grammatically correct sentence.",
+          "options": [
+            "Neither the teacher or the students was ready.",
+            "Neither the teacher nor the students was ready.",
+            "Neither the teacher or the students were ready.",
+            "Neither the teacher nor the students were ready."
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Neither…nor: the verb agrees with the nearer subject (students), so were.",
+          "tip": "The closest noun decides the verb."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Phrasal verb “called off” means:",
+          "options": [
+            "Continued",
+            "Cancelled",
+            "Postponed indefinitely without cancellation",
+            "Announced"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Called off means cancelled.",
+          "tip": "Call off = cancel; put off = postpone."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Maintainance",
+            "Maintenence",
+            "Maintenance",
+            "Maintanance"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Correct spelling is maintenance.",
+          "tip": "Remember main + tenance."
+        }
+      ]
+    }
+  ]
+}

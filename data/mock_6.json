@@ -1,0 +1,1925 @@
+{
+  "id": 6,
+  "slug": "mock-06",
+  "title": "SSC CGL Tier-I Mock Test 06",
+  "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+  "level": "Intermediate",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 1, 5, 14, 30, 55, ?",
+          "options": [
+            "81",
+            "87",
+            "91",
+            "96"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences are squares: 4, 9, 16, 25, 36, so 55 + 36 = 91.",
+          "tip": "Running sum of squares."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the letter series: C, H, O, X, ?",
+          "options": [
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Positions 3, 8, 15, 24: gaps +5, +7, +9, next +11, giving 35, which is I.",
+          "tip": "Subtract 26 after Z."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Loom : Fabric :: Kiln : ?",
+          "options": [
+            "Pottery",
+            "Cotton",
+            "Timber",
+            "Metal"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A loom makes fabric; a kiln fires pottery.",
+          "tip": "Machine to product."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "1",
+            "8",
+            "27",
+            "100"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "1, 8 and 27 are cubes; 100 is not.",
+          "tip": "Cubes: 1, 8, 27, 64."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Consonants become the next consonant and vowels become the preceding vowel in the cycle A–E–I–O–U–A. How is MATE coded?",
+          "options": [
+            "NUVA",
+            "NTUA",
+            "NUWA",
+            "MVUA"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "M→N; A→U (previous vowel); T→V (next consonant); E→A.",
+          "tip": "Handle vowels and consonants separately."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing result: (2, 3) → 11; (3, 4) → 19; (4, 5) → ?",
+          "options": [
+            "25",
+            "27",
+            "29",
+            "31"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Rule: ab + a + b, so 4 × 5 + 9 = 29.",
+          "tip": "Test product plus sum."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Arrange Distant, Distil, Distinct, Distress in dictionary order. Which comes second?",
+          "options": [
+            "Distant",
+            "Distil",
+            "Distinct",
+            "Distress"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Dictionary order: Distant, Distil, Distinct, Distress.",
+          "tip": "Compare letter by letter."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: All architects are designers. Some designers are painters. Conclusions: I. Some architects are painters. II. All architects are designers.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘All architects are designers’ is stated; the painter link is not.",
+          "tip": "Nothing joins architects to painters."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Is an integer n odd? I. n² is odd. II. n + 1 is even.",
+          "options": [
+            "I alone is sufficient",
+            "II alone is sufficient",
+            "Both together are required",
+            "Either alone is sufficient"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "n² odd means n odd; n + 1 even also means n odd.",
+          "tip": "Both work alone."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A company introduces two-factor authentication for its employees. Which assumption supports this decision?",
+          "options": [
+            "A second verification step can strengthen account security.",
+            "Passwords are no longer necessary.",
+            "Every employee has experienced a cyberattack.",
+            "Authentication removes every possible security risk."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A second verification step strengthens security.",
+          "tip": "Avoid absolute claims."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the symbol matrix: row 1 ○ ○○ ○○○; row 2 △ △△ △△△; row 3 □ □□ ?",
+          "options": [
+            "□",
+            "□□",
+            "□□□",
+            "□□□□"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Each row repeats its symbol 1, 2, 3 times.",
+          "tip": "Row-wise count."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Rule: If the main server fails, the backup server automatically activates. Today the backup server did not activate. Which conclusion follows, assuming the rule has no exceptions?",
+          "options": [
+            "The main server failed.",
+            "The main server did not fail.",
+            "Both servers failed.",
+            "The backup server was switched off manually."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Contrapositive: backup did not activate, so main did not fail.",
+          "tip": "If P then Q; not Q means not P."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Which word can be formed by rearranging all the letters of SILENT?",
+          "options": [
+            "LISTEN",
+            "LITTLE",
+            "LENS",
+            "STONE"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "SILENT is an anagram of LISTEN.",
+          "tip": "Sort the letters."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "How many letters stay in the same position when MARKET is written in reverse?",
+          "options": [
+            "Zero",
+            "One",
+            "Two",
+            "Three"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "MARKET reversed is TEKRAM; no letter keeps its place.",
+          "tip": "Compare place by place."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: No artist is careless. Some teachers are artists. Conclusions: I. Some teachers are not careless. II. All teachers are artists.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Some teachers are artists and no artist is careless, so some teachers are not careless.",
+          "tip": "Some + no gives some-not."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A positive integer is divisible by 6. Which must be true?",
+          "options": [
+            "It is divisible by 4.",
+            "It is divisible by 9.",
+            "It is divisible by both 2 and 3.",
+            "Its square is divisible by 12."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Divisible by 6 means divisible by both 2 and 3.",
+          "tip": "Factor the divisor."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "Square",
+            "Rectangle",
+            "Rhombus",
+            "Trapezium"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Square, rectangle and rhombus are parallelograms; a trapezium is not.",
+          "tip": "Find the common property."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "How many distinct letters are in MISSISSIPPI?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "M, I, S, P: four distinct letters.",
+          "tip": "List unique letters."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A person has 22 coins, only ₹2 and ₹5, totalling ₹74. How many ₹5 coins?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "5x + 2(22 − x) = 74 gives x = 10.",
+          "tip": "Coin equation."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Five projects P, Q, R, S, T: P before Q; R after Q; S before P; T after R. Which is completed first?",
+          "options": [
+            "P",
+            "Q",
+            "S",
+            "T"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "S → P → Q → R → T, so S is first.",
+          "tip": "Order chain."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Seed : Plant. Choose the pair with the same relationship.",
+          "options": [
+            "Egg : Bird",
+            "Root : Soil",
+            "Leaf : Branch",
+            "Fruit : Tree"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "An egg develops into a bird, a seed into a plant.",
+          "tip": "Origin to result."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Each letter of FOCUS is shifted two places forward. What is the code?",
+          "options": [
+            "HQEWA",
+            "HQEWU",
+            "GPDTU",
+            "HQFVU"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "F→H, O→Q, C→E, U→W, S→U gives HQEWU.",
+          "tip": "Shift by +2."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Of 40 candidates, 24 study Mathematics and 19 Reasoning; 10 study both. How many study neither?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "24 + 19 − 10 = 33, so 40 − 33 = 7.",
+          "tip": "Total minus union."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statement: “Public parks should have more accessible walking paths.” Which argument is strongest?",
+          "options": [
+            "Accessible paths can help more people use public parks safely.",
+            "Every resident will visit a park every day.",
+            "Parks should be used only for sports.",
+            "Walking paths eliminate the need for all other facilities."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Accessible paths widen safe use; the others overclaim.",
+          "tip": "Strong = practical."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If the letters of GARDEN are arranged alphabetically, which letter is fifth?",
+          "options": [
+            "E",
+            "G",
+            "N",
+            "R"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Sorted: A, D, E, G, N, R; the fifth is N.",
+          "tip": "Sort first."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who founded Vikramashila University?",
+          "options": [
+            "Devapala",
+            "Dharmapala",
+            "Gopala",
+            "Mahipala"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Dharmapala of the Pala dynasty founded Vikramashila.",
+          "tip": "Pala: Nalanda, Vikramashila."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who wrote the chronicle Rajatarangini?",
+          "options": [
+            "Banabhatta",
+            "Kalhana",
+            "Bilhana",
+            "Amir Khusrau"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Kalhana wrote Rajatarangini on Kashmir.",
+          "tip": "Rajatarangini = Kashmir."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Mansabdari system was an administrative feature of which empire?",
+          "options": [
+            "Maurya Empire",
+            "Gupta Empire",
+            "Mughal Empire",
+            "Chola Empire"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Mansabdari system belonged to the Mughals (Akbar).",
+          "tip": "Akbar: mansab ranks."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Battle of Wandiwash (1760) was primarily between:",
+          "options": [
+            "British and French",
+            "British and Portuguese",
+            "Marathas and Mughals",
+            "Sikhs and Afghans"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Wandiwash (1760) was British vs French.",
+          "tip": "Carnatic Wars."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who was associated with the Home Rule League movement?",
+          "options": [
+            "Annie Besant and Bal Gangadhar Tilak",
+            "Bhagat Singh and Sukhdev",
+            "Subhas Chandra Bose and C. R. Das",
+            "Lala Lajpat Rai and Udham Singh"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Besant and Tilak led the Home Rule Leagues (1916).",
+          "tip": "Two leagues, 1916."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article recognises the right to property as a constitutional right?",
+          "options": [
+            "Article 19",
+            "Article 21",
+            "Article 32",
+            "Article 300A"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Article 300A makes property a constitutional (legal) right.",
+          "tip": "44th Amendment removed Art. 31."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article provides for the Comptroller and Auditor General of India?",
+          "options": [
+            "Article 76",
+            "Article 148",
+            "Article 165",
+            "Article 280"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Article 148 covers the CAG.",
+          "tip": "148 CAG, 76 AG."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Article deals with the Election Commission of India?",
+          "options": [
+            "Article 280",
+            "Article 300",
+            "Article 324",
+            "Article 356"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Article 324 covers the Election Commission.",
+          "tip": "324 for elections."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "What is the retirement age of a Supreme Court judge?",
+          "options": [
+            "60 years",
+            "62 years",
+            "65 years",
+            "68 years"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Supreme Court judges retire at 65.",
+          "tip": "SC 65, HC 62."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Chota Nagpur Plateau is particularly rich in:",
+          "options": [
+            "Petroleum reserves",
+            "Mineral resources",
+            "Coral reefs",
+            "Alluvial soil"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Chota Nagpur is rich in coal, iron ore and mica.",
+          "tip": "Ruhr of India."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Palghat Gap lies between which hill ranges?",
+          "options": [
+            "Nilgiri and Anaimalai Hills",
+            "Aravalli and Vindhya Hills",
+            "Satpura and Maikal Hills",
+            "Pir Panjal and Zanskar Ranges"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The Palghat Gap lies between the Nilgiri and Anaimalai Hills.",
+          "tip": "It links Kerala and Tamil Nadu."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which is the largest inland salt lake in India?",
+          "options": [
+            "Chilika",
+            "Wular",
+            "Sambhar",
+            "Pulicat"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Sambhar (Rajasthan) is India’s largest inland salt lake.",
+          "tip": "Chilika is a coastal lagoon."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which state contains Keoladeo National Park?",
+          "options": [
+            "Gujarat",
+            "Rajasthan",
+            "Madhya Pradesh",
+            "Uttar Pradesh"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Keoladeo National Park is at Bharatpur, Rajasthan.",
+          "tip": "Bird sanctuary."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Indira Point is located on which island?",
+          "options": [
+            "Minicoy",
+            "Little Andaman",
+            "Great Nicobar",
+            "Car Nicobar"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Indira Point is on Great Nicobar.",
+          "tip": "India’s southernmost point."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A major feature of the Great Indian Desert is:",
+          "options": [
+            "Dense evergreen forests",
+            "Very low rainfall and extensive sand dunes",
+            "Permanent snow cover",
+            "Extensive mangrove vegetation"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Deserts have low rainfall and sand dunes.",
+          "tip": "Think Thar."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which cell organelle is called the “powerhouse of the cell”?",
+          "options": [
+            "Golgi apparatus",
+            "Mitochondrion",
+            "Ribosome",
+            "Lysosome"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Mitochondria release most of a cell’s energy.",
+          "tip": "Powerhouse = mitochondria."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which plant tissue carries water and minerals from roots to other parts?",
+          "options": [
+            "Phloem",
+            "Epidermis",
+            "Xylem",
+            "Cambium"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Xylem carries water and minerals upward.",
+          "tip": "Xylem up, phloem food."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which hormone does the adrenal medulla release in the fight-or-flight response?",
+          "options": [
+            "Thyroxine",
+            "Adrenaline",
+            "Insulin",
+            "Melatonin"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Adrenaline is released in fight or flight.",
+          "tip": "Adrenal medulla."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which metal is liquid at approximately room temperature?",
+          "options": [
+            "Aluminium",
+            "Zinc",
+            "Mercury",
+            "Copper"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Mercury is a liquid metal at room temperature.",
+          "tip": "Gallium melts near 30 °C."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "SI unit of luminous intensity?",
+          "options": [
+            "Lux",
+            "Lumen",
+            "Candela",
+            "Watt"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Candela measures luminous intensity.",
+          "tip": "Candela, lumen, lux."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Rusting primarily involves:",
+          "options": [
+            "Reduction of iron",
+            "Oxidation of iron",
+            "Sublimation of iron",
+            "Neutralisation of iron"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Rusting is oxidation of iron.",
+          "tip": "Fe + O₂ + water."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which process describes rising concentration of persistent pollutants at higher trophic levels?",
+          "options": [
+            "Nitrogen fixation",
+            "Biomagnification",
+            "Photosynthesis",
+            "Decomposition"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Biomagnification raises pollutant levels up the food chain.",
+          "tip": "DDT in birds."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Disinvestment by the Government of India generally means:",
+          "options": [
+            "Purchasing more private-sector shares",
+            "Selling some government ownership in public-sector enterprises",
+            "Increasing direct tax rates",
+            "Issuing currency notes"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Disinvestment is selling government shares in PSUs.",
+          "tip": "Reduces the government’s stake."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which two countries participate in the 33rd edition of SIMBEX-2026, which began at Visakhapatnam in October 2026?",
+          "options": [
+            "India and Japan",
+            "India and Singapore",
+            "India and Australia",
+            "India and Indonesia"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "SIMBEX-2026 (33rd edition) was India–Singapore, 21–26 Oct at Visakhapatnam.",
+          "tip": "SIMBEX began in 1994."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "According to an October 2026 Government of India announcement, the SME Growth Fund was committed with an allocation of:",
+          "options": [
+            "₹5,000 crore",
+            "₹7,500 crore",
+            "₹10,000 crore",
+            "₹15,000 crore"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Cabinet approved a ₹10,000 crore commitment to the SME Growth Fund on 6 Oct 2026.",
+          "tip": "Announced in Budget 2026–27."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mathematics",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simplify: (5/8 ÷ 15/32) × 9/10",
+          "options": [
+            "4/5",
+            "6/5",
+            "7/5",
+            "8/5"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "5/8 × 32/15 = 4/3; × 9/10 = 6/5.",
+          "tip": "Flip and multiply."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Solve 2x + 3y = 19 and x − y = 2. Find x + y.",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "x = y + 2; 5y + 4 = 19 gives y = 3, x = 5; sum 8.",
+          "tip": "Substitute."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Find the larger root of 3x² − 10x + 8 = 0.",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "(3x − 4)(x − 2) = 0; the larger root is 2.",
+          "tip": "Factorise."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If a + b = 9 and ab = 14, find (a − b)².",
+          "options": [
+            "21",
+            "25",
+            "29",
+            "35"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "(a − b)² = 81 − 56 = 25.",
+          "tip": "(a − b)² = (a + b)² − 4ab."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simple interest on ₹8,000 at 7.5% p.a. for 4 years?",
+          "options": [
+            "₹2,200",
+            "₹2,300",
+            "₹2,400",
+            "₹2,500"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "8000 × 7.5 × 4/100 = ₹2,400.",
+          "tip": "SI = PRT/100."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A right triangle has sides 7 cm, 24 cm and 25 cm. Its inradius?",
+          "options": [
+            "2 cm",
+            "3 cm",
+            "4 cm",
+            "5 cm"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Inradius = (7 + 24 − 25)/2 = 3.",
+          "tip": "Right triangle: (a + b − c)/2."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "The angles of a triangle are in the ratio 3 : 4 : 5. The largest angle?",
+          "options": [
+            "60°",
+            "70°",
+            "75°",
+            "90°"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "One unit is 180/12 = 15°; 5 × 15° = 75°.",
+          "tip": "Ratio units."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Each exterior angle of a regular polygon is 30°. Number of sides?",
+          "options": [
+            "10",
+            "12",
+            "15",
+            "18"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "360° ÷ 30° = 12 sides.",
+          "tip": "n = 360/exterior angle."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Area of a 90° sector of a circle of radius 14 cm (π = 22/7)?",
+          "options": [
+            "144 cm²",
+            "154 cm²",
+            "164 cm²",
+            "176 cm²"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "¼ × 22/7 × 196 = 154 cm².",
+          "tip": "A quarter circle."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Curved surface area of a cylinder with radius 3 cm and height 14 cm?",
+          "options": [
+            "72π cm²",
+            "78π cm²",
+            "84π cm²",
+            "90π cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "2π × 3 × 14 = 84π cm².",
+          "tip": "CSA = 2πrh."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If sin θ = 5/13 (θ acute), find sec θ + tan θ.",
+          "options": [
+            "13/12",
+            "3/2",
+            "17/12",
+            "19/12"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "sec = 13/12, tan = 5/12; the sum is 18/12 = 3/2.",
+          "tip": "5-12-13 triple."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Geometric mean of 12 and 27?",
+          "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "√(12 × 27) = √324 = 18.",
+          "tip": "GM = √(ab)."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "The HCF of two positive integers is 6 and their LCM is 72. Their product?",
+          "options": [
+            "396",
+            "412",
+            "432",
+            "456"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "HCF × LCM = product: 6 × 72 = 432.",
+          "tip": "Product rule."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "The average of five consecutive multiples of 3 is 24. The largest number?",
+          "options": [
+            "27",
+            "30",
+            "33",
+            "36"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The multiples are 18, 21, 24, 27, 30; the largest is 30.",
+          "tip": "The mean is the middle."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A machine completes 40% of a job in 8 hours at a constant rate. Hours needed for the whole job?",
+          "options": [
+            "16",
+            "18",
+            "20",
+            "24"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "8 ÷ 0.4 = 20 hours.",
+          "tip": "Time ÷ fraction."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A vehicle covers 180 km in 3 hours and then 120 km in 2 hours. Average speed?",
+          "options": [
+            "55 km/h",
+            "58 km/h",
+            "60 km/h",
+            "62 km/h"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "300 km ÷ 5 h = 60 km/h.",
+          "tip": "Total ÷ total."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A trader buys an article for ₹1,250 and sells it for ₹1,400. Profit percentage?",
+          "options": [
+            "10%",
+            "12%",
+            "14%",
+            "15%"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "150/1250 = 12%.",
+          "tip": "Profit is on cost."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A bag has 6 white and 4 black balls. One ball is drawn. Probability it is black?",
+          "options": [
+            "2/5",
+            "3/5",
+            "1/4",
+            "1/2"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "4/10 = 2/5.",
+          "tip": "Black ÷ total."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Sum of the first 15 terms of the AP 4, 9, 14, 19, …",
+          "options": [
+            "570",
+            "585",
+            "600",
+            "615"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "S₁₅ = 15/2 × (8 + 14 × 5) = 585.",
+          "tip": "Sₙ = n/2 [2a + (n − 1)d]."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A rectangle has perimeter 70 cm and length 20 cm. Its area?",
+          "options": [
+            "250 cm²",
+            "275 cm²",
+            "300 cm²",
+            "325 cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Width = 35 − 20 = 15, so area is 300 cm².",
+          "tip": "Semi-perimeter first."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If x² − 5x + 6 = 0, find the sum of the reciprocals of its roots.",
+          "options": [
+            "1/2",
+            "5/6",
+            "6/5",
+            "3/2"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Roots are 2 and 3: 1/2 + 1/3 = 5/6.",
+          "tip": "Reciprocal sum = (a + b)/ab."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If 2^(x+1) = 64, find x.",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "2^(x+1) = 2⁶, so x = 5.",
+          "tip": "Same base, equal powers."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Total number of books across the four categories?",
+          "options": [
+            "620",
+            "640",
+            "660",
+            "680"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Library inventory by category: Fiction = 240 · Science = 180 · History = 150 · Biography = 90",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "240 + 180 + 150 + 90 = 660.",
+          "tip": "Add all."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "What percentage of the books are in Science?",
+          "options": [
+            "25.27%",
+            "27.27%",
+            "29.27%",
+            "30.27%"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Library inventory by category: Fiction = 240 · Science = 180 · History = 150 · Biography = 90",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "180/660 = 27.27%.",
+          "tip": "Part ÷ total."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Ratio of Fiction books to Biography books?",
+          "options": [
+            "5 : 2",
+            "6 : 5",
+            "8 : 3",
+            "4 : 3"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Library inventory by category: Fiction = 240 · Science = 180 · History = 150 · Biography = 90",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "240 : 90 = 8 : 3.",
+          "tip": "Divide by 30."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (76).",
+          "options": [
+            "Suspicion",
+            "Respect",
+            "Conflict",
+            "Indifference"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Effective leadership is not simply about giving instructions; it is also about listening to others. A good leader recognises the value of different perspectives and encourages an atmosphere of mutual (76). When disagreements arise, the leader should examine the available evidence rather than respond (77). Decisions should be communicated clearly so that every team member understands the purpose and expected (78). Such an approach can strengthen cooperation and help an organisation (79) its objectives without creating unnecessary (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Mutual respect supports cooperation.",
+          "tip": "Mutual + respect."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (77).",
+          "options": [
+            "Impulsively",
+            "Patiently",
+            "Carefully",
+            "Objectively"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Effective leadership is not simply about giving instructions; it is also about listening to others. A good leader recognises the value of different perspectives and encourages an atmosphere of mutual (76). When disagreements arise, the leader should examine the available evidence rather than respond (77). Decisions should be communicated clearly so that every team member understands the purpose and expected (78). Such an approach can strengthen cooperation and help an organisation (79) its objectives without creating unnecessary (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "‘Respond impulsively’ contrasts with examining evidence.",
+          "tip": "Contrast clue: rather than."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (78).",
+          "options": [
+            "Consequences",
+            "Interruptions",
+            "Exceptions",
+            "Decorations"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Effective leadership is not simply about giving instructions; it is also about listening to others. A good leader recognises the value of different perspectives and encourages an atmosphere of mutual (76). When disagreements arise, the leader should examine the available evidence rather than respond (77). Decisions should be communicated clearly so that every team member understands the purpose and expected (78). Such an approach can strengthen cooperation and help an organisation (79) its objectives without creating unnecessary (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Expected consequences of decisions.",
+          "tip": "Purpose and consequences."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (79).",
+          "options": [
+            "Abandon",
+            "Conceal",
+            "Achieve",
+            "Delay"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Effective leadership is not simply about giving instructions; it is also about listening to others. A good leader recognises the value of different perspectives and encourages an atmosphere of mutual (76). When disagreements arise, the leader should examine the available evidence rather than respond (77). Decisions should be communicated clearly so that every team member understands the purpose and expected (78). Such an approach can strengthen cooperation and help an organisation (79) its objectives without creating unnecessary (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Organisations achieve objectives.",
+          "tip": "Collocation: achieve objectives."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (80).",
+          "options": [
+            "Harmony",
+            "Confusion",
+            "Stability",
+            "Sympathy"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Effective leadership is not simply about giving instructions; it is also about listening to others. A good leader recognises the value of different perspectives and encourages an atmosphere of mutual (76). When disagreements arise, the leader should examine the available evidence rather than respond (77). Decisions should be communicated clearly so that every team member understands the purpose and expected (78). Such an approach can strengthen cooperation and help an organisation (79) its objectives without creating unnecessary (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Clear communication avoids confusion.",
+          "tip": "Avoid confusion."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Closest synonym of candid.",
+          "options": [
+            "Frank",
+            "Vague",
+            "Cautious",
+            "Reserved"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Candid means frank.",
+          "tip": "Candid ≈ frank."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Antonym of frugal.",
+          "options": [
+            "Economical",
+            "Thrifty",
+            "Extravagant",
+            "Careful"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Extravagant is the opposite of frugal.",
+          "tip": "Frugal and extravagant."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "A place where bees are kept is called:",
+          "options": [
+            "Aviary",
+            "Apiary",
+            "Aquarium",
+            "Sanctuary"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "An apiary houses bees.",
+          "tip": "Api = bee."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of the idiom “break the ice”:",
+          "options": [
+            "Damage something intentionally",
+            "Begin a conversation in an awkward situation",
+            "End a friendship",
+            "Avoid a difficult responsibility"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Break the ice means start a conversation.",
+          "tip": "Awkward start."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Acquaintence",
+            "Aquaintance",
+            "Acquaintance",
+            "Acquaintanse"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Correct spelling: acquaintance.",
+          "tip": "Ac-quaint-ance."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The research findings are in accordance ___ the prescribed guidelines.",
+          "options": [
+            "to",
+            "with",
+            "by",
+            "at"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘In accordance with’.",
+          "tip": "Fixed phrase."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: Neither the manager nor the employees / was willing / to accept the revised schedule / No error",
+          "options": [
+            "Neither the manager nor the employees",
+            "was willing",
+            "to accept the revised schedule",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "With neither…nor, the verb agrees with the nearer subject: were.",
+          "tip": "Nearer subject decides."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "She is looking forward ___ the results of the examination.",
+          "options": [
+            "to receive",
+            "for receiving",
+            "to receiving",
+            "receiving"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "‘Look forward to’ takes a gerund.",
+          "tip": "To + -ing."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correct sentence.",
+          "options": [
+            "The committee have reached its decision.",
+            "The committee has reached its decision.",
+            "The committee has reach its decision.",
+            "The committee were reached its decision."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A committee as one unit takes a singular verb.",
+          "tip": "Collective = unit."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "He is ___ honorary member of the association.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘Honorary’ starts with a vowel sound: an.",
+          "tip": "Silent h."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Passive form of: Someone has stolen my bicycle.",
+          "options": [
+            "My bicycle had stolen.",
+            "My bicycle has been stolen.",
+            "My bicycle was being stolen.",
+            "My bicycle is stealing."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Present perfect passive: has been stolen.",
+          "tip": "has + been + V3."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Indirect speech: She said to him, “Please wait here.”",
+          "options": [
+            "She requested him to wait there.",
+            "She said him please wait here.",
+            "She ordered that he waits here.",
+            "She asked him that he waited there."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A polite request becomes ‘requested him to wait’.",
+          "tip": "Please becomes requested."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "No sooner had the guests arrived ___ the ceremony began.",
+          "options": [
+            "when",
+            "then",
+            "than",
+            "that"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "‘No sooner … than’.",
+          "tip": "No sooner + than."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Arrange: A. As a result, they can make better decisions about their daily consumption. B. Financial literacy helps people understand how money works. C. It includes the ability to budget, save and manage debt. D. These skills are useful throughout a person’s life.",
+          "options": [
+            "B–C–D–A",
+            "C–B–A–D",
+            "B–D–C–A",
+            "D–A–B–C"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "B introduces, C explains, D extends, A concludes.",
+          "tip": "Intro, detail, result."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The proposal was ambitious; ___, it lacked a workable implementation plan.",
+          "options": [
+            "Therefore",
+            "Moreover",
+            "However",
+            "Consequently"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "‘However’ marks contrast.",
+          "tip": "Ambitious; however, no plan."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "What is the central idea of the passage?",
+          "options": [
+            "Private vehicles should be banned in every city.",
+            "Effective public transport requires reliable services and thoughtful planning.",
+            "Increasing the number of buses always solves transport problems.",
+            "Rail services are unnecessary in urban areas."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Public transport systems can contribute to more efficient and accessible cities. Reliable buses and rail services may reduce dependence on private vehicles, particularly when routes connect residential areas with workplaces, schools and essential services. However, simply expanding the number of buses is not sufficient. Passengers also need safe stops, accurate service information, reasonable waiting times and convenient connections between routes. Transport planning is therefore most effective when infrastructure, service quality and the needs of different groups of passengers are considered together.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The passage explains what effective public transport needs.",
+          "tip": "Main idea."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which can reduce dependence on private vehicles?",
+          "options": [
+            "Reliable buses and rail services",
+            "Longer waiting times",
+            "Fewer route connections",
+            "Unclear service information"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Public transport systems can contribute to more efficient and accessible cities. Reliable buses and rail services may reduce dependence on private vehicles, particularly when routes connect residential areas with workplaces, schools and essential services. However, simply expanding the number of buses is not sufficient. Passengers also need safe stops, accurate service information, reasonable waiting times and convenient connections between routes. Transport planning is therefore most effective when infrastructure, service quality and the needs of different groups of passengers are considered together.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Reliable bus and rail services reduce private-vehicle use.",
+          "tip": "Check the first sentence."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "What does the passage suggest is insufficient by itself?",
+          "options": [
+            "Providing safe stops",
+            "Connecting residential areas and workplaces",
+            "Increasing the number of buses",
+            "Improving service information"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Public transport systems can contribute to more efficient and accessible cities. Reliable buses and rail services may reduce dependence on private vehicles, particularly when routes connect residential areas with workplaces, schools and essential services. However, simply expanding the number of buses is not sufficient. Passengers also need safe stops, accurate service information, reasonable waiting times and convenient connections between routes. Transport planning is therefore most effective when infrastructure, service quality and the needs of different groups of passengers are considered together.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "More buses alone are not enough.",
+          "tip": "The ‘However’ sentence."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which feature is specifically mentioned as important for passengers?",
+          "options": [
+            "Accurate service information",
+            "Free private parking",
+            "Mandatory private vehicle ownership",
+            "Restricted access to stations"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Public transport systems can contribute to more efficient and accessible cities. Reliable buses and rail services may reduce dependence on private vehicles, particularly when routes connect residential areas with workplaces, schools and essential services. However, simply expanding the number of buses is not sufficient. Passengers also need safe stops, accurate service information, reasonable waiting times and convenient connections between routes. Transport planning is therefore most effective when infrastructure, service quality and the needs of different groups of passengers are considered together.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Accurate service information is mentioned.",
+          "tip": "Match the list."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which approach does the author support?",
+          "options": [
+            "Focusing only on the number of vehicles",
+            "Considering infrastructure, service quality and passenger needs together",
+            "Prioritising only central business districts",
+            "Reducing connections between routes"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Public transport systems can contribute to more efficient and accessible cities. Reliable buses and rail services may reduce dependence on private vehicles, particularly when routes connect residential areas with workplaces, schools and essential services. However, simply expanding the number of buses is not sufficient. Passengers also need safe stops, accurate service information, reasonable waiting times and convenient connections between routes. Transport planning is therefore most effective when infrastructure, service quality and the needs of different groups of passengers are considered together.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The author wants infrastructure, service and passenger needs planned together.",
+          "tip": "Last sentence."
+        }
+      ]
+    }
+  ]
+}

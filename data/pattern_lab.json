@@ -1,0 +1,377 @@
+{
+  "categories": [
+    "All",
+    "Number",
+    "Percent",
+    "Interest",
+    "Ratio & Mixture",
+    "Work & Speed",
+    "Algebra",
+    "Geometry",
+    "Mensuration",
+    "Trigonometry",
+    "DI & Stats"
+  ],
+  "patterns": [
+    {
+      "id": 1,
+      "category": "Number",
+      "title": "Unit-digit cycles",
+      "spotTrigger": "the unit digit of a big power",
+      "formula": "Powers of 2, 3, 7, 8 repeat every 4 steps. Digits 0, 1, 5, 6 never change.",
+      "example": "Unit digit of 7¹⁰³?",
+      "solution": "103 ÷ 4 leaves 3, and 7³ = 343, so the unit digit is 3.",
+      "shortcutTip": "Use the remainder after ÷ 4. If it is 0, use the 4th power."
+    },
+    {
+      "id": 2,
+      "category": "Number",
+      "title": "Remainder shortcut",
+      "spotTrigger": "the remainder of aⁿ ÷ (a − 1) or ÷ (a + 1)",
+      "formula": "aⁿ ÷ (a − 1) leaves 1. Also a ≡ −1 (mod a + 1), so (−1)ⁿ decides the remainder.",
+      "example": "Remainder when 5⁴⁵ is divided by 6?",
+      "solution": "5 ≡ −1 (mod 6) and 45 is odd, so (−1)⁴⁵ = −1, i.e. remainder 5.",
+      "shortcutTip": "A negative remainder? Add the divisor."
+    },
+    {
+      "id": 3,
+      "category": "Number",
+      "title": "Factors and HCF × LCM",
+      "spotTrigger": "number of factors, or a missing number from HCF and LCM",
+      "formula": "N = pᵃqᵇ has (a + 1)(b + 1) factors. For two numbers, HCF × LCM = their product.",
+      "example": "HCF 12, LCM 180, one number 36. The other?",
+      "solution": "12 × 180 ÷ 36 = 60.",
+      "shortcutTip": "72 = 2³·3² has 4 × 3 = 12 factors."
+    },
+    {
+      "id": 4,
+      "category": "Number",
+      "title": "Square and product tricks",
+      "spotTrigger": "squares ending in 5, or products near a round number",
+      "formula": "(n5)² = n(n + 1) followed by 25. a² − b² = (a + b)(a − b).",
+      "example": "Find 49 × 51 and 65².",
+      "solution": "49 × 51 = 50² − 1 = 2499. 65² = (6 × 7) then 25 = 4225.",
+      "shortcutTip": "Look for ± the same distance from a round number."
+    },
+    {
+      "id": 5,
+      "category": "Percent",
+      "title": "Fraction–percent table",
+      "spotTrigger": "any odd-looking percentage",
+      "formula": "1/6 = 16⅔%, 1/7 ≈ 14.3%, 1/8 = 12.5%, 1/9 = 11⅑%, 1/11 ≈ 9.1%, 1/12 = 8⅓%",
+      "example": "37.5% of 480?",
+      "solution": "37.5% = 3/8, so 480 ÷ 8 × 3 = 180.",
+      "shortcutTip": "Use the fraction for odd percentages, the % itself for round ones."
+    },
+    {
+      "id": 6,
+      "category": "Percent",
+      "title": "Net effect formula",
+      "spotTrigger": "two successive changes, or price × consumption",
+      "formula": "Net % = x + y + xy/100 (use a minus sign for a fall).",
+      "example": "Price +25%, consumption −20%. Change in expenditure?",
+      "solution": "25 − 20 + (25 × −20)/100 = 25 − 20 − 5 = 0. No change.",
+      "shortcutTip": "The same formula handles successive discounts."
+    },
+    {
+      "id": 7,
+      "category": "Percent",
+      "title": "Mark-up and discount",
+      "spotTrigger": "marked price, discount and profit together",
+      "formula": "Profit % = (100 + m)(100 − d)/100 − 100",
+      "example": "Cost ₹800, mark-up 25%, discount 10%. Profit %?",
+      "solution": "125 × 90 / 100 = 112.5, so profit is 12.5%.",
+      "shortcutTip": "Equal SP with p% gain and p% loss gives a loss of p²/100 %."
+    },
+    {
+      "id": 8,
+      "category": "Percent",
+      "title": "Reverse percentage",
+      "spotTrigger": "‘x% of a number is N’",
+      "formula": "Number = N ÷ x × 100",
+      "example": "40% of a number is 120. Find it.",
+      "solution": "120 ÷ 40 × 100 = 300.",
+      "shortcutTip": "Check: 10% = 30, so 40% = 120."
+    },
+    {
+      "id": 9,
+      "category": "Interest",
+      "title": "CI − SI shortcut",
+      "spotTrigger": "the difference between CI and SI",
+      "formula": "2 years: P(r/100)². 3 years: P(r/100)²(300 + r)/100.",
+      "example": "P = ₹10,000, r = 10%, 2 years. CI − SI?",
+      "solution": "10000 × (1/10)² = ₹100.",
+      "shortcutTip": "Money doubles under SI in 100/r years."
+    },
+    {
+      "id": 10,
+      "category": "Interest",
+      "title": "Effective rate",
+      "spotTrigger": "CI over 2 or 3 years",
+      "formula": "Treat each year as a successive change: x + y + xy/100.",
+      "example": "CI on ₹5,000 at 10% for 2 years?",
+      "solution": "10 + 10 + 1 = 21%, and 21% of 5000 = ₹1,050.",
+      "shortcutTip": "CI = amount − principal."
+    },
+    {
+      "id": 11,
+      "category": "Ratio & Mixture",
+      "title": "Unit method",
+      "spotTrigger": "a ratio with a total or a difference",
+      "formula": "One unit = total ÷ sum of the parts.",
+      "example": "Ratio 7 : 9, sum 128. The larger number?",
+      "solution": "128 ÷ 16 = 8, so 9 × 8 = 72.",
+      "shortcutTip": "If a difference is given, divide by the difference of the parts."
+    },
+    {
+      "id": 12,
+      "category": "Ratio & Mixture",
+      "title": "Alligation",
+      "spotTrigger": "mixing two items at two prices or strengths",
+      "formula": "Cheaper : Dearer = (Dearer − Mean) : (Mean − Cheaper)",
+      "example": "Milk at ₹40/L and ₹60/L is mixed to give ₹46/L. Ratio?",
+      "solution": "(60 − 46) : (46 − 40) = 14 : 6 = 7 : 3.",
+      "shortcutTip": "Dearer minus mean goes with the cheaper item."
+    },
+    {
+      "id": 13,
+      "category": "Ratio & Mixture",
+      "title": "Average change",
+      "spotTrigger": "one value replaced, or a member added",
+      "formula": "New average = old average + (new − old)/n",
+      "example": "8 numbers average 15. Replace 23 by 31. New average?",
+      "solution": "(31 − 23)/8 = +1, so the average is 16.",
+      "shortcutTip": "Vessel: left = V(1 − x/V)ⁿ. 40 L, replace 10 L twice: 40 × (3/4)² = 22.5 L."
+    },
+    {
+      "id": 14,
+      "category": "Work & Speed",
+      "title": "LCM units",
+      "spotTrigger": "time and work, pipes and cisterns",
+      "formula": "Take the LCM of the days as total work. Units per day = total ÷ days.",
+      "example": "A takes 12 days, B takes 18. Together?",
+      "solution": "Total 36. A = 3, B = 2 per day. 36 ÷ 5 = 7.2 days.",
+      "shortcutTip": "An outlet pipe counts as negative units."
+    },
+    {
+      "id": 15,
+      "category": "Work & Speed",
+      "title": "Efficiency ratio",
+      "spotTrigger": "‘x% more efficient’ and wages",
+      "formula": "Efficiency ∝ 1/time. 25% better means efficiency 5 : 4, so time 4 : 5.",
+      "example": "A is 25% more efficient than B. B takes 20 days. A?",
+      "solution": "Times are 4 : 5, so A = 20 × 4/5 = 16 days.",
+      "shortcutTip": "Wages are shared in the ratio of work done."
+    },
+    {
+      "id": 16,
+      "category": "Work & Speed",
+      "title": "Trains and relative speed",
+      "spotTrigger": "trains crossing a pole, a platform or each other",
+      "formula": "Opposite: S₁ + S₂. Same direction: S₁ − S₂. Time = total length ÷ relative speed. km/h × 5/18 = m/s.",
+      "example": "Trains of 100 m and 150 m at 40 and 60 km/h, opposite. Crossing time?",
+      "solution": "Relative speed 100 km/h = 250/9 m/s. 250 ÷ (250/9) = 9 s.",
+      "shortcutTip": "Pole: only the train. Platform: add its length."
+    },
+    {
+      "id": 17,
+      "category": "Work & Speed",
+      "title": "Average speed and boats",
+      "spotTrigger": "equal distances; upstream and downstream",
+      "formula": "Average = 2xy/(x + y). Still water = (D + U)/2. Current = (D − U)/2.",
+      "example": "Downstream 18, upstream 10 km/h. Still water and current?",
+      "solution": "(18 + 10)/2 = 14 km/h; (18 − 10)/2 = 4 km/h.",
+      "shortcutTip": "40 and 60 km/h over equal distances: 2·40·60/100 = 48."
+    },
+    {
+      "id": 18,
+      "category": "Algebra",
+      "title": "x + 1/x family",
+      "spotTrigger": "a given x + 1/x = k",
+      "formula": "x² + 1/x² = k² − 2. x³ + 1/x³ = k³ − 3k.",
+      "example": "x + 1/x = 5. Find x² + 1/x².",
+      "solution": "25 − 2 = 23.",
+      "shortcutTip": "If x − 1/x = k, then x² + 1/x² = k² + 2."
+    },
+    {
+      "id": 19,
+      "category": "Algebra",
+      "title": "Sum and product",
+      "spotTrigger": "a + b and ab given",
+      "formula": "a² + b² = (a + b)² − 2ab. Roots of ax² + bx + c: sum −b/a, product c/a.",
+      "example": "a + b = 11, ab = 24. Find a² + b².",
+      "solution": "121 − 48 = 73.",
+      "shortcutTip": "(a − b)² = (a + b)² − 4ab."
+    },
+    {
+      "id": 20,
+      "category": "Algebra",
+      "title": "Cubes with zero sum",
+      "spotTrigger": "a + b + c = 0",
+      "formula": "a³ + b³ + c³ = 3abc",
+      "example": "a = 2, b = 3, c = −5. Find a³ + b³ + c³.",
+      "solution": "3 × 2 × 3 × (−5) = −90.",
+      "shortcutTip": "Check the sum first; it unlocks the whole expression."
+    },
+    {
+      "id": 21,
+      "category": "Algebra",
+      "title": "Factor theorem",
+      "spotTrigger": "‘(x − a) is a factor’",
+      "formula": "Put x = a: f(a) = 0.",
+      "example": "x³ + ax² − 5x + 3 has factor (x − 1). Find a.",
+      "solution": "1 + a − 5 + 3 = 0, so a = 1.",
+      "shortcutTip": "The remainder on dividing by (x − a) is f(a)."
+    },
+    {
+      "id": 22,
+      "category": "Geometry",
+      "title": "Triangle centre angles",
+      "spotTrigger": "angles at the incentre, circumcentre or orthocentre",
+      "formula": "∠BIC = 90° + A/2. ∠BOC = 2A (acute triangle). ∠BHC = 180° − A.",
+      "example": "In △ABC, ∠A = 60°. Find ∠BIC.",
+      "solution": "90° + 30° = 120°.",
+      "shortcutTip": "I: angle bisectors. O: perpendicular bisectors. H: altitudes."
+    },
+    {
+      "id": 23,
+      "category": "Geometry",
+      "title": "Similar triangles",
+      "spotTrigger": "a line parallel to a side, or ‘similar’ in the stem",
+      "formula": "Sides k, perimeter k, height k, area k².",
+      "example": "Similar triangles with sides 3 : 5. Ratio of areas?",
+      "solution": "9 : 25.",
+      "shortcutTip": "DE ∥ BC gives AD/DB = AE/EC."
+    },
+    {
+      "id": 24,
+      "category": "Geometry",
+      "title": "Circle theorems",
+      "spotTrigger": "angles in a circle, tangents",
+      "formula": "Centre angle = 2 × circumference angle. Semicircle = 90°. Cyclic quadrilateral: opposite angles 180°. Tangent length = √(d² − r²).",
+      "example": "A point is 13 cm from the centre; radius 5. Tangent length?",
+      "solution": "√(169 − 25) = 12 cm.",
+      "shortcutTip": "Tangents from one external point are equal."
+    },
+    {
+      "id": 25,
+      "category": "Geometry",
+      "title": "Common tangents and polygons",
+      "spotTrigger": "two circles; regular polygons",
+      "formula": "Direct tangent √(d² − (r₁ − r₂)²). Transverse √(d² − (r₁ + r₂)²). Regular polygon: exterior angle 360°/n.",
+      "example": "Circles of radius 8 and 3, centres 13 apart. Direct tangent?",
+      "solution": "√(169 − 25) = 12. (And a 40° exterior angle means 9 sides.)",
+      "shortcutTip": "Diagonals of an n-gon: n(n − 3)/2."
+    },
+    {
+      "id": 26,
+      "category": "Mensuration",
+      "title": "Solids at a glance",
+      "spotTrigger": "cone, cylinder, sphere, hemisphere",
+      "formula": "Cone: l = √(r² + h²), CSA = πrl, V = ⅓πr²h. Sphere: 4πr², ⁴⁄₃πr³. Hemisphere TSA = 3πr².",
+      "example": "Cone with r = 7 and h = 24. CSA?",
+      "solution": "l = 25, so CSA = 22/7 × 7 × 25 = 550.",
+      "shortcutTip": "Learn the triples 5-12-13, 8-15-17, 7-24-25."
+    },
+    {
+      "id": 27,
+      "category": "Mensuration",
+      "title": "Recasting and scaling",
+      "spotTrigger": "melting, reshaping, percentage change in dimensions",
+      "formula": "Volume stays the same. Scale by k: area k², volume k³.",
+      "example": "A sphere of radius 3 is melted into spheres of radius 1. How many?",
+      "solution": "(3/1)³ = 27.",
+      "shortcutTip": "Radius +10% means area +21%."
+    },
+    {
+      "id": 28,
+      "category": "Mensuration",
+      "title": "Cuboid and triangle area",
+      "spotTrigger": "space diagonals, area from three sides",
+      "formula": "Cuboid diagonal √(l² + b² + h²); cube diagonal a√3. Heron: √(s(s − a)(s − b)(s − c)).",
+      "example": "Triangle with sides 13, 14, 15. Area?",
+      "solution": "s = 21, √(21 × 8 × 7 × 6) = 84.",
+      "shortcutTip": "Equilateral triangle: (√3/4)a²."
+    },
+    {
+      "id": 29,
+      "category": "Trigonometry",
+      "title": "Standard value trick",
+      "spotTrigger": "values at 0°, 30°, 45°, 60°, 90°",
+      "formula": "sin = √0/2, √1/2, √2/2, √3/2, √4/2. cos is the reverse. tan = sin ÷ cos.",
+      "example": "tan 45° + sin 30°?",
+      "solution": "1 + ½ = 3/2.",
+      "shortcutTip": "Write the sin row once; the rest follows."
+    },
+    {
+      "id": 30,
+      "category": "Trigonometry",
+      "title": "Identities with a triangle",
+      "spotTrigger": "find one ratio from another",
+      "formula": "sin²θ + cos²θ = 1; 1 + tan²θ = sec²θ; 1 + cot²θ = cosec²θ",
+      "example": "tan θ = 3/4. Find sec θ.",
+      "solution": "1 + 9/16 = 25/16, so sec θ = 5/4.",
+      "shortcutTip": "Draw the right triangle: here 3-4-5."
+    },
+    {
+      "id": 31,
+      "category": "Trigonometry",
+      "title": "Heights and distances",
+      "spotTrigger": "angle of elevation or depression",
+      "formula": "tan = height ÷ distance. 30° gives 1/√3, 45° gives 1, 60° gives √3.",
+      "example": "Shadow 10√3 m, sun at 30°. Height?",
+      "solution": "h = 10√3 × 1/√3 = 10 m.",
+      "shortcutTip": "Draw the triangle first and label the angle."
+    },
+    {
+      "id": 32,
+      "category": "Trigonometry",
+      "title": "Complementary pairs",
+      "spotTrigger": "long products like tan 1° · tan 2° · …",
+      "formula": "sin(90° − θ) = cos θ. tan θ · tan(90° − θ) = 1.",
+      "example": "tan 10° · tan 80°?",
+      "solution": "tan 80° = cot 10°, so the product is 1.",
+      "shortcutTip": "In a long product, pair θ with 90° − θ."
+    },
+    {
+      "id": 33,
+      "category": "DI & Stats",
+      "title": "% change and pie angle",
+      "spotTrigger": "growth, share and pie sectors",
+      "formula": "% change = (new − old) ÷ old × 100. Pie angle = % × 3.6°.",
+      "example": "Sales rise from 150 to 180. Growth? Angle of a 25% sector?",
+      "solution": "30/150 = 20%. 25 × 3.6° = 90°.",
+      "shortcutTip": "Always divide by the old value."
+    },
+    {
+      "id": 34,
+      "category": "DI & Stats",
+      "title": "Compare without dividing",
+      "spotTrigger": "which fraction or ratio is larger",
+      "formula": "Cross-multiply: a/b vs c/d means compare ad and bc.",
+      "example": "Which is larger, 7/9 or 5/6?",
+      "solution": "7 × 6 = 42 against 5 × 9 = 45, so 5/6.",
+      "shortcutTip": "Round first; be exact only when options are close."
+    },
+    {
+      "id": 35,
+      "category": "DI & Stats",
+      "title": "Mean, median, mode",
+      "spotTrigger": "grouped data and averages",
+      "formula": "Mode = 3 × Median − 2 × Mean",
+      "example": "Mean 20, median 18. Mode?",
+      "solution": "54 − 40 = 14.",
+      "shortcutTip": "Adding a constant keeps SD; multiplying by k multiplies SD by |k|."
+    },
+    {
+      "id": 36,
+      "category": "DI & Stats",
+      "title": "Probability",
+      "spotTrigger": "cards, dice, coins",
+      "formula": "P = favourable outcomes ÷ total outcomes.",
+      "example": "Two dice: probability the sum is 7?",
+      "solution": "6 favourable of 36 = 1/6.",
+      "shortcutTip": "Ace from a deck: 4/52 = 1/13. ‘At least one’ = 1 − P(none)."
+    }
+  ]
+}

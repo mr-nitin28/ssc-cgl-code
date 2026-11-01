@@ -1,0 +1,601 @@
+{
+  "coverageProfiles": {
+    "m": {
+      "T": [
+        [
+          "Geometry",
+          12.4
+        ],
+        [
+          "Trigonometry",
+          10.7
+        ],
+        [
+          "Data Interpretation",
+          10.2
+        ],
+        [
+          "Algebra",
+          9.5
+        ],
+        [
+          "Mensuration",
+          9.1
+        ],
+        [
+          "Profit & Loss",
+          6
+        ],
+        [
+          "Simplification",
+          6
+        ],
+        [
+          "Percentage",
+          5.7
+        ],
+        [
+          "Time & Work",
+          5.7
+        ],
+        [
+          "Speed, Time & Distance",
+          5
+        ]
+      ],
+      "A": [
+        [
+          "Arithmetic",
+          22
+        ],
+        [
+          "Geometry",
+          16
+        ],
+        [
+          "Number fluency",
+          12
+        ],
+        [
+          "PYQs + error review",
+          12
+        ],
+        [
+          "Mensuration",
+          10
+        ],
+        [
+          "Algebra",
+          10
+        ],
+        [
+          "Trigonometry",
+          9
+        ],
+        [
+          "DI + statistics",
+          9
+        ]
+      ],
+      "W": [
+        [
+          "Foundation + arithmetic",
+          1,
+          9
+        ],
+        [
+          "Algebra",
+          10,
+          12
+        ],
+        [
+          "Geometry",
+          13,
+          16
+        ],
+        [
+          "Mensuration",
+          17,
+          18
+        ],
+        [
+          "Trigonometry",
+          19,
+          20
+        ],
+        [
+          "DI + stats",
+          21,
+          21
+        ],
+        [
+          "Mixed PYQs + tests",
+          22,
+          24
+        ]
+      ],
+      "h": 100,
+      "g": [
+        [
+          "Simplification has no home",
+          "It was about 6% of tagged questions but the plan has no dedicated block. Add a 2-week sprint (BODMAS, approximation, surds, indices) in Weeks 1–2."
+        ],
+        [
+          "DI starts too late",
+          "DI (10.2%) needs only percentage, ratio and average. Begin 10 minutes of DI from Week 7 instead of Week 21."
+        ],
+        [
+          "Trigonometry can start earlier",
+          "Learn the standard-value table and identities alongside algebra (Weeks 10–12), so Weeks 19–20 are pure application."
+        ],
+        [
+          "Add number-system basics",
+          "Remainders, unit digits, divisibility and factor counts feed many sums but sit only under ‘fluency’."
+        ],
+        [
+          "Add a Tier-II bridge week",
+          "Tier-II gives about 60 s a question against 36 s in Tier-I. Insert one week of multi-step mixed problems before the Week 23 simulations."
+        ],
+        [
+          "Set speed benchmarks",
+          "Suggested targets: simplification ≤ 30 s, percentage and profit ≤ 40 s, DI ≤ 50 s each, geometry ≤ 60 s. Measure them weekly."
+        ]
+      ]
+    },
+    "r": {
+      "T": [
+        [
+          "Non-verbal reasoning",
+          15.4
+        ],
+        [
+          "Mathematical operations",
+          14.9
+        ],
+        [
+          "Series",
+          14.7
+        ],
+        [
+          "Analogy",
+          10.3
+        ],
+        [
+          "Coding-decoding",
+          10
+        ],
+        [
+          "Odd one out",
+          8.8
+        ],
+        [
+          "Syllogism",
+          6.3
+        ],
+        [
+          "Blood relations",
+          5.8
+        ],
+        [
+          "Alphabet test",
+          4.5
+        ],
+        [
+          "Word arrangement",
+          2.6
+        ]
+      ],
+      "A": [
+        [
+          "Non-verbal / visual",
+          18
+        ],
+        [
+          "Series & trends",
+          16
+        ],
+        [
+          "Numerical / symbolic operations",
+          15
+        ],
+        [
+          "Analogy & classification",
+          12
+        ],
+        [
+          "Coding-decoding",
+          11
+        ],
+        [
+          "Inference / syllogism / Venn",
+          9
+        ],
+        [
+          "Relationships / direction / ranking",
+          7
+        ],
+        [
+          "Word building / indexing / matching",
+          7
+        ],
+        [
+          "Critical / emotional / social",
+          5
+        ]
+      ],
+      "W": [
+        [
+          "Foundations & patterns",
+          1,
+          2
+        ],
+        [
+          "Analogy / classification",
+          3,
+          4
+        ],
+        [
+          "Series / trends",
+          5,
+          6
+        ],
+        [
+          "Coding & operations",
+          7,
+          8
+        ],
+        [
+          "Non-verbal visual",
+          9,
+          12
+        ],
+        [
+          "Relations / Venn / syllogism",
+          13,
+          15
+        ],
+        [
+          "Word / indexing / matching",
+          16,
+          17
+        ],
+        [
+          "Full official-topic sweep",
+          18,
+          19
+        ],
+        [
+          "Topic PYQs + error repair",
+          20,
+          22
+        ],
+        [
+          "Timed Tier-I / II sets",
+          23,
+          24
+        ]
+      ],
+      "h": 40,
+      "g": [
+        [
+          "Start non-verbal on Day 1",
+          "It is the largest tag (15.4%) but is taught in Weeks 9–12. Visual speed builds slowly: do 10 figure questions a day from Week 1."
+        ],
+        [
+          "Operations need arithmetic",
+          "Mathematical operations (14.9%) sit with coding in Weeks 7–8. Pair them with the Maths fluency block from Week 3."
+        ],
+        [
+          "Use image-based practice",
+          "Notes cannot teach figures. Use sets with real images and redraw every missed figure."
+        ],
+        [
+          "Tier-II is slower, so go deeper",
+          "Tier-II gives about 60 s a question against 36 s in Tier-I. Add puzzles and multi-step inference once the core is stable."
+        ],
+        [
+          "Cap coaching-only formats",
+          "Seating, dice and calendar puzzles are common in books but not all are named in the notice. Keep them near 10% of study time."
+        ],
+        [
+          "Train the skip decision",
+          "Add a 40-second rule and mark-and-return practice from the first timed set."
+        ]
+      ]
+    },
+    "e": {
+      "T": [
+        [
+          "Cloze test",
+          15.2
+        ],
+        [
+          "Spelling",
+          8.1
+        ],
+        [
+          "Antonyms",
+          7.9
+        ],
+        [
+          "One-word substitution",
+          7.7
+        ],
+        [
+          "Sentence improvement",
+          7.6
+        ],
+        [
+          "Idioms & phrases",
+          7.5
+        ],
+        [
+          "Synonyms",
+          7.2
+        ],
+        [
+          "Active / passive",
+          7
+        ],
+        [
+          "Parajumbles",
+          6.8
+        ],
+        [
+          "Error spotting",
+          6.7
+        ]
+      ],
+      "A": [
+        [
+          "Grammar systems",
+          24
+        ],
+        [
+          "Vocabulary & word knowledge",
+          24
+        ],
+        [
+          "Reading comprehension + cloze",
+          18
+        ],
+        [
+          "Sentence correction / blanks",
+          11
+        ],
+        [
+          "Voice & narration",
+          7
+        ],
+        [
+          "Sentence / paragraph ordering",
+          6
+        ],
+        [
+          "PYQs, mocks & error review",
+          10
+        ]
+      ],
+      "W": [
+        [
+          "Grammar foundation",
+          1,
+          4
+        ],
+        [
+          "Grammar application",
+          5,
+          8
+        ],
+        [
+          "Vocabulary system",
+          9,
+          13
+        ],
+        [
+          "Reading + ordering",
+          14,
+          18
+        ],
+        [
+          "PYQ integration",
+          19,
+          20
+        ],
+        [
+          "Timed mastery",
+          21,
+          24
+        ]
+      ],
+      "h": 45,
+      "g": [
+        [
+          "Start vocabulary in Week 1",
+          "The vocabulary cluster is about 38.4% of tagged questions, yet the first vocabulary block is Weeks 9–13. Spaced repetition needs months, so begin with 10 words a day now."
+        ],
+        [
+          "Begin reading in Week 1",
+          "A daily editorial builds vocabulary and Tier-II passage speed together. Waiting until Week 14 wastes months of compounding."
+        ],
+        [
+          "Cloze needs an early start",
+          "Cloze is the largest tag (15.2%). Start one short cloze a day after Week 5, once agreement and tense are solid."
+        ],
+        [
+          "Mine PYQs for words",
+          "Build a list of words and idioms that actually repeated in past papers and revise it before any general list."
+        ],
+        [
+          "Simulate Tier-II earlier",
+          "Tier-II allows about 53 s a question over 45 questions. Run the first full simulation near Week 15, then every 3 weeks."
+        ],
+        [
+          "Keep a spelling notebook",
+          "Spelling is 8.1% of tagged questions. Log each error with the wrong form you chose and revise weekly."
+        ]
+      ]
+    },
+    "k": {
+      "T": [
+        [
+          "History",
+          15.7
+        ],
+        [
+          "Art & culture",
+          13.1
+        ],
+        [
+          "General science",
+          12.5
+        ],
+        [
+          "Polity",
+          10.6
+        ],
+        [
+          "Geography",
+          10.2
+        ],
+        [
+          "Current affairs",
+          9.4
+        ],
+        [
+          "Economy",
+          9.3
+        ],
+        [
+          "Sports",
+          9.2
+        ],
+        [
+          "Awards & honours",
+          3.9
+        ],
+        [
+          "Science & technology",
+          3.5
+        ]
+      ],
+      "A": [
+        [
+          "History",
+          17
+        ],
+        [
+          "General science",
+          15
+        ],
+        [
+          "Polity",
+          12
+        ],
+        [
+          "Geography",
+          12
+        ],
+        [
+          "Current affairs",
+          12
+        ],
+        [
+          "Art & culture",
+          10
+        ],
+        [
+          "Economy",
+          9
+        ],
+        [
+          "Sports",
+          5
+        ],
+        [
+          "Environment",
+          4
+        ],
+        [
+          "Awards / misc.",
+          4
+        ]
+      ],
+      "W": [
+        [
+          "History & culture",
+          1,
+          5
+        ],
+        [
+          "Polity",
+          6,
+          8
+        ],
+        [
+          "Geography",
+          9,
+          11
+        ],
+        [
+          "General science",
+          12,
+          15
+        ],
+        [
+          "Economy",
+          16,
+          17
+        ],
+        [
+          "Environment + S&T",
+          18,
+          19
+        ],
+        [
+          "Static mixed PYQs",
+          20,
+          21
+        ],
+        [
+          "Full revision / mocks",
+          22,
+          24
+        ]
+      ],
+      "h": 45,
+      "g": [
+        [
+          "Interleave, don’t block",
+          "Five-week subject blocks risk forgetting History by Week 22. Revisit each finished subject every 10 days with a 25-question mixed quiz."
+        ],
+        [
+          "Start mixed quizzes at Week 6",
+          "Retrieval from shuffled topics trains recall under exam conditions, not chapter names."
+        ],
+        [
+          "Add a weekly capsule",
+          "Reserve about 100 fact cards a week for P3 items: important days, books and authors, organisations, neighbours."
+        ],
+        [
+          "Treat current affairs in two layers",
+          "Keep the last 6 months in full detail; keep older items only if nationally significant or linked to static topics."
+        ],
+        [
+          "Plan the Tier-II split",
+          "Tier-II GA is 25 questions in 20 minutes (about 48 s each) inside a 60-minute English + GA section. Practise both back to back."
+        ],
+        [
+          "Prefer one-sentence fact cards",
+          "Geography and polity facts last longer when tied to a map or a Part–Article–Schedule trio."
+        ]
+      ]
+    }
+  },
+  "defaultPriorityRatings": {
+    "m": {},
+    "r": {},
+    "e": {},
+    "k": {}
+  }
+}

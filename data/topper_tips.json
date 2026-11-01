@@ -1,0 +1,621 @@
+{
+  "subjectNames": {
+    "m": "Maths",
+    "r": "Reasoning",
+    "e": "English",
+    "k": "GK + Current Affairs"
+  },
+  "subjects": {
+    "m": {
+      "t": [
+        [
+          "24–25",
+          "Tier-I correct of 25"
+        ],
+        [
+          "≥ 92%",
+          "accuracy before speed"
+        ],
+        [
+          "≈ 11 min",
+          "first pass, 4 min buffer"
+        ]
+      ],
+      "s": [
+        [
+          "Fluency first",
+          "Squares to 30, cubes to 15, tables to 20, fraction–percent pairs to 1/20. This removes most calculation time."
+        ],
+        [
+          "Think in multipliers",
+          "Profit 15% means ×1.15; successive changes multiply. One line, no fractions."
+        ],
+        [
+          "Convert to units",
+          "Ratio, mixture, ages, partnership and work: turn quantities into units, solve once, scale back."
+        ],
+        [
+          "Work = LCM units",
+          "Set total work to the LCM of the days, so every person’s daily output is a whole number."
+        ],
+        [
+          "Check, don’t redo",
+          "Verify with digit sum, unit digit or by putting an option back in. Five seconds, not a re-solve."
+        ],
+        [
+          "Geometry: name the theorem",
+          "Draw the figure, mark the givens, name the theorem before touching numbers."
+        ],
+        [
+          "Trigonometry as triangles",
+          "Know 30-60-90 (1 : √3 : 2) and 45-45-90 (1 : 1 : √2); most height-and-distance sums become ratios."
+        ],
+        [
+          "DI by estimation",
+          "Read title, units and scale first. Round numbers and compare fractions by cross-multiplication."
+        ]
+      ],
+      "f": [
+        [
+          "Successive change",
+          "a% then b% = a + b + ab/100"
+        ],
+        [
+          "Together time",
+          "Alone a and b days: (a × b)/(a + b)"
+        ],
+        [
+          "Average speed",
+          "Equal distances: 2xy/(x + y)"
+        ],
+        [
+          "Boat, still water",
+          "(downstream + upstream) ÷ 2"
+        ],
+        [
+          "CI − SI, 2 years",
+          "P × (r/100)²"
+        ],
+        [
+          "x + 1/x = k",
+          "x² + 1/x² = k² − 2; x³ + 1/x³ = k³ − 3k"
+        ],
+        [
+          "Pythagorean triples",
+          "3-4-5, 5-12-13, 8-15-17, 7-24-25, 20-21-29"
+        ],
+        [
+          "Polygon angles",
+          "Interior sum (n − 2) × 180°; exterior 360°/n"
+        ]
+      ],
+      "y": [
+        "Convert all units before computing",
+        "Mark radius vs diameter on the figure",
+        "Re-read what is asked (increase vs final value)",
+        "Use options to shortcut equations",
+        "Skip after about 45 seconds",
+        "Tag every error C / M / K / T"
+      ],
+      "n": [
+        "Round early",
+        "Mix up CSA and TSA",
+        "Start with the longest DI set",
+        "Memorise a trick without its conditions",
+        "Ignore ‘basic’ topics",
+        "Leave a wrong method unreviewed"
+      ],
+      "d": [
+        [
+          "Pass 1",
+          10,
+          "Instant and short questions; flag long ones"
+        ],
+        [
+          "Pass 2",
+          4,
+          "Flagged medium questions, geometry, DI"
+        ],
+        [
+          "Check",
+          1,
+          "Units and signs"
+        ]
+      ],
+      "w": [
+        [
+          "Mon–Thu",
+          "Learn one chapter + 30 fresh questions"
+        ],
+        [
+          "Fri",
+          "Mixed 25-question set in 15 min"
+        ],
+        [
+          "Sat",
+          "Mock + review for twice the test time"
+        ],
+        [
+          "Sun",
+          "Calculation drill + re-solve old errors"
+        ]
+      ],
+      "c": [
+        "Squares to 30 recalled in under 60 seconds",
+        "Fraction–percent table to 1/20 blind",
+        "All formulas on one page, recalled blind",
+        "Three mixed sets at 24+/25",
+        "Last two weeks of errors re-solved",
+        "Geometry theorems applied to 20 new diagrams",
+        "DI: 5 questions in under 4 minutes",
+        "Tier-II: 27+/30 in 30 min, twice"
+      ]
+    },
+    "r": {
+      "t": [
+        [
+          "25/25",
+          "goal, in about 11 min"
+        ],
+        [
+          "< 30 s",
+          "average on pattern questions"
+        ],
+        [
+          "≥ 95%",
+          "accuracy on verbal reasoning"
+        ]
+      ],
+      "s": [
+        [
+          "Rule before answer",
+          "State the rule in one sentence and test it on every term. If two options fit, the rule is weak."
+        ],
+        [
+          "Letters as numbers",
+          "Write A = 1 to Z = 26. Opposite letters sum to 27. Anchors E-J-O-T-Y are 5-10-15-20-25."
+        ],
+        [
+          "Series checklist",
+          "Differences, second differences, × or ÷, alternating tracks, squares, cubes, primes, digit sums."
+        ],
+        [
+          "Operations: rewrite first",
+          "Swap the symbols exactly as told, rewrite the expression, then apply BODMAS."
+        ],
+        [
+          "Syllogism: always draw",
+          "‘Some’ and ‘no’ reverse, ‘all’ does not. Accept only definite conclusions."
+        ],
+        [
+          "Blood relations: tree",
+          "One symbol per person, gender only when stated, start from the known person."
+        ],
+        [
+          "Non-verbal: one feature at a time",
+          "Count parts, then rotation, shading, position. Mirror flips left–right; water image flips top–bottom."
+        ],
+        [
+          "Folding: undo in reverse",
+          "Unfold in the opposite order; holes mirror across each fold line."
+        ]
+      ],
+      "f": [
+        [
+          "Rank formula",
+          "Total = from top + from bottom − 1"
+        ],
+        [
+          "Handshakes",
+          "n(n − 1)/2"
+        ],
+        [
+          "Clock angle",
+          "|30H − 5.5M|"
+        ],
+        [
+          "Odd days",
+          "100 yrs = 5, 200 = 3, 300 = 1, 400 = 0"
+        ],
+        [
+          "Painted n×n×n cube",
+          "3 faces 8; 2 faces 12(n−2); 1 face 6(n−2)²; 0 faces (n−2)³"
+        ],
+        [
+          "Venn, at least one",
+          "A + B − both"
+        ],
+        [
+          "Direction",
+          "Sketch the path; net displacement by Pythagoras"
+        ],
+        [
+          "Calendar",
+          "Month days ÷ 7; the remainder is the weekday shift"
+        ]
+      ],
+      "y": [
+        "Clear coding, series, analogy first",
+        "Draw every diagram",
+        "Underline NOT, incorrect, except",
+        "Use only the given statements",
+        "Cap figure questions at about 40 s",
+        "Check which way the person faces"
+      ],
+      "n": [
+        "Use real-world knowledge in logic",
+        "Force a rule from one example",
+        "Stare at a figure; mark and move",
+        "Rush operator swaps",
+        "Count shapes without labelling",
+        "Mix ‘from left’ and ‘from right’"
+      ],
+      "d": [
+        [
+          "Pass 1",
+          9,
+          "Coding, series, analogy, odd one out, operations"
+        ],
+        [
+          "Pass 2",
+          5,
+          "Logic, relations, puzzles, figure questions"
+        ],
+        [
+          "Check",
+          1,
+          "Directions and ‘not’ questions"
+        ]
+      ],
+      "w": [
+        [
+          "Mon–Thu",
+          "One family + 25 questions; 10 non-verbal daily"
+        ],
+        [
+          "Fri",
+          "Timed 25-question set"
+        ],
+        [
+          "Sat",
+          "Mock + C-O-R-T error tags"
+        ],
+        [
+          "Sun",
+          "Re-solve missed figures; spaced revision"
+        ]
+      ],
+      "c": [
+        "Alphabet positions and opposites instant",
+        "10 non-verbal questions daily for 4 weeks",
+        "Syllogisms diagram-first, 20/20",
+        "Blood-relation and direction sets error-free",
+        "Mirror, water, folding rules blind",
+        "Three timed sets at 24–25/25 under 12 min",
+        "Tier-II: 28+/30 in 30 min, twice"
+      ]
+    },
+    "e": {
+      "t": [
+        [
+          "23–25",
+          "Tier-I correct of 25"
+        ],
+        [
+          "≈ 53 s",
+          "per question in Tier-II"
+        ],
+        [
+          "40+/45",
+          "Tier-II stretch target"
+        ]
+      ],
+      "s": [
+        [
+          "Recall questions first",
+          "Spelling, one-word substitution, idioms, synonyms and antonyms take seconds. Clear them before grammar and passages."
+        ],
+        [
+          "Vocabulary cards",
+          "Word, meaning, two synonyms, one antonym, one phrase. Revise on Day 1, 3, 7, 14, 30."
+        ],
+        [
+          "Read an editorial daily",
+          "One editorial plus five new words from it builds vocabulary and passage speed together."
+        ],
+        [
+          "Error spotting: subject and verb",
+          "Find them first, then check agreement, tense, article, preposition, pronoun and modifier."
+        ],
+        [
+          "Learn the repeat rules",
+          "Each/every/neither + singular; one of + plural noun + singular verb; senior, junior, superior + to; no sooner…than; hardly…when."
+        ],
+        [
+          "Cloze: passage first",
+          "Read it once, decide the word type for each blank, test collocation, re-read the full sentence."
+        ],
+        [
+          "RC: find the evidence line",
+          "Support every answer with a sentence. Eliminate extremes like always, never, only."
+        ],
+        [
+          "Para-jumbles: pair first",
+          "Find the opener (no pronoun, introduces the topic) and fixed pairs, then confirm the flow."
+        ]
+      ],
+      "f": [
+        [
+          "Uncountable nouns",
+          "Information, furniture, advice, news: singular, no a/an"
+        ],
+        [
+          "Articles",
+          "Sound decides: an hour, a university"
+        ],
+        [
+          "Collective noun",
+          "One unit = singular; separate members = plural"
+        ],
+        [
+          "As well as / along with",
+          "Verb agrees with the first subject"
+        ],
+        [
+          "Either…or / neither…nor",
+          "Verb agrees with the nearer subject"
+        ],
+        [
+          "Voice",
+          "Object becomes subject; be + V3; keep the tense"
+        ],
+        [
+          "Narration",
+          "Shift tense and pronouns; commands take ‘to’"
+        ],
+        [
+          "Roots",
+          "-phobia fear, -cracy rule, -ology study, -cide killing"
+        ]
+      ],
+      "y": [
+        "Answer vocabulary instantly or skip",
+        "Test each grammar option in the full sentence",
+        "Check context before choosing a synonym",
+        "Read one passage every day",
+        "Keep a list of words from PYQs",
+        "Re-solve every grammar error with its rule"
+      ],
+      "n": [
+        "Pick what ‘sounds right’",
+        "Choose a synonym that breaks the context",
+        "Over-use ‘No error’",
+        "Read the passage twice before the questions",
+        "Learn 60 words and forget them",
+        "Skip lower-frequency topics"
+      ],
+      "d": [
+        [
+          "Vocabulary + spelling",
+          4,
+          "About 10 recall questions"
+        ],
+        [
+          "Grammar",
+          5,
+          "Errors, improvement, blanks, voice"
+        ],
+        [
+          "Cloze + passage",
+          5,
+          "Read once; evidence for each answer"
+        ],
+        [
+          "Check",
+          1,
+          "Re-read doubtful items"
+        ]
+      ],
+      "w": [
+        [
+          "Mon–Thu",
+          "One rule or word family + 20–40 questions"
+        ],
+        [
+          "Fri",
+          "Mixed timed set"
+        ],
+        [
+          "Sat",
+          "PYQ test or sectional mock"
+        ],
+        [
+          "Sun",
+          "Spaced vocabulary + editorial"
+        ]
+      ],
+      "c": [
+        "10–15 new words a day, 80% recalled later",
+        "Top-20 grammar rules recalled blind",
+        "Three cloze passages a day for a week",
+        "RC: evidence quoted for every answer, two weeks",
+        "Tier-I section 23+/25 in 15 min, three times",
+        "Tier-II: 40+/45 in 40 min, twice"
+      ]
+    },
+    "k": {
+      "t": [
+        [
+          "20–23+",
+          "correct of 25 in 15 min"
+        ],
+        [
+          "80–85%",
+          "accuracy on delayed quizzes"
+        ],
+        [
+          "12 months",
+          "rolling current-affairs window"
+        ]
+      ],
+      "s": [
+        [
+          "Static first",
+          "History, art & culture, science, polity and geography were about 62% of tagged questions. Master them before news."
+        ],
+        [
+          "Facts need hooks",
+          "Attach each fact to a map, a timeline or a comparison table. Isolated facts fade."
+        ],
+        [
+          "Recall beats rereading",
+          "Closed-book quiz on Day 1, 7 and 30. Wrong at Day 7? Back into the queue."
+        ],
+        [
+          "NCERT for science",
+          "School-level biology, physics and chemistry cover most questions: principle plus everyday use."
+        ],
+        [
+          "Polity in context",
+          "Learn Part, Article and Schedule together instead of memorising numbers alone."
+        ],
+        [
+          "History as chains",
+          "Year, event, leader, place, result. Use timelines for Viceroys, Acts and movements."
+        ],
+        [
+          "Culture by pairs",
+          "Dance–state, instrument–artist, temple style–region, heritage site–state."
+        ],
+        [
+          "Current affairs, filtered",
+          "Capture schemes, awards, sports, appointments and reports. Verify dates and winners with PIB, RBI, ISRO or the official body."
+        ]
+      ],
+      "f": [
+        [
+          "Tropic of Cancer (8 states)",
+          "Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram"
+        ],
+        [
+          "Fundamental Duties",
+          "Part IV-A, Article 51A, added in 1976 (42nd Amendment)"
+        ],
+        [
+          "Emergency Articles",
+          "352 national, 356 state, 360 financial"
+        ],
+        [
+          "Key Articles",
+          "14 equality, 17 untouchability, 19 freedoms, 21 life, 21A education, 32 remedies"
+        ],
+        [
+          "Constitutional posts",
+          "148 CAG, 280 Finance Commission, 324 Election Commission"
+        ],
+        [
+          "Monetary terms",
+          "Repo: RBI lends to banks. Reverse repo: RBI borrows"
+        ],
+        [
+          "Amendments",
+          "42nd (1976), 52nd anti-defection (1985), 73rd/74th local bodies, 101st GST"
+        ],
+        [
+          "Dating India",
+          "1757 Plassey, 1764 Buxar, 1857 Revolt, 1885 INC, 1919 Jallianwala Bagh, 1930 Dandi, 1942 Quit India"
+        ]
+      ],
+      "y": [
+        "Read every option before marking",
+        "Underline NOT, EXCEPT, first, largest",
+        "Eliminate known-wrong options, then decide",
+        "Use spare time to re-check",
+        "Keep a ‘confused pairs’ table",
+        "Verify changeable facts at the source"
+      ],
+      "n": [
+        "Guess blindly",
+        "Memorise every Article number",
+        "Chase every minor award",
+        "Depend on one aggregator",
+        "Postpone current affairs",
+        "Reread without testing"
+      ],
+      "d": [
+        [
+          "Pass 1",
+          7,
+          "Questions you know in 15–20 s"
+        ],
+        [
+          "Pass 2",
+          5,
+          "Eliminate, then decide"
+        ],
+        [
+          "Check",
+          3,
+          "NOT / EXCEPT questions"
+        ]
+      ],
+      "w": [
+        [
+          "Mon–Thu",
+          "20 min static + 10 min current + recall"
+        ],
+        [
+          "Fri",
+          "25-question timed GA set"
+        ],
+        [
+          "Sat",
+          "Map or science quiz + 20–30 current-affairs cards"
+        ],
+        [
+          "Sun",
+          "D+7 and D+30 retests"
+        ]
+      ],
+      "c": [
+        "Modern history timeline from a blank page",
+        "Blank India map: rivers, parks, states at 90%",
+        "Articles, Schedules and amendments in context",
+        "Units, vitamins, diseases, body systems solid",
+        "12-month current-affairs notes with D+30 retests",
+        "GA set 20+/25 in 15 min, three times",
+        "Error log tagged: forgotten, confused, misread"
+      ]
+    }
+  },
+  "universalHabits": [
+    [
+      "Break-even guessing",
+      "Tier-I (+2 / −0.5): a guess pays only above 20% chance. Tier-II (+3 / −1): above 25%. Blind 4-option guessing is a small gain in Tier-I and zero in Tier-II, so eliminate one option first."
+    ],
+    [
+      "Wrong answers are costly",
+      "Tier-I: four wrong answers cancel one correct. Tier-II: three wrong cancel one correct."
+    ],
+    [
+      "Know which tier decides rank",
+      "In recent cycles Tier-I has acted as a qualifier and merit has come from Tier-II. Verify this in the notification for your cycle, then plan your peak accordingly."
+    ],
+    [
+      "Mock discipline",
+      "Spend about as long reviewing a mock as taking it. Tag each miss and re-solve after 1 day, 1 week and 3 weeks."
+    ],
+    [
+      "Sectional timers",
+      "Each section has its own timer, so leftover time cannot move to another section. Use spare minutes to verify, not rush."
+    ],
+    [
+      "Peak rhythm",
+      "Fixed daily study slot, 7+ hours of sleep, and in the last 8 weeks take mocks at your exam-slot hour."
+    ],
+    [
+      "Reality check",
+      "No plan guarantees a rank. A top-10 result needs very high accuracy in every section, a strong Tier-II and a calm exam day. Build the habits you control."
+    ]
+  ]
+}

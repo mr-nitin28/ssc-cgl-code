@@ -1,0 +1,1925 @@
+{
+  "id": 5,
+  "slug": "mock-05",
+  "title": "SSC CGL Tier-I Mock Test 05",
+  "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+  "level": "Intermediate",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 4, 6, 9, 14, 22, ?",
+          "options": [
+            "31",
+            "33",
+            "35",
+            "37"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences are +2, +3, +5, +8, then +13: 22 + 13 = 35.",
+          "tip": "Fibonacci differences."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the letter series: A, D, H, M, S, ?",
+          "options": [
+            "X",
+            "Y",
+            "Z",
+            "A"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Positions 1, 4, 8, 13, 19: gaps +3, +4, +5, +6, next +7, giving Z.",
+          "tip": "Gaps rise by 1."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the related number: 125 : 5 :: 343 : ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "125 = 5³ and 343 = 7³; the answer is the cube root.",
+          "tip": "Know cubes to 10."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Carpenter : Plane :: Sculptor : ?",
+          "options": [
+            "Chisel",
+            "Canvas",
+            "Compass",
+            "Furnace"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A carpenter uses a plane; a sculptor uses a chisel.",
+          "tip": "Worker to tool."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "29",
+            "31",
+            "37",
+            "39"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "29, 31 and 37 are prime; 39 = 3 × 13.",
+          "tip": "Test primes to 40."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Each letter is replaced by the letter three places ahead. How is FISH coded?",
+          "options": [
+            "ILVK",
+            "ILUJ",
+            "JLVK",
+            "ILWK"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "F→I, I→L, S→V, H→K.",
+          "tip": "Shift every letter."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A woman says, “The man in this photograph is the only son of my mother’s father.” How is he related to her?",
+          "options": [
+            "Paternal uncle",
+            "Maternal uncle",
+            "Brother",
+            "Cousin"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "My mother’s father’s only son is my maternal uncle.",
+          "tip": "Go up, then down the tree."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A person walks 9 km west and then 12 km south. Shortest distance and direction from the start?",
+          "options": [
+            "15 km south-west",
+            "15 km north-west",
+            "21 km south",
+            "21 km west"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "√(9² + 12²) = 15 km, towards the south-west.",
+          "tip": "9-12-15 triple."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing result: (2, 3) → 13; (3, 4) → 25; (4, 5) → ?",
+          "options": [
+            "35",
+            "39",
+            "41",
+            "45"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Result = a² + b²: 4 + 9, 9 + 16, 16 + 25 = 41.",
+          "tip": "Try squares for pairs."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: All poets are dreamers. Some dreamers are painters. Conclusions: I. Some poets are painters. II. All poets are dreamers.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘All poets are dreamers’ is given; the poet–painter link is not.",
+          "tip": "‘Some’ doesn’t pass through."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A local train operator adds carriages in the morning peak to reduce overcrowding. Assumptions: I. Peak-hour demand can exceed available capacity. II. Every passenger in the city travels by train.",
+          "options": [
+            "Only I is implicit",
+            "Only II is implicit",
+            "Both are implicit",
+            "Neither is implicit"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Extra carriages assume peak demand can exceed capacity, not that everyone uses trains.",
+          "tip": "Reject ‘every’."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Is a positive integer n divisible by 15? I. n is divisible by 3. II. n is divisible by 5.",
+          "options": [
+            "I alone is sufficient",
+            "II alone is sufficient",
+            "Both together are sufficient",
+            "Either alone is sufficient"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Divisible by 3 and 5 means divisible by 15; both statements are needed.",
+          "tip": "Combine coprime factors."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Every item inside the sealed box has been inspected. Item K is inside the sealed box. Which conclusion necessarily follows?",
+          "options": [
+            "Item K has been inspected.",
+            "Item K is defective.",
+            "Only item K has been inspected.",
+            "Item K is outside the box."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Everything in the box is inspected and K is inside, so K is inspected.",
+          "tip": "All A are B; K is A."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "How many distinct arrangements can be formed using all the letters of LEVEL?",
+          "options": [
+            "20",
+            "30",
+            "40",
+            "60"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "5!/(2! × 2!) = 120/4 = 30.",
+          "tip": "Divide by repeats."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A committee of three is to be selected from seven candidates. How many committees are possible?",
+          "options": [
+            "21",
+            "28",
+            "35",
+            "42"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "7C3 = 35.",
+          "tip": "Order doesn’t matter."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A, B, C and D have different heights. A is taller than B, C is shorter than B, D is taller than A. Who is second tallest?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "D > A > B > C, so A is second.",
+          "tip": "Write a chain."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Which is a different type of instrument from the others?",
+          "options": [
+            "Violin",
+            "Cello",
+            "Flute",
+            "Viola"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Violin, cello and viola are strings; the flute is a wind instrument.",
+          "tip": "Classify by family."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Which word has its letters in alphabetical order?",
+          "options": [
+            "ALMOST",
+            "PLANET",
+            "BRIGHT",
+            "GARDEN"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A, L, M, O, S, T are already in order.",
+          "tip": "Check adjacent pairs."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "How many vowels does EDUCATION contain?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "E, U, A, I, O: five vowels.",
+          "tip": "Count each vowel."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A company introduces regular cybersecurity training for all employees. Which is the most logical reason?",
+          "options": [
+            "Employees may be exposed to cyber threats while using company systems.",
+            "Every employee is a cybersecurity expert.",
+            "Training guarantees that no attack can occur.",
+            "Training removes the need for technical security controls."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Training reduces risks from using company systems; it cannot guarantee safety.",
+          "tip": "Avoid absolutes."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing letter: B, E, J, Q, ?",
+          "options": [
+            "X",
+            "Y",
+            "Z",
+            "A"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Positions 2, 5, 10, 17, 26: gaps +3, +5, +7, +9.",
+          "tip": "Odd gaps."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A word’s value is the sum of its letters’ alphabet positions. Value of CODE?",
+          "options": [
+            "25",
+            "26",
+            "27",
+            "28"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "3 + 15 + 4 + 5 = 27.",
+          "tip": "A = 1 … Z = 26."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A person facing south-east turns 135° clockwise. Which direction is he facing now?",
+          "options": [
+            "North",
+            "South",
+            "West",
+            "East"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "South-east is 135°; +135° = 270°, which is west.",
+          "tip": "Use bearings."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statement: “The city should establish more public reading rooms.” Arguments: I. They can provide study space to people without suitable space at home. II. Every citizen is certain to visit a reading room once established.",
+          "options": [
+            "Only I is strong",
+            "Only II is strong",
+            "Both are strong",
+            "Neither is strong"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Reading rooms give access to study space; ‘every citizen’ is unsupported.",
+          "tip": "Strong = realistic."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "In a row of 35 students, Priya is 12th from the left. Her position from the right?",
+          "options": [
+            "22nd",
+            "23rd",
+            "24th",
+            "25th"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "35 − 12 + 1 = 24.",
+          "tip": "Total − position + 1."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who wrote Harshacharita?",
+          "options": [
+            "Kalhana",
+            "Banabhatta",
+            "Vishakhadatta",
+            "Bilhana"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Banabhatta wrote Harshacharita, a biography of Harsha.",
+          "tip": "Banabhatta: Harshacharita, Kadambari."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Fourth Buddhist Council is traditionally associated with:",
+          "options": [
+            "Ashoka",
+            "Bimbisara",
+            "Kanishka",
+            "Chandragupta Maurya"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Kanishka is linked with the Fourth Buddhist Council.",
+          "tip": "Ashoka: Third Council."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Alvars were saints associated with:",
+          "options": [
+            "Shaivism",
+            "Vaishnavism",
+            "Jainism",
+            "Buddhism"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Alvars were Vaishnavite saints of the Tamil country.",
+          "tip": "Alvars Vishnu, Nayanars Shiva."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Kakori train action took place in:",
+          "options": [
+            "1921",
+            "1923",
+            "1925",
+            "1928"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Kakori train action happened in 1925.",
+          "tip": "HRA, 1925."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Gandhi’s first major Satyagraha in India was at:",
+          "options": [
+            "Kheda",
+            "Bardoli",
+            "Champaran",
+            "Ahmedabad"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Champaran (1917) was Gandhi’s first major Satyagraha in India.",
+          "tip": "Champaran, Kheda, Ahmedabad."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Amendment introduced the Ninth Schedule?",
+          "options": [
+            "First Amendment",
+            "Seventh Amendment",
+            "Twenty-fourth Amendment",
+            "Forty-second Amendment"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The First Amendment (1951) added the Ninth Schedule.",
+          "tip": "9th Schedule: land-reform laws."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Under which Article can the President promulgate an Ordinance when Parliament is not in session?",
+          "options": [
+            "Article 72",
+            "Article 123",
+            "Article 143",
+            "Article 213"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Article 123 gives the President ordinance power.",
+          "tip": "213 is the Governor’s."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The power of High Courts to issue writs is provided under:",
+          "options": [
+            "Article 32",
+            "Article 124",
+            "Article 226",
+            "Article 280"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Article 226 empowers High Courts to issue writs.",
+          "tip": "32 Supreme Court, 226 High Court."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Eleventh Schedule is related to:",
+          "options": [
+            "Municipalities",
+            "Panchayats",
+            "Union List",
+            "Anti-defection provisions"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The Eleventh Schedule lists Panchayat subjects.",
+          "tip": "11 Panchayat, 12 Municipality."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Ten Degree Channel separates:",
+          "options": [
+            "India and Sri Lanka",
+            "Andaman and Nicobar Islands",
+            "Lakshadweep and Maldives",
+            "India and Maldives"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The Ten Degree Channel separates the Andaman and Nicobar groups.",
+          "tip": "Ten Degree: 10°N."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Bhakra Dam is built on which river?",
+          "options": [
+            "Beas",
+            "Ravi",
+            "Sutlej",
+            "Chenab"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Bhakra Dam is on the Sutlej.",
+          "tip": "Sutlej Bhakra; Beas Pong."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Coromandel Coast lies along:",
+          "options": [
+            "Western coast of Gujarat",
+            "South-eastern coast of India",
+            "Northern coast of Odisha",
+            "Western coast of Kerala"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The Coromandel Coast is on the south-eastern coast.",
+          "tip": "Coromandel east, Malabar west."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The first biosphere reserve established in India was:",
+          "options": [
+            "Nanda Devi",
+            "Nilgiri",
+            "Sundarbans",
+            "Gulf of Mannar"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The Nilgiri Biosphere Reserve (1986) was India’s first.",
+          "tip": "Nilgiri first."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Zoji La Pass connects:",
+          "options": [
+            "Srinagar and Leh",
+            "Manali and Shimla",
+            "Gangtok and Darjeeling",
+            "Jammu and Amritsar"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Zoji La links Srinagar and Leh.",
+          "tip": "Kashmir to Ladakh."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Indian Standard Time is based on which longitude?",
+          "options": [
+            "75° East",
+            "80° East",
+            "82°30′ East",
+            "90° East"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "IST follows 82°30′ E.",
+          "tip": "IST = UTC + 5:30."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Sound cannot travel through:",
+          "options": [
+            "Water",
+            "Steel",
+            "Air",
+            "Vacuum"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Sound needs a material medium and cannot pass through a vacuum.",
+          "tip": "No medium, no sound."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The ozone layer is mainly in which atmospheric layer?",
+          "options": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The ozone layer lies in the stratosphere.",
+          "tip": "Ozone: stratosphere."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The structural and functional unit of the kidney is:",
+          "options": [
+            "Neuron",
+            "Alveolus",
+            "Nephron",
+            "Villus"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The nephron is the unit of the kidney.",
+          "tip": "Neuron is for nerves."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which vitamin is important for normal blood clotting?",
+          "options": [
+            "Vitamin A",
+            "Vitamin C",
+            "Vitamin E",
+            "Vitamin K"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Vitamin K is needed for blood clotting.",
+          "tip": "K for Koagulation."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Noble gases are in which group of the modern periodic table?",
+          "options": [
+            "Group 1",
+            "Group 2",
+            "Group 17",
+            "Group 18"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Noble gases form Group 18.",
+          "tip": "Full outer shells."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which phenomenon explains the apparent change in sound frequency when source or observer moves?",
+          "options": [
+            "Doppler effect",
+            "Photoelectric effect",
+            "Raman effect",
+            "Compton effect"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The Doppler effect explains frequency shift due to relative motion.",
+          "tip": "Ambulance siren."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Mycorrhiza is a beneficial association between:",
+          "options": [
+            "Algae and fungi",
+            "Fungi and plant roots",
+            "Bacteria and viruses",
+            "Mosses and lichens"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Mycorrhiza is fungus living with plant roots.",
+          "tip": "Myco + rhiza = fungus + root."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "In India, the Index of Industrial Production is compiled by:",
+          "options": [
+            "Reserve Bank of India",
+            "National Statistical Office",
+            "Finance Commission",
+            "NITI Aayog"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The NSO (MoSPI) compiles the IIP.",
+          "tip": "IIP: NSO."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Union Cabinet approved the Pradhan Mantri Viksit Gram Swaraj Yojana in October 2026. Its implementation period is:",
+          "options": [
+            "2025–26 to 2028–29",
+            "2026–27 to 2030–31",
+            "2027–28 to 2032–33",
+            "2026–27 to 2033–34"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "PM VGSY was approved on 28 Oct 2026 for 2026–27 to 2030–31 (₹7,395.55 crore).",
+          "tip": "Matches the 16th Finance Commission period."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "For Rabi Marketing Season 2027–28, which crop received the highest absolute MSP increase among those listed?",
+          "options": [
+            "Wheat",
+            "Gram",
+            "Lentil",
+            "Safflower"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Safflower’s MSP rose ₹675 per quintal for 2027–28, the largest hike.",
+          "tip": "Safflower now ₹7,215 per quintal."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mathematics",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If the number 5a74 is divisible by 9, find a.",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Digit sum 16 + a must be 18, so a = 2.",
+          "tip": "Divisible by 9: digit sum."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simplify (√11 + √5)(√11 − √5).",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "11 − 5 = 6.",
+          "tip": "(a + b)(a − b)."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If 2x + 3y = 18 and 3x − y = 5, find x + y.",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "y = 3x − 5; 11x = 33, so x = 3, y = 4; sum 7.",
+          "tip": "Substitute."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If x − y = 2 and xy = 15, find x² + y².",
+          "options": [
+            "30",
+            "32",
+            "34",
+            "36"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "(x − y)² + 2xy = 4 + 30 = 34.",
+          "tip": "x² + y² identity."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Area of a triangle with sides 13 cm, 14 cm and 15 cm?",
+          "options": [
+            "72 cm²",
+            "78 cm²",
+            "84 cm²",
+            "90 cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "s = 21; √(21 × 8 × 7 × 6) = 84.",
+          "tip": "13-14-15 gives 84."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A tangent is drawn at P, and the angle between the tangent and a chord from P is 42°. The angle in the alternate segment?",
+          "options": [
+            "38°",
+            "42°",
+            "48°",
+            "52°"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The tangent–chord angle equals the angle in the alternate segment: 42°.",
+          "tip": "Alternate segment theorem."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "One angle of a cyclic quadrilateral is 107°. Its opposite angle?",
+          "options": [
+            "63°",
+            "67°",
+            "73°",
+            "83°"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "180° − 107° = 73°.",
+          "tip": "Cyclic quadrilateral."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Number of diagonals in an 11-sided polygon?",
+          "options": [
+            "40",
+            "42",
+            "44",
+            "48"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "11 × 8/2 = 44.",
+          "tip": "n(n − 3)/2."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Volume of a hemisphere of radius 3 cm?",
+          "options": [
+            "9π cm³",
+            "12π cm³",
+            "18π cm³",
+            "27π cm³"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "⅔π × 27 = 18π.",
+          "tip": "Hemisphere = ⅔πr³."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Area between concentric circles of radii 7 cm and 3 cm?",
+          "options": [
+            "32π cm²",
+            "36π cm²",
+            "40π cm²",
+            "49π cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "π(49 − 9) = 40π.",
+          "tip": "π(R² − r²)."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If cos θ = 12/13 and θ is acute, find tan θ.",
+          "options": [
+            "5/12",
+            "12/5",
+            "5/13",
+            "12/13"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "sin θ = 5/13, so tan θ = 5/12.",
+          "tip": "5-12-13 triple."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Midpoint of the segment joining (−4, 2) and (8, 10)?",
+          "options": [
+            "(2, 5)",
+            "(2, 6)",
+            "(4, 6)",
+            "(4, 8)"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "((−4 + 8)/2, (2 + 10)/2) = (2, 6).",
+          "tip": "Average the coordinates."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A town of 20,000 people grows 8% in year one and 5% in year two. Population after two years?",
+          "options": [
+            "22,400",
+            "22,500",
+            "22,600",
+            "22,680"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "20,000 × 1.08 × 1.05 = 22,680.",
+          "tip": "Multiply growth factors."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A vehicle covers one-third of a journey at 30 km/h and the rest at 60 km/h. Average speed?",
+          "options": [
+            "40 km/h",
+            "42 km/h",
+            "45 km/h",
+            "48 km/h"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Time = D/90 + D/90 = D/45, so 45 km/h.",
+          "tip": "Use time, not the average of speeds."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Sum of the first 20 terms of the AP 3, 7, 11, 15, …",
+          "options": [
+            "780",
+            "800",
+            "820",
+            "840"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "S₂₀ = 10 × (6 + 76) = 820.",
+          "tip": "Sₙ formula."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Two fair dice are thrown. Probability that the sum is 8?",
+          "options": [
+            "1/9",
+            "5/36",
+            "1/6",
+            "7/36"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "(2,6), (3,5), (4,4), (5,3), (6,2): 5/36.",
+          "tip": "List the pairs."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "An article sold for ₹1,320 after a 12% discount. Marked price?",
+          "options": [
+            "₹1,450",
+            "₹1,480",
+            "₹1,500",
+            "₹1,520"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "1320 ÷ 0.88 = ₹1,500.",
+          "tip": "SP is 88% of MP."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A and B earn daily wages in the ratio 5 : 7. A works 12 days and B 10 days; combined wages ₹5,200. A’s total wage?",
+          "options": [
+            "₹2,200",
+            "₹2,400",
+            "₹2,600",
+            "₹2,800"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Wage ratio 60 : 70 = 6 : 7; A gets 6/13 × 5200 = ₹2,400.",
+          "tip": "Rate × days."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Express 0.272727… as a fraction in simplest form.",
+          "options": [
+            "2/11",
+            "3/11",
+            "4/11",
+            "5/11"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "27/99 = 3/11.",
+          "tip": "Two repeating digits: ÷ 99."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "The roots of x² − 11x + 24 = 0 are distinct. Difference between the larger and smaller root?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "(x − 3)(x − 8): difference 5.",
+          "tip": "Factorise."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "In a positive GP the 2nd term is 12 and the 4th is 108. Common ratio?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "r² = 108/12 = 9, so r = 3.",
+          "tip": "T₄/T₂ = r²."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "x is 40% of y, and y is 25% of z. x is what percentage of z?",
+          "options": [
+            "8%",
+            "10%",
+            "12%",
+            "15%"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "0.4 × 0.25 = 0.10 = 10%.",
+          "tip": "Multiply percentages."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Total sales revenue of all four products in 2025?",
+          "options": [
+            "₹500 lakh",
+            "₹525 lakh",
+            "₹550 lakh",
+            "₹575 lakh"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Annual sales (₹ lakh) — A: 2024 = 80, 2025 = 100 · B: 120, 150 · C: 100, 125 · D: 140, 175",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "100 + 150 + 125 + 175 = 550.",
+          "tip": "Add the 2025 values."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Percentage increase in Product B’s sales from 2024 to 2025?",
+          "options": [
+            "20%",
+            "25%",
+            "30%",
+            "35%"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Annual sales (₹ lakh) — A: 2024 = 80, 2025 = 100 · B: 120, 150 · C: 100, 125 · D: 140, 175",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "(150 − 120)/120 = 25%.",
+          "tip": "Divide by the old value."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Ratio of 2024 sales of A and C combined to 2025 sales of B and D combined?",
+          "options": [
+            "18 : 31",
+            "36 : 65",
+            "5 : 8",
+            "6 : 7"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Annual sales (₹ lakh) — A: 2024 = 80, 2025 = 100 · B: 120, 150 · C: 100, 125 · D: 140, 175",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "180 : 325 = 36 : 65.",
+          "tip": "Divide by 5."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (76).",
+          "options": [
+            "Optional",
+            "Accidental",
+            "Essential",
+            "Temporary"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Although digital platforms have made information more accessible, the ability to evaluate sources remains (76). Readers must distinguish evidence from (77), check the origin of a claim and consider whether data has been presented in its proper (78). A reliable conclusion should be based on more than a single isolated (79). This habit encourages thoughtful rather than impulsive (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Evaluating sources remains essential.",
+          "tip": "Essential fits ‘remains’."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (77).",
+          "options": [
+            "Furniture",
+            "Rumour",
+            "Equipment",
+            "Measurement"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Although digital platforms have made information more accessible, the ability to evaluate sources remains (76). Readers must distinguish evidence from (77), check the origin of a claim and consider whether data has been presented in its proper (78). A reliable conclusion should be based on more than a single isolated (79). This habit encourages thoughtful rather than impulsive (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Evidence is contrasted with rumour.",
+          "tip": "Evidence vs rumour."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (78).",
+          "options": [
+            "Silence",
+            "Distance",
+            "Decoration",
+            "Context"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": {
+            "text": "Although digital platforms have made information more accessible, the ability to evaluate sources remains (76). Readers must distinguish evidence from (77), check the origin of a claim and consider whether data has been presented in its proper (78). A reliable conclusion should be based on more than a single isolated (79). This habit encourages thoughtful rather than impulsive (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Data must be seen in its proper context.",
+          "tip": "In context."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (79).",
+          "options": [
+            "Example",
+            "Occasion",
+            "Direction",
+            "Advertisement"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Although digital platforms have made information more accessible, the ability to evaluate sources remains (76). Readers must distinguish evidence from (77), check the origin of a claim and consider whether data has been presented in its proper (78). A reliable conclusion should be based on more than a single isolated (79). This habit encourages thoughtful rather than impulsive (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "A conclusion shouldn’t rest on one isolated example.",
+          "tip": "Isolated example."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (80).",
+          "options": [
+            "Hesitation",
+            "Entertainment",
+            "Judgement",
+            "Arrangement"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Although digital platforms have made information more accessible, the ability to evaluate sources remains (76). Readers must distinguish evidence from (77), check the origin of a claim and consider whether data has been presented in its proper (78). A reliable conclusion should be based on more than a single isolated (79). This habit encourages thoughtful rather than impulsive (80).",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Checking evidence encourages thoughtful judgement.",
+          "tip": "Judgement vs impulse."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Closest synonym of prudent.",
+          "options": [
+            "Reckless",
+            "Cautious",
+            "Impulsive",
+            "Careless"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Prudent means cautious.",
+          "tip": "Prudent ≈ careful."
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Antonym of hostile.",
+          "options": [
+            "Aggressive",
+            "Unfriendly",
+            "Cordial",
+            "Antagonistic"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Cordial is the opposite of hostile.",
+          "tip": "Hostile and cordial."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "A person who walks in their sleep is called a:",
+          "options": [
+            "Somnambulist",
+            "Philatelist",
+            "Pessimist",
+            "Linguist"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "A somnambulist sleepwalks.",
+          "tip": "Somnus = sleep."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of “leave no stone unturned”:",
+          "options": [
+            "Avoid taking responsibility",
+            "Make every possible effort",
+            "Change one’s decision",
+            "Delay a difficult task"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "It means make every possible effort.",
+          "tip": "Leave nothing out."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Indispensible",
+            "Indispensable",
+            "Indespensable",
+            "Indispensabel"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Correct spelling: indispensable.",
+          "tip": "-able ending."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The equipment ___ delivered to the laboratory yesterday.",
+          "options": [
+            "were",
+            "are",
+            "was",
+            "have been"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Equipment is uncountable: was delivered.",
+          "tip": "Equipment is singular."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: He is one of those writers / who writes regularly / for the monthly magazine / No error",
+          "options": [
+            "He is one of those writers",
+            "who writes regularly",
+            "for the monthly magazine",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘Who’ refers to ‘writers’, so the verb is ‘write’.",
+          "tip": "One of those… who + plural."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "I prefer walking ___ driving for short distances.",
+          "options": [
+            "than",
+            "to",
+            "over",
+            "with"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "We ‘prefer X to Y’.",
+          "tip": "Prefer + to."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Question tag: Let’s begin the meeting, ___?",
+          "options": [
+            "will we",
+            "do we",
+            "shall we",
+            "don’t we"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The tag for ‘Let’s…’ is ‘shall we?’",
+          "tip": "Let’s, shall we."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the grammatically correct sentence.",
+          "options": [
+            "The number of applicants have increased.",
+            "The number of applicants has increased.",
+            "The number of applicants are increasing.",
+            "The number of applicants were increased."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘The number of’ takes a singular verb.",
+          "tip": "Number of: singular."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Passive form of: The committee will announce the results tomorrow.",
+          "options": [
+            "The results will announce by the committee tomorrow.",
+            "The results will be announced by the committee tomorrow.",
+            "The results are announced by the committee tomorrow.",
+            "The committee will be announced by the results tomorrow."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Future passive: will be announced.",
+          "tip": "will + be + V3."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Indirect speech: The officer asked me, “Where do you live?”",
+          "options": [
+            "The officer asked me where did I live.",
+            "The officer asked me where I lived.",
+            "The officer asked me where do I live.",
+            "The officer asked me where had I live."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Indirect questions use statement order and past tense.",
+          "tip": "Where I lived."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Had I known about the delay, I ___ earlier.",
+          "options": [
+            "will leave",
+            "would have left",
+            "would leave",
+            "had left"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Third conditional: Had I known… would have left.",
+          "tip": "Had + V3, would have + V3."
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Arrange: A. As a result, many farmers now use drip irrigation. B. Water scarcity has become a serious concern in several regions. C. Traditional flood irrigation wastes a large share of water. D. Drip systems deliver water directly to plant roots.",
+          "options": [
+            "B–C–D–A",
+            "C–B–A–D",
+            "B–A–C–D",
+            "D–C–B–A"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "B states the concern, C the wasteful old method, D the better one, A the result.",
+          "tip": "Problem, cause, solution, result."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "You may use the laboratory ___ you follow all the safety instructions.",
+          "options": [
+            "Unless",
+            "Provided that",
+            "Although",
+            "Despite"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘Provided that’ sets a condition.",
+          "tip": "Condition: provided that."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "What is the central idea of the passage?",
+          "options": [
+            "Sleeping replaces the need for regular study.",
+            "Sleep supports learning and should be part of a healthy routine.",
+            "Screen exposure has no relationship with sleep.",
+            "Memory develops only during the daytime."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Sleep is an important biological process that supports learning and memory. During sleep, the brain processes information acquired during the day and helps consolidate some of it into long-term memory. Insufficient sleep can interfere with attention, decision-making and the ability to recall information accurately. A regular sleep schedule may support better sleep quality, while excessive screen exposure immediately before bedtime can make it harder for some people to fall asleep. Good sleep habits should therefore be regarded as part of a healthy learning routine, rather than as time taken away from study.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The passage links sleep to learning and a healthy routine.",
+          "tip": "Main idea."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "According to the passage, what does the brain do during sleep?",
+          "options": [
+            "It stops processing information.",
+            "It processes information and helps consolidate memory.",
+            "It removes all information acquired during the day.",
+            "It focuses exclusively on physical activity."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Sleep is an important biological process that supports learning and memory. During sleep, the brain processes information acquired during the day and helps consolidate some of it into long-term memory. Insufficient sleep can interfere with attention, decision-making and the ability to recall information accurately. A regular sleep schedule may support better sleep quality, while excessive screen exposure immediately before bedtime can make it harder for some people to fall asleep. Good sleep habits should therefore be regarded as part of a healthy learning routine, rather than as time taken away from study.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The brain processes information and consolidates memory.",
+          "tip": "Evidence line."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which ability may be affected by insufficient sleep?",
+          "options": [
+            "Attention",
+            "Hair growth",
+            "Hearing pitch",
+            "Skin colour"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Sleep is an important biological process that supports learning and memory. During sleep, the brain processes information acquired during the day and helps consolidate some of it into long-term memory. Insufficient sleep can interfere with attention, decision-making and the ability to recall information accurately. A regular sleep schedule may support better sleep quality, while excessive screen exposure immediately before bedtime can make it harder for some people to fall asleep. Good sleep habits should therefore be regarded as part of a healthy learning routine, rather than as time taken away from study.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Attention is named as affected.",
+          "tip": "Match the list."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "What may make it harder for some people to fall asleep?",
+          "options": [
+            "Following a regular schedule",
+            "Reviewing information during the day",
+            "Excessive screen exposure immediately before bedtime",
+            "Studying in the morning"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Sleep is an important biological process that supports learning and memory. During sleep, the brain processes information acquired during the day and helps consolidate some of it into long-term memory. Insufficient sleep can interfere with attention, decision-making and the ability to recall information accurately. A regular sleep schedule may support better sleep quality, while excessive screen exposure immediately before bedtime can make it harder for some people to fall asleep. Good sleep habits should therefore be regarded as part of a healthy learning routine, rather than as time taken away from study.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Screen exposure before bed can delay sleep.",
+          "tip": "Find the ‘screen’ line."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which conclusion is supported by the passage?",
+          "options": [
+            "More study time always produces better learning, regardless of sleep.",
+            "Good sleep habits can support an effective study routine.",
+            "Everyone needs exactly the same amount of sleep.",
+            "Memory consolidation occurs only when a person is awake."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Sleep is an important biological process that supports learning and memory. During sleep, the brain processes information acquired during the day and helps consolidate some of it into long-term memory. Insufficient sleep can interfere with attention, decision-making and the ability to recall information accurately. A regular sleep schedule may support better sleep quality, while excessive screen exposure immediately before bedtime can make it harder for some people to fall asleep. Good sleep habits should therefore be regarded as part of a healthy learning routine, rather than as time taken away from study.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The last sentence supports good sleep habits as part of study.",
+          "tip": "Check the conclusion."
+        }
+      ]
+    }
+  ]
+}

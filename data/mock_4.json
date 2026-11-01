@@ -1,0 +1,1925 @@
+{
+  "id": 4,
+  "slug": "mock-04",
+  "title": "SSC CGL Tier-I Mock Test 04",
+  "pattern": "CGL 2026 PATTERN · PRACTICE PAPER",
+  "level": "Intermediate",
+  "totalQuestions": 100,
+  "maxScore": 200,
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "index": 0,
+      "name": "Reasoning",
+      "shortName": "Reasoning",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "localId": 1,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 11, 14, 20, 29, 41, ?",
+          "options": [
+            "54",
+            "55",
+            "56",
+            "57"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences are +3, +6, +9, +12, so the next is +15: 56.",
+          "tip": "Differences grow by 3."
+        },
+        {
+          "id": 2,
+          "localId": 2,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the letter series: AZ, CX, EV, GT, ?",
+          "options": [
+            "IR",
+            "IS",
+            "HQ",
+            "JR"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "First letters move +2 (A, C, E, G, I); second letters move −2 (Z, X, V, T, R).",
+          "tip": "Track the two letters separately."
+        },
+        {
+          "id": 3,
+          "localId": 3,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the related number: 17 : 290 :: 23 : ?",
+          "options": [
+            "528",
+            "529",
+            "530",
+            "531"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Pattern n² + 1: 23² + 1 = 530.",
+          "tip": "Test n² ± 1 on the first pair."
+        },
+        {
+          "id": 4,
+          "localId": 4,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Thermometer : Temperature :: Hygrometer : ?",
+          "options": [
+            "Wind speed",
+            "Humidity",
+            "Atmospheric pressure",
+            "Temperature"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A hygrometer measures humidity.",
+          "tip": "Instrument to quantity."
+        },
+        {
+          "id": 5,
+          "localId": 5,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Select the odd one out.",
+          "options": [
+            "121",
+            "144",
+            "169",
+            "250"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "121, 144 and 169 are squares; 250 is not.",
+          "tip": "Learn squares to 30."
+        },
+        {
+          "id": 6,
+          "localId": 6,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Each letter is replaced by its reverse-alphabet counterpart (A↔Z, B↔Y, C↔X…). How is BRAVE coded?",
+          "options": [
+            "YIZEV",
+            "YIZVE",
+            "YJZEV",
+            "YIZEU"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Opposite letters: B→Y, R→I, A→Z, V→E, E→V.",
+          "tip": "Opposite letters sum to 27."
+        },
+        {
+          "id": 7,
+          "localId": 7,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: (2, 5, 12), (3, 7, 24), (4, 9, ?)",
+          "options": [
+            "36",
+            "38",
+            "40",
+            "42"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Third = first × (second + 1): 4 × 10 = 40.",
+          "tip": "Test each row for one rule."
+        },
+        {
+          "id": 8,
+          "localId": 8,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "If a # b = a² − b², what is 9 # 4?",
+          "options": [
+            "61",
+            "65",
+            "67",
+            "69"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "9² − 4² = 81 − 16 = 65.",
+          "tip": "Substitute exactly as defined."
+        },
+        {
+          "id": 9,
+          "localId": 9,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Of 60 students, 30 like tea, 28 coffee and 20 juice. 12 like tea and coffee, 8 coffee and juice, 10 tea and juice, and 4 like all three. How many like at least one drink?",
+          "options": [
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "30 + 28 + 20 − 12 − 8 − 10 + 4 = 52.",
+          "tip": "Union = singles − pairs + triple."
+        },
+        {
+          "id": 10,
+          "localId": 10,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: All chairs are furniture. No furniture is edible. Conclusions: I. No chair is edible. II. No edible item is furniture.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "‘No furniture is edible’ reverses, so both conclusions follow.",
+          "tip": "‘No’ statements reverse."
+        },
+        {
+          "id": 11,
+          "localId": 11,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statement: A city introduces dedicated bus lanes to reduce delays in peak hours. Assumptions: I. Buses are affected by congestion when sharing roads. II. Every commuter travels by bus.",
+          "options": [
+            "Only I is implicit",
+            "Only II is implicit",
+            "Both are implicit",
+            "Neither is implicit"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Bus lanes assume buses suffer congestion; nothing says everyone uses buses.",
+          "tip": "Reject universal claims."
+        },
+        {
+          "id": 12,
+          "localId": 12,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Is a positive integer N divisible by 12? I. N is divisible by 4. II. N is divisible by 3.",
+          "options": [
+            "I alone is sufficient",
+            "II alone is sufficient",
+            "Both together are sufficient",
+            "Either alone is sufficient"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Divisible by both 4 and 3 means divisible by 12; each alone is not enough.",
+          "tip": "Use coprime factors."
+        },
+        {
+          "id": 13,
+          "localId": 13,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statement: Several accidents occur near a busy school crossing because drivers fail to notice pedestrians. Courses of action: I. Install visible crossing signs and speed-control measures. II. Permanently prohibit all vehicles from every road in the city.",
+          "options": [
+            "Only I is appropriate",
+            "Only II is appropriate",
+            "Both are appropriate",
+            "Neither is appropriate"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Signs and speed control address the danger; a citywide ban is extreme.",
+          "tip": "Pick the proportionate action."
+        },
+        {
+          "id": 14,
+          "localId": 14,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "A die is shown in two positions: (Top 1, Front 2, Right 3) and (Top 1, Front 3, Right 6). Which face is opposite 2?",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "With top 1 fixed, face 3 moves from right to front, so the opposite of 2 (which is 6) comes to the right.",
+          "tip": "Rotate about the fixed face."
+        },
+        {
+          "id": 15,
+          "localId": 15,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the next symbol: ↖, ↗, ↘, ↙, ?",
+          "options": [
+            "↗",
+            "↘",
+            "↙",
+            "↖"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "The arrow turns 90° clockwise each step, back to ↖.",
+          "tip": "Note the rotation amount."
+        },
+        {
+          "id": 16,
+          "localId": 16,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Glacier : Ice :: Dune : ?",
+          "options": [
+            "Soil",
+            "Sand",
+            "Rock",
+            "Wind"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A glacier is made of ice; a dune of sand.",
+          "tip": "Object to material."
+        },
+        {
+          "id": 17,
+          "localId": 17,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: Some poets are teachers. All teachers are readers. Conclusions: I. Some poets are readers. II. All readers are teachers.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Some poets are teachers and all teachers are readers, so some poets are readers.",
+          "tip": "Chain the sets."
+        },
+        {
+          "id": 18,
+          "localId": 18,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Which word cannot be formed from the letters of CONVERSATION (no letter used more often than it appears)?",
+          "options": [
+            "VERSION",
+            "CONVERT",
+            "STATION",
+            "NATION"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "CONVERSATION has one T; STATION needs two.",
+          "tip": "Count repeated letters."
+        },
+        {
+          "id": 19,
+          "localId": 19,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Complete the series: ACEG, BDFH, CEGI, ?",
+          "options": [
+            "DFHJ",
+            "EGIJ",
+            "DFIK",
+            "EGHJ"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Each group moves one letter forward: CEGI → DFHJ.",
+          "tip": "Compare group to group."
+        },
+        {
+          "id": 20,
+          "localId": 20,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Only employees who have completed safety training may operate the crane. Neha operates the crane. Which conclusion necessarily follows?",
+          "options": [
+            "Neha has completed safety training.",
+            "All employees operate the crane.",
+            "Only Neha can operate the crane.",
+            "Neha conducted the safety training."
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Only trained employees may operate the crane, so Neha is trained.",
+          "tip": "‘Only A may B’ means B implies A."
+        },
+        {
+          "id": 21,
+          "localId": 21,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Every square is a rectangle, and every rectangle is a parallelogram. Which must be true?",
+          "options": [
+            "All parallelograms are squares.",
+            "All squares are parallelograms.",
+            "All rectangles are squares.",
+            "No parallelogram is a square."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Squares ⊂ rectangles ⊂ parallelograms, so all squares are parallelograms.",
+          "tip": "Draw nested circles."
+        },
+        {
+          "id": 22,
+          "localId": 22,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Twelve workers produce 96 units in 4 days. How many units will 8 workers produce in 6 days (equal productivity)?",
+          "options": [
+            "88",
+            "92",
+            "96",
+            "104"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "12 × 4 = 48 worker-days gives 96 units, 2 per worker-day; 8 × 6 × 2 = 96.",
+          "tip": "Find output per worker-day."
+        },
+        {
+          "id": 23,
+          "localId": 23,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Find the missing number: 4, 7, 13, 25, 49, ?",
+          "options": [
+            "93",
+            "95",
+            "97",
+            "99"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Differences double: +3, +6, +12, +24, +48. 49 + 48 = 97.",
+          "tip": "Check second differences."
+        },
+        {
+          "id": 24,
+          "localId": 24,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statement: Should public libraries remain open beyond regular hours? Arguments: I. Longer hours may help people who cannot visit during standard daytime. II. Every resident will use a library daily if hours are extended.",
+          "options": [
+            "Only I is strong",
+            "Only II is strong",
+            "Both are strong",
+            "Neither is strong"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Longer hours help people unavailable by day; ‘every resident daily’ is unsupported.",
+          "tip": "Strong = relevant and realistic."
+        },
+        {
+          "id": 25,
+          "localId": 25,
+          "sectionIndex": 0,
+          "sectionName": "Reasoning",
+          "text": "Statements: All participants who submitted the form received a confirmation email. Rina received a confirmation email. Which conclusion is justified?",
+          "options": [
+            "Rina definitely submitted the form.",
+            "Rina definitely did not submit the form.",
+            "It cannot be determined whether Rina submitted the form.",
+            "Every person who received an email submitted the form."
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Submitting guarantees an email, but an email does not prove submission.",
+          "tip": "Don’t reverse ‘if’ statements."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "General Awareness",
+      "shortName": "General Awareness",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 26,
+          "localId": 1,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The paintings in the Ajanta Caves are primarily associated with:",
+          "options": [
+            "Jainism",
+            "Buddhism",
+            "Sikhism",
+            "Zoroastrianism"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The Ajanta Caves are Buddhist rock-cut caves with famous murals.",
+          "tip": "Ajanta: Buddhist."
+        },
+        {
+          "id": 27,
+          "localId": 2,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Sangam literature was primarily composed in:",
+          "options": [
+            "Sanskrit",
+            "Prakrit",
+            "Tamil",
+            "Pali"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Sangam literature was composed in Tamil.",
+          "tip": "Sangam = early Tamil poetry."
+        },
+        {
+          "id": 28,
+          "localId": 3,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Partition of Bengal announced by Lord Curzon took effect in:",
+          "options": [
+            "1903",
+            "1905",
+            "1907",
+            "1911"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Curzon’s Partition of Bengal took effect in 1905.",
+          "tip": "1905 partition, 1911 annulled."
+        },
+        {
+          "id": 29,
+          "localId": 4,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Poona Pact between Gandhi and Ambedkar was signed in:",
+          "options": [
+            "1928",
+            "1930",
+            "1932",
+            "1935"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Poona Pact (1932) settled reserved seats for the depressed classes.",
+          "tip": "1932 Poona Pact."
+        },
+        {
+          "id": 30,
+          "localId": 5,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The Upanishads are also commonly referred to as:",
+          "options": [
+            "Vedanta",
+            "Vedanga",
+            "Samhita",
+            "Brahmana"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The Upanishads are also called Vedanta, the end of the Vedas.",
+          "tip": "Veda + anta = end."
+        },
+        {
+          "id": 31,
+          "localId": 6,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Amendment added “Socialist”, “Secular” and “Integrity” to the Preamble?",
+          "options": [
+            "24th Amendment",
+            "42nd Amendment",
+            "44th Amendment",
+            "52nd Amendment"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The 42nd Amendment (1976) added these Preamble words.",
+          "tip": "42nd = mini-Constitution."
+        },
+        {
+          "id": 32,
+          "localId": 7,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A Money Bill can be introduced only in:",
+          "options": [
+            "Rajya Sabha",
+            "Lok Sabha",
+            "Either House",
+            "A joint sitting"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A Money Bill can originate only in the Lok Sabha.",
+          "tip": "Money Bill: Lok Sabha first."
+        },
+        {
+          "id": 33,
+          "localId": 8,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Who appoints the Governor of an Indian State?",
+          "options": [
+            "Chief Minister",
+            "Prime Minister",
+            "President of India",
+            "Chief Justice of India"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The President appoints the Governor.",
+          "tip": "Governor = President’s nominee."
+        },
+        {
+          "id": 34,
+          "localId": 9,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The office of the Attorney General of India is provided for under:",
+          "options": [
+            "Article 76",
+            "Article 148",
+            "Article 165",
+            "Article 280"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Article 76 provides for the Attorney General.",
+          "tip": "76 AG, 148 CAG."
+        },
+        {
+          "id": 35,
+          "localId": 10,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Western Disturbances affecting north-western India generally originate in the:",
+          "options": [
+            "South China Sea region",
+            "Mediterranean region",
+            "Equatorial Pacific region",
+            "Arabian Sea region"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Western Disturbances come from the Mediterranean region.",
+          "tip": "They bring winter rain to north-west India."
+        },
+        {
+          "id": 36,
+          "localId": 11,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Indian river flows westwards through a rift valley between the Vindhya and Satpura ranges?",
+          "options": [
+            "Mahanadi",
+            "Godavari",
+            "Narmada",
+            "Kaveri"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "The Narmada flows west through a rift valley.",
+          "tip": "Narmada and Tapti flow west."
+        },
+        {
+          "id": 37,
+          "localId": 12,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which Indian state has the longest coastline?",
+          "options": [
+            "Andhra Pradesh",
+            "Tamil Nadu",
+            "Maharashtra",
+            "Gujarat"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": null,
+          "explanation": "Gujarat has the longest coastline of any state.",
+          "tip": "Gujarat > Andhra Pradesh > Tamil Nadu."
+        },
+        {
+          "id": 38,
+          "localId": 13,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Sattriya is a classical dance form associated with:",
+          "options": [
+            "Assam",
+            "Odisha",
+            "Kerala",
+            "Manipur"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Sattriya is the classical dance of Assam.",
+          "tip": "Sattriya: Assam."
+        },
+        {
+          "id": 39,
+          "localId": 14,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Warli painting is traditionally associated with:",
+          "options": [
+            "Rajasthan",
+            "Maharashtra",
+            "West Bengal",
+            "Himachal Pradesh"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Warli painting is from Maharashtra.",
+          "tip": "Warli Maharashtra; Madhubani Bihar."
+        },
+        {
+          "id": 40,
+          "localId": 15,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A characteristic feature of the Dravidian style of temple architecture is:",
+          "options": [
+            "A tall pyramidal tower over the sanctum",
+            "A hemispherical Buddhist dome as the main shrine",
+            "A completely flat roof without a tower",
+            "A pointed Gothic arch over the sanctum"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Dravidian temples have a pyramid-shaped vimana over the sanctum.",
+          "tip": "Dravidian = south India."
+        },
+        {
+          "id": 41,
+          "localId": 16,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "The formation of a mirage in a hot region is primarily associated with:",
+          "options": [
+            "Diffraction",
+            "Polarisation",
+            "Total internal reflection",
+            "Dispersion"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "A mirage forms by total internal reflection of light.",
+          "tip": "Hot air layers bend light."
+        },
+        {
+          "id": 42,
+          "localId": 17,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A catalyst increases the rate of a reaction mainly by:",
+          "options": [
+            "Increasing the activation energy",
+            "Lowering the activation energy",
+            "Increasing the mass of reactants",
+            "Changing the equilibrium constant in every reaction"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A catalyst lowers the activation energy.",
+          "tip": "It doesn’t change the equilibrium."
+        },
+        {
+          "id": 43,
+          "localId": 18,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which enzyme begins protein digestion in the human stomach?",
+          "options": [
+            "Amylase",
+            "Lipase",
+            "Pepsin",
+            "Maltase"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Pepsin starts protein digestion in the stomach.",
+          "tip": "Stomach pepsin, mouth amylase."
+        },
+        {
+          "id": 44,
+          "localId": 19,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Deficiency of Vitamin B₁ can cause:",
+          "options": [
+            "Scurvy",
+            "Beriberi",
+            "Rickets",
+            "Pellagra"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Lack of Vitamin B₁ (thiamine) causes beriberi.",
+          "tip": "B1 beriberi, C scurvy, D rickets."
+        },
+        {
+          "id": 45,
+          "localId": 20,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "SI unit of electric charge?",
+          "options": [
+            "Volt",
+            "Ampere",
+            "Coulomb",
+            "Ohm"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Electric charge is measured in coulombs.",
+          "tip": "Ampere is current."
+        },
+        {
+          "id": 46,
+          "localId": 21,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Which pancreatic cells produce insulin?",
+          "options": [
+            "Alpha cells",
+            "Beta cells",
+            "Delta cells",
+            "Acinar cells"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Beta cells of the islets of Langerhans make insulin.",
+          "tip": "Beta = insulin, alpha = glucagon."
+        },
+        {
+          "id": 47,
+          "localId": 22,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "A major greenhouse gas released by agriculture, landfills and fossil-fuel operations:",
+          "options": [
+            "Helium",
+            "Methane",
+            "Neon",
+            "Hydrogen"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Methane is a major greenhouse gas from agriculture and landfills.",
+          "tip": "CH₄ from paddy and cattle."
+        },
+        {
+          "id": 48,
+          "localId": 23,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "Fiscal deficit is generally calculated as:",
+          "options": [
+            "Revenue receipts minus revenue expenditure",
+            "Total expenditure minus total receipts excluding borrowings",
+            "Exports minus imports",
+            "Tax revenue minus non-tax revenue"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Fiscal deficit = total expenditure minus receipts excluding borrowings.",
+          "tip": "It equals the borrowing need."
+        },
+        {
+          "id": 49,
+          "localId": 24,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "On 25 October 2026, the RBI’s new Data Centre and Cybersecurity Training Institute was inaugurated in which city?",
+          "options": [
+            "Patna",
+            "Bhubaneswar",
+            "Jaipur",
+            "Lucknow"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "PM Modi inaugurated RBI’s Data Centre and Cybersecurity Training Institute at Bhubaneswar on 25 Oct 2026.",
+          "tip": "Odisha hosts RBI’s second data centre."
+        },
+        {
+          "id": 50,
+          "localId": 25,
+          "sectionIndex": 1,
+          "sectionName": "General Awareness",
+          "text": "On 28 October 2026, the Union Cabinet approved which scheme to strengthen India’s sports goods manufacturing?",
+          "options": [
+            "Khelo India Sports Goods Manufacturing Scheme",
+            "National Rural Sports Infrastructure Scheme",
+            "Fit India Export Promotion Scheme",
+            "National Digital Games Mission"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "The Cabinet approved the Khelo India Sports Goods Manufacturing Scheme (₹1,856.67 crore) on 28 Oct 2026.",
+          "tip": "Outlay runs to 2033–34."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mathematics",
+      "shortName": "Mathematics",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 51,
+          "localId": 1,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If x = 4, evaluate (x + 5)² − (x − 5)².",
+          "options": [
+            "70",
+            "76",
+            "80",
+            "84"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "(x + 5)² − (x − 5)² = 20x = 80.",
+          "tip": "Difference of squares: 4ab."
+        },
+        {
+          "id": 52,
+          "localId": 2,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If 5A = 8B and 3B = 4C, find A : C.",
+          "options": [
+            "16 : 15",
+            "21 : 10",
+            "32 : 15",
+            "15 : 32"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "A/B = 8/5 and B/C = 4/3, so A/C = 32/15.",
+          "tip": "Chain the ratios."
+        },
+        {
+          "id": 53,
+          "localId": 3,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Simplify: (√7 + √3)(√7 − √3)",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "10"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "(√7)² − (√3)² = 4.",
+          "tip": "(a + b)(a − b)."
+        },
+        {
+          "id": 54,
+          "localId": 4,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If a + b = 7 and ab = 10, find a³ + b³.",
+          "options": [
+            "113",
+            "123",
+            "133",
+            "143"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "a³ + b³ = (a + b)³ − 3ab(a + b) = 343 − 210 = 133.",
+          "tip": "Learn this identity."
+        },
+        {
+          "id": 55,
+          "localId": 5,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "How many positive integers x satisfy 3x − 4 < 11?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "3x < 15, so x < 5: values 1, 2, 3, 4.",
+          "tip": "Count integers."
+        },
+        {
+          "id": 56,
+          "localId": 6,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "In a cyclic quadrilateral one angle is 112°. Its opposite angle?",
+          "options": [
+            "58°",
+            "62°",
+            "68°",
+            "78°"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Opposite angles add to 180°: 68°.",
+          "tip": "Cyclic quadrilateral: 180°."
+        },
+        {
+          "id": 57,
+          "localId": 7,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A chord 16 cm long is 6 cm from the centre of a circle. Radius?",
+          "options": [
+            "8 cm",
+            "9 cm",
+            "10 cm",
+            "12 cm"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Half-chord 8, distance 6: √(64 + 36) = 10.",
+          "tip": "8-6-10 triple."
+        },
+        {
+          "id": 58,
+          "localId": 8,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Slope of the line through (2, −1) and (6, 7)?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "(7 + 1)/(6 − 2) = 2.",
+          "tip": "Rise over run."
+        },
+        {
+          "id": 59,
+          "localId": 9,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Each exterior angle of a regular polygon is 24°. Number of sides?",
+          "options": [
+            "12",
+            "14",
+            "15",
+            "18"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "360° ÷ 24° = 15 sides.",
+          "tip": "n = 360°/exterior angle."
+        },
+        {
+          "id": 60,
+          "localId": 10,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Diagonals of a rhombus are 18 cm and 24 cm. Area?",
+          "options": [
+            "196 cm²",
+            "204 cm²",
+            "216 cm²",
+            "224 cm²"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "½ × 18 × 24 = 216 cm².",
+          "tip": "Rhombus = ½ d₁d₂."
+        },
+        {
+          "id": 61,
+          "localId": 11,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Volume of a cone with radius 7 cm and height 12 cm (π = 22/7)?",
+          "options": [
+            "588 cm³",
+            "616 cm³",
+            "672 cm³",
+            "784 cm³"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "⅓ × 22/7 × 49 × 12 = 616 cm³.",
+          "tip": "Cone = ⅓πr²h."
+        },
+        {
+          "id": 62,
+          "localId": 12,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Area of a sector of radius 21 cm and angle 60° (π = 22/7)?",
+          "options": [
+            "231 cm²",
+            "242 cm²",
+            "252 cm²",
+            "264 cm²"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "(60/360) × 22/7 × 441 = 231 cm².",
+          "tip": "Sector = θ/360 × πr²."
+        },
+        {
+          "id": 63,
+          "localId": 13,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "If sec θ + tan θ = 3, find sec θ − tan θ.",
+          "options": [
+            "1",
+            "1/3",
+            "1/2",
+            "3"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "(sec + tan)(sec − tan) = 1, so the answer is 1/3.",
+          "tip": "sec² − tan² = 1."
+        },
+        {
+          "id": 64,
+          "localId": 14,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "From a point on level ground the elevation of a tower top is 30°. After moving 20 m towards the tower it becomes 60°. Height of the tower?",
+          "options": [
+            "5√3 m",
+            "10 m",
+            "10√3 m",
+            "20 m"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "h = d/√3 = √3(d − 20) gives d = 30, so h = 10√3 m.",
+          "tip": "Two angles, two equations."
+        },
+        {
+          "id": 65,
+          "localId": 15,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A bag has 5 red and 3 blue balls. Two are drawn without replacement. Probability both are red?",
+          "options": [
+            "5/14",
+            "3/8",
+            "10/21",
+            "5/8"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "5/8 × 4/7 = 5/14.",
+          "tip": "Without replacement: reduce both."
+        },
+        {
+          "id": 66,
+          "localId": 16,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Two cyclists start together in opposite directions at 18 and 22 km/h. Distance apart after 45 minutes?",
+          "options": [
+            "25 km",
+            "28 km",
+            "30 km",
+            "32 km"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Relative speed 40 km/h × 0.75 h = 30 km.",
+          "tip": "Opposite: add the speeds."
+        },
+        {
+          "id": 67,
+          "localId": 17,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Pipe A fills a tank in 15 h, B in 20 h, and C empties it in 30 h. All three open together; time to fill?",
+          "options": [
+            "10 h",
+            "12 h",
+            "15 h",
+            "18 h"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "1/15 + 1/20 − 1/30 = 1/12, so 12 hours.",
+          "tip": "Outlet is negative."
+        },
+        {
+          "id": 68,
+          "localId": 18,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A invests ₹12,000 for 8 months and B ₹16,000 for 6 months. Total profit ₹27,000. B’s share?",
+          "options": [
+            "₹10,000",
+            "₹12,000",
+            "₹13,500",
+            "₹15,000"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Capital × time is 96,000 each, so B gets ₹13,500.",
+          "tip": "Equal products, equal shares."
+        },
+        {
+          "id": 69,
+          "localId": 19,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Compound interest on ₹6,400 at 12.5% p.a. for 2 years (annual)?",
+          "options": [
+            "₹1,500",
+            "₹1,600",
+            "₹1,700",
+            "₹1,800"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "6400 × (9/8)² = 8100; CI = ₹1,700.",
+          "tip": "12.5% = 1/8."
+        },
+        {
+          "id": 70,
+          "localId": 20,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A car travels 120 km at 40 km/h and another 120 km at 60 km/h. Average speed?",
+          "options": [
+            "45 km/h",
+            "48 km/h",
+            "50 km/h",
+            "52 km/h"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Total 240 km ÷ 5 h = 48 km/h.",
+          "tip": "Equal distances: 2xy/(x + y)."
+        },
+        {
+          "id": 71,
+          "localId": 21,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Find the 20th term of the AP 7, 13, 19, 25, …",
+          "options": [
+            "115",
+            "117",
+            "121",
+            "127"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "7 + 19 × 6 = 121.",
+          "tip": "aₙ = a + (n − 1)d."
+        },
+        {
+          "id": 72,
+          "localId": 22,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "A positive integer leaves remainder 5 when divided by 8. What remainder does its square leave on division by 8?",
+          "options": [
+            "1",
+            "3",
+            "5",
+            "7"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "(8k + 5)² ≡ 25 ≡ 1 (mod 8).",
+          "tip": "Square the remainder."
+        },
+        {
+          "id": 73,
+          "localId": 23,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "What percentage of annual production was produced in Q3?",
+          "options": [
+            "25%",
+            "28%",
+            "30%",
+            "32%"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Units manufactured (hundreds): Q1 = 120 · Q2 = 150 · Q3 = 180 · Q4 = 150",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "Total 600; Q3 = 180, so 30%.",
+          "tip": "Part ÷ total × 100."
+        },
+        {
+          "id": 74,
+          "localId": 24,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Average quarterly production?",
+          "options": [
+            "140 hundreds",
+            "145 hundreds",
+            "150 hundreds",
+            "155 hundreds"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Units manufactured (hundreds): Q1 = 120 · Q2 = 150 · Q3 = 180 · Q4 = 150",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "(120 + 150 + 180 + 150)/4 = 150.",
+          "tip": "Sum ÷ 4."
+        },
+        {
+          "id": 75,
+          "localId": 25,
+          "sectionIndex": 2,
+          "sectionName": "Mathematics",
+          "text": "Ratio of (Q1 + Q4) production to (Q2 + Q3) production?",
+          "options": [
+            "9 : 11",
+            "10 : 11",
+            "11 : 9",
+            "9 : 10"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Units manufactured (hundreds): Q1 = 120 · Q2 = 150 · Q3 = 180 · Q4 = 150",
+            "badge": "📊",
+            "startQ": 73,
+            "endQ": 75
+          },
+          "explanation": "270 : 330 = 9 : 11.",
+          "tip": "Add first, then take the ratio."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "English",
+      "shortName": "English",
+      "durationMinutes": 15,
+      "questionsCount": 25,
+      "maxMarks": 50,
+      "marksPerCorrect": 2,
+      "negativePerWrong": 0.5,
+      "questions": [
+        {
+          "id": 76,
+          "localId": 1,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (76).",
+          "options": [
+            "Optional",
+            "Critical",
+            "Remote",
+            "Ordinary"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "During an emergency, clear communication is not a luxury; it is a (76) necessity. Authorities should provide information that is accurate and (77), while avoiding messages that create unnecessary alarm. Updates must be issued (78), especially when conditions change. When officials explain both confirmed facts and remaining uncertainties, they are more likely to (79) public trust. This approach helps people make (80) decisions.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Critical means essential.",
+          "tip": "Pick the strongest fit."
+        },
+        {
+          "id": 77,
+          "localId": 2,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (77).",
+          "options": [
+            "Consistent",
+            "Hesitant",
+            "Accidental",
+            "Obscure"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "During an emergency, clear communication is not a luxury; it is a (76) necessity. Authorities should provide information that is accurate and (77), while avoiding messages that create unnecessary alarm. Updates must be issued (78), especially when conditions change. When officials explain both confirmed facts and remaining uncertainties, they are more likely to (79) public trust. This approach helps people make (80) decisions.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Information should be accurate and consistent.",
+          "tip": "Pair with ‘accurate’."
+        },
+        {
+          "id": 78,
+          "localId": 3,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (78).",
+          "options": [
+            "Rarely",
+            "Loosely",
+            "Promptly",
+            "Reluctantly"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "During an emergency, clear communication is not a luxury; it is a (76) necessity. Authorities should provide information that is accurate and (77), while avoiding messages that create unnecessary alarm. Updates must be issued (78), especially when conditions change. When officials explain both confirmed facts and remaining uncertainties, they are more likely to (79) public trust. This approach helps people make (80) decisions.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Updates should be issued promptly.",
+          "tip": "A time word fits ‘when conditions change’."
+        },
+        {
+          "id": 79,
+          "localId": 4,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (79).",
+          "options": [
+            "Divide",
+            "Conceal",
+            "Borrow",
+            "Maintain"
+          ],
+          "correctAnswer": 3,
+          "correctLetter": "D",
+          "passage": {
+            "text": "During an emergency, clear communication is not a luxury; it is a (76) necessity. Authorities should provide information that is accurate and (77), while avoiding messages that create unnecessary alarm. Updates must be issued (78), especially when conditions change. When officials explain both confirmed facts and remaining uncertainties, they are more likely to (79) public trust. This approach helps people make (80) decisions.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Transparent officials maintain public trust.",
+          "tip": "Trust is maintained."
+        },
+        {
+          "id": 80,
+          "localId": 5,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Choose the best word for blank (80).",
+          "options": [
+            "Dormant",
+            "Informed",
+            "Random",
+            "Fictional"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "During an emergency, clear communication is not a luxury; it is a (76) necessity. Authorities should provide information that is accurate and (77), while avoiding messages that create unnecessary alarm. Updates must be issued (78), especially when conditions change. When officials explain both confirmed facts and remaining uncertainties, they are more likely to (79) public trust. This approach helps people make (80) decisions.",
+            "badge": "📖",
+            "startQ": 76,
+            "endQ": 80
+          },
+          "explanation": "Accurate information leads to informed decisions.",
+          "tip": "Collocation: informed decisions."
+        },
+        {
+          "id": 81,
+          "localId": 6,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Closest synonym of abstain.",
+          "options": [
+            "Refrain",
+            "Continue",
+            "Encourage",
+            "Participate"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Abstain means refrain.",
+          "tip": "Abstain from…"
+        },
+        {
+          "id": 82,
+          "localId": 7,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Antonym of diligent.",
+          "options": [
+            "Careful",
+            "Industrious",
+            "Negligent",
+            "Attentive"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "Negligent is the opposite of diligent.",
+          "tip": "Diligent = careful."
+        },
+        {
+          "id": 83,
+          "localId": 8,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The scientific study of insects is called:",
+          "options": [
+            "Ornithology",
+            "Entomology",
+            "Ecology",
+            "Herpetology"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Entomology is the study of insects.",
+          "tip": "Entomo = insect."
+        },
+        {
+          "id": 84,
+          "localId": 9,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Meaning of the idiom “cut corners”:",
+          "options": [
+            "Take a shorter route",
+            "Do something cheaply or carelessly to save time or money",
+            "Avoid speaking to someone",
+            "Finish work before a deadline"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "To cut corners is to do something cheaply or carelessly.",
+          "tip": "Idioms are figurative."
+        },
+        {
+          "id": 85,
+          "localId": 10,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the correctly spelt word.",
+          "options": [
+            "Embarassment",
+            "Embarrassment",
+            "Embarrasment",
+            "Embarrassmant"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Correct spelling: embarrassment (double r, double s).",
+          "tip": "Two Rs, two Ss."
+        },
+        {
+          "id": 86,
+          "localId": 11,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The committee’s decision was consistent ___ earlier recommendations.",
+          "options": [
+            "by",
+            "at",
+            "with",
+            "for"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "We say ‘consistent with’.",
+          "tip": "Learn adjective + preposition."
+        },
+        {
+          "id": 87,
+          "localId": 12,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: The list of shortlisted candidates / have been displayed / on the notice board / No error",
+          "options": [
+            "The list of shortlisted candidates",
+            "have been displayed",
+            "on the notice board",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "The subject ‘list’ is singular: has been displayed.",
+          "tip": "Ignore the of-phrase."
+        },
+        {
+          "id": 88,
+          "localId": 13,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Find the part with an error: The furniture in these rooms / are made of teak / and was imported last year / No error",
+          "options": [
+            "The furniture in these rooms",
+            "are made of teak",
+            "and was imported last year",
+            "No error"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Furniture is uncountable and singular: is made.",
+          "tip": "Furniture, information: singular."
+        },
+        {
+          "id": 89,
+          "localId": 14,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Replace the phrase: She has been working in this office since five years.",
+          "options": [
+            "since the five years",
+            "for five years",
+            "from five years",
+            "by five years"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "Use ‘for’ with a period of time.",
+          "tip": "Since + point; for + duration."
+        },
+        {
+          "id": 90,
+          "localId": 15,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Select the grammatically correct sentence.",
+          "options": [
+            "The teacher as well as the students were present.",
+            "Neither of the answers is correct.",
+            "The news are encouraging.",
+            "Each candidates have submitted the form."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘Neither of’ takes a singular verb.",
+          "tip": "Neither/each + singular."
+        },
+        {
+          "id": 91,
+          "localId": 16,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Passive form of: Who wrote this report?",
+          "options": [
+            "By whom was this report written?",
+            "By whom this report was written?",
+            "Who was this report writing?",
+            "By whom did this report write?"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": null,
+          "explanation": "Interrogative passive: By whom was this report written?",
+          "tip": "Who becomes by whom."
+        },
+        {
+          "id": 92,
+          "localId": 17,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Reported speech: The teacher said, “The Earth revolves around the Sun.”",
+          "options": [
+            "The teacher said that the Earth revolved around the Sun.",
+            "The teacher said that the Earth revolves around the Sun.",
+            "The teacher told that the Earth had revolved around the Sun.",
+            "The teacher said that the Earth is revolving around the Sun yesterday."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "A universal truth keeps the present tense.",
+          "tip": "Facts don’t shift."
+        },
+        {
+          "id": 93,
+          "localId": 18,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "If I ___ the manager, I would revise the work schedule.",
+          "options": [
+            "am",
+            "was",
+            "were",
+            "be"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": null,
+          "explanation": "An unreal condition uses ‘were’.",
+          "tip": "If I were…"
+        },
+        {
+          "id": 94,
+          "localId": 19,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Arrange: A. Consequently, many cities are redesigning their streets. B. For decades, urban planning prioritised private vehicles. C. This approach often left pedestrians and cyclists with limited space. D. A shift towards public transport and walking can improve accessibility.",
+          "options": [
+            "A–B–C–D",
+            "B–C–A–D",
+            "C–B–D–A",
+            "B–A–D–C"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "B states the old approach, C its effect, A the response, D the benefit.",
+          "tip": "Background, effect, response."
+        },
+        {
+          "id": 95,
+          "localId": 20,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The project was delayed ___ a shortage of skilled workers.",
+          "options": [
+            "Because",
+            "Due to",
+            "Although",
+            "Unless"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": null,
+          "explanation": "‘Due to’ introduces the cause.",
+          "tip": "Due to + noun."
+        },
+        {
+          "id": 96,
+          "localId": 21,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "What is the primary purpose of the passage?",
+          "options": [
+            "To argue that professional scientists are no longer required",
+            "To explain citizen science and the conditions that make it useful",
+            "To warn that volunteers should not collect observations",
+            "To explain how research projects receive government funding"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Citizen science programmes invite members of the public to contribute observations to research projects. Volunteers may record birds, photograph insects, measure rainfall or report changes in local water bodies. Their contributions allow researchers to collect information across wider areas than small research teams could cover alone. However, the usefulness of such data depends on clear instructions, suitable training and methods for checking observations. When these safeguards are in place, citizen science can increase both scientific knowledge and public interest in the natural world.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The passage explains citizen science and what makes it useful.",
+          "tip": "Main idea covers the whole passage."
+        },
+        {
+          "id": 97,
+          "localId": 22,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "Which activity is mentioned as an example of citizen science?",
+          "options": [
+            "Recording bird observations",
+            "Repairing laboratory equipment",
+            "Designing scientific instruments",
+            "Publishing research journals"
+          ],
+          "correctAnswer": 0,
+          "correctLetter": "A",
+          "passage": {
+            "text": "Citizen science programmes invite members of the public to contribute observations to research projects. Volunteers may record birds, photograph insects, measure rainfall or report changes in local water bodies. Their contributions allow researchers to collect information across wider areas than small research teams could cover alone. However, the usefulness of such data depends on clear instructions, suitable training and methods for checking observations. When these safeguards are in place, citizen science can increase both scientific knowledge and public interest in the natural world.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Bird observations are mentioned.",
+          "tip": "Match the exact words."
+        },
+        {
+          "id": 98,
+          "localId": 23,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "What helps make citizen-science data useful?",
+          "options": [
+            "Removing all professional supervision",
+            "Collecting observations without any instructions",
+            "Clear instructions, suitable training and verification methods",
+            "Restricting observations to one location"
+          ],
+          "correctAnswer": 2,
+          "correctLetter": "C",
+          "passage": {
+            "text": "Citizen science programmes invite members of the public to contribute observations to research projects. Volunteers may record birds, photograph insects, measure rainfall or report changes in local water bodies. Their contributions allow researchers to collect information across wider areas than small research teams could cover alone. However, the usefulness of such data depends on clear instructions, suitable training and methods for checking observations. When these safeguards are in place, citizen science can increase both scientific knowledge and public interest in the natural world.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Instructions, training and verification make the data useful.",
+          "tip": "Find the ‘However’ sentence."
+        },
+        {
+          "id": 99,
+          "localId": 24,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "A major advantage of public participation in research?",
+          "options": [
+            "It eliminates the need for research teams.",
+            "It allows observations over wider geographical areas.",
+            "It guarantees that every observation is accurate.",
+            "It removes the need for scientific methods."
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Citizen science programmes invite members of the public to contribute observations to research projects. Volunteers may record birds, photograph insects, measure rainfall or report changes in local water bodies. Their contributions allow researchers to collect information across wider areas than small research teams could cover alone. However, the usefulness of such data depends on clear instructions, suitable training and methods for checking observations. When these safeguards are in place, citizen science can increase both scientific knowledge and public interest in the natural world.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "Public help covers wider areas.",
+          "tip": "Look for ‘wider areas’."
+        },
+        {
+          "id": 100,
+          "localId": 25,
+          "sectionIndex": 3,
+          "sectionName": "English",
+          "text": "The author’s attitude towards citizen science?",
+          "options": [
+            "Entirely dismissive",
+            "Supportive but aware of the need for safeguards",
+            "Strongly opposed to public participation",
+            "Indifferent to scientific research"
+          ],
+          "correctAnswer": 1,
+          "correctLetter": "B",
+          "passage": {
+            "text": "Citizen science programmes invite members of the public to contribute observations to research projects. Volunteers may record birds, photograph insects, measure rainfall or report changes in local water bodies. Their contributions allow researchers to collect information across wider areas than small research teams could cover alone. However, the usefulness of such data depends on clear instructions, suitable training and methods for checking observations. When these safeguards are in place, citizen science can increase both scientific knowledge and public interest in the natural world.",
+            "badge": "📖",
+            "startQ": 96,
+            "endQ": 100
+          },
+          "explanation": "The author supports it but wants safeguards.",
+          "tip": "Balanced tone."
+        }
+      ]
+    }
+  ]
+}
