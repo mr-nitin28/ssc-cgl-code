@@ -39,6 +39,9 @@ yarn-error.log*
 # local raw backup
 .backup_raw/
 
+# local alias junction for IDE compatibility
+ssc-portal/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
