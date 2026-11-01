@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local raw backup
+.backup_raw/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
