@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { Section, QuestionStatus } from "@/lib/types";
 import { BrainIcon, CompassIcon, BarChartIcon, BookOpenIcon } from "./icons";
 

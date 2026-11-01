@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { MockTest, Question, ExamResult } from "@/lib/types";
 import { saveExamResult, getActiveExam, clearActiveExam, saveActiveExam } from "@/lib/storage";
