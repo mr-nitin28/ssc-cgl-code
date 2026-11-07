@@ -13,7 +13,7 @@ export default function NotFound() {
             Exam Page Not Found
           </h2>
           <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-            The mock examination, syllabus module, or answer key you requested could not be located or has moved.
+            The mock examination, strategy tool, or answer key you requested could not be located or has moved.
           </p>
         </div>
 

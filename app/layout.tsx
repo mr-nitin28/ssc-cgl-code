@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "ApexSSC · SSC CGL Tier-I Master Prep & Mock Examination Suite",
   description:
-    "Exam-pattern practice papers with four timed sections (Reasoning, General Awareness, Maths, English), instant answer checks, 24-week master syllabuses, and top-ranker heuristics.",
+    "Exam-pattern practice papers with four timed sections (Reasoning, General Awareness, Maths, English), instant answer checks, 36 speed-math mental triggers, and top-ranker heuristics.",
 };
 
 export default function RootLayout({

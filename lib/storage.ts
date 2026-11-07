@@ -2,7 +2,6 @@ import { ExamResult, UserExamState } from "./types";
 
 const EXAM_RESULTS_KEY = "apex_ssc_exam_results";
 const ACTIVE_EXAM_KEY = "apex_ssc_active_exam_";
-const CHAPTER_PROGRESS_KEY = "apex_ssc_chapter_progress_";
 const PRIORITY_RATINGS_KEY = "apex_ssc_priority_ratings_";
 
 export function saveExamResult(result: ExamResult): void {
@@ -54,29 +53,6 @@ export function getActiveExam(mockId: number): UserExamState | null {
 export function clearActiveExam(mockId: number): void {
   if (typeof window === "undefined") return;
   localStorage.removeItem(ACTIVE_EXAM_KEY + mockId);
-}
-
-export function getCompletedChapters(subject: string): string[] {
-  if (typeof window === "undefined") return [];
-  try {
-    const raw = localStorage.getItem(CHAPTER_PROGRESS_KEY + subject);
-    return raw ? JSON.parse(raw) : [];
-  } catch {
-    return [];
-  }
-}
-
-export function toggleChapterCompleted(subject: string, chapterId: string): string[] {
-  if (typeof window === "undefined") return [];
-  const current = getCompletedChapters(subject);
-  const exists = current.includes(chapterId);
-  const updated = exists ? current.filter((id) => id !== chapterId) : [...current, chapterId];
-  try {
-    localStorage.setItem(CHAPTER_PROGRESS_KEY + subject, JSON.stringify(updated));
-  } catch (e) {
-    console.error("Failed to save chapter progress:", e);
-  }
-  return updated;
 }
 
 export function getPriorityRatings(subject: string): Record<string, number> {

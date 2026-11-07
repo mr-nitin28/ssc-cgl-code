@@ -22,12 +22,9 @@ A modern, high-performance SSC CGL Tier 1 Computer-Based Test (CBT) Mock Examina
 - **Accuracy & Speed Metrics**: Section-by-section breakdown of accuracy percentages, attempt rates, and time spent.
 - **Complete Answer Keys & Explanations**: In-depth step-by-step solutions with strategic tips from top rankers.
 
-### 4. Interactive Syllabus & Master Study Materials
-- **Topic-by-Topic Breakdown**: Detailed curriculum coverage for Tier 1 and Tier 2.
-- **Downloadable Master PDFs**: High-yield syllabus guides and formula sheets available directly within the portal.
-
-### 5. Pattern Lab & Preparation Utilities
-- **Cut-Off Analyzer**: Historical cut-off trends (2018–2024) across UR, OBC, EWS, SC, and ST categories.
+### 4. Pattern Lab & Preparation Utilities
+- **Speed Math Patterns**: 36 mental math triggers and speed shortcuts for quick exam execution.
+- **Cut-Off Analyzer**: Historical cut-off trends across categories.
 - **Safe Score Target Calculator**: Dynamic scoring benchmarks based on difficulty level and target department.
 - **Topper Strategy Playbook**: Actionable advice on question selection, skipping strategy, and exam-day pacing.
 
@@ -89,8 +86,7 @@ npm run start
 │   ├── page.tsx                 # Portal dashboard, mock test directory, and quick stats
 │   ├── mock/[id]/               # CBT Exam Simulator route with dynamic suspense boundary
 │   │   └── key/                 # Answer Key & Solutions viewer route
-│   ├── pattern-lab/             # Historical cut-offs and pattern analysis
-│   ├── syllabus/[subject]/      # Interactive syllabus pages with embedded PDF materials
+│   ├── pattern-lab/             # 36 speed-math mental shortcuts and pattern analysis
 │   ├── tips/[subject]/          # Subject-specific strategy and topper guides
 │   └── tools/                   # Safe score target calculator and prep tools
 ├── components/
@@ -100,9 +96,8 @@ npm run start
 │   ├── AnswerKeyViewer.tsx      # Solution viewer with filters and bookmarking
 │   ├── TimerHeader.tsx          # Timer bar with pause, submit, and palette drawer triggers
 │   └── icons.tsx                # Lightweight, tree-shaken SVG icon collection
-├── data/                        # Mock test JSON datasets, syllabus data, and question banks
-├── lib/                         # Type definitions, score calculator, and storage adapters
-└── public/pdfs/                 # Master syllabus PDFs for all 4 exam sections
+├── data/                        # Mock test JSON datasets, pattern lab data, and topper tips
+└── lib/                         # Type definitions, score calculator, and storage adapters
 ```
 
 ---

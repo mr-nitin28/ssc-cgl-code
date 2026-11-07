@@ -16,7 +16,7 @@ import {
 
 const navLinks = [
   { href: "/#mocks", label: "Mock Tests", icon: TargetIcon },
-  { href: "/syllabus/maths", label: "Master Syllabus", icon: BookOpenIcon },
+  { href: "/#syllabus", label: "Master Syllabus", icon: BookOpenIcon },
   { href: "/tips/m", label: "Topper Playbooks", icon: AwardIcon },
   { href: "/pattern-lab", label: "Pattern Lab", icon: ZapIcon },
   { href: "/tools", label: "Strategy Tools", icon: BarChartIcon },

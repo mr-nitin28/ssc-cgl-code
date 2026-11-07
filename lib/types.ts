@@ -111,41 +111,6 @@ export interface ExamResult {
   sectionalScores: SectionScore[];
 }
 
-export interface Chapter {
-  id?: string;
-  name: string;
-  tag?: string;
-  tier?: string;
-  weightage?: string | number;
-}
-
-export interface SubjectSyllabus {
-  title: string;
-  subtitle: string;
-  tier1Questions: number;
-  tier2Questions: number;
-  suggestedMinutesPerDay: number;
-  topTopicsShare?: string;
-  clozeShare?: string;
-  blueprint: string[][];
-  topicPriorities: [string, number][];
-  classifications?: unknown;
-  allocation?: unknown;
-  priorities?: unknown;
-  studyTimeSplit?: unknown;
-  learningOrder?: unknown;
-  engine?: unknown;
-  themes?: unknown;
-  modules?: unknown;
-  families?: unknown;
-  currentAffairsSystem?: unknown;
-  weekPlan24: [number, string, string, string][];
-  difficultyBreakdown: [string, string, string][];
-  errorRates: [string, string, string][];
-  goldenTips: [string, string, string][];
-  chapters: (string | [string, string, string?])[];
-}
-
 export interface TopperPlaybook {
   scoreboard: [string, string][];
   smartWork: [string, string, string][];

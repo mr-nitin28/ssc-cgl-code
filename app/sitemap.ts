@@ -42,16 +42,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // 4 Syllabus Pages
-  ["maths", "reasoning", "english", "gk"].forEach((sub) => {
-    routes.push({
-      url: `${baseUrl}/syllabus/${sub}`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    });
-  });
-
   // 4 Topper Tips Pages
   ["m", "r", "e", "k"].forEach((sub) => {
     routes.push({

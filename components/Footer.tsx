@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CompassIcon, BookOpenIcon, AwardIcon, ZapIcon } from "./icons";
+import { CompassIcon, AwardIcon, ZapIcon } from "./icons";
 
 export function Footer() {
   const pathname = usePathname();
@@ -15,7 +15,7 @@ export function Footer() {
   return (
     <footer className="border-t border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-950 text-slate-600 dark:text-slate-300 text-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand info */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-2.5 group">
@@ -27,42 +27,12 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-slate-600 dark:text-slate-300 max-w-sm leading-relaxed font-normal">
-              High-performance preparation architecture for SSC CGL 2026. Built with TCS-pattern timed mocks, 24-week strategic syllabuses, 36 speed-math mental triggers, and top-10 ranker playbooks.
+              High-performance preparation architecture for SSC CGL 2026. Built with TCS-pattern timed mocks, 36 speed-math mental triggers, and top-10 ranker playbooks.
             </p>
             <div className="flex items-center gap-2 text-xs font-medium text-slate-600 dark:text-slate-400">
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               Updated for Staff Selection Commission CGL 2026 Notification
             </div>
-          </div>
-
-          {/* Master Syllabuses */}
-          <div>
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-800 dark:text-slate-200 mb-4 flex items-center gap-1.5">
-              <BookOpenIcon size={14} className="text-indigo-600 dark:text-indigo-400" />
-              Master Syllabuses
-            </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm">
-              <li>
-                <Link href="/syllabus/maths" className="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
-                  Mathematics (Tier-I & II)
-                </Link>
-              </li>
-              <li>
-                <Link href="/syllabus/reasoning" className="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
-                  Reasoning & Intelligence
-                </Link>
-              </li>
-              <li>
-                <Link href="/syllabus/english" className="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
-                  English Comprehension
-                </Link>
-              </li>
-              <li>
-                <Link href="/syllabus/gk" className="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
-                  GK & Current Affairs
-                </Link>
-              </li>
-            </ul>
           </div>
 
           {/* Ranker Playbooks */}
@@ -102,6 +72,11 @@ export function Footer() {
               Practice & Tools
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm">
+              <li>
+                <Link href="/#syllabus" className="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
+                  Master Syllabus Blueprints
+                </Link>
+              </li>
               <li>
                 <Link href="/pattern-lab" className="text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
                   Speed Math Pattern Lab
