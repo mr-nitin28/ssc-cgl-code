@@ -323,17 +323,27 @@ export function MasterSyllabusCards() {
 
             {/* Three Dedicated Professional Action Buttons */}
             <div className="space-y-2 pt-4 border-t border-slate-200/80 dark:border-slate-800/80 relative">
-              {/* Button 1: Syllabus Modal Quick View */}
-              <button
-                onClick={() => {
-                  setSelectedSubject(sub);
-                  setModalTab("blueprint");
-                }}
-                className="w-full flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 active:scale-[0.98] text-white shadow-xs shadow-indigo-600/25 hover:shadow-indigo-600/35 transition-all duration-150 cursor-pointer"
-              >
-                <BookOpenIcon size={14} />
-                <span>View Syllabus</span>
-              </button>
+              {/* Button 1: Syllabus Modal Quick View / Dedicated Page for GK */}
+              {sub.key === "gk" ? (
+                <Link
+                  href="/syllabus/gk"
+                  className="w-full flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 active:scale-[0.98] text-white shadow-xs shadow-indigo-600/25 hover:shadow-indigo-600/35 transition-all duration-150"
+                >
+                  <BookOpenIcon size={14} />
+                  <span>View Syllabus</span>
+                </Link>
+              ) : (
+                <button
+                  onClick={() => {
+                    setSelectedSubject(sub);
+                    setModalTab("blueprint");
+                  }}
+                  className="w-full flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 active:scale-[0.98] text-white shadow-xs shadow-indigo-600/25 hover:shadow-indigo-600/35 transition-all duration-150 cursor-pointer"
+                >
+                  <BookOpenIcon size={14} />
+                  <span>View Syllabus</span>
+                </button>
+              )}
 
               {/* Buttons 2 & 3: Tips & Download in 2-column layout */}
               <div className="grid grid-cols-2 gap-2">
