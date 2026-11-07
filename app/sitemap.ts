@@ -26,6 +26,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // General Awareness Specialized Full-Page Syllabuses
+  const gaSyllabusSlugs = [
+    "ancient-history",
+    "medieval-modern",
+    "polity",
+    "constitution",
+    "geography",
+    "science",
+    "environment",
+  ];
+
+  gaSyllabusSlugs.forEach((slug) => {
+    routes.push({
+      url: `${baseUrl}/syllabus/${slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    });
+  });
+
   // 9 Mock Exam Simulator Pages & 9 Answer Keys
   for (let i = 1; i <= 9; i++) {
     routes.push({

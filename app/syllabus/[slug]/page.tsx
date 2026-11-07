@@ -1,47 +1,36 @@
-"use client";
-
-import React, { useState } from "react";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Link from "next/link";
-import { AncientHistoryContent } from "./AncientHistoryContent";
+import { AncientHistoryFullPageView } from "@/components/AncientHistoryFullPageView";
 import {
   BookOpenIcon,
   AwardIcon,
   DownloadIcon,
+  CheckIcon,
   TargetIcon,
   SparklesIcon,
-  CheckIcon,
   ChevronRightIcon,
-} from "./icons";
-
-type SyllabusModuleKey =
-  | "ancient-history"
-  | "medieval-modern"
-  | "polity"
-  | "constitution"
-  | "geography"
-  | "science"
-  | "environment";
+} from "@/components/icons";
 
 interface ModuleConfig {
-  id: SyllabusModuleKey;
+  slug: string;
   label: string;
   hindiLabel: string;
   icon: string;
-  color: string;
   weightageTier1: string;
   weightageTier2: string;
   description: string;
   coreThemes: string[];
   keyChapters: string[];
+  topperTrapAlert: string;
 }
 
-const modulesList: ModuleConfig[] = [
-  {
-    id: "ancient-history",
+const modulesMap: Record<string, ModuleConfig> = {
+  "ancient-history": {
+    slug: "ancient-history",
     label: "Ancient Indian History",
     hindiLabel: "प्राचीन भारतीय इतिहास",
     icon: "🏛️",
-    color: "indigo",
     weightageTier1: "3–4 Qs (6–8 Marks)",
     weightageTier2: "3–5 Qs (9–15 Marks)",
     description:
@@ -64,17 +53,18 @@ const modulesList: ModuleConfig[] = [
       "गुप्त साम्राज्य एवं वाकाटक कूटनीति",
       "संगम युग (चेर, चोल, पांड्य)",
     ],
+    topperTrapAlert:
+      "हड़प्पा स्थलों की नदियों और खोजकर्ताओं (Lothal: Bhogava / S.R. Rao) तथा बौद्ध संगीतियों के अध्यक्षों में भ्रमित न हों।",
   },
-  {
-    id: "medieval-modern",
+  "medieval-modern": {
+    slug: "medieval-modern",
     label: "Medieval & Modern History",
     hindiLabel: "मध्यकालीन एवं आधुनिक इतिहास",
     icon: "⚔️",
-    color: "amber",
     weightageTier1: "4–6 Qs (8–12 Marks)",
     weightageTier2: "4–6 Qs (12–18 Marks)",
     description:
-      "दिल्ली सल्तनत, मुगल स्थापत्य व मनसबदारी, मराठा साम्राज्य, 1857 की क्रांति, समाज सुधार आंदोलन, और गांधीवादी स्वतंत्रता संग्राम।",
+      "दिल्ली सल्तनत, मुगल स्थापत्य व मनसबदारी, मराठा साम्राज्य, 1857 की क्रांति, समाज सुधार आंदोलन, और 1885–1947 स्वतंत्रता संग्राम।",
     coreThemes: [
       "सल्तनत कालीन राजवंश (गुलाम, खिलजी, तुगलक, लोदी)",
       "मुगल शासन, अकबर के नवरत्न व भू-राजस्व प्रणाली (दहसाला)",
@@ -92,13 +82,14 @@ const modulesList: ModuleConfig[] = [
       "सामाजिक-धार्मिक सुधार आंदोलन (ब्रह्म समाज, आर्य समाज)",
       "क्रिप्स मिशन, कैबिनेट मिशन व माउंटबेटन योजना 1947",
     ],
+    topperTrapAlert:
+      "कांग्रेस के अधिवेशनों के वर्ष और अध्यक्ष (विशेषकर 1907 सूरत, 1916 लखनऊ, 1929 लाहौर, 1924 बेलगाम) सीधे पूछे जाते हैं।",
   },
-  {
-    id: "polity",
+  polity: {
+    slug: "polity",
     label: "Indian Polity",
     hindiLabel: "भारतीय राजव्यवस्था",
     icon: "⚖️",
-    color: "teal",
     weightageTier1: "4–5 Qs (8–10 Marks)",
     weightageTier2: "4–6 Qs (12–18 Marks)",
     description:
@@ -119,13 +110,14 @@ const modulesList: ModuleConfig[] = [
       "पंचायती राज त्रि-स्तरीय व्यवस्था (बलवंत राय मेहता रिपोर्ट)",
       "वित्त आयोग (अनुच्छेद 280) व चुनाव आयोग (अनुच्छेद 324)",
     ],
+    topperTrapAlert:
+      "लोकलेखा समिति (PAC) में 22 सदस्य (15 LS + 7 RS) होते हैं जबकि प्राक्कलन समिति में केवल लोकसभा के 30 सदस्य होते हैं।",
   },
-  {
-    id: "constitution",
+  constitution: {
+    slug: "constitution",
     label: "Indian Constitution",
     hindiLabel: "भारतीय संविधान",
     icon: "📜",
-    color: "indigo",
     weightageTier1: "3–4 Qs (6–8 Marks)",
     weightageTier2: "3–5 Qs (9–15 Marks)",
     description:
@@ -146,13 +138,14 @@ const modulesList: ModuleConfig[] = [
       "7वीं अनुसूची (संघ, राज्य व समवर्ती सूची के विषय)",
       "अनुच्छेद 368 के अंतर्गत संविधान संशोधन की विशेष प्रक्रिया",
     ],
+    topperTrapAlert:
+      "42वें संशोधन (1976) द्वारा प्रस्तावना में जोड़े गए 3 शब्द: समाजवादी (Socialist), पंथनिरपेक्ष (Secular) और अखंडता (Integrity)।",
   },
-  {
-    id: "geography",
+  geography: {
+    slug: "geography",
     label: "Indian Geography",
     hindiLabel: "भारतीय भूगोल",
     icon: "🗺️",
-    color: "emerald",
     weightageTier1: "3–4 Qs (6–8 Marks)",
     weightageTier2: "3–5 Qs (9–15 Marks)",
     description:
@@ -173,13 +166,14 @@ const modulesList: ModuleConfig[] = [
       "जनगणना (2011) के महत्वपूर्ण जनसांख्यिकी सूचकांक",
       "राष्ट्रीय जलमार्ग, प्रमुख समुद्री बंदरगाह एवं औद्योगिक गलियारे",
     ],
+    topperTrapAlert:
+      "नर्मदा और तापी भ्रंश घाटी (Rift Valley) से होकर पश्चिम की ओर बहती हैं और ज्वारनदमुख (Estuary) बनाती हैं, डेल्टा नहीं।",
   },
-  {
-    id: "science",
+  science: {
+    slug: "science",
     label: "General Science",
     hindiLabel: "सामान्य विज्ञान (Bio, Chem, Phy)",
     icon: "🔬",
-    color: "sky",
     weightageTier1: "5–7 Qs (10–14 Marks)",
     weightageTier2: "4–6 Qs (12–18 Marks)",
     description:
@@ -200,13 +194,14 @@ const modulesList: ModuleConfig[] = [
       "प्रकाश का प्रकीर्णन (आकाश का नीला रंग), अपवर्तन व मरीचिका",
       "ध्वनि की चाल विभिन्न माध्यमों में एवं प्रतिध्वनि (Echo)",
     ],
+    topperTrapAlert:
+      "प्लास्टर ऑफ पेरिस का रासायनिक सूत्र CaSO4·½H2O है, जबकि जिप्सम CaSO4·2H2O होता है।",
   },
-  {
-    id: "environment",
+  environment: {
+    slug: "environment",
     label: "Environment & Ecology",
     hindiLabel: "पर्यावरण एवं पारिस्थितिकी",
     icon: "🌿",
-    color: "emerald",
     weightageTier1: "2–3 Qs (4–6 Marks)",
     weightageTier2: "2–4 Qs (6–12 Marks)",
     description:
@@ -227,26 +222,79 @@ const modulesList: ModuleConfig[] = [
       "भारत के प्रमुख बायोस्फीयर रिजर्व (नीलगिरि, मन्नार की खाड़ी, नंदा देवी)",
       "पर्यावरण संरक्षण अधिनियम 1986 व राष्ट्रीय हरित अधिकरण (NGT 2010)",
     ],
+    topperTrapAlert:
+      "ऊर्जा का पिरामिड (Pyramid of Energy) किसी भी पारिस्थितिक तंत्र में सदैव सीधा (Always Upright) होता है।",
   },
-];
+};
 
-export function GeneralAwarenessSyllabusViewer() {
-  const [activeModule, setActiveModule] = useState<SyllabusModuleKey>("ancient-history");
+export function generateStaticParams() {
+  return [
+    { slug: "ancient-history" },
+    { slug: "medieval-modern" },
+    { slug: "polity" },
+    { slug: "constitution" },
+    { slug: "geography" },
+    { slug: "science" },
+    { slug: "environment" },
+  ];
+}
 
-  const currentModule =
-    modulesList.find((m) => m.id === activeModule) || modulesList[0];
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const mod = modulesMap[slug];
+
+  if (!mod) {
+    return {
+      title: "Syllabus Not Found · SSC CGL 2026",
+    };
+  }
+
+  return {
+    title: `${mod.hindiLabel} (${mod.label}) मास्टर पाठ्यक्रम · SSC CGL 2026`,
+    description: `SSC CGL 2026 ${mod.label} (${mod.hindiLabel}) संपूर्ण परीक्षा ब्लूप्रिंट, उच्च-अंक वाले अध्याय, वेटेज, और टॉपर रिवीजन ट्रिक्स।`,
+  };
+}
+
+export default async function DynamicSyllabusPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  // If ancient-history, render the comprehensive 12-chapter + 30-MCQ full page view
+  if (slug === "ancient-history") {
+    return <AncientHistoryFullPageView />;
+  }
+
+  const mod = modulesMap[slug];
+  if (!mod) {
+    notFound();
+  }
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 py-8 px-4 sm:px-6 lg:px-8 space-y-8">
       <div className="max-w-5xl mx-auto space-y-8">
-        {/* Navigation Breadcrumb & Back Link */}
+        {/* Navigation Breadcrumb */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-white hover:-translate-y-0.5 active:translate-y-0 transition-all duration-150"
-          >
-            ← Back to Home / Mock Tests
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link
+              href="/#ga-modules"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-white hover:-translate-y-0.5 active:translate-y-0 transition-all duration-150 shadow-xs"
+            >
+              ← Back to Syllabus Modules
+            </Link>
+            <Link
+              href="/"
+              className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors"
+            >
+              Home
+            </Link>
+          </div>
 
           <div className="flex items-center gap-2 text-xs font-medium text-slate-500 dark:text-slate-400">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
@@ -259,23 +307,23 @@ export function GeneralAwarenessSyllabusViewer() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div className="space-y-3 max-w-2xl">
               <div className="flex items-center gap-2">
-                <span className="text-2xl p-2 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200/80 dark:border-indigo-900">
-                  🌍
+                <span className="text-3xl p-2.5 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200/80 dark:border-indigo-900">
+                  {mod.icon}
                 </span>
                 <span className="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/80 uppercase tracking-wider">
-                  SSC CGL 2026 · General Awareness Master Blueprint
+                  SSC CGL 2026 · {mod.label.toUpperCase()} MASTER BLUEPRINT
                 </span>
               </div>
-              <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-800 dark:text-slate-100 tracking-tight">
-                General Awareness & History Master Syllabus
+              <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+                {mod.label} ({mod.hindiLabel})
               </h1>
               <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-                विस्तृत पाठ्यक्रम, उच्च-अंक वाले विषय, तुलना सारणियाँ, 14 प्रमुख शब्दावलियाँ और 30 अभ्यास प्रश्नों का लाइव परीक्षा सिमुलेटर।
+                {mod.description}
               </p>
             </div>
 
-            {/* Quick Action Buttons (Tips & PDF Download) */}
-            <div className="flex flex-col sm:flex-row md:flex-col gap-2 shrink-0">
+            {/* Quick Action Buttons */}
+            <div className="flex flex-col sm:flex-row md:flex-col gap-2.5 shrink-0">
               <a
                 href="/pdfs/SSC_CGL_2026_GK_Current_Affairs_Master_Syllabus.pdf"
                 download="SSC_CGL_2026_GK_Current_Affairs_Master_Syllabus.pdf"
@@ -283,197 +331,137 @@ export function GeneralAwarenessSyllabusViewer() {
               >
                 <DownloadIcon size={16} /> Download Official PDF
               </a>
+
               <Link
                 href="/tips/k"
-                className="flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 transition-all duration-150"
+                className="flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border border-amber-200 dark:border-amber-900/60 bg-amber-50/80 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 hover:bg-amber-100 dark:hover:bg-amber-900/60 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 transition-all duration-150"
               >
                 <AwardIcon size={16} className="text-amber-500" />
                 GK Topper Playbook
               </Link>
-            </div>
-          </div>
-        </div>
 
-        {/* Small Navigation Section with All Topic Selector Buttons & Action Links */}
-        <div className="p-4 sm:p-6 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 bg-white/95 dark:bg-slate-900/95 shadow-xs space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-100 dark:border-slate-800">
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-bold font-mono text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                <BookOpenIcon size={14} className="text-indigo-600 dark:text-indigo-400" />
-                पाठ्यक्रम व संसाधन / Modules & Resources:
-              </span>
-            </div>
-
-            {/* Direct Quick Action Buttons (Tips & Download) in the small section */}
-            <div className="flex items-center gap-2 shrink-0">
               <Link
-                href="/tips/k"
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-amber-200 dark:border-amber-900/60 bg-amber-50/80 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 hover:bg-amber-100 dark:hover:bg-amber-900/60 text-xs font-bold transition-all shadow-xs"
+                href="/syllabus/ancient-history"
+                className="flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-indigo-200/60 dark:border-indigo-900/40 transition-all duration-150"
               >
-                <AwardIcon size={13} className="text-amber-500" />
-                <span>Tips (रणनीति)</span>
+                <span>🏛️ Ancient History (12 Ch + 30 Qs)</span>
               </Link>
-              <a
-                href="/pdfs/SSC_CGL_2026_GK_Current_Affairs_Master_Syllabus.pdf"
-                download="SSC_CGL_2026_GK_Current_Affairs_Master_Syllabus.pdf"
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-xs transition-all"
-              >
-                <DownloadIcon size={13} />
-                <span>Download PDF</span>
-              </a>
             </div>
-          </div>
-
-          {/* Module Selector Buttons Stream */}
-          <div className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
-            {modulesList.map((m) => {
-              const isSelected = activeModule === m.id;
-              return (
-                <button
-                  key={m.id}
-                  onClick={() => setActiveModule(m.id)}
-                  className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all duration-150 cursor-pointer ${
-                    isSelected
-                      ? "bg-indigo-600 text-white shadow-sm shadow-indigo-600/30 scale-[1.02]"
-                      : "border border-slate-200 dark:border-slate-800 bg-slate-50/80 dark:bg-slate-800/60 text-slate-700 dark:text-slate-300 hover:border-indigo-300 dark:hover:border-indigo-700 hover:bg-white dark:hover:bg-slate-800"
-                  }`}
-                >
-                  <span className="text-base">{m.icon}</span>
-                  <div className="text-left flex flex-col sm:flex-row sm:items-center sm:gap-1.5">
-                    <span>{m.label}</span>
-                    <span className={`text-[10px] font-normal ${isSelected ? "text-indigo-100" : "text-slate-500 dark:text-slate-400"}`}>
-                      ({m.hindiLabel})
-                    </span>
-                  </div>
-                </button>
-              );
-            })}
           </div>
         </div>
 
-        {/* Main Content Area based on Selection */}
-        {activeModule === "ancient-history" ? (
-          /* Complete 12-Chapter Ancient Indian History Content */
-          <AncientHistoryContent />
-        ) : (
-          /* Dynamic Structured Overview for other selected General Awareness Modules */
-          <div className="space-y-8 animate-in fade-in duration-200">
-            {/* Module Overview Card */}
-            <div className="p-6 sm:p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 shadow-xs space-y-6">
-              <div className="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-800">
-                <div className="flex items-center gap-3">
-                  <span className="text-3xl p-2.5 rounded-2xl bg-indigo-50 dark:bg-indigo-950 border border-indigo-200/80 dark:border-indigo-900">
-                    {currentModule.icon}
-                  </span>
-                  <div>
-                    <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
-                      {currentModule.label}
-                    </span>
-                    <h2 className="text-xl sm:text-2xl font-extrabold text-slate-800 dark:text-slate-100">
-                      {currentModule.hindiLabel}
-                    </h2>
-                  </div>
-                </div>
+        {/* Tier-I vs Tier-II Exam Alignment Card */}
+        <div className="p-6 sm:p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 shadow-xs space-y-4">
+          <div className="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-800">
+            <span className="text-xs font-bold font-mono text-slate-500 dark:text-slate-400 uppercase tracking-wider flex items-center gap-2">
+              <TargetIcon size={16} className="text-indigo-600 dark:text-indigo-400" />
+              परीक्षा प्रारूप एवं अंक विभाजन (Exam Blueprint)
+            </span>
+            <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
+              High ROI Subject
+            </span>
+          </div>
 
-                <div className="hidden sm:flex flex-col items-end text-xs font-mono">
-                  <span className="font-bold text-indigo-600 dark:text-indigo-400">
-                    Tier-I: {currentModule.weightageTier1}
-                  </span>
-                  <span className="text-teal-600 dark:text-teal-400">
-                    Tier-II: {currentModule.weightageTier2}
-                  </span>
-                </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div className="p-4 rounded-2xl bg-indigo-50/60 dark:bg-indigo-950/30 border border-indigo-200/70 dark:border-indigo-900/50 space-y-2">
+              <span className="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">
+                Tier-I Preliminary Exam
+              </span>
+              <div className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white font-mono">
+                {mod.weightageTier1}
               </div>
-
-              <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-                {currentModule.description}
+              <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-normal">
+                प्रत्येक सही उत्तर पर 2 अंक। गति और प्रत्यक्ष स्मृतिकरण (Direct Recall) पर अत्यधिक निर्भर।
               </p>
+            </div>
 
-              {/* Weightage Highlights */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
-                  <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 block mb-1">
-                    🎯 Tier-I परीक्षा महत्व
-                  </span>
-                  <p className="text-xs text-slate-600 dark:text-slate-300">
-                    {currentModule.weightageTier1} — त्वरित 15-सेकंड उत्तर वाले डायरेक्ट वन-लाइनर प्रश्न।
-                  </p>
-                </div>
-                <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
-                  <span className="text-xs font-bold text-teal-600 dark:text-teal-400 block mb-1">
-                    ⚡ Tier-II चयन निर्धारण
-                  </span>
-                  <p className="text-xs text-slate-600 dark:text-slate-300">
-                    {currentModule.weightageTier2} — कथन-कारण (Assertion-Reason) एवं मिलान वाले विश्लेषणात्मक प्रश्न।
-                  </p>
-                </div>
+            <div className="p-4 rounded-2xl bg-teal-50/60 dark:bg-teal-950/30 border border-teal-200/70 dark:border-teal-900/50 space-y-2">
+              <span className="text-xs font-bold uppercase tracking-wider text-teal-700 dark:text-teal-300">
+                Tier-II Mains Paper-I
+              </span>
+              <div className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white font-mono">
+                {mod.weightageTier2}
               </div>
-
-              {/* High-Yield Core Themes */}
-              <div className="space-y-3 pt-2">
-                <h3 className="text-sm font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-                  <SparklesIcon size={16} className="text-amber-500" />
-                  <span>सर्वाधिक पूछे जाने वाले उच्च-प्रतिफल विषय (High-Yield Focus Areas)</span>
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                  {currentModule.coreThemes.map((theme, idx) => (
-                    <div
-                      key={idx}
-                      className="flex items-start gap-2.5 p-3 rounded-xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-800/40 text-xs"
-                    >
-                      <span className="w-4 h-4 rounded-md bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
-                        {idx + 1}
-                      </span>
-                      <span className="text-slate-700 dark:text-slate-300 font-medium">
-                        {theme}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Key Chapters Checklist */}
-              <div className="space-y-3 pt-2">
-                <h3 className="text-sm font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-                  <TargetIcon size={16} className="text-teal-500" />
-                  <span>महत्वपूर्ण अध्याय चेकलिस्ट (Syllabus Checklist)</span>
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                  {currentModule.keyChapters.map((chap, idx) => (
-                    <div
-                      key={idx}
-                      className="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200/80 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-800/40 text-xs"
-                    >
-                      <span className="w-4 h-4 rounded-md bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
-                        <CheckIcon size={12} />
-                      </span>
-                      <span className="text-slate-800 dark:text-slate-200 font-medium">
-                        {chap}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Callout to Practice or Switch back to Ancient History */}
-              <div className="pt-4 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
-                <button
-                  onClick={() => setActiveModule("ancient-history")}
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white shadow-xs transition-colors cursor-pointer"
-                >
-                  <span>🏛️ प्राचीन भारतीय इतिहास के 12 अध्याय व 30 MCQ देखें</span>
-                  <ChevronRightIcon size={14} />
-                </button>
-                <Link
-                  href="/mock/1"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors"
-                >
-                  <TargetIcon size={14} className="text-indigo-500" /> Full Mock Test 01 हल करें
-                </Link>
-              </div>
+              <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-normal">
+                प्रत्येक सही उत्तर पर 3 अंक (+3, -1 नेगेटिव मार्किंग)। कथन-कारण व विश्लेषणात्मक प्रश्न।
+              </p>
             </div>
           </div>
-        )}
+        </div>
+
+        {/* Core Pillars & Thematic Focus */}
+        <div className="p-6 sm:p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 shadow-xs space-y-4">
+          <span className="text-xs font-bold font-mono text-slate-500 dark:text-slate-400 uppercase tracking-wider flex items-center gap-2">
+            <SparklesIcon size={16} className="text-amber-500" />
+            प्रमुख विषयगत स्तंभ (Core Thematic Pillars)
+          </span>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+            {mod.coreThemes.map((theme, idx) => (
+              <div
+                key={idx}
+                className="flex items-start gap-3 p-3.5 rounded-2xl bg-slate-50/70 dark:bg-slate-800/40 border border-slate-200/70 dark:border-slate-800 text-xs text-slate-800 dark:text-slate-200 leading-relaxed"
+              >
+                <span className="w-5 h-5 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
+                  {idx + 1}
+                </span>
+                <span>{theme}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* High-Yield Chapter Checklist */}
+        <div className="p-6 sm:p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 shadow-xs space-y-4">
+          <span className="text-xs font-bold font-mono text-slate-500 dark:text-slate-400 uppercase tracking-wider flex items-center gap-2">
+            <BookOpenIcon size={16} className="text-indigo-600 dark:text-indigo-400" />
+            आवश्यक अध्याय चेकलिस्ट (High-Yield Chapters Checklist)
+          </span>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+            {mod.keyChapters.map((chap, idx) => (
+              <div
+                key={idx}
+                className="flex items-center gap-3 p-3.5 rounded-2xl border border-slate-200/80 dark:border-slate-800 bg-white dark:bg-slate-800/60 text-xs font-medium text-slate-800 dark:text-slate-200"
+              >
+                <span className="w-5 h-5 rounded-md bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+                  <CheckIcon size={12} />
+                </span>
+                <span className="flex-1 font-semibold">{chap}</span>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700">
+                  Priority
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Top-Ranker Trap Alert Box */}
+        <div className="p-5 sm:p-6 rounded-3xl border border-amber-200 dark:border-amber-900/60 bg-amber-50/70 dark:bg-amber-950/30 text-xs text-amber-900 dark:text-amber-200 space-y-2">
+          <div className="flex items-center gap-2 font-bold text-amber-800 dark:text-amber-300">
+            <AwardIcon size={16} className="text-amber-500" />
+            <span>टॉपर ट्रैप अलर्ट (SSC CGL Examiner Pitfall Alert)</span>
+          </div>
+          <p className="leading-relaxed">{mod.topperTrapAlert}</p>
+        </div>
+
+        {/* Footer Navigation Back to Directory */}
+        <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <Link
+            href="/#ga-modules"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-xs font-bold text-slate-700 dark:text-slate-300 hover:border-indigo-400 hover:text-indigo-600 dark:hover:text-white transition-all shadow-xs"
+          >
+            ← Back to All Syllabus Modules
+          </Link>
+
+          <Link
+            href="/syllabus/ancient-history"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-xs hover:shadow-indigo-600/30 transition-all"
+          >
+            <span>View Ancient History (Full 12 Ch + 30 MCQs)</span>
+            <ChevronRightIcon size={14} />
+          </Link>
+        </div>
       </div>
     </div>
   );

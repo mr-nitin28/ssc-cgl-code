@@ -13,6 +13,7 @@ import {
   ChevronRightIcon,
 } from "@/components/icons";
 import { MasterSyllabusCards } from "@/components/MasterSyllabusCards";
+import { GeneralAwarenessModulesSection } from "@/components/GeneralAwarenessModulesSection";
 
 export default function HomePage() {
   const [levelFilter, setLevelFilter] = useState<string>("All");
@@ -172,6 +173,9 @@ export default function HomePage() {
 
       {/* Master Syllabus Section (4 Cards with Syllabus, Tips, Download) */}
       <MasterSyllabusCards />
+
+      {/* Specialized General Awareness & History Syllabus Directory */}
+      <GeneralAwarenessModulesSection />
 
       {/* Speed Math Pattern Lab Feature Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
