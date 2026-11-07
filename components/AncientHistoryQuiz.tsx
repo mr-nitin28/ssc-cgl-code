@@ -215,6 +215,51 @@ export function AncientHistoryQuiz() {
         })}
       </div>
 
+      {/* Score Bracket Action Table from Original HTML */}
+      <div className="space-y-3 pt-4">
+        <h3 className="text-sm sm:text-base font-bold text-slate-900 dark:text-white border-l-4 border-indigo-600 pl-2.5">
+          स्कोर के आधार पर अगला कदम
+        </h3>
+        <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800">
+          <table className="w-full text-left text-xs sm:text-sm">
+            <thead className="bg-slate-50 dark:bg-slate-800/80 font-semibold border-b border-slate-200 dark:border-slate-800">
+              <tr>
+                <th className="p-3">सही उत्तर</th>
+                <th className="p-3">स्थिति</th>
+                <th className="p-3">क्या करें</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-200/80 dark:divide-slate-800">
+              <tr>
+                <td className="p-3 font-mono font-bold text-emerald-600 dark:text-emerald-400">27–30</td>
+                <td className="p-3 font-semibold">बहुत अच्छा</td>
+                <td className="p-3">गलतियों के कारण समझें और 3–7 दिन बाद फिर टेस्ट दें</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-mono font-bold text-teal-600 dark:text-teal-400">23–26</td>
+                <td className="p-3 font-semibold">अच्छा</td>
+                <td className="p-3">गलत प्रश्नों वाले अध्याय दोबारा पढ़ें</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-mono font-bold text-amber-600 dark:text-amber-400">18–22</td>
+                <td className="p-3 font-semibold">सुधार की जरूरत</td>
+                <td className="p-3">सारणियाँ और याद रखने के सूत्र दोहराएँ</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-mono font-bold text-orange-600 dark:text-orange-400">13–17</td>
+                <td className="p-3 font-semibold">अभी आधार मजबूत करें</td>
+                <td className="p-3">पहले अध्याय समझें, फिर MCQ दोहराएँ</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-mono font-bold text-rose-600 dark:text-rose-400">0–12</td>
+                <td className="p-3 font-semibold">शुरुआत से अभ्यास करें</td>
+                <td className="p-3">एक बार में एक अध्याय पढ़ें और छोटे समूहों में याद करें</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       {/* Full Answer Key Accordion */}
       <div className="rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden">
         <button

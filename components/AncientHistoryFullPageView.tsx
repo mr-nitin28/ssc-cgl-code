@@ -49,10 +49,16 @@ export function AncientHistoryFullPageView() {
                 </span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-                प्राचीन भारतीय इतिहास (Ancient Indian History)
+                SSC CGL · प्राचीन भारतीय इतिहास
               </h1>
+              <p className="text-xs sm:text-sm font-semibold text-indigo-600 dark:text-indigo-400">
+                सरल हिंदी में समझें • याद करें • रिवीजन करें
+              </p>
               <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-                12 विस्तृत अध्याय, प्रागैतिहासिक पाषाण काल से संगम युग तक, तुलनात्मक सारणियाँ, 14 आवश्यक शब्दावलियाँ, 10-मिनट त्वरित रिवीजन योजना और 30 अभ्यास प्रश्नों का लाइव परीक्षा सिमुलेटर।
+                प्रागैतिहासिक काल से गुप्त काल और संगम युग तक 9 अध्याय: मुख्य बातें, तुलना सारणियाँ, महत्वपूर्ण तथ्य, 14 आवश्यक शब्दावलियाँ, 10-मिनट त्वरित रिवीजन योजना और 30 अभ्यास प्रश्नों का लाइव परीक्षा सिमुलेटर।
+              </p>
+              <p className="text-[11px] text-slate-400 dark:text-slate-500 italic">
+                स्रोत नोट: यह आपके Week One नोट्स का सरल रूप है। ऐतिहासिक दावों और तिथियों की अलग तथ्य-जाँच नहीं की गई है।
               </p>
             </div>
 
